@@ -36,7 +36,7 @@ API-ключи, SQLite-журналы запросов, логи и времен
 Требуется Python 3.12 и Git.
 
 ```powershell
-git clone <URL-РЕПОЗИТОРИЯ>
+git clone https://github.com/abchixvvwa/rknp-factual-failure-dynamics.git
 cd rknp-factual-failure-dynamics
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
