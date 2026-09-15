@@ -1,0 +1,159 @@
+{
+  "case_id": "e90a8abd7b19271124ad8caa34c9327a472d2d4d1e63d0f9ee7423eadec18099",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e90a8abd7b19271124ad8caa34c9327a472d2d4d1e63d0f9ee7423eadec18099",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?",
+        "sample_hashes": [
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "4c21643fc83598c91ea03d45334fa678db544742d11805b267be7142dea1a6e1",
+          "ee8f5e7cc0ba19f151e1ce04c011a24b3333df26e5b9ca4ab4b47bfc7f83ff7e",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:06:39.033678+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "3aa08ede8dedaefc6ced595f9f94abb9f76e544e6c02e6894ac1a2efe67439a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e90a8abd7b19271124ad8caa34c9327a472d2d4d1e63d0f9ee7423eadec18099",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?",
+        "sample_hashes": [
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "4c21643fc83598c91ea03d45334fa678db544742d11805b267be7142dea1a6e1",
+          "ee8f5e7cc0ba19f151e1ce04c011a24b3333df26e5b9ca4ab4b47bfc7f83ff7e",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:06:39.033678+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "3aa08ede8dedaefc6ced595f9f94abb9f76e544e6c02e6894ac1a2efe67439a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e90a8abd7b19271124ad8caa34c9327a472d2d4d1e63d0f9ee7423eadec18099",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?",
+        "sample_hashes": [
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "4c21643fc83598c91ea03d45334fa678db544742d11805b267be7142dea1a6e1",
+          "ee8f5e7cc0ba19f151e1ce04c011a24b3333df26e5b9ca4ab4b47bfc7f83ff7e",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:06:39.033678+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "3aa08ede8dedaefc6ced595f9f94abb9f76e544e6c02e6894ac1a2efe67439a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e90a8abd7b19271124ad8caa34c9327a472d2d4d1e63d0f9ee7423eadec18099",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?",
+        "sample_hashes": [
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554",
+          "4c21643fc83598c91ea03d45334fa678db544742d11805b267be7142dea1a6e1",
+          "ee8f5e7cc0ba19f151e1ce04c011a24b3333df26e5b9ca4ab4b47bfc7f83ff7e",
+          "b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:06:39.033678+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "3aa08ede8dedaefc6ced595f9f94abb9f76e544e6c02e6894ac1a2efe67439a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

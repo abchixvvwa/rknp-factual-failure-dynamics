@@ -1,0 +1,159 @@
+{
+  "case_id": "35862617e3f45ed95d7606859975d8914e1ed5ded197374e84d8a3c9a9ea3412",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "35862617e3f45ed95d7606859975d8914e1ed5ded197374e84d8a3c9a9ea3412",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой художник создал «Крик»?",
+        "sample_hashes": [
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "f6fc58d009afea4f214596c5c97b13595ecf3cbbcfe587c96366d5e556b82c33",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "8ee5fa07b5a576d1fa370f27f00736fd3f94bec574dc744c7375addcfa036967"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:41.028448+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b07fb5b5cd640e55a36a4f17c42e6621861c5882841d0def5a06d268b365ee73",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "35862617e3f45ed95d7606859975d8914e1ed5ded197374e84d8a3c9a9ea3412",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой художник создал «Крик»?",
+        "sample_hashes": [
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "f6fc58d009afea4f214596c5c97b13595ecf3cbbcfe587c96366d5e556b82c33",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "8ee5fa07b5a576d1fa370f27f00736fd3f94bec574dc744c7375addcfa036967"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:41.028448+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b07fb5b5cd640e55a36a4f17c42e6621861c5882841d0def5a06d268b365ee73",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "35862617e3f45ed95d7606859975d8914e1ed5ded197374e84d8a3c9a9ea3412",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой художник создал «Крик»?",
+        "sample_hashes": [
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "f6fc58d009afea4f214596c5c97b13595ecf3cbbcfe587c96366d5e556b82c33",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "8ee5fa07b5a576d1fa370f27f00736fd3f94bec574dc744c7375addcfa036967"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:41.028448+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b07fb5b5cd640e55a36a4f17c42e6621861c5882841d0def5a06d268b365ee73",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "35862617e3f45ed95d7606859975d8914e1ed5ded197374e84d8a3c9a9ea3412",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой художник создал «Крик»?",
+        "sample_hashes": [
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "f6fc58d009afea4f214596c5c97b13595ecf3cbbcfe587c96366d5e556b82c33",
+          "b6cae82a9e5e95217b2c26f66749cdf52aa0c9fc821252e5e2ac134d009db1ee",
+          "8ee5fa07b5a576d1fa370f27f00736fd3f94bec574dc744c7375addcfa036967"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:41.028448+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b07fb5b5cd640e55a36a4f17c42e6621861c5882841d0def5a06d268b365ee73",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

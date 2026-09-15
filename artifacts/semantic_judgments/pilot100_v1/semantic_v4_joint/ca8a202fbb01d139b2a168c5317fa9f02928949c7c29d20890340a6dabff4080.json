@@ -1,0 +1,159 @@
+{
+  "case_id": "ca8a202fbb01d139b2a168c5317fa9f02928949c7c29d20890340a6dabff4080",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca8a202fbb01d139b2a168c5317fa9f02928949c7c29d20890340a6dabff4080",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужские прыжки в длину на летних Олимпийских играх 1944 года?",
+        "sample_hashes": [
+          "0cfe3cc89d750ad8a05cf2cab3b87d9e59afc5aa874aec27a72eda58c8643663",
+          "c3d7c4d332179339546d1e44ba9bca69df53812255bb063935eeffa316222792",
+          "c466edef40ae1e5fcf4f2a5bac728c7f95b69eca2811a91a1c6a7568db25479f",
+          "ac97db2467c0b7b750640d442652cfa022896b5af2cc049a8220f8aaf4682a7b",
+          "b742180bfdad30b5591b87192b3a899fb728758da4c3ebd1f6f86c5d3d442c6f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:44.912455+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "f771f43f934c7846d49020e7af33cfcf7134df17d61f3853da471cd06e1fcb4a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca8a202fbb01d139b2a168c5317fa9f02928949c7c29d20890340a6dabff4080",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужские прыжки в длину на летних Олимпийских играх 1944 года?",
+        "sample_hashes": [
+          "0cfe3cc89d750ad8a05cf2cab3b87d9e59afc5aa874aec27a72eda58c8643663",
+          "c3d7c4d332179339546d1e44ba9bca69df53812255bb063935eeffa316222792",
+          "c466edef40ae1e5fcf4f2a5bac728c7f95b69eca2811a91a1c6a7568db25479f",
+          "ac97db2467c0b7b750640d442652cfa022896b5af2cc049a8220f8aaf4682a7b",
+          "b742180bfdad30b5591b87192b3a899fb728758da4c3ebd1f6f86c5d3d442c6f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:44.912455+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "f771f43f934c7846d49020e7af33cfcf7134df17d61f3853da471cd06e1fcb4a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca8a202fbb01d139b2a168c5317fa9f02928949c7c29d20890340a6dabff4080",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужские прыжки в длину на летних Олимпийских играх 1944 года?",
+        "sample_hashes": [
+          "0cfe3cc89d750ad8a05cf2cab3b87d9e59afc5aa874aec27a72eda58c8643663",
+          "c3d7c4d332179339546d1e44ba9bca69df53812255bb063935eeffa316222792",
+          "c466edef40ae1e5fcf4f2a5bac728c7f95b69eca2811a91a1c6a7568db25479f",
+          "ac97db2467c0b7b750640d442652cfa022896b5af2cc049a8220f8aaf4682a7b",
+          "b742180bfdad30b5591b87192b3a899fb728758da4c3ebd1f6f86c5d3d442c6f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:44.912455+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "f771f43f934c7846d49020e7af33cfcf7134df17d61f3853da471cd06e1fcb4a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca8a202fbb01d139b2a168c5317fa9f02928949c7c29d20890340a6dabff4080",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужские прыжки в длину на летних Олимпийских играх 1944 года?",
+        "sample_hashes": [
+          "0cfe3cc89d750ad8a05cf2cab3b87d9e59afc5aa874aec27a72eda58c8643663",
+          "c3d7c4d332179339546d1e44ba9bca69df53812255bb063935eeffa316222792",
+          "c466edef40ae1e5fcf4f2a5bac728c7f95b69eca2811a91a1c6a7568db25479f",
+          "ac97db2467c0b7b750640d442652cfa022896b5af2cc049a8220f8aaf4682a7b",
+          "b742180bfdad30b5591b87192b3a899fb728758da4c3ebd1f6f86c5d3d442c6f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:44.912455+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "f771f43f934c7846d49020e7af33cfcf7134df17d61f3853da471cd06e1fcb4a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

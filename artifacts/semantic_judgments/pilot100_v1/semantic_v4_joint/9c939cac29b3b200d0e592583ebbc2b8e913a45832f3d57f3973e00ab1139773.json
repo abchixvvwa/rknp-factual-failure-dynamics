@@ -1,0 +1,159 @@
+{
+  "case_id": "9c939cac29b3b200d0e592583ebbc2b8e913a45832f3d57f3973e00ab1139773",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c939cac29b3b200d0e592583ebbc2b8e913a45832f3d57f3973e00ab1139773",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1896 жылы алғашқы қазіргі заманғы Олимпиада ойындары қай қалада өтті?",
+        "sample_hashes": [
+          "d6b4e7ce9ecbcfea18b6897a3f02d9593dfe7ec6d5c03cf4b28b4d700d90e30d",
+          "30f5d15b9573b8badbe2d6ca1ba6d32afae487d2d4e3631d6c6ec29ca0cad522",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff",
+          "1f2107fd809dcd2602f90098efc5a2b64eb60a75275ef3c7115f553a193073a8",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:21.603378+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d184cccdcaf956169732840c9120045fa4aef8ab747f37a91043cb2abedb8549",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c939cac29b3b200d0e592583ebbc2b8e913a45832f3d57f3973e00ab1139773",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1896 жылы алғашқы қазіргі заманғы Олимпиада ойындары қай қалада өтті?",
+        "sample_hashes": [
+          "d6b4e7ce9ecbcfea18b6897a3f02d9593dfe7ec6d5c03cf4b28b4d700d90e30d",
+          "30f5d15b9573b8badbe2d6ca1ba6d32afae487d2d4e3631d6c6ec29ca0cad522",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff",
+          "1f2107fd809dcd2602f90098efc5a2b64eb60a75275ef3c7115f553a193073a8",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:21.603378+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d184cccdcaf956169732840c9120045fa4aef8ab747f37a91043cb2abedb8549",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c939cac29b3b200d0e592583ebbc2b8e913a45832f3d57f3973e00ab1139773",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1896 жылы алғашқы қазіргі заманғы Олимпиада ойындары қай қалада өтті?",
+        "sample_hashes": [
+          "d6b4e7ce9ecbcfea18b6897a3f02d9593dfe7ec6d5c03cf4b28b4d700d90e30d",
+          "30f5d15b9573b8badbe2d6ca1ba6d32afae487d2d4e3631d6c6ec29ca0cad522",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff",
+          "1f2107fd809dcd2602f90098efc5a2b64eb60a75275ef3c7115f553a193073a8",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:21.603378+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d184cccdcaf956169732840c9120045fa4aef8ab747f37a91043cb2abedb8549",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c939cac29b3b200d0e592583ebbc2b8e913a45832f3d57f3973e00ab1139773",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1896 жылы алғашқы қазіргі заманғы Олимпиада ойындары қай қалада өтті?",
+        "sample_hashes": [
+          "d6b4e7ce9ecbcfea18b6897a3f02d9593dfe7ec6d5c03cf4b28b4d700d90e30d",
+          "30f5d15b9573b8badbe2d6ca1ba6d32afae487d2d4e3631d6c6ec29ca0cad522",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff",
+          "1f2107fd809dcd2602f90098efc5a2b64eb60a75275ef3c7115f553a193073a8",
+          "77f431515ba81edb4cd309561dc1138a3bf01347afafa4d259f50815d4973bff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:21.603378+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d184cccdcaf956169732840c9120045fa4aef8ab747f37a91043cb2abedb8549",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:55:45.022743+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "e13110d710ef9cf770d6c677288ac85e30e0d6e4a4d61d8174e1ff54e0b0cbbf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:55:45.588665+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "3dbf177816481c643d2453f672e18bf0b023559854f17a572b4cea5fe704dfa9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "0230b3d6a68f6a595202ea16e8cb4cd880efc70b08efdca3a7cedd0073591b33"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:55:46.157384+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "de8449f0f3de34ceb3bcfa1c8a1f746d27e40242845ec04a59371dea98f771a5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

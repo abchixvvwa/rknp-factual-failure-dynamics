@@ -1,0 +1,193 @@
+{
+  "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1",
+          "a24e67da8cb4f984e8659d65b609d383059d3d4f720988505b6ee19d1a9a0f46"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:04:27.318538+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "0b6be5a6d7acc0b73dff626c559fbee01299f1b81fe794a98270893081f9d237",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:04:30.168590+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "8d064a2ec32e02beccbf5ac9515be25254d7abe01f357eaf72d2cdb0f949ce29",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1",
+          "a24e67da8cb4f984e8659d65b609d383059d3d4f720988505b6ee19d1a9a0f46",
+          "681b307ecb92cb7f4e881ac9eb268ece3235d6cf6f967bd9dd314eac36aaa45c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:04:33.604577+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "cb676e898f0ad51f02983351960361c0211bb08888125d1acd96c9e470a74896",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:04:30.168590+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "8d064a2ec32e02beccbf5ac9515be25254d7abe01f357eaf72d2cdb0f949ce29",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1",
+          "a24e67da8cb4f984e8659d65b609d383059d3d4f720988505b6ee19d1a9a0f46",
+          "681b307ecb92cb7f4e881ac9eb268ece3235d6cf6f967bd9dd314eac36aaa45c",
+          "7f0621da675730c9ba2c9aa743b2b03575be33f9110164b4d884c519dfe8bb79"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:04:36.685474+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "b4147008415f59c5dfba73940e43a3dda21546d0485a3de1c10a1437adf3823c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "293b4054a3729179eb34a1928eb10a23d71f6b8c5085a9c0888ed2da7c134b83",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі қай планетаның беткі температурасы ең жоғары?",
+        "sample_hashes": [
+          "2199020f221bb966e511ada75c1cc48cc4a05ae7003b6e529e0cfc33413646a1",
+          "a24e67da8cb4f984e8659d65b609d383059d3d4f720988505b6ee19d1a9a0f46",
+          "681b307ecb92cb7f4e881ac9eb268ece3235d6cf6f967bd9dd314eac36aaa45c",
+          "7f0621da675730c9ba2c9aa743b2b03575be33f9110164b4d884c519dfe8bb79",
+          "7f0621da675730c9ba2c9aa743b2b03575be33f9110164b4d884c519dfe8bb79"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:04:38.525796+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "7dbc3394fe8b026f739ba3964e3a95d22fb2957ee4ed4d97125b10b95dc76a86",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

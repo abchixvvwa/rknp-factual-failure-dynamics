@@ -1,0 +1,159 @@
+{
+  "case_id": "dea03ffb1910aeff85e27afa62c388a62f22fee49484dfd6ff220fbfb5264aa2",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dea03ffb1910aeff85e27afa62c388a62f22fee49484dfd6ff220fbfb5264aa2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1989 жылғы қарашада Берлин қабырғасындағы шекара өткелдері қай күні ашылды?",
+        "sample_hashes": [
+          "4fde580c7b459ad4c7d560750e7c5a2f71f61b6683c149a5bdbe8bad984482b0",
+          "8be531d2e9354e0e8cad19b5275cfa15eb16706552c5d3fa1d43b7fc30f51d1e",
+          "c766aa7039e7a65e2ca06d2c337538530b78a938a77ab4d281b78e138ba4e960",
+          "9e4c6d65b2457565fbbbf6ab3a474764ec15d4b15a77267eb35fc760cac4019c",
+          "76f7445549248ec0520c29840026f8f1c2e71391c5a3ae880abf963e87efa91c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:34.204052+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e1e2f85a23a1ab7738c7dc32bd69aa42f95f1a2783ee8bbc8f20305b0699242e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dea03ffb1910aeff85e27afa62c388a62f22fee49484dfd6ff220fbfb5264aa2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1989 жылғы қарашада Берлин қабырғасындағы шекара өткелдері қай күні ашылды?",
+        "sample_hashes": [
+          "4fde580c7b459ad4c7d560750e7c5a2f71f61b6683c149a5bdbe8bad984482b0",
+          "8be531d2e9354e0e8cad19b5275cfa15eb16706552c5d3fa1d43b7fc30f51d1e",
+          "c766aa7039e7a65e2ca06d2c337538530b78a938a77ab4d281b78e138ba4e960",
+          "9e4c6d65b2457565fbbbf6ab3a474764ec15d4b15a77267eb35fc760cac4019c",
+          "76f7445549248ec0520c29840026f8f1c2e71391c5a3ae880abf963e87efa91c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:34.204052+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e1e2f85a23a1ab7738c7dc32bd69aa42f95f1a2783ee8bbc8f20305b0699242e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dea03ffb1910aeff85e27afa62c388a62f22fee49484dfd6ff220fbfb5264aa2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1989 жылғы қарашада Берлин қабырғасындағы шекара өткелдері қай күні ашылды?",
+        "sample_hashes": [
+          "4fde580c7b459ad4c7d560750e7c5a2f71f61b6683c149a5bdbe8bad984482b0",
+          "8be531d2e9354e0e8cad19b5275cfa15eb16706552c5d3fa1d43b7fc30f51d1e",
+          "c766aa7039e7a65e2ca06d2c337538530b78a938a77ab4d281b78e138ba4e960",
+          "9e4c6d65b2457565fbbbf6ab3a474764ec15d4b15a77267eb35fc760cac4019c",
+          "76f7445549248ec0520c29840026f8f1c2e71391c5a3ae880abf963e87efa91c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:34.204052+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e1e2f85a23a1ab7738c7dc32bd69aa42f95f1a2783ee8bbc8f20305b0699242e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dea03ffb1910aeff85e27afa62c388a62f22fee49484dfd6ff220fbfb5264aa2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1989 жылғы қарашада Берлин қабырғасындағы шекара өткелдері қай күні ашылды?",
+        "sample_hashes": [
+          "4fde580c7b459ad4c7d560750e7c5a2f71f61b6683c149a5bdbe8bad984482b0",
+          "8be531d2e9354e0e8cad19b5275cfa15eb16706552c5d3fa1d43b7fc30f51d1e",
+          "c766aa7039e7a65e2ca06d2c337538530b78a938a77ab4d281b78e138ba4e960",
+          "9e4c6d65b2457565fbbbf6ab3a474764ec15d4b15a77267eb35fc760cac4019c",
+          "76f7445549248ec0520c29840026f8f1c2e71391c5a3ae880abf963e87efa91c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:34.204052+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e1e2f85a23a1ab7738c7dc32bd69aa42f95f1a2783ee8bbc8f20305b0699242e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "case_id": "a065ef480cba49ea304d5984c15155d357bc4bc69e89719f509f68b080d54b25",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a065ef480cba49ea304d5984c15155d357bc4bc69e89719f509f68b080d54b25",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What was the title of the song adopted as Kazakhstan's national anthem in 2006?",
+        "sample_hashes": [
+          "d82bfdbeb87a2e898647ab1164025fd72e9e97513b5baaa306e7465eba9ebc9a",
+          "89641256a0b30f54b637a39c5ad970c2f27cf048574d6f72cf542e980b170b12",
+          "6dd13668a4d7098a70f36ef99f1c491273c6898306d447b26d9d6fde22b63258",
+          "7f6d778abcced718f4e2fb334ddb748ecf93ab7dea095a2a4681bacf7cfa57b8",
+          "215b6757d016a51f4ac07072b7c6863df6c9ba99219b8d99dca7596b83ce7a9a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:42:23.123385+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "24a0e4b6d6140dd02a32af8ed798446fbf64a7d647b918e826ababa2481a3d7d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a065ef480cba49ea304d5984c15155d357bc4bc69e89719f509f68b080d54b25",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What was the title of the song adopted as Kazakhstan's national anthem in 2006?",
+        "sample_hashes": [
+          "d82bfdbeb87a2e898647ab1164025fd72e9e97513b5baaa306e7465eba9ebc9a",
+          "89641256a0b30f54b637a39c5ad970c2f27cf048574d6f72cf542e980b170b12",
+          "6dd13668a4d7098a70f36ef99f1c491273c6898306d447b26d9d6fde22b63258",
+          "7f6d778abcced718f4e2fb334ddb748ecf93ab7dea095a2a4681bacf7cfa57b8",
+          "215b6757d016a51f4ac07072b7c6863df6c9ba99219b8d99dca7596b83ce7a9a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:42:23.123385+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "24a0e4b6d6140dd02a32af8ed798446fbf64a7d647b918e826ababa2481a3d7d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a065ef480cba49ea304d5984c15155d357bc4bc69e89719f509f68b080d54b25",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What was the title of the song adopted as Kazakhstan's national anthem in 2006?",
+        "sample_hashes": [
+          "d82bfdbeb87a2e898647ab1164025fd72e9e97513b5baaa306e7465eba9ebc9a",
+          "89641256a0b30f54b637a39c5ad970c2f27cf048574d6f72cf542e980b170b12",
+          "6dd13668a4d7098a70f36ef99f1c491273c6898306d447b26d9d6fde22b63258",
+          "7f6d778abcced718f4e2fb334ddb748ecf93ab7dea095a2a4681bacf7cfa57b8",
+          "215b6757d016a51f4ac07072b7c6863df6c9ba99219b8d99dca7596b83ce7a9a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:42:23.123385+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "24a0e4b6d6140dd02a32af8ed798446fbf64a7d647b918e826ababa2481a3d7d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a065ef480cba49ea304d5984c15155d357bc4bc69e89719f509f68b080d54b25",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What was the title of the song adopted as Kazakhstan's national anthem in 2006?",
+        "sample_hashes": [
+          "d82bfdbeb87a2e898647ab1164025fd72e9e97513b5baaa306e7465eba9ebc9a",
+          "89641256a0b30f54b637a39c5ad970c2f27cf048574d6f72cf542e980b170b12",
+          "6dd13668a4d7098a70f36ef99f1c491273c6898306d447b26d9d6fde22b63258",
+          "7f6d778abcced718f4e2fb334ddb748ecf93ab7dea095a2a4681bacf7cfa57b8",
+          "215b6757d016a51f4ac07072b7c6863df6c9ba99219b8d99dca7596b83ce7a9a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:42:23.123385+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "24a0e4b6d6140dd02a32af8ed798446fbf64a7d647b918e826ababa2481a3d7d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

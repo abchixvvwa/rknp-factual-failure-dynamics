@@ -1,0 +1,239 @@
+{
+  "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:42.912890+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "b42980114bf8fcdf4d49677d92b56584ad87e1275e6b12607ad56e19f4c965da",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:44.250827+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4c5c8ef967550a0ac5eb42119f87dbcacff55c7f62b07b4e55e91a22c1e1f641",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:46.177903+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "f5e6581bb70b73b51cb977cbc4288c14737bdd0894047c84cecba29000f1ab47",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:44.250827+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4c5c8ef967550a0ac5eb42119f87dbcacff55c7f62b07b4e55e91a22c1e1f641",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:46.874610+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "b613bfed13293dbc3da58c5598b9e33e03d6ac6911bf20665ea02cb7fec69e53",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:47.469796+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "4dee2095953b8607bb0421371376dd8b9c84ea92292d6896bcc384ee41e832ab",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075",
+          "1d60f85f3dd6764d5a5504ac09bccdcbf8d4eff66bf8958d5f6d51fefe97b820"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:52.279075+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "7245df5df3174ea089f756dde146350baeaef4eff1d921fb9023ca8d7d58a238",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:47.469796+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "4dee2095953b8607bb0421371376dd8b9c84ea92292d6896bcc384ee41e832ab",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

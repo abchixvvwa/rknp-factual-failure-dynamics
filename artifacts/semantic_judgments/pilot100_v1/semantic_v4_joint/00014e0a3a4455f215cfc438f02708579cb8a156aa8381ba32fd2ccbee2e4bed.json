@@ -1,0 +1,161 @@
+{
+  "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:09.338740+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "a55686b7503930f72019beab8c1edcdd726dde42c312b8a7b1499324d549c91a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:09.338740+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "a55686b7503930f72019beab8c1edcdd726dde42c312b8a7b1499324d549c91a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:09.338740+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "a55686b7503930f72019beab8c1edcdd726dde42c312b8a7b1499324d549c91a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:09.338740+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "a55686b7503930f72019beab8c1edcdd726dde42c312b8a7b1499324d549c91a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

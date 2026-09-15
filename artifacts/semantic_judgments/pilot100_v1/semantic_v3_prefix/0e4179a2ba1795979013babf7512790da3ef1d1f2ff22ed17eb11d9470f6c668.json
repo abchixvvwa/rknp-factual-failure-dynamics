@@ -1,0 +1,153 @@
+{
+  "case_id": "0e4179a2ba1795979013babf7512790da3ef1d1f2ff22ed17eb11d9470f6c668",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0e4179a2ba1795979013babf7512790da3ef1d1f2ff22ed17eb11d9470f6c668",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько естественных спутников у Марса?",
+        "sample_hashes": [
+          "a68123a0c22ed45d9f42059b0a86c36f5ad4976e22be54704df2b0ec7458341e",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:13.273135+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "0ae4e2738e5da3a908a97a6c0b22af76d082bfb977fe8fb7d85deb5a82a5542c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0e4179a2ba1795979013babf7512790da3ef1d1f2ff22ed17eb11d9470f6c668",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько естественных спутников у Марса?",
+        "sample_hashes": [
+          "a68123a0c22ed45d9f42059b0a86c36f5ad4976e22be54704df2b0ec7458341e",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:16.442021+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "3d552af8ab7ae6b7edbac4f1d2cbd70e27be1767b05e94a9771d0b9e6d01a5d3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0e4179a2ba1795979013babf7512790da3ef1d1f2ff22ed17eb11d9470f6c668",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько естественных спутников у Марса?",
+        "sample_hashes": [
+          "a68123a0c22ed45d9f42059b0a86c36f5ad4976e22be54704df2b0ec7458341e",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:18.735842+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "3bb7d46f3680735ef73fe5e87973ccef5daacd8ebaf01a0efac42254a0dac442",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0e4179a2ba1795979013babf7512790da3ef1d1f2ff22ed17eb11d9470f6c668",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько естественных спутников у Марса?",
+        "sample_hashes": [
+          "a68123a0c22ed45d9f42059b0a86c36f5ad4976e22be54704df2b0ec7458341e",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "6c954d23cc7abf18cbfbf44d7149b23b5ea307178f3497e53322d11b30ee9b30",
+          "21be43e8ebe6d6959a577395cd088db05cecaf98931c9190f3a9f5801913f435"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:22.833308+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "47311feeb10814e594c6402b136d2ee738b11c6ca5f406ee867480a0f0d80734",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

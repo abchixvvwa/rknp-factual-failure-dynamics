@@ -1,0 +1,159 @@
+{
+  "case_id": "796cbcf2891c984071a6ed3c93842c75c7bccf02d79e11be8061aa14eb1b9596",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "796cbcf2891c984071a6ed3c93842c75c7bccf02d79e11be8061aa14eb1b9596",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым Генеральным секретарём ООН?",
+        "sample_hashes": [
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd",
+          "9f307512ae03443dc7cad45a997e84c913ce0b0af049a4acb49ac8d3f0fe3f3c",
+          "857fb5925789c93eea2f356f6e45befb2d3517641458bb582be303e7876d5e70",
+          "c6134cd86bbde58c0e83fd71c98d98dbb6ab73b23dbb06020533bd859fac5bda",
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:34.682561+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "07dde11876ddf478a79ac1d62be4c737c2a6731091c09806c736c6514dcb1836",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "796cbcf2891c984071a6ed3c93842c75c7bccf02d79e11be8061aa14eb1b9596",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым Генеральным секретарём ООН?",
+        "sample_hashes": [
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd",
+          "9f307512ae03443dc7cad45a997e84c913ce0b0af049a4acb49ac8d3f0fe3f3c",
+          "857fb5925789c93eea2f356f6e45befb2d3517641458bb582be303e7876d5e70",
+          "c6134cd86bbde58c0e83fd71c98d98dbb6ab73b23dbb06020533bd859fac5bda",
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:34.682561+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "07dde11876ddf478a79ac1d62be4c737c2a6731091c09806c736c6514dcb1836",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "796cbcf2891c984071a6ed3c93842c75c7bccf02d79e11be8061aa14eb1b9596",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым Генеральным секретарём ООН?",
+        "sample_hashes": [
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd",
+          "9f307512ae03443dc7cad45a997e84c913ce0b0af049a4acb49ac8d3f0fe3f3c",
+          "857fb5925789c93eea2f356f6e45befb2d3517641458bb582be303e7876d5e70",
+          "c6134cd86bbde58c0e83fd71c98d98dbb6ab73b23dbb06020533bd859fac5bda",
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:34.682561+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "07dde11876ddf478a79ac1d62be4c737c2a6731091c09806c736c6514dcb1836",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "796cbcf2891c984071a6ed3c93842c75c7bccf02d79e11be8061aa14eb1b9596",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым Генеральным секретарём ООН?",
+        "sample_hashes": [
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd",
+          "9f307512ae03443dc7cad45a997e84c913ce0b0af049a4acb49ac8d3f0fe3f3c",
+          "857fb5925789c93eea2f356f6e45befb2d3517641458bb582be303e7876d5e70",
+          "c6134cd86bbde58c0e83fd71c98d98dbb6ab73b23dbb06020533bd859fac5bda",
+          "d2f324caebe51949927d0cb3a95dcc224e3f9fa12037826ef3d38387aeb025cd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:34.682561+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "07dde11876ddf478a79ac1d62be4c737c2a6731091c09806c736c6514dcb1836",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

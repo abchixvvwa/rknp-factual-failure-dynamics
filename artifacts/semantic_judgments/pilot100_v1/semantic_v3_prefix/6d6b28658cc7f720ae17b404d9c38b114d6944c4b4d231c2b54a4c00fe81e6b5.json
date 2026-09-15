@@ -1,0 +1,153 @@
+{
+  "case_id": "6d6b28658cc7f720ae17b404d9c38b114d6944c4b4d231c2b54a4c00fe81e6b5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d6b28658cc7f720ae17b404d9c38b114d6944c4b4d231c2b54a4c00fe81e6b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Ha Long Bay?",
+        "sample_hashes": [
+          "59b7453abd8af26f054c0ce59c7a62f52ea3caced5268bd7cf1f9a9d068e9268",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:29.788470+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "3dbfbb032778e131f208d4be8bbd9a699aa08eaacf8e1b899d5165fca39243a8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d6b28658cc7f720ae17b404d9c38b114d6944c4b4d231c2b54a4c00fe81e6b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Ha Long Bay?",
+        "sample_hashes": [
+          "59b7453abd8af26f054c0ce59c7a62f52ea3caced5268bd7cf1f9a9d068e9268",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:33.243483+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "87c9765dd1cc0373587c63073fb100e978fc6c57930e3bacc49e37975f2b38b2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d6b28658cc7f720ae17b404d9c38b114d6944c4b4d231c2b54a4c00fe81e6b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Ha Long Bay?",
+        "sample_hashes": [
+          "59b7453abd8af26f054c0ce59c7a62f52ea3caced5268bd7cf1f9a9d068e9268",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:36.033929+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "c08e850cda362da2d31bc10efa82ddf1ba012ae1b2dee0514f1e98cb146bad5f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d6b28658cc7f720ae17b404d9c38b114d6944c4b4d231c2b54a4c00fe81e6b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Ha Long Bay?",
+        "sample_hashes": [
+          "59b7453abd8af26f054c0ce59c7a62f52ea3caced5268bd7cf1f9a9d068e9268",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12",
+          "61024bc6157fd3347723dee3d80a209b1a8da86955126d741060f9c70aadef12"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:39.829301+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "8dc324acdd45025e35b4ebfa4d4beed272500bf04639ad753c18b3b955c4dd62",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

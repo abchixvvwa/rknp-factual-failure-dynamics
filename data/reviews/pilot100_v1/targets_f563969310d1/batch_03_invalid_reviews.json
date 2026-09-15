@@ -1,0 +1,35 @@
+[
+  {
+    "number": 102,
+    "request_id": "128175375593d0ab52dafaf94573be6b3c628d07c9d8c7ef1f43751f9fa39bc6",
+    "response_sha256": "280ef4a546be9c825fe0576ce2085eabe3da70a08512a9357d774fc57a322d6d",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review; targets_f563969310d1 batch 3 item 102; entire response evaluated. Видимая часть неверна: в 1968 премию получил Ясунари Кавабата, но target Invalid/truncated; не присваивать 0/1.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 143,
+    "request_id": "30101baf17696a9f0295d0f6ea61c85e58fcd5431f6f760a89f43962fe4bc8c2",
+    "response_sha256": "47c347b8d37795f6dec4dc1ad19c79f5e68dfdc5a8010edde676bff16f28c976",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review; targets_f563969310d1 batch 3 item 143; entire response evaluated. Первая строка верна, затем фактически ошибочный список и обрыв. Без премии по литературе были 1914, 1918, 1935, 1940–1943.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 146,
+    "request_id": "11c6acaae888883f181c322a5a9b13e694721bc353143e4cf7265355e9202869",
+    "response_sha256": "31ef141f0257649406487e8f3fb92ee59095d423e79574f8e5acc19c3606b7bd",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review; targets_f563969310d1 batch 3 item 146; entire response evaluated. Начало правильное, затем ложный список и обрыв; не присваивать 0/1.",
+    "finish_reason": "length",
+    "valid_response": false
+  }
+]

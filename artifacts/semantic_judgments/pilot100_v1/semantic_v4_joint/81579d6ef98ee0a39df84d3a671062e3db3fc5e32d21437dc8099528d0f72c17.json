@@ -1,0 +1,159 @@
+{
+  "case_id": "81579d6ef98ee0a39df84d3a671062e3db3fc5e32d21437dc8099528d0f72c17",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "81579d6ef98ee0a39df84d3a671062e3db3fc5e32d21437dc8099528d0f72c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер кислорода?",
+        "sample_hashes": [
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "bd0fb786bad97d14005cecd7fbac82f0a3a6471c7ab415d1a211f7967fda1af0",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:27.778435+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "4c753c0297d4ff70da0e7142d7e3ae051dc7506466c4b6bb8830075950e04d64",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "81579d6ef98ee0a39df84d3a671062e3db3fc5e32d21437dc8099528d0f72c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер кислорода?",
+        "sample_hashes": [
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "bd0fb786bad97d14005cecd7fbac82f0a3a6471c7ab415d1a211f7967fda1af0",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:27.778435+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "4c753c0297d4ff70da0e7142d7e3ae051dc7506466c4b6bb8830075950e04d64",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "81579d6ef98ee0a39df84d3a671062e3db3fc5e32d21437dc8099528d0f72c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер кислорода?",
+        "sample_hashes": [
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "bd0fb786bad97d14005cecd7fbac82f0a3a6471c7ab415d1a211f7967fda1af0",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:27.778435+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "4c753c0297d4ff70da0e7142d7e3ae051dc7506466c4b6bb8830075950e04d64",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "81579d6ef98ee0a39df84d3a671062e3db3fc5e32d21437dc8099528d0f72c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер кислорода?",
+        "sample_hashes": [
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "5a2532e85b6ff4f6355db8cde2496701ff150c2099c2a4c35f4b65a6a63c8d93",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "bd0fb786bad97d14005cecd7fbac82f0a3a6471c7ab415d1a211f7967fda1af0",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:27.778435+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "4c753c0297d4ff70da0e7142d7e3ae051dc7506466c4b6bb8830075950e04d64",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

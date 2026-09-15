@@ -1,0 +1,159 @@
+{
+  "case_id": "e9cded885aea098e55bae59f12fe0f5641a4bd69e9abfdcf083bc4e3b5ae9249",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9cded885aea098e55bae59f12fe0f5641a4bd69e9abfdcf083bc4e3b5ae9249",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?",
+        "sample_hashes": [
+          "7ab3f1b8abd210daf7f258f8912e76ed7213182a4635f362635a94d52ea387e7",
+          "157290c767a414a1f9d44b782a951672e7beb0bb10cf06778b14ab08bacbd262",
+          "ef8b00c85645a83c00ab1f6adf498e40cd561cb650a783a914f50753b397025d",
+          "01ab64fbb3a6e791840232abeb58019eceaa157a5a67fa9dea2718e4e581803c",
+          "36cc1e1520fe4f008de0f6921c8c7245213609817e4bd2b89919481480571bd7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:24.142871+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "58e8d76582f5b0071b845e1ede4dae3ea50cce80bd1c5408ee44f23eb6cecc5b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9cded885aea098e55bae59f12fe0f5641a4bd69e9abfdcf083bc4e3b5ae9249",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?",
+        "sample_hashes": [
+          "7ab3f1b8abd210daf7f258f8912e76ed7213182a4635f362635a94d52ea387e7",
+          "157290c767a414a1f9d44b782a951672e7beb0bb10cf06778b14ab08bacbd262",
+          "ef8b00c85645a83c00ab1f6adf498e40cd561cb650a783a914f50753b397025d",
+          "01ab64fbb3a6e791840232abeb58019eceaa157a5a67fa9dea2718e4e581803c",
+          "36cc1e1520fe4f008de0f6921c8c7245213609817e4bd2b89919481480571bd7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:24.142871+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "58e8d76582f5b0071b845e1ede4dae3ea50cce80bd1c5408ee44f23eb6cecc5b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9cded885aea098e55bae59f12fe0f5641a4bd69e9abfdcf083bc4e3b5ae9249",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?",
+        "sample_hashes": [
+          "7ab3f1b8abd210daf7f258f8912e76ed7213182a4635f362635a94d52ea387e7",
+          "157290c767a414a1f9d44b782a951672e7beb0bb10cf06778b14ab08bacbd262",
+          "ef8b00c85645a83c00ab1f6adf498e40cd561cb650a783a914f50753b397025d",
+          "01ab64fbb3a6e791840232abeb58019eceaa157a5a67fa9dea2718e4e581803c",
+          "36cc1e1520fe4f008de0f6921c8c7245213609817e4bd2b89919481480571bd7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:24.142871+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "58e8d76582f5b0071b845e1ede4dae3ea50cce80bd1c5408ee44f23eb6cecc5b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9cded885aea098e55bae59f12fe0f5641a4bd69e9abfdcf083bc4e3b5ae9249",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?",
+        "sample_hashes": [
+          "7ab3f1b8abd210daf7f258f8912e76ed7213182a4635f362635a94d52ea387e7",
+          "157290c767a414a1f9d44b782a951672e7beb0bb10cf06778b14ab08bacbd262",
+          "ef8b00c85645a83c00ab1f6adf498e40cd561cb650a783a914f50753b397025d",
+          "01ab64fbb3a6e791840232abeb58019eceaa157a5a67fa9dea2718e4e581803c",
+          "36cc1e1520fe4f008de0f6921c8c7245213609817e4bd2b89919481480571bd7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:24.142871+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "58e8d76582f5b0071b845e1ede4dae3ea50cce80bd1c5408ee44f23eb6cecc5b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

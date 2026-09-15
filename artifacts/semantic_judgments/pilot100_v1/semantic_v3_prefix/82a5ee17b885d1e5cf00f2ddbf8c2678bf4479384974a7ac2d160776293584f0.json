@@ -1,0 +1,153 @@
+{
+  "case_id": "82a5ee17b885d1e5cf00f2ddbf8c2678bf4479384974a7ac2d160776293584f0",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "82a5ee17b885d1e5cf00f2ddbf8c2678bf4479384974a7ac2d160776293584f0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which Kazakh city is the Mausoleum of Khoja Ahmed Yasawi?",
+        "sample_hashes": [
+          "ce8a1fd52470759be7f73dc712d75b87f25d5b6ee36bad3cf07429f8843751e5",
+          "651a825472dd47c8ca33642c7683a3356da299980bd159993b7ed72696a4b969"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:44:37.299925+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "ccbd66a5d1c5b3b890dd82476aa5c9f29efcbe57fbd484187b0a26bc897f07b9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "82a5ee17b885d1e5cf00f2ddbf8c2678bf4479384974a7ac2d160776293584f0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which Kazakh city is the Mausoleum of Khoja Ahmed Yasawi?",
+        "sample_hashes": [
+          "ce8a1fd52470759be7f73dc712d75b87f25d5b6ee36bad3cf07429f8843751e5",
+          "651a825472dd47c8ca33642c7683a3356da299980bd159993b7ed72696a4b969",
+          "72604f918859ad5932ca0cda51552b83316355a72cf6ebc38e23f14e5cdad596"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:44:37.888081+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "5d4bae6fc1b8055fdd39ec165648e26aab03dc759d34f0344507e486df5f012c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "82a5ee17b885d1e5cf00f2ddbf8c2678bf4479384974a7ac2d160776293584f0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which Kazakh city is the Mausoleum of Khoja Ahmed Yasawi?",
+        "sample_hashes": [
+          "ce8a1fd52470759be7f73dc712d75b87f25d5b6ee36bad3cf07429f8843751e5",
+          "651a825472dd47c8ca33642c7683a3356da299980bd159993b7ed72696a4b969",
+          "72604f918859ad5932ca0cda51552b83316355a72cf6ebc38e23f14e5cdad596",
+          "ae4a96bddcf8808e329b9d91a33a4fe3d66d7ed9a3a4e14d44f38cb04c8271cd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:44:38.568062+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "eef068bccf4acd3e4c99ec86be49612cf75d8c062438b7d7a5f5bf536e7c174e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "82a5ee17b885d1e5cf00f2ddbf8c2678bf4479384974a7ac2d160776293584f0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which Kazakh city is the Mausoleum of Khoja Ahmed Yasawi?",
+        "sample_hashes": [
+          "ce8a1fd52470759be7f73dc712d75b87f25d5b6ee36bad3cf07429f8843751e5",
+          "651a825472dd47c8ca33642c7683a3356da299980bd159993b7ed72696a4b969",
+          "72604f918859ad5932ca0cda51552b83316355a72cf6ebc38e23f14e5cdad596",
+          "ae4a96bddcf8808e329b9d91a33a4fe3d66d7ed9a3a4e14d44f38cb04c8271cd",
+          "72604f918859ad5932ca0cda51552b83316355a72cf6ebc38e23f14e5cdad596"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:44:57.424965+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "6a0385e9a1a2f01010bb5d8cdd51e32373ea1a0c83c8313482d9c25b7f8e3acb",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

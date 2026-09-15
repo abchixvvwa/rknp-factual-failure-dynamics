@@ -1,0 +1,159 @@
+{
+  "case_id": "e5cd56c10893d867f29be6b62c25caeebb3b7e6536d23e15e537c415c2eed084",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e5cd56c10893d867f29be6b62c25caeebb3b7e6536d23e15e537c415c2eed084",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақ аюдың қай түрі Антарктидада табиғи түрде мекендейді?",
+        "sample_hashes": [
+          "86eb9d67e0d1523f246e13a544968262bb6911fdedefa164f2d4e7af80ff333f",
+          "3730e8fb600e4e9c3cc5b3ce5ac8ce26cc06c7d5874e79d2724201743df72a01",
+          "6a388333bb351cd2dd31f5f261a949ea5cad249517d87407e28f957ec398a71c",
+          "58778b531fc55c15a03540e7d5b1cb53ea9c20915ab346817151245719ded8d9",
+          "859e670733059cbf3657c79459be199f97a7221a99a2e65b8242b0d8961cac41"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:11.625474+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "a4af0b30883b4814a9754cf30288a3213a0ec1fcb00c6cb2fbf4d6cc65d88d6b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e5cd56c10893d867f29be6b62c25caeebb3b7e6536d23e15e537c415c2eed084",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақ аюдың қай түрі Антарктидада табиғи түрде мекендейді?",
+        "sample_hashes": [
+          "86eb9d67e0d1523f246e13a544968262bb6911fdedefa164f2d4e7af80ff333f",
+          "3730e8fb600e4e9c3cc5b3ce5ac8ce26cc06c7d5874e79d2724201743df72a01",
+          "6a388333bb351cd2dd31f5f261a949ea5cad249517d87407e28f957ec398a71c",
+          "58778b531fc55c15a03540e7d5b1cb53ea9c20915ab346817151245719ded8d9",
+          "859e670733059cbf3657c79459be199f97a7221a99a2e65b8242b0d8961cac41"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:11.625474+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "a4af0b30883b4814a9754cf30288a3213a0ec1fcb00c6cb2fbf4d6cc65d88d6b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e5cd56c10893d867f29be6b62c25caeebb3b7e6536d23e15e537c415c2eed084",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақ аюдың қай түрі Антарктидада табиғи түрде мекендейді?",
+        "sample_hashes": [
+          "86eb9d67e0d1523f246e13a544968262bb6911fdedefa164f2d4e7af80ff333f",
+          "3730e8fb600e4e9c3cc5b3ce5ac8ce26cc06c7d5874e79d2724201743df72a01",
+          "6a388333bb351cd2dd31f5f261a949ea5cad249517d87407e28f957ec398a71c",
+          "58778b531fc55c15a03540e7d5b1cb53ea9c20915ab346817151245719ded8d9",
+          "859e670733059cbf3657c79459be199f97a7221a99a2e65b8242b0d8961cac41"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:11.625474+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "a4af0b30883b4814a9754cf30288a3213a0ec1fcb00c6cb2fbf4d6cc65d88d6b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e5cd56c10893d867f29be6b62c25caeebb3b7e6536d23e15e537c415c2eed084",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақ аюдың қай түрі Антарктидада табиғи түрде мекендейді?",
+        "sample_hashes": [
+          "86eb9d67e0d1523f246e13a544968262bb6911fdedefa164f2d4e7af80ff333f",
+          "3730e8fb600e4e9c3cc5b3ce5ac8ce26cc06c7d5874e79d2724201743df72a01",
+          "6a388333bb351cd2dd31f5f261a949ea5cad249517d87407e28f957ec398a71c",
+          "58778b531fc55c15a03540e7d5b1cb53ea9c20915ab346817151245719ded8d9",
+          "859e670733059cbf3657c79459be199f97a7221a99a2e65b8242b0d8961cac41"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:11.625474+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "a4af0b30883b4814a9754cf30288a3213a0ec1fcb00c6cb2fbf4d6cc65d88d6b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

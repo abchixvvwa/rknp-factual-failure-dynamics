@@ -1,0 +1,26 @@
+{
+  "reviewer": "project_user",
+  "scope": "targets_e86f561ffad1 batch_03.md, items 101–150; entire response evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [101,102,103,104,107,109,110,112,113,115,116,117,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,142,143,144,145,146,147,148,149,150],
+  "incorrect_numbers": [105,106,108,111,114,118,119,141],
+  "invalid_numbers": [],
+  "user_notes": {
+    "105": "The Night Watch приписана Jan Vermeer вместо Rembrandt.",
+    "106": "Rembrandt назван в конце, но модель ложно заявляет, что предпосылка неверна и произведения The Night Watch нет. Картина Rembrandt завершена в 1642 году.",
+    "108": "Jan Vermeer вместо Rembrandt.",
+    "111": "Botticelli назван в конце, но модель ложно заявляет, что Birth of Venus не находится в Uffizi. Официальная страница Uffizi подтверждает художника и музей.",
+    "114": "Ответ противоречит себе: сначала утверждает, что картины в Uffizi нет, затем говорит, что она хранится в Uffizi.",
+    "118": "The Thinker приписан Ойсан Құмаров вместо Auguste Rodin.",
+    "119": "The Thinker приписан Мұрат Әуезов вместо Auguste Rodin.",
+    "141": "Выдуманная история про казахстанский анимационный фильм 1998 года вместо Edvard Munch.",
+    "104": "Рембрандт ван Рейен — транслитерационная ошибка, но рядом дано точное Rembrandt van Rijn и верный 1642 год.",
+    "132": "В 1930-х допустимо: American Gothic датируется 1930 годом."
+  },
+  "user_source_urls": [
+    "https://www.rijksmuseum.nl/en/stories/10-things/story/10-things-about-rembrandt-s-night-watch?utm_source=chatgpt.com",
+    "https://www.uffizi.it/en/artworks/birth-of-venus?utm_source=chatgpt.com",
+    "https://www.artic.edu/assets/f85bee6b-d18b-5577-a9e6-f429421b4654?utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources; not represented as independent agent verification"
+}

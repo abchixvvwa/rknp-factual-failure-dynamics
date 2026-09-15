@@ -1,0 +1,159 @@
+{
+  "case_id": "fe625c99443c3658d01598cf382bd030408cd4f21a4ee9881ce9823d4cacb7fb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe625c99443c3658d01598cf382bd030408cd4f21a4ee9881ce9823d4cacb7fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Натрийдің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "7ffe36d5e6354f06071d82fafb9c35d2316abdeba9f3994207958160384317d0",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:15.451386+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "f0760038ce82fc7d285dd25dbb5988282cdc1244852dee63599d9146589803df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe625c99443c3658d01598cf382bd030408cd4f21a4ee9881ce9823d4cacb7fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Натрийдің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "7ffe36d5e6354f06071d82fafb9c35d2316abdeba9f3994207958160384317d0",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:15.451386+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "f0760038ce82fc7d285dd25dbb5988282cdc1244852dee63599d9146589803df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe625c99443c3658d01598cf382bd030408cd4f21a4ee9881ce9823d4cacb7fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Натрийдің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "7ffe36d5e6354f06071d82fafb9c35d2316abdeba9f3994207958160384317d0",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:15.451386+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "f0760038ce82fc7d285dd25dbb5988282cdc1244852dee63599d9146589803df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe625c99443c3658d01598cf382bd030408cd4f21a4ee9881ce9823d4cacb7fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Натрийдің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "7ffe36d5e6354f06071d82fafb9c35d2316abdeba9f3994207958160384317d0",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc",
+          "fb4538a0cdbb65b0393d5308c36243c9c1b17bda97f2b3329f6cfead453324fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:15.451386+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "f0760038ce82fc7d285dd25dbb5988282cdc1244852dee63599d9146589803df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

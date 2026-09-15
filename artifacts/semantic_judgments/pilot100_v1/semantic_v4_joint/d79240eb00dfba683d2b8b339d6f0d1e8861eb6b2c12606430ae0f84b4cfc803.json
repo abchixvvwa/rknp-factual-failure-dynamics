@@ -1,0 +1,159 @@
+{
+  "case_id": "d79240eb00dfba683d2b8b339d6f0d1e8861eb6b2c12606430ae0f84b4cfc803",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d79240eb00dfba683d2b8b339d6f0d1e8861eb6b2c12606430ae0f84b4cfc803",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Вояджер-1» бортындағы алғашқы ғарышкер кім болды?",
+        "sample_hashes": [
+          "d353412ad71943b4deb148e5111ca8c1c152bd7ee1f30ec32dfba248f82c029c",
+          "fb33699d8c9941cbc56c0ac1d28373b87c0892cec5ca824a8547dde30fcc613e",
+          "dbc9baf70ef0e472d5f7fb576e7155d6d80184da08819c3fd42334e2b374b67d",
+          "f262e8d339603f749d8f29835ab060736c6cfd18fad5cdf0cdef5312091f3835",
+          "42849cdf77580155698cee77462fe5785bf099bfb49bd0d61f2beeec5a2a0ab7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:13.872586+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "04d7e05bf2702419a2bcdc55cf2accdc60bf148dfd9759b31dc3fa87e3eeab67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d79240eb00dfba683d2b8b339d6f0d1e8861eb6b2c12606430ae0f84b4cfc803",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Вояджер-1» бортындағы алғашқы ғарышкер кім болды?",
+        "sample_hashes": [
+          "d353412ad71943b4deb148e5111ca8c1c152bd7ee1f30ec32dfba248f82c029c",
+          "fb33699d8c9941cbc56c0ac1d28373b87c0892cec5ca824a8547dde30fcc613e",
+          "dbc9baf70ef0e472d5f7fb576e7155d6d80184da08819c3fd42334e2b374b67d",
+          "f262e8d339603f749d8f29835ab060736c6cfd18fad5cdf0cdef5312091f3835",
+          "42849cdf77580155698cee77462fe5785bf099bfb49bd0d61f2beeec5a2a0ab7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:13.872586+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "04d7e05bf2702419a2bcdc55cf2accdc60bf148dfd9759b31dc3fa87e3eeab67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d79240eb00dfba683d2b8b339d6f0d1e8861eb6b2c12606430ae0f84b4cfc803",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Вояджер-1» бортындағы алғашқы ғарышкер кім болды?",
+        "sample_hashes": [
+          "d353412ad71943b4deb148e5111ca8c1c152bd7ee1f30ec32dfba248f82c029c",
+          "fb33699d8c9941cbc56c0ac1d28373b87c0892cec5ca824a8547dde30fcc613e",
+          "dbc9baf70ef0e472d5f7fb576e7155d6d80184da08819c3fd42334e2b374b67d",
+          "f262e8d339603f749d8f29835ab060736c6cfd18fad5cdf0cdef5312091f3835",
+          "42849cdf77580155698cee77462fe5785bf099bfb49bd0d61f2beeec5a2a0ab7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:13.872586+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "04d7e05bf2702419a2bcdc55cf2accdc60bf148dfd9759b31dc3fa87e3eeab67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d79240eb00dfba683d2b8b339d6f0d1e8861eb6b2c12606430ae0f84b4cfc803",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Вояджер-1» бортындағы алғашқы ғарышкер кім болды?",
+        "sample_hashes": [
+          "d353412ad71943b4deb148e5111ca8c1c152bd7ee1f30ec32dfba248f82c029c",
+          "fb33699d8c9941cbc56c0ac1d28373b87c0892cec5ca824a8547dde30fcc613e",
+          "dbc9baf70ef0e472d5f7fb576e7155d6d80184da08819c3fd42334e2b374b67d",
+          "f262e8d339603f749d8f29835ab060736c6cfd18fad5cdf0cdef5312091f3835",
+          "42849cdf77580155698cee77462fe5785bf099bfb49bd0d61f2beeec5a2a0ab7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:13.872586+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "04d7e05bf2702419a2bcdc55cf2accdc60bf148dfd9759b31dc3fa87e3eeab67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

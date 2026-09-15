@@ -1,0 +1,161 @@
+{
+  "case_id": "948590ff66fdf5dba5370273c6d818a26e93e2255d2547591dede1fe9d2e49c3",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "948590ff66fdf5dba5370273c6d818a26e93e2255d2547591dede1fe9d2e49c3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал скульптуру «Мыслитель»?",
+        "sample_hashes": [
+          "70c1975b6ec731c239592ba8e8bedc4b7336e8edc4ae3e4843979e3bd99cb126",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "442598e2def97a944e9519a2464fc04fe66f63723e2c08d57893e27098ff1aae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:06.662658+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "2364dc83b0372037fe2867d039e57070a4f291aa3e9b9952b782d33f809ac9a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "948590ff66fdf5dba5370273c6d818a26e93e2255d2547591dede1fe9d2e49c3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал скульптуру «Мыслитель»?",
+        "sample_hashes": [
+          "70c1975b6ec731c239592ba8e8bedc4b7336e8edc4ae3e4843979e3bd99cb126",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "442598e2def97a944e9519a2464fc04fe66f63723e2c08d57893e27098ff1aae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:06.662658+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "2364dc83b0372037fe2867d039e57070a4f291aa3e9b9952b782d33f809ac9a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "948590ff66fdf5dba5370273c6d818a26e93e2255d2547591dede1fe9d2e49c3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал скульптуру «Мыслитель»?",
+        "sample_hashes": [
+          "70c1975b6ec731c239592ba8e8bedc4b7336e8edc4ae3e4843979e3bd99cb126",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "442598e2def97a944e9519a2464fc04fe66f63723e2c08d57893e27098ff1aae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:06.662658+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "2364dc83b0372037fe2867d039e57070a4f291aa3e9b9952b782d33f809ac9a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "948590ff66fdf5dba5370273c6d818a26e93e2255d2547591dede1fe9d2e49c3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал скульптуру «Мыслитель»?",
+        "sample_hashes": [
+          "70c1975b6ec731c239592ba8e8bedc4b7336e8edc4ae3e4843979e3bd99cb126",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "56c5fe405f7f61ea26a4111e92afd9244cadf7077ac882706d2b9b91b9e09ca6",
+          "442598e2def97a944e9519a2464fc04fe66f63723e2c08d57893e27098ff1aae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:06.662658+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "2364dc83b0372037fe2867d039e57070a4f291aa3e9b9952b782d33f809ac9a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

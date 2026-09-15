@@ -1,0 +1,159 @@
+{
+  "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1993 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "d3dc2d5e08339ba6e0524dab85d2f65cc90e09483bbcb3672c796f1902a23beb",
+          "c93d640b85e9cc4003faf8dde1c0ed538decabec74105f82d537ac7337a81c03",
+          "78ead8d3ecd8e66b27f01aa16b9e51246d0d5ba46451df6046589de3af69e1d1",
+          "19ba87a20359215b5dcabddabd68e49512c87192ffe0217965951ebd7237f780",
+          "406f118c21bb00ba2f49a1ff3211ada1bf68b989fe6227656b61c76f92feabb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:30:48.041329+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b269796d58246ef151b68291676735a7ba62b31f5e232f7b6ef7fdaebef89cfd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1993 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "d3dc2d5e08339ba6e0524dab85d2f65cc90e09483bbcb3672c796f1902a23beb",
+          "c93d640b85e9cc4003faf8dde1c0ed538decabec74105f82d537ac7337a81c03",
+          "78ead8d3ecd8e66b27f01aa16b9e51246d0d5ba46451df6046589de3af69e1d1",
+          "19ba87a20359215b5dcabddabd68e49512c87192ffe0217965951ebd7237f780",
+          "406f118c21bb00ba2f49a1ff3211ada1bf68b989fe6227656b61c76f92feabb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:30:48.041329+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b269796d58246ef151b68291676735a7ba62b31f5e232f7b6ef7fdaebef89cfd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1993 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "d3dc2d5e08339ba6e0524dab85d2f65cc90e09483bbcb3672c796f1902a23beb",
+          "c93d640b85e9cc4003faf8dde1c0ed538decabec74105f82d537ac7337a81c03",
+          "78ead8d3ecd8e66b27f01aa16b9e51246d0d5ba46451df6046589de3af69e1d1",
+          "19ba87a20359215b5dcabddabd68e49512c87192ffe0217965951ebd7237f780",
+          "406f118c21bb00ba2f49a1ff3211ada1bf68b989fe6227656b61c76f92feabb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:30:48.041329+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b269796d58246ef151b68291676735a7ba62b31f5e232f7b6ef7fdaebef89cfd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1993 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "d3dc2d5e08339ba6e0524dab85d2f65cc90e09483bbcb3672c796f1902a23beb",
+          "c93d640b85e9cc4003faf8dde1c0ed538decabec74105f82d537ac7337a81c03",
+          "78ead8d3ecd8e66b27f01aa16b9e51246d0d5ba46451df6046589de3af69e1d1",
+          "19ba87a20359215b5dcabddabd68e49512c87192ffe0217965951ebd7237f780",
+          "406f118c21bb00ba2f49a1ff3211ada1bf68b989fe6227656b61c76f92feabb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:30:48.041329+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b269796d58246ef151b68291676735a7ba62b31f5e232f7b6ef7fdaebef89cfd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

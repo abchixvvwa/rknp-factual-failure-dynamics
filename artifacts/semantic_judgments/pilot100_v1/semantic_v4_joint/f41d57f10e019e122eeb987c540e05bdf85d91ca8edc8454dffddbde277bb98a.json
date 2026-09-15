@@ -1,0 +1,159 @@
+{
+  "case_id": "f41d57f10e019e122eeb987c540e05bdf85d91ca8edc8454dffddbde277bb98a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f41d57f10e019e122eeb987c540e05bdf85d91ca8edc8454dffddbde277bb98a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Жадтың тұрақтылығы» (The Persistence of Memory) картинасын кім салған?",
+        "sample_hashes": [
+          "7b4b5d80674d393be1cc1709fd8ed64b2cbee207ba0110a2795103ffe05a5b93",
+          "c60c2447b88c7e425c91a333d36c9564eb68dd7a521f37bad9d0791f14eb374c",
+          "2c88ea89a0f7e033ca7468479b148f4e0727057e471aa47cb1f3aced486d4ca0",
+          "ed06cc4cf86f705121805a89610f4734b409afeaee4e803db78cf64c863b1d9c",
+          "d838ac13977b3ce22756d03c29867985960e584c3f62c68ac631d6b808802a1c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:33.250932+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "80e216bdc8a55791e86ffcb766131ed94888f89fae5f4705abc9f6285dee8d67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f41d57f10e019e122eeb987c540e05bdf85d91ca8edc8454dffddbde277bb98a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Жадтың тұрақтылығы» (The Persistence of Memory) картинасын кім салған?",
+        "sample_hashes": [
+          "7b4b5d80674d393be1cc1709fd8ed64b2cbee207ba0110a2795103ffe05a5b93",
+          "c60c2447b88c7e425c91a333d36c9564eb68dd7a521f37bad9d0791f14eb374c",
+          "2c88ea89a0f7e033ca7468479b148f4e0727057e471aa47cb1f3aced486d4ca0",
+          "ed06cc4cf86f705121805a89610f4734b409afeaee4e803db78cf64c863b1d9c",
+          "d838ac13977b3ce22756d03c29867985960e584c3f62c68ac631d6b808802a1c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:33.250932+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "80e216bdc8a55791e86ffcb766131ed94888f89fae5f4705abc9f6285dee8d67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f41d57f10e019e122eeb987c540e05bdf85d91ca8edc8454dffddbde277bb98a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Жадтың тұрақтылығы» (The Persistence of Memory) картинасын кім салған?",
+        "sample_hashes": [
+          "7b4b5d80674d393be1cc1709fd8ed64b2cbee207ba0110a2795103ffe05a5b93",
+          "c60c2447b88c7e425c91a333d36c9564eb68dd7a521f37bad9d0791f14eb374c",
+          "2c88ea89a0f7e033ca7468479b148f4e0727057e471aa47cb1f3aced486d4ca0",
+          "ed06cc4cf86f705121805a89610f4734b409afeaee4e803db78cf64c863b1d9c",
+          "d838ac13977b3ce22756d03c29867985960e584c3f62c68ac631d6b808802a1c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:33.250932+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "80e216bdc8a55791e86ffcb766131ed94888f89fae5f4705abc9f6285dee8d67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f41d57f10e019e122eeb987c540e05bdf85d91ca8edc8454dffddbde277bb98a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Жадтың тұрақтылығы» (The Persistence of Memory) картинасын кім салған?",
+        "sample_hashes": [
+          "7b4b5d80674d393be1cc1709fd8ed64b2cbee207ba0110a2795103ffe05a5b93",
+          "c60c2447b88c7e425c91a333d36c9564eb68dd7a521f37bad9d0791f14eb374c",
+          "2c88ea89a0f7e033ca7468479b148f4e0727057e471aa47cb1f3aced486d4ca0",
+          "ed06cc4cf86f705121805a89610f4734b409afeaee4e803db78cf64c863b1d9c",
+          "d838ac13977b3ce22756d03c29867985960e584c3f62c68ac631d6b808802a1c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:33.250932+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "80e216bdc8a55791e86ffcb766131ed94888f89fae5f4705abc9f6285dee8d67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "case_id": "b1a7359ebd1c98971d5e1d3e8b2871b344bad8d4e07019af35d287dc0964bda3",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1a7359ebd1c98971d5e1d3e8b2871b344bad8d4e07019af35d287dc0964bda3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Меркурия?",
+        "sample_hashes": [
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "959fd6fd9ee5d467a71910180127f1b45d77a0b5b9e542cd06819d77a93da448"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:17:51.069253+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "1c307db748ab1e9b993cd76faf23791c9565cac4cb90c593d8e429d8dd320c9e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1a7359ebd1c98971d5e1d3e8b2871b344bad8d4e07019af35d287dc0964bda3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Меркурия?",
+        "sample_hashes": [
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "959fd6fd9ee5d467a71910180127f1b45d77a0b5b9e542cd06819d77a93da448",
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:17:55.066622+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "d9d718a3af8a85dccab847fa75e540b3a328a6e8f512e8b69c7825c00866198e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1a7359ebd1c98971d5e1d3e8b2871b344bad8d4e07019af35d287dc0964bda3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Меркурия?",
+        "sample_hashes": [
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "959fd6fd9ee5d467a71910180127f1b45d77a0b5b9e542cd06819d77a93da448",
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "fac539212f33e796d77824082ef916faae70fb877760f4043740660bdb0d5305"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:17:56.447322+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "d99e9cf36ff3329fbf2458f7c91c393151ce450ce5b5970352a771718d2b51f9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1a7359ebd1c98971d5e1d3e8b2871b344bad8d4e07019af35d287dc0964bda3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Меркурия?",
+        "sample_hashes": [
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "959fd6fd9ee5d467a71910180127f1b45d77a0b5b9e542cd06819d77a93da448",
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073",
+          "fac539212f33e796d77824082ef916faae70fb877760f4043740660bdb0d5305",
+          "586915dffc99d1a5061c5cb3bf9f06e5b9e99101cc2f35d0c3f51ab85424c073"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:17:58.559409+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "5a5efb8794b08d19fbc004cbd8a145de31108a1e3b207c054d53f676c4c3759a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50",
+          "611d140f619d28ffe780d19af64e27536112b08ea0c90425e49c167cc702d29c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:47.155090+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "5e47c020c4e5d243a3de8a7b090078f375d0f300c8b8ef7a3f0d621b937a2b37",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 0,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:50.722397+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "cf1c35e50dbbbcf8103608959453070bbb8b40329dd553d97b5cba6cabb9f6af",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50",
+          "611d140f619d28ffe780d19af64e27536112b08ea0c90425e49c167cc702d29c",
+          "db1c804a63db4c59333d2f77454089cbbdd18eec7d19d3b90df2eeb1ff096fae"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:53.475899+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "858658fe9ebf6027101902201d87722a9b3b1c1a61aa92b653a67987151f9332",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 0,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:50.722397+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "cf1c35e50dbbbcf8103608959453070bbb8b40329dd553d97b5cba6cabb9f6af",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50",
+          "611d140f619d28ffe780d19af64e27536112b08ea0c90425e49c167cc702d29c",
+          "db1c804a63db4c59333d2f77454089cbbdd18eec7d19d3b90df2eeb1ff096fae",
+          "6d8c596781976b81e77d6efd695b44adec9dfa79051dd366616baec5fbe3a96a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:56.698810+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "02c9e22803b6d20cc7cb69996e404bb2be71bfdef2268ef7bc499129d8a0efcb",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 0,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:50.722397+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "cf1c35e50dbbbcf8103608959453070bbb8b40329dd553d97b5cba6cabb9f6af",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50",
+          "611d140f619d28ffe780d19af64e27536112b08ea0c90425e49c167cc702d29c",
+          "db1c804a63db4c59333d2f77454089cbbdd18eec7d19d3b90df2eeb1ff096fae",
+          "6d8c596781976b81e77d6efd695b44adec9dfa79051dd366616baec5fbe3a96a",
+          "6e1a40ea02e3bd10781256faa1caa66abd386841aa926a2c84612524311d3ec1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:59.953011+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "bb28765865f4e1967e640679675fc40277900df6083f7cea31e6555d3bc22f94",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "4f273f976455a711d2f05349062a328fbb8f2572ba1c9cfdd382c71e00b5936f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many chromosomes are normally present in a human diploid cell?",
+        "sample_hashes": [
+          "402dcf7a1b7cdbc500faa84c4ef8a6729a79ff445715c09e933528586abcea50"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 0,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:50.722397+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "cf1c35e50dbbbcf8103608959453070bbb8b40329dd553d97b5cba6cabb9f6af",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

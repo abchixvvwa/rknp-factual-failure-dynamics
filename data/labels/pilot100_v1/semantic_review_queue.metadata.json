@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "cases": 200,
+  "engineering_only": false,
+  "blinded_to_machine_groups": true
+}

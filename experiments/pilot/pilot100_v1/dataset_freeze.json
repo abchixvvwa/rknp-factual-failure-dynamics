@@ -1,0 +1,13 @@
+{
+  "experiment_id": "pilot100_v1",
+  "scope": "Pilot questions, aliases, sources, generation configuration and fact splits; not main freeze",
+  "human_verified_facts": 100,
+  "sha256": {
+    "data/benchmark/pilot100_verified_v1.csv": "df2c36a8ac136194e654ba11d018d851cadcb9e48dc28578eaceb40143560ce6",
+    "data/processed/splits_pilot100_v1.csv": "53f3c9c97cd52a6550916c8f8f80d261d2a5b368fa5542a079497be156d73ce8",
+    "configs/pilot100_v1.json": "8e8b95a83153f026c3a6ed675145cd224b9261f149e0f9c7dcb50b699d90dade",
+    "src/generation/prompts.py": "0c92967fa387c9d29ac85bf886d192d5e25fb8c42fcfb0427d6c7a5e6252b11b",
+    "src/generation/run.py": "efefea7c3e27966948bc1466f6c436a9591d6c0edadc1e7f803fe4ea5241df9a"
+  },
+  "user_review": "data/reviews/pilot100_human_verification_2026-09-11.json"
+}

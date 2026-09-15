@@ -1,0 +1,159 @@
+{
+  "case_id": "75378f71eb363c70d1d055c49ec5b1c7450ba720402932d37c89f4514668e622",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75378f71eb363c70d1d055c49ec5b1c7450ba720402932d37c89f4514668e622",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Мария Кюри получила Нобелевскую премию по литературе?",
+        "sample_hashes": [
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "2cc59edefbbec60b85e3e0fe0854963f600ea547fc96d1438db316451f1f84ff",
+          "ce4f8975c3a1d207bb1c607dffc62ff4dbaf721c305eabd9369b55628ce5b3b8",
+          "a7e36fed5721db3033e3db14377ceb67f7eb963652cdfc4d17a604ab70e1a7cb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:06.125379+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "70b78a508efac4459f1afcca0a69779de1e970b2223dea2b69e7a5e705f9f68d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75378f71eb363c70d1d055c49ec5b1c7450ba720402932d37c89f4514668e622",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Мария Кюри получила Нобелевскую премию по литературе?",
+        "sample_hashes": [
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "2cc59edefbbec60b85e3e0fe0854963f600ea547fc96d1438db316451f1f84ff",
+          "ce4f8975c3a1d207bb1c607dffc62ff4dbaf721c305eabd9369b55628ce5b3b8",
+          "a7e36fed5721db3033e3db14377ceb67f7eb963652cdfc4d17a604ab70e1a7cb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:06.125379+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "70b78a508efac4459f1afcca0a69779de1e970b2223dea2b69e7a5e705f9f68d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75378f71eb363c70d1d055c49ec5b1c7450ba720402932d37c89f4514668e622",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Мария Кюри получила Нобелевскую премию по литературе?",
+        "sample_hashes": [
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "2cc59edefbbec60b85e3e0fe0854963f600ea547fc96d1438db316451f1f84ff",
+          "ce4f8975c3a1d207bb1c607dffc62ff4dbaf721c305eabd9369b55628ce5b3b8",
+          "a7e36fed5721db3033e3db14377ceb67f7eb963652cdfc4d17a604ab70e1a7cb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:06.125379+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "70b78a508efac4459f1afcca0a69779de1e970b2223dea2b69e7a5e705f9f68d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75378f71eb363c70d1d055c49ec5b1c7450ba720402932d37c89f4514668e622",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Мария Кюри получила Нобелевскую премию по литературе?",
+        "sample_hashes": [
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "45145aab00de1e093924c0dd8a313584e08acc58d2656701aa7b92367760260d",
+          "2cc59edefbbec60b85e3e0fe0854963f600ea547fc96d1438db316451f1f84ff",
+          "ce4f8975c3a1d207bb1c607dffc62ff4dbaf721c305eabd9369b55628ce5b3b8",
+          "a7e36fed5721db3033e3db14377ceb67f7eb963652cdfc4d17a604ab70e1a7cb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:06.125379+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "70b78a508efac4459f1afcca0a69779de1e970b2223dea2b69e7a5e705f9f68d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

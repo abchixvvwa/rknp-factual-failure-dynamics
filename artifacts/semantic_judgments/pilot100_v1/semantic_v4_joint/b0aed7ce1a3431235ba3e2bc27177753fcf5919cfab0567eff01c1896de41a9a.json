@@ -1,0 +1,163 @@
+{
+  "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f",
+          "27422ce5e5930e33045fffbfe2c05ffc94be233c30aa1124211208579fa8978a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:18.191599+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "2aedd0ef4b4bd6e344cee9b43026d74062b110c6c9f595bf5432c63adedad551",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f",
+          "27422ce5e5930e33045fffbfe2c05ffc94be233c30aa1124211208579fa8978a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:18.191599+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "2aedd0ef4b4bd6e344cee9b43026d74062b110c6c9f595bf5432c63adedad551",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f",
+          "27422ce5e5930e33045fffbfe2c05ffc94be233c30aa1124211208579fa8978a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:18.191599+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "2aedd0ef4b4bd6e344cee9b43026d74062b110c6c9f595bf5432c63adedad551",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f",
+          "27422ce5e5930e33045fffbfe2c05ffc94be233c30aa1124211208579fa8978a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:18.191599+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "2aedd0ef4b4bd6e344cee9b43026d74062b110c6c9f595bf5432c63adedad551",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc",
+          "4acfc3de95c4ef10fb3657418a407748e15e888814472d1997fc4b2df0d4bc6f"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:32.893554+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "92524004014667009446109232581c191a471dec10207a9e0c77ea953a18767f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:03:33.348742+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "22e2d3c0e8af124c57428c81d470f73ba53758b27dc949c0a21db2b7af3a40a7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc",
+          "4acfc3de95c4ef10fb3657418a407748e15e888814472d1997fc4b2df0d4bc6f",
+          "d1fd0376cff734dcfc0bf1b900f383a8339f4e56b78de6e45df9cd29542360e1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:36.640759+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2d1466816934a5a75a42385711607171767574ca4bbe6b04f6603a8c2ffb4208",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:03:33.348742+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "22e2d3c0e8af124c57428c81d470f73ba53758b27dc949c0a21db2b7af3a40a7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc",
+          "4acfc3de95c4ef10fb3657418a407748e15e888814472d1997fc4b2df0d4bc6f",
+          "d1fd0376cff734dcfc0bf1b900f383a8339f4e56b78de6e45df9cd29542360e1",
+          "b28ada7c37a9276b83c5c4ce0f327440d1bbe2946f738d4e5bdb0933f8284105"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:39.909131+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "4954f3c444af0302372e0c9ae213ce3e44ed32dbdcb2b4fc323694e4154862f0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5bf0c46b17d1b343d15d296d741fbec1318e7cee613e6a519e2b7ee0250cf992",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В какой стране расположен Ангкор?",
+        "sample_hashes": [
+          "da90b30716d1ac32ca99eb056a765ec234e1a7829cc88c5f417ee044672519dc",
+          "4acfc3de95c4ef10fb3657418a407748e15e888814472d1997fc4b2df0d4bc6f",
+          "d1fd0376cff734dcfc0bf1b900f383a8339f4e56b78de6e45df9cd29542360e1",
+          "b28ada7c37a9276b83c5c4ce0f327440d1bbe2946f738d4e5bdb0933f8284105",
+          "10c9a715d838f96fd14ecc48ed97329e6caa19fc138ff410d76951c0981ab9ce"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:40.731814+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "efda268b36a18500c9f1b32459f942aab4159bd0fb5e8452ee5a8f3351f4dc18",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

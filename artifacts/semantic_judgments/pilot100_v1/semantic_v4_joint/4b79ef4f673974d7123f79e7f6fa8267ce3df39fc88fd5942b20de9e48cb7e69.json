@@ -1,0 +1,163 @@
+{
+  "case_id": "4b79ef4f673974d7123f79e7f6fa8267ce3df39fc88fd5942b20de9e48cb7e69",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b79ef4f673974d7123f79e7f6fa8267ce3df39fc88fd5942b20de9e48cb7e69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Physics for 1941?",
+        "sample_hashes": [
+          "edfafce7614b6513b2e1ab5ca72221dfc0fdf972760570187e972b1a98ceb918",
+          "4cc6ff5c0adf5d0e49afef8e91434d47404bb751e850a19e98e2aaeaa0d9b7a5",
+          "943bc7c545da2a4a24c5676fea1412f898ac859f19b6b04f5dd480818bd514d8",
+          "dff1847fb9495bfe9b574e883e44d846d5fb7119a928dd44f9852fef9c92bf19",
+          "3144b95147792e8524c17169a50dac74c0b98cac8442e16ddcfe0a944761ccb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:48.277089+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9c2aced8ba034701de8b3fbf144b4f3628622a5831bf795aa22065ccc152ee87",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b79ef4f673974d7123f79e7f6fa8267ce3df39fc88fd5942b20de9e48cb7e69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Physics for 1941?",
+        "sample_hashes": [
+          "edfafce7614b6513b2e1ab5ca72221dfc0fdf972760570187e972b1a98ceb918",
+          "4cc6ff5c0adf5d0e49afef8e91434d47404bb751e850a19e98e2aaeaa0d9b7a5",
+          "943bc7c545da2a4a24c5676fea1412f898ac859f19b6b04f5dd480818bd514d8",
+          "dff1847fb9495bfe9b574e883e44d846d5fb7119a928dd44f9852fef9c92bf19",
+          "3144b95147792e8524c17169a50dac74c0b98cac8442e16ddcfe0a944761ccb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:48.277089+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9c2aced8ba034701de8b3fbf144b4f3628622a5831bf795aa22065ccc152ee87",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b79ef4f673974d7123f79e7f6fa8267ce3df39fc88fd5942b20de9e48cb7e69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Physics for 1941?",
+        "sample_hashes": [
+          "edfafce7614b6513b2e1ab5ca72221dfc0fdf972760570187e972b1a98ceb918",
+          "4cc6ff5c0adf5d0e49afef8e91434d47404bb751e850a19e98e2aaeaa0d9b7a5",
+          "943bc7c545da2a4a24c5676fea1412f898ac859f19b6b04f5dd480818bd514d8",
+          "dff1847fb9495bfe9b574e883e44d846d5fb7119a928dd44f9852fef9c92bf19",
+          "3144b95147792e8524c17169a50dac74c0b98cac8442e16ddcfe0a944761ccb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:48.277089+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9c2aced8ba034701de8b3fbf144b4f3628622a5831bf795aa22065ccc152ee87",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b79ef4f673974d7123f79e7f6fa8267ce3df39fc88fd5942b20de9e48cb7e69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Physics for 1941?",
+        "sample_hashes": [
+          "edfafce7614b6513b2e1ab5ca72221dfc0fdf972760570187e972b1a98ceb918",
+          "4cc6ff5c0adf5d0e49afef8e91434d47404bb751e850a19e98e2aaeaa0d9b7a5",
+          "943bc7c545da2a4a24c5676fea1412f898ac859f19b6b04f5dd480818bd514d8",
+          "dff1847fb9495bfe9b574e883e44d846d5fb7119a928dd44f9852fef9c92bf19",
+          "3144b95147792e8524c17169a50dac74c0b98cac8442e16ddcfe0a944761ccb2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:48.277089+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9c2aced8ba034701de8b3fbf144b4f3628622a5831bf795aa22065ccc152ee87",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

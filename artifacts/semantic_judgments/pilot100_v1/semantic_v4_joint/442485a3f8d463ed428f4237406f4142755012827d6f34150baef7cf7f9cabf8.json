@@ -1,0 +1,159 @@
+{
+  "case_id": "442485a3f8d463ed428f4237406f4142755012827d6f34150baef7cf7f9cabf8",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "442485a3f8d463ed428f4237406f4142755012827d6f34150baef7cf7f9cabf8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько хромосом в норме содержится в диплоидной клетке человека?",
+        "sample_hashes": [
+          "8f9ae39a60e68a2be0d004f06b4a4a205ccc10903c4fb6e12007a4d1f8a64973",
+          "d4cd8c532fce9b614d547f11c254c4e5c1a490e6434b67a3f06f302b8fb2ebf0",
+          "9a6480e30368a424b063220cbc5e1e373834416e5d5151d1f8522adcccf7dd87",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:10.936931+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "7c9fa77a4405eb5d81e90a0dcb0569b0a97c0d5ab84a03dfe9c12af9c243c921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "442485a3f8d463ed428f4237406f4142755012827d6f34150baef7cf7f9cabf8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько хромосом в норме содержится в диплоидной клетке человека?",
+        "sample_hashes": [
+          "8f9ae39a60e68a2be0d004f06b4a4a205ccc10903c4fb6e12007a4d1f8a64973",
+          "d4cd8c532fce9b614d547f11c254c4e5c1a490e6434b67a3f06f302b8fb2ebf0",
+          "9a6480e30368a424b063220cbc5e1e373834416e5d5151d1f8522adcccf7dd87",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:10.936931+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "7c9fa77a4405eb5d81e90a0dcb0569b0a97c0d5ab84a03dfe9c12af9c243c921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "442485a3f8d463ed428f4237406f4142755012827d6f34150baef7cf7f9cabf8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько хромосом в норме содержится в диплоидной клетке человека?",
+        "sample_hashes": [
+          "8f9ae39a60e68a2be0d004f06b4a4a205ccc10903c4fb6e12007a4d1f8a64973",
+          "d4cd8c532fce9b614d547f11c254c4e5c1a490e6434b67a3f06f302b8fb2ebf0",
+          "9a6480e30368a424b063220cbc5e1e373834416e5d5151d1f8522adcccf7dd87",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:10.936931+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "7c9fa77a4405eb5d81e90a0dcb0569b0a97c0d5ab84a03dfe9c12af9c243c921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "442485a3f8d463ed428f4237406f4142755012827d6f34150baef7cf7f9cabf8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько хромосом в норме содержится в диплоидной клетке человека?",
+        "sample_hashes": [
+          "8f9ae39a60e68a2be0d004f06b4a4a205ccc10903c4fb6e12007a4d1f8a64973",
+          "d4cd8c532fce9b614d547f11c254c4e5c1a490e6434b67a3f06f302b8fb2ebf0",
+          "9a6480e30368a424b063220cbc5e1e373834416e5d5151d1f8522adcccf7dd87",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c",
+          "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:10.936931+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "7c9fa77a4405eb5d81e90a0dcb0569b0a97c0d5ab84a03dfe9c12af9c243c921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "case_id": "5c9b4854b56e9c5af3117621f912a2cfdf2755aae50bfd7a245f0a223aac57a7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5c9b4854b56e9c5af3117621f912a2cfdf2755aae50bfd7a245f0a223aac57a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каково отношение ширины государственного флага Казахстана к его длине?",
+        "sample_hashes": [
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "ceb93b9b76b9aea8dcedf6c8e4e716d0a1f9b13ebce1cb0b5e810e9e5cf3b8d4",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:59:08.611534+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6da6f31a203ecfb570962d6004b1b6dfbf58dc7e2bb00246cf2250b6e238a1d3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5c9b4854b56e9c5af3117621f912a2cfdf2755aae50bfd7a245f0a223aac57a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каково отношение ширины государственного флага Казахстана к его длине?",
+        "sample_hashes": [
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "ceb93b9b76b9aea8dcedf6c8e4e716d0a1f9b13ebce1cb0b5e810e9e5cf3b8d4",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:59:08.611534+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6da6f31a203ecfb570962d6004b1b6dfbf58dc7e2bb00246cf2250b6e238a1d3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5c9b4854b56e9c5af3117621f912a2cfdf2755aae50bfd7a245f0a223aac57a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каково отношение ширины государственного флага Казахстана к его длине?",
+        "sample_hashes": [
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "ceb93b9b76b9aea8dcedf6c8e4e716d0a1f9b13ebce1cb0b5e810e9e5cf3b8d4",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:59:08.611534+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6da6f31a203ecfb570962d6004b1b6dfbf58dc7e2bb00246cf2250b6e238a1d3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5c9b4854b56e9c5af3117621f912a2cfdf2755aae50bfd7a245f0a223aac57a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каково отношение ширины государственного флага Казахстана к его длине?",
+        "sample_hashes": [
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5",
+          "ceb93b9b76b9aea8dcedf6c8e4e716d0a1f9b13ebce1cb0b5e810e9e5cf3b8d4",
+          "6e2ded84e3498f3d6d1a286bd7a1643c57d4731afe53056fedcdddc5d374b8f5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:59:08.611534+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6da6f31a203ecfb570962d6004b1b6dfbf58dc7e2bb00246cf2250b6e238a1d3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

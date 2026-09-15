@@ -1,0 +1,153 @@
+{
+  "case_id": "27ef2105fabff63f1c01cf77feaa713ccf69934a7b762124a59b1ad7f91b4e70",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "27ef2105fabff63f1c01cf77feaa713ccf69934a7b762124a59b1ad7f91b4e70",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which ocean is the largest by surface area?",
+        "sample_hashes": [
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:00:49.592746+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "21950d5a8ca8706b46d4635840cbce04e9aa1b261bd2eab69215a0191018491c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "27ef2105fabff63f1c01cf77feaa713ccf69934a7b762124a59b1ad7f91b4e70",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which ocean is the largest by surface area?",
+        "sample_hashes": [
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df",
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:00:50.135400+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "5ff39aacaa76f2ac791585f6b2641a57d87cc4832e970f494b29c0600db69571",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "27ef2105fabff63f1c01cf77feaa713ccf69934a7b762124a59b1ad7f91b4e70",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which ocean is the largest by surface area?",
+        "sample_hashes": [
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df",
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:00:50.775324+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "a98961e292ac5b0b7bf3a1aba58798e313e661aa651e3f457579c9cb403a23f2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "27ef2105fabff63f1c01cf77feaa713ccf69934a7b762124a59b1ad7f91b4e70",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which ocean is the largest by surface area?",
+        "sample_hashes": [
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df",
+          "893ce2b96dce730b5ee7ad22f18a9906a3e88c750f687adbcec2f308471f3de1",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df",
+          "bc314838ebe188dd576caad292ad59fda996153a310d5702e189150e795f25df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:00:51.219836+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "2279ce504afba171ac4c71686664cfa4c046aba48141bd1cbfeca9baae6cc4bf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

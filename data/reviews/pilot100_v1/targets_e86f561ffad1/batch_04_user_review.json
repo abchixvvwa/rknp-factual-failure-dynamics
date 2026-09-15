@@ -1,0 +1,39 @@
+{
+  "reviewer": "project_user",
+  "scope": "targets_e86f561ffad1 batch_04.md, items 151–200; entire response and extra claims evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [151,152,153,154,155,157,162,168,171,172,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200],
+  "incorrect_numbers": [156,158,159,160,161,163,164,165,166,167,169,170,173,174,175,176,177,178,179,180],
+  "invalid_numbers": [],
+  "user_notes": {
+    "156": "Tokhtamysh вместо Timur. UNESCO указывает строительство нынешнего мавзолея по приказу Тимура.",
+    "158": "Выдуманный Shams al-Din Muhammad вместо Timur.",
+    "159": "Ложная предпосылка, неправильные века/даты и неверное утверждение, будто Ясави сам приказал построить мавзолей.",
+    "160": "Амал-Темір, брат Тимура, вместо Тимура плюс ошибочная хронология.",
+    "161": "Sultan Ashor Shah вместо Timur.",
+    "162": "Формулировка корявая, но фактический смысл верен: Тимур приказал построить новый мавзолей над могилой Ясави.",
+    "163": "Тимур назван, но модель ложно отвергает предпосылку и утверждает, что нынешний мавзолей построен при жизни Ясави или вскоре после смерти.",
+    "164": "Tamgaly: 2008 вместо 2004.",
+    "165": "Модель отрицает включение Tamgaly в World Heritage List.",
+    "166": "Модель отрицает включение Tamgaly в World Heritage List.",
+    "167": "Tamgaly: 2019 вместо 2004.",
+    "169": "Tamgaly: 2015 вместо 2004.",
+    "170": "Tamgaly: 2003 вместо 2004.",
+    "173": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "174": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "175": "I do not know не содержит ложного факта, но не отвечает на factual-QA вопрос; пользователь оценил 0, не как обрыв.",
+    "176": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "177": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "178": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "179": "Число 2 верно, но перечислены Кокшетауский и Бурабайский вместо Naurzum и Korgalzhyn.",
+    "180": "Saryarka включает два заповедника, Naurzum и Korgalzhyn; ответ неверен.",
+    "188": "Примечание о русском языке принято: он официально употребляется наряду с казахским."
+  },
+  "user_source_urls": [
+    "https://whc.unesco.org/en/list/1103?utm_source=chatgpt.com",
+    "https://whc.unesco.org/en/list/1145/documents?utm_source=chatgpt.com",
+    "https://whc.unesco.org/en/list/1102?utm_source=chatgpt.com",
+    "https://www.gov.kz/memleket/entities/ksrk/press/news/details/1159830?lang=ru&utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources; not represented as independent agent verification"
+}

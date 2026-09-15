@@ -1,0 +1,153 @@
+{
+  "case_id": "bc5ff71467e313f0197d84b1281dfafbc49e36e14316fc47205b7c793ef42f80",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bc5ff71467e313f0197d84b1281dfafbc49e36e14316fc47205b7c793ef42f80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is the ancient city of Petra?",
+        "sample_hashes": [
+          "10cf29fe1e1b84a3ae960c40431e806711cb74b5e741d5a83ec2e0ee81158283",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:42.698730+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "22d77e9aa9b6af0da164b1de486379466fc27103b1471c0ec69954cef0464774",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bc5ff71467e313f0197d84b1281dfafbc49e36e14316fc47205b7c793ef42f80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is the ancient city of Petra?",
+        "sample_hashes": [
+          "10cf29fe1e1b84a3ae960c40431e806711cb74b5e741d5a83ec2e0ee81158283",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:45.759454+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "ad3f0dc10211fafcb0ca80c020a4435a4fe003b3ad1225b5de427c1f7e506965",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bc5ff71467e313f0197d84b1281dfafbc49e36e14316fc47205b7c793ef42f80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is the ancient city of Petra?",
+        "sample_hashes": [
+          "10cf29fe1e1b84a3ae960c40431e806711cb74b5e741d5a83ec2e0ee81158283",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:48.638414+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "24e25c4cde647cc68029a6eb256133d170a42effce3fe6a84de2342f0567a9f5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bc5ff71467e313f0197d84b1281dfafbc49e36e14316fc47205b7c793ef42f80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is the ancient city of Petra?",
+        "sample_hashes": [
+          "10cf29fe1e1b84a3ae960c40431e806711cb74b5e741d5a83ec2e0ee81158283",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "0927811bc0803d594f6b2a76112a5abaca568dd560fd7e0a7594863964579ae0",
+          "b66284ba080fe3e250b0763e5cdbca2f63cd15467aa2066277435f356b924642"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:52.186532+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "201de8ef05a25afda4b919f762140d4111024d51e8f882377eb63656531f6153",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

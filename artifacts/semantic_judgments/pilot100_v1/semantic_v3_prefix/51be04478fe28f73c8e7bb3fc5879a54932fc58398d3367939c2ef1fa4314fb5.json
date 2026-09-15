@@ -1,0 +1,233 @@
+{
+  "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f",
+          "692bdf3ccadc5887a3715bea9a2e88be80d05e4f235c5cc66db78237a2f597ce"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:49.028671+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ae884010d657ac9a85239e47f01df77edebb5ff9d005714605b99f4a82d6666e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:49.729426+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "8f1fd69fc9edbc8014cbc264d2019dcdeadc13f5ff4129674889bbe934fa98be",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f",
+          "692bdf3ccadc5887a3715bea9a2e88be80d05e4f235c5cc66db78237a2f597ce",
+          "50054ff2d25cdac8e76e82544037f091a908768306401406a0711ee28626ff32"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:51.136026+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "5b43c25e4d2816bc3d927a3ab0b36c816adc75f92fb4af18d2c2876be67a94db",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:49.729426+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "8f1fd69fc9edbc8014cbc264d2019dcdeadc13f5ff4129674889bbe934fa98be",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f",
+          "692bdf3ccadc5887a3715bea9a2e88be80d05e4f235c5cc66db78237a2f597ce",
+          "50054ff2d25cdac8e76e82544037f091a908768306401406a0711ee28626ff32",
+          "35243e0b349f1d225f33ddc6cbf657580c367d8c9c754458852f9bade3a7d978"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:51.784816+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "925ddcb3cc2e8762f6ce2e4dc90139cfc6d3e1149d9ae85e980b6c76d110f432",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:49.729426+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "8f1fd69fc9edbc8014cbc264d2019dcdeadc13f5ff4129674889bbe934fa98be",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f",
+          "692bdf3ccadc5887a3715bea9a2e88be80d05e4f235c5cc66db78237a2f597ce",
+          "50054ff2d25cdac8e76e82544037f091a908768306401406a0711ee28626ff32",
+          "35243e0b349f1d225f33ddc6cbf657580c367d8c9c754458852f9bade3a7d978",
+          "09488ccf1325819700e00c17fc30e25cf06d16e720c8c8e85b52fc94c6578743"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:52.484622+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "d4e016c718c9791790805fb86640e92288603084f82e36a0048116d20c858908",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "51be04478fe28f73c8e7bb3fc5879a54932fc58398d3367939c2ef1fa4314fb5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "3a73c6a5a09db4680477a1adc13f0ee8663a3d4e531b5b6bb5bf33531379176f"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:49.729426+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "8f1fd69fc9edbc8014cbc264d2019dcdeadc13f5ff4129674889bbe934fa98be",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

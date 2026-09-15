@@ -1,0 +1,159 @@
+{
+  "case_id": "4b892372649f451d8104defd39dbb95eece8bc6744efdd190964a815d027aea0",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b892372649f451d8104defd39dbb95eece8bc6744efdd190964a815d027aea0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the tallest mountain on the Sun's solid surface?",
+        "sample_hashes": [
+          "db7804f827b603772a5443d859df2420590aa34c76a2b382a78e92d34794588b",
+          "ecc54366cd32c7fd085d7fe27910609dece26f4b79fd2c19337f7a295b745ea1",
+          "127f8ae35be85cea1cf2b81045f4991c03e38cfb7b1ce67caab6820e8c482b41",
+          "e79145547f721d37e007dfa43ee5f9a3af32dcb06d4c32ac8cb0ccf272bc7f5e",
+          "2500d6152f53637fbac9c53fea1434dd4c80b4e9d583f6c986e4d19652c154a4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:18.601030+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "2dcb7fd93cf628d704528be1a4c4e0971e5210124e6767e6a84a3de466a1482d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b892372649f451d8104defd39dbb95eece8bc6744efdd190964a815d027aea0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the tallest mountain on the Sun's solid surface?",
+        "sample_hashes": [
+          "db7804f827b603772a5443d859df2420590aa34c76a2b382a78e92d34794588b",
+          "ecc54366cd32c7fd085d7fe27910609dece26f4b79fd2c19337f7a295b745ea1",
+          "127f8ae35be85cea1cf2b81045f4991c03e38cfb7b1ce67caab6820e8c482b41",
+          "e79145547f721d37e007dfa43ee5f9a3af32dcb06d4c32ac8cb0ccf272bc7f5e",
+          "2500d6152f53637fbac9c53fea1434dd4c80b4e9d583f6c986e4d19652c154a4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:18.601030+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "2dcb7fd93cf628d704528be1a4c4e0971e5210124e6767e6a84a3de466a1482d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b892372649f451d8104defd39dbb95eece8bc6744efdd190964a815d027aea0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the tallest mountain on the Sun's solid surface?",
+        "sample_hashes": [
+          "db7804f827b603772a5443d859df2420590aa34c76a2b382a78e92d34794588b",
+          "ecc54366cd32c7fd085d7fe27910609dece26f4b79fd2c19337f7a295b745ea1",
+          "127f8ae35be85cea1cf2b81045f4991c03e38cfb7b1ce67caab6820e8c482b41",
+          "e79145547f721d37e007dfa43ee5f9a3af32dcb06d4c32ac8cb0ccf272bc7f5e",
+          "2500d6152f53637fbac9c53fea1434dd4c80b4e9d583f6c986e4d19652c154a4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:18.601030+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "2dcb7fd93cf628d704528be1a4c4e0971e5210124e6767e6a84a3de466a1482d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b892372649f451d8104defd39dbb95eece8bc6744efdd190964a815d027aea0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the tallest mountain on the Sun's solid surface?",
+        "sample_hashes": [
+          "db7804f827b603772a5443d859df2420590aa34c76a2b382a78e92d34794588b",
+          "ecc54366cd32c7fd085d7fe27910609dece26f4b79fd2c19337f7a295b745ea1",
+          "127f8ae35be85cea1cf2b81045f4991c03e38cfb7b1ce67caab6820e8c482b41",
+          "e79145547f721d37e007dfa43ee5f9a3af32dcb06d4c32ac8cb0ccf272bc7f5e",
+          "2500d6152f53637fbac9c53fea1434dd4c80b4e9d583f6c986e4d19652c154a4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:18.601030+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "2dcb7fd93cf628d704528be1a4c4e0971e5210124e6767e6a84a3de466a1482d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

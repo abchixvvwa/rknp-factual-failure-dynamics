@@ -1,0 +1,150 @@
+{
+  "case_id": "91fe6b2cc6624c2db89756b2d3e6fc659384c5516fc8514c8a89a07b5649e5bd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "91fe6b2cc6624c2db89756b2d3e6fc659384c5516fc8514c8a89a07b5649e5bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city is the Taj Mahal?",
+        "sample_hashes": [
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:59:52.333708+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "295050dc967f25c66bbb17e2431b1a6e2c74fb418c34ba5d187bf51702079050",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "91fe6b2cc6624c2db89756b2d3e6fc659384c5516fc8514c8a89a07b5649e5bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city is the Taj Mahal?",
+        "sample_hashes": [
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:59:52.333708+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "295050dc967f25c66bbb17e2431b1a6e2c74fb418c34ba5d187bf51702079050",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "91fe6b2cc6624c2db89756b2d3e6fc659384c5516fc8514c8a89a07b5649e5bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city is the Taj Mahal?",
+        "sample_hashes": [
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "5b4e8220d7f3572ad9ef380d3daee2def203e6db913b932c98c79a6ef88229ba"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:59:55.918523+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "f5ad1c97dc5f210e14ca15689a76242ed60ae8f76c67529d4af74ecff5d6ac01",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "91fe6b2cc6624c2db89756b2d3e6fc659384c5516fc8514c8a89a07b5649e5bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city is the Taj Mahal?",
+        "sample_hashes": [
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "335158045c9ac4740bdec07dc94c3f339967e27dc68fdbbeb8f7422700bd8441",
+          "5b4e8220d7f3572ad9ef380d3daee2def203e6db913b932c98c79a6ef88229ba",
+          "3046c978bea44e6a6234adc78981ffa473f3b885def00a32adcd86cfbb92203c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:59:59.628584+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "53cabee166fd7d8537f7ac848c96089db1a1ace7530d73f76422044ec49fff52",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

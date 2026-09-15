@@ -1,0 +1,159 @@
+{
+  "case_id": "cc099c559ba8ded6fc982cc97a15c72f52413aeae1245f20475af5829f759179",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cc099c559ba8ded6fc982cc97a15c72f52413aeae1245f20475af5829f759179",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2026 жылғы қыркүйектегі жағдай бойынша Қазақстанның астанасы қай қала?",
+        "sample_hashes": [
+          "37bfda9a3b52ef3f2e310240ed9f0c99dcc9572a6ea91f40fb71ca98dd0fd25b",
+          "b84fdaa1ef58ab5acbef85fac351d9e2c14c9a3670c51aaeca12d51867ca0bfa",
+          "5e922f5c0de23e4c4fa7c62e55e71cf60bd49f035c603fabc89a4e1f21dd78cb",
+          "242824edd1ccbbd6ee811aa6cda047b300b186e1a8cf7fae3f98fc55cd59a3e3",
+          "81039c43d460d0df03a004586d410753ae00f87784730ffd0a16cf02f9c73a89"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:06.534792+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "3c2c9ac44cf4c370e7f2a6b062dbcd27248438f51e2459d92df1e53cf9b3d322",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cc099c559ba8ded6fc982cc97a15c72f52413aeae1245f20475af5829f759179",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2026 жылғы қыркүйектегі жағдай бойынша Қазақстанның астанасы қай қала?",
+        "sample_hashes": [
+          "37bfda9a3b52ef3f2e310240ed9f0c99dcc9572a6ea91f40fb71ca98dd0fd25b",
+          "b84fdaa1ef58ab5acbef85fac351d9e2c14c9a3670c51aaeca12d51867ca0bfa",
+          "5e922f5c0de23e4c4fa7c62e55e71cf60bd49f035c603fabc89a4e1f21dd78cb",
+          "242824edd1ccbbd6ee811aa6cda047b300b186e1a8cf7fae3f98fc55cd59a3e3",
+          "81039c43d460d0df03a004586d410753ae00f87784730ffd0a16cf02f9c73a89"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:06.534792+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "3c2c9ac44cf4c370e7f2a6b062dbcd27248438f51e2459d92df1e53cf9b3d322",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cc099c559ba8ded6fc982cc97a15c72f52413aeae1245f20475af5829f759179",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2026 жылғы қыркүйектегі жағдай бойынша Қазақстанның астанасы қай қала?",
+        "sample_hashes": [
+          "37bfda9a3b52ef3f2e310240ed9f0c99dcc9572a6ea91f40fb71ca98dd0fd25b",
+          "b84fdaa1ef58ab5acbef85fac351d9e2c14c9a3670c51aaeca12d51867ca0bfa",
+          "5e922f5c0de23e4c4fa7c62e55e71cf60bd49f035c603fabc89a4e1f21dd78cb",
+          "242824edd1ccbbd6ee811aa6cda047b300b186e1a8cf7fae3f98fc55cd59a3e3",
+          "81039c43d460d0df03a004586d410753ae00f87784730ffd0a16cf02f9c73a89"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:06.534792+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "3c2c9ac44cf4c370e7f2a6b062dbcd27248438f51e2459d92df1e53cf9b3d322",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cc099c559ba8ded6fc982cc97a15c72f52413aeae1245f20475af5829f759179",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2026 жылғы қыркүйектегі жағдай бойынша Қазақстанның астанасы қай қала?",
+        "sample_hashes": [
+          "37bfda9a3b52ef3f2e310240ed9f0c99dcc9572a6ea91f40fb71ca98dd0fd25b",
+          "b84fdaa1ef58ab5acbef85fac351d9e2c14c9a3670c51aaeca12d51867ca0bfa",
+          "5e922f5c0de23e4c4fa7c62e55e71cf60bd49f035c603fabc89a4e1f21dd78cb",
+          "242824edd1ccbbd6ee811aa6cda047b300b186e1a8cf7fae3f98fc55cd59a3e3",
+          "81039c43d460d0df03a004586d410753ae00f87784730ffd0a16cf02f9c73a89"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:06.534792+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "3c2c9ac44cf4c370e7f2a6b062dbcd27248438f51e2459d92df1e53cf9b3d322",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

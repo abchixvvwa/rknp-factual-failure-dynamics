@@ -1,0 +1,166 @@
+{
+  "reviewer": "agent_math_inspection",
+  "scope": "Arithmetic only; not human semantic or factual validation",
+  "cases": [
+    {
+      "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+      "fact_id": "smoke_001",
+      "language": "ru",
+      "model": "qwen/qwen3.8-27b",
+      "grouping_sha256": "e5a3dbeb849c28feda23b9f532daed808b24b1334e47977153d9002426605e33",
+      "expected_entropy": [
+        0,
+        0.6365141682948128,
+        0.5623351446188083,
+        0
+      ],
+      "actual_entropy": [
+        -0.0,
+        0.6365141682948128,
+        0.5623351446188083,
+        -0.0
+      ],
+      "expected_target_support": [
+        1,
+        0.6666666666666666,
+        0.75,
+        1
+      ],
+      "actual_target_support": [
+        1.0,
+        0.6666666666666666,
+        0.75,
+        1.0
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "3652f8c0305031d21cfe83a58aa212e385f1e31096355e25d97acc03b5c7c42a",
+      "fact_id": "smoke_002",
+      "language": "en",
+      "model": "qwen/qwen3.8-27b",
+      "grouping_sha256": "a3e67883fa79caa4fbba528e9cfb31cd810aa4b2e7b6f6d2cf1e7f0b8191c6e9",
+      "expected_entropy": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_entropy": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "expected_target_support": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "actual_target_support": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+      "fact_id": "smoke_001",
+      "language": "en",
+      "model": "qwen/qwen3.8-27b",
+      "grouping_sha256": "f1617a247a3b7a44abce89801a03b7dec42381fe7027015991d3c4c31fbc45a7",
+      "expected_entropy": [
+        0,
+        0,
+        0,
+        0.5004024235381879
+      ],
+      "actual_entropy": [
+        -0.0,
+        -0.0,
+        -0.0,
+        0.5004024235381879
+      ],
+      "expected_target_support": [
+        1,
+        1,
+        1,
+        0.8
+      ],
+      "actual_target_support": [
+        1.0,
+        1.0,
+        1.0,
+        0.8
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "a11a1ffa7d7742f43cd1ca83e56e40b90cbb81b6bec551eaa1c154cf356e1210",
+      "fact_id": "smoke_001",
+      "language": "en",
+      "model": "openai/gpt-oss-20b",
+      "grouping_sha256": "f1cb7a54d01a3ae09b5e495261d3678c937ac1dc7313ac930d5038db196d24ea",
+      "expected_entropy": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_entropy": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "expected_target_support": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "actual_target_support": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "a4b54911cd6af541679d755dd7142d46ef65d01b75e35909c889288c142b15c9",
+      "fact_id": "smoke_001",
+      "language": "kk",
+      "model": "qwen/qwen3.8-27b",
+      "grouping_sha256": "251d6e13004160b4c8b0f6dc6d384c5d2257e34be627ee9dd14de5c70433af06",
+      "expected_entropy": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_entropy": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "expected_target_support": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "actual_target_support": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "passed": true
+    }
+  ]
+}

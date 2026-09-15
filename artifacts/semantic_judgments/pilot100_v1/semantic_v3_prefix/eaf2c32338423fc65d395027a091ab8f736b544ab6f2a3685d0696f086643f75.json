@@ -1,0 +1,245 @@
+{
+  "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:35:46.259299+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "2ee4bc47e5a75c1a11acd9f0824a8cc1e08cbb94838b2210b19d14b892088887",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:35:50.201704+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ab6e49b7d6539f71e2c922e1a068f2e52f24973338f953d327236a2ddf991882",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a",
+          "dcca49df43f6b29525db6ec0ee62efa2a34c5af2607544463b584168a4312fc2"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:35:54.387262+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "377975b0b4d33a28c585f81305892ffc9f015d27eeb85f7f10a36087b34f0e87",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:35:50.201704+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ab6e49b7d6539f71e2c922e1a068f2e52f24973338f953d327236a2ddf991882",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a",
+          "dcca49df43f6b29525db6ec0ee62efa2a34c5af2607544463b584168a4312fc2",
+          "bbf56021ab509689091ccbb52e56950b2e44dd87da9ec4eb53152133b819fe29"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:35:56.603068+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "b00dca68fe9b568fb7d4f75ec2d314a0f1b634d5d68f1ac41ec0d7eed3bb9227",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 3], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:35:50.201704+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ab6e49b7d6539f71e2c922e1a068f2e52f24973338f953d327236a2ddf991882",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a",
+          "dcca49df43f6b29525db6ec0ee62efa2a34c5af2607544463b584168a4312fc2",
+          "bbf56021ab509689091ccbb52e56950b2e44dd87da9ec4eb53152133b819fe29",
+          "dcca49df43f6b29525db6ec0ee62efa2a34c5af2607544463b584168a4312fc2"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:36:05.424138+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "7d640cb24db5dea6268d24bf7a5172e4b98720a759e532dce52efb8f194072ab",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 3], [1, 2, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "eaf2c32338423fc65d395027a091ab8f736b544ab6f2a3685d0696f086643f75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission first carried humans to the vicinity of the Moon?",
+        "sample_hashes": [
+          "cd983abf6e28765ec0d4ca90ccb63b156bbb75a3697e611921065d98859a50f7",
+          "3349eada3c78fc0a9555549cd5cd8ba05dca2b38a9b35af8b94b13aa891cae3a"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:35:50.201704+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ab6e49b7d6539f71e2c922e1a068f2e52f24973338f953d327236a2ddf991882",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

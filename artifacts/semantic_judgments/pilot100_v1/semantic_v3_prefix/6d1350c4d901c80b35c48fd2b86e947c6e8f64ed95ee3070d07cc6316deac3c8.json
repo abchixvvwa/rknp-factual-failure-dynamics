@@ -1,0 +1,213 @@
+{
+  "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "75adb167f8ed1cc90e51c62b3161008c69364e4ae55901c348553f38ff750019"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:00.671004+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "31741f55ccca5946ba70f6de3148c92c5ef9014dde00e34f868d98aa6a9f1e67",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:03.749108+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "f6d0486276119ee6eb4e3109d87b8b60f6533d80466f4f3b848b39b1048661f9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "75adb167f8ed1cc90e51c62b3161008c69364e4ae55901c348553f38ff750019",
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:06.355984+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "842e8000b6f7ee30373223afc18fac60745fb7f4e201a8f9ca066329b6627a93",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:03.749108+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "f6d0486276119ee6eb4e3109d87b8b60f6533d80466f4f3b848b39b1048661f9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "75adb167f8ed1cc90e51c62b3161008c69364e4ae55901c348553f38ff750019",
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:09.547921+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "06514ce730921605f52e7dba3c25f8cdbca2d799b28c78e6aac9d2756ee7b381",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:03.749108+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "f6d0486276119ee6eb4e3109d87b8b60f6533d80466f4f3b848b39b1048661f9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d1350c4d901c80b35c48fd2b86e947c6e8f64ed95ee3070d07cc6316deac3c8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "From which country did the United States purchase Louisiana in 1803?",
+        "sample_hashes": [
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "75adb167f8ed1cc90e51c62b3161008c69364e4ae55901c348553f38ff750019",
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "bd8e1b23b37c5edd16c0f908a3c4603cd9af710ef210c8132c5601eb5f41f8aa",
+          "e4ee227934784d9361415c591ca597301a3cc6da6c713bbf6c1a3ec7bf53f222"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:12.759459+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "2a9e854669e937a14e3a75e85e06f49ab6358ad806a2cb0c35e272f65bc5de3b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "seed": 42,
+  "pilot": {
+    "fact_count": 100,
+    "require_human_verified": true
+  },
+  "main": {
+    "target_fact_count": 500,
+    "minimum_fact_count": 300
+  },
+  "splits": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "primary_metric": "auroc",
+  "bootstrap": {
+    "resamples": 1000,
+    "confidence_level": 0.95
+  },
+  "adaptive": {
+    "min_samples": 2,
+    "max_samples": 5
+  },
+  "groq": {
+    "base_url": "https://api.groq.com/openai/v1",
+    "free_plan_confirmed": true,
+    "timeout_seconds": 60,
+    "max_retries": 4,
+    "backoff_base_seconds": 2,
+    "backoff_cap_seconds": 60,
+    "daily_request_cap": 900,
+    "limits": {
+      "requests_per_minute": 20,
+      "tokens_per_minute": 6000,
+      "requests_per_day": 900,
+      "tokens_per_day": 180000
+    },
+    "model_limits": {},
+    "enforce_local_limits": false
+  },
+  "models": {
+    "target_models": [
+      {
+        "id": "openai/gpt-oss-20b",
+        "enabled": true
+      },
+      {
+        "id": "qwen/qwen3.6-27b",
+        "enabled": true
+      },
+      {
+        "id": "qwen/qwen3.8-27b",
+        "enabled": true
+      }
+    ],
+    "semantic_judge": {
+      "id": "openai/gpt-oss-120b"
+    },
+    "availability_policy": {
+      "verify_with_models_endpoint": true,
+      "require_free_tier_access": true,
+      "allow_silent_substitution": false
+    }
+  },
+  "generation": {
+    "prompt_version": "factual_v1_kk",
+    "kazakh_prompt_human_verified": true,
+    "model_parameters": {
+      "openai/gpt-oss-20b": {
+        "reasoning_effort": "low"
+      },
+      "openai/gpt-oss-120b": {
+        "reasoning_effort": "low"
+      },
+      "qwen/qwen3.6-27b": {
+        "reasoning_effort": "none"
+      },
+      "qwen/qwen3.8-27b": {
+        "reasoning_effort": "none"
+      }
+    },
+    "target": {
+      "temperature": 0.0,
+      "seed": 42,
+      "max_completion_tokens": 512
+    },
+    "sampling": {
+      "count": 5,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_completion_tokens": 512,
+      "seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ]
+    },
+    "semantic_judge": {
+      "temperature": 0.0,
+      "seed": 777,
+      "max_completion_tokens": 256
+    }
+  },
+  "paths": {
+    "benchmark": "data/benchmark/pilot100_verified_v1.csv",
+    "splits": "data/processed/splits_pilot100_v1.csv",
+    "ledger": "artifacts/groq-third/private/requests.sqlite3",
+    "generations": "artifacts/generations/generations.parquet",
+    "snapshots": "artifacts/groq-third",
+    "logs": "logs/semantic_third",
+    "semantic_export": "artifacts/generations/semantic_third.parquet"
+  }
+}

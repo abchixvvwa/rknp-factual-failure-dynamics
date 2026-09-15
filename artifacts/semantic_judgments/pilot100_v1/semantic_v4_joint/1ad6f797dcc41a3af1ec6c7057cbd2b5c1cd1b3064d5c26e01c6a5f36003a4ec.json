@@ -1,0 +1,159 @@
+{
+  "case_id": "1ad6f797dcc41a3af1ec6c7057cbd2b5c1cd1b3064d5c26e01c6a5f36003a4ec",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ad6f797dcc41a3af1ec6c7057cbd2b5c1cd1b3064d5c26e01c6a5f36003a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1944 жылғы жазғы Олимпиада ойындарында ерлер арасындағы ұзындыққа секіруді кім жеңді?",
+        "sample_hashes": [
+          "8e16da083778282cde917edca6edb3cfeb2054697959e5914fd09638b817bbe6",
+          "2d30f75860bab88e0419040f25051affb7bcdedf83ac978b1a75e8892386f5b0",
+          "829270ff46174e9a6548fa402a92acb58189b3de3efc2b806efa8b6883b0105b",
+          "bf078cb5c4a283af5e1f32b198ebeaa7ac95baa0a888cb388e4db7438bb99c4e",
+          "80c3875aa4fcf987e884d0e99e459581ca627d103b9116414c2b8c9c2996c5f9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:00.448945+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "0903cf876cf758a0fd4823cfac0915353d722001503ddbdb642504a1d61e6e6c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ad6f797dcc41a3af1ec6c7057cbd2b5c1cd1b3064d5c26e01c6a5f36003a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1944 жылғы жазғы Олимпиада ойындарында ерлер арасындағы ұзындыққа секіруді кім жеңді?",
+        "sample_hashes": [
+          "8e16da083778282cde917edca6edb3cfeb2054697959e5914fd09638b817bbe6",
+          "2d30f75860bab88e0419040f25051affb7bcdedf83ac978b1a75e8892386f5b0",
+          "829270ff46174e9a6548fa402a92acb58189b3de3efc2b806efa8b6883b0105b",
+          "bf078cb5c4a283af5e1f32b198ebeaa7ac95baa0a888cb388e4db7438bb99c4e",
+          "80c3875aa4fcf987e884d0e99e459581ca627d103b9116414c2b8c9c2996c5f9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:00.448945+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "0903cf876cf758a0fd4823cfac0915353d722001503ddbdb642504a1d61e6e6c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ad6f797dcc41a3af1ec6c7057cbd2b5c1cd1b3064d5c26e01c6a5f36003a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1944 жылғы жазғы Олимпиада ойындарында ерлер арасындағы ұзындыққа секіруді кім жеңді?",
+        "sample_hashes": [
+          "8e16da083778282cde917edca6edb3cfeb2054697959e5914fd09638b817bbe6",
+          "2d30f75860bab88e0419040f25051affb7bcdedf83ac978b1a75e8892386f5b0",
+          "829270ff46174e9a6548fa402a92acb58189b3de3efc2b806efa8b6883b0105b",
+          "bf078cb5c4a283af5e1f32b198ebeaa7ac95baa0a888cb388e4db7438bb99c4e",
+          "80c3875aa4fcf987e884d0e99e459581ca627d103b9116414c2b8c9c2996c5f9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:00.448945+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "0903cf876cf758a0fd4823cfac0915353d722001503ddbdb642504a1d61e6e6c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ad6f797dcc41a3af1ec6c7057cbd2b5c1cd1b3064d5c26e01c6a5f36003a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1944 жылғы жазғы Олимпиада ойындарында ерлер арасындағы ұзындыққа секіруді кім жеңді?",
+        "sample_hashes": [
+          "8e16da083778282cde917edca6edb3cfeb2054697959e5914fd09638b817bbe6",
+          "2d30f75860bab88e0419040f25051affb7bcdedf83ac978b1a75e8892386f5b0",
+          "829270ff46174e9a6548fa402a92acb58189b3de3efc2b806efa8b6883b0105b",
+          "bf078cb5c4a283af5e1f32b198ebeaa7ac95baa0a888cb388e4db7438bb99c4e",
+          "80c3875aa4fcf987e884d0e99e459581ca627d103b9116414c2b8c9c2996c5f9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:00.448945+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "0903cf876cf758a0fd4823cfac0915353d722001503ddbdb642504a1d61e6e6c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

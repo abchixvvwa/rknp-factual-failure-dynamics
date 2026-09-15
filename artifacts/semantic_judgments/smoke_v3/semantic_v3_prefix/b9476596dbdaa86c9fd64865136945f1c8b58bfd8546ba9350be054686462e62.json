@@ -1,0 +1,239 @@
+{
+  "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "678146e92bd5ed9aa88637fb7b449a065c6fd746d8f7926f2e34c01bfe1e846b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:23:34.270072+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "7f96a15e0b39219adb2e839cd86f0823b19bc45859eb99e0e4b57d5f7db39f44",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:35.122267+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "0015666b4542df8712f80f5ef23fe8912c18251c6a71fae3f76efd0e69238e00",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "678146e92bd5ed9aa88637fb7b449a065c6fd746d8f7926f2e34c01bfe1e846b",
+          "5cec0190910c38d90c5b6a7e9725a523737c6f219cd34bfb21f712bb37082a06"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:23:35.679699+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "ff2dc51a97c1ce1f6f8483179d835d36bb19a9fe50fc275e8bb0cfab08875022",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:35.122267+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "0015666b4542df8712f80f5ef23fe8912c18251c6a71fae3f76efd0e69238e00",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "678146e92bd5ed9aa88637fb7b449a065c6fd746d8f7926f2e34c01bfe1e846b",
+          "5cec0190910c38d90c5b6a7e9725a523737c6f219cd34bfb21f712bb37082a06",
+          "8f8c315449a4e5499e8df8ae091e3f45557c044b345163ae3a40a6650180abd9"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:23:38.737718+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "c3f55280afec333e1cf8e3649c468f3623a1a0ac726993ce758a3893711ce5db",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "8f8c315449a4e5499e8df8ae091e3f45557c044b345163ae3a40a6650180abd9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:41.054764+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "c55b9fe7e308c80636a49beb063565f4dddf28d367bf9164d803d0f85ecad078",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "678146e92bd5ed9aa88637fb7b449a065c6fd746d8f7926f2e34c01bfe1e846b",
+          "5cec0190910c38d90c5b6a7e9725a523737c6f219cd34bfb21f712bb37082a06",
+          "8f8c315449a4e5499e8df8ae091e3f45557c044b345163ae3a40a6650180abd9",
+          "e6bfe12ba59b8f628c46542cd14f28041c2bfc749e5f966cb24ea197dfe22cb3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:23:42.286326+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "c9b4a38b91044675bcc4061e72acf0fa7781cbf2f454cc70ff27f02302fcfb0a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "b9476596dbdaa86c9fd64865136945f1c8b58bfd8546ba9350be054686462e62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Шолпанның ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "549e9a70053257a60fdbda61f0309583827869d3dfa09cc6e6f02390201c11b2",
+          "8f8c315449a4e5499e8df8ae091e3f45557c044b345163ae3a40a6650180abd9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:41.054764+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "c55b9fe7e308c80636a49beb063565f4dddf28d367bf9164d803d0f85ecad078",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

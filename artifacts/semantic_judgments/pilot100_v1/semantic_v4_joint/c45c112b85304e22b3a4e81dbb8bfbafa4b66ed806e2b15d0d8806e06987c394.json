@@ -1,0 +1,159 @@
+{
+  "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e",
+          "11131468918e8086b521d00a3ff5eee6c53487250f20555a838d8172dfe5b875"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:17.352574+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0beac5c0272032ddce9e6fe50930434b3e2368a0816dcfcc702d07f95a5b4ccf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e",
+          "11131468918e8086b521d00a3ff5eee6c53487250f20555a838d8172dfe5b875"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:17.352574+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0beac5c0272032ddce9e6fe50930434b3e2368a0816dcfcc702d07f95a5b4ccf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e",
+          "11131468918e8086b521d00a3ff5eee6c53487250f20555a838d8172dfe5b875"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:17.352574+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0beac5c0272032ddce9e6fe50930434b3e2368a0816dcfcc702d07f95a5b4ccf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e",
+          "11131468918e8086b521d00a3ff5eee6c53487250f20555a838d8172dfe5b875"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:17.352574+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0beac5c0272032ddce9e6fe50930434b3e2368a0816dcfcc702d07f95a5b4ccf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

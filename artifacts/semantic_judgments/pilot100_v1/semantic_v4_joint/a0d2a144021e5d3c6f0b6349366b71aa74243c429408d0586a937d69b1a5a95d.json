@@ -1,0 +1,159 @@
+{
+  "case_id": "a0d2a144021e5d3c6f0b6349366b71aa74243c429408d0586a937d69b1a5a95d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a0d2a144021e5d3c6f0b6349366b71aa74243c429408d0586a937d69b1a5a95d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Серенгети?",
+        "sample_hashes": [
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:21.221495+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "470c3d963e02a1829805e97704eb7b0d8ad30091830194b056612c795a53c283",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a0d2a144021e5d3c6f0b6349366b71aa74243c429408d0586a937d69b1a5a95d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Серенгети?",
+        "sample_hashes": [
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:21.221495+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "470c3d963e02a1829805e97704eb7b0d8ad30091830194b056612c795a53c283",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a0d2a144021e5d3c6f0b6349366b71aa74243c429408d0586a937d69b1a5a95d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Серенгети?",
+        "sample_hashes": [
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:21.221495+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "470c3d963e02a1829805e97704eb7b0d8ad30091830194b056612c795a53c283",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a0d2a144021e5d3c6f0b6349366b71aa74243c429408d0586a937d69b1a5a95d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Серенгети?",
+        "sample_hashes": [
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586",
+          "cc0fc08c7a5199624e0d93889f19d2dc593ce890b5141c48ff7370c3acfc6285",
+          "f696769d553f632a352ce0439e5df5b642bfd451d329cf10ae247d84ca961586"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:21.221495+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "470c3d963e02a1829805e97704eb7b0d8ad30091830194b056612c795a53c283",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

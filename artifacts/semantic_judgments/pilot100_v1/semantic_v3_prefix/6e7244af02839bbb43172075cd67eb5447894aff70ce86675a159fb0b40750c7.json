@@ -1,0 +1,153 @@
+{
+  "case_id": "6e7244af02839bbb43172075cd67eb5447894aff70ce86675a159fb0b40750c7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e7244af02839bbb43172075cd67eb5447894aff70ce86675a159fb0b40750c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission was the first to carry a crew?",
+        "sample_hashes": [
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308",
+          "ca8ab279dd480ea2b1f4673d38373dd8635da180f58a0a893e69937fddb90eb5"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:33:24.313802+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d4c250ca1b7eea66bbe8fadc9c378aab1e7def01eb3e72c092ac1acd63ef1fa3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e7244af02839bbb43172075cd67eb5447894aff70ce86675a159fb0b40750c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission was the first to carry a crew?",
+        "sample_hashes": [
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308",
+          "ca8ab279dd480ea2b1f4673d38373dd8635da180f58a0a893e69937fddb90eb5",
+          "8af71c446b9993c8d6c1766ca82c577c181c94c65a6ca02d9159ee778e86eceb"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:33:27.171728+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "b1e80ab47e898d5d31f31e40aecfecbe0ec097c81ab0b9d0a298d16b76237bfe",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e7244af02839bbb43172075cd67eb5447894aff70ce86675a159fb0b40750c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission was the first to carry a crew?",
+        "sample_hashes": [
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308",
+          "ca8ab279dd480ea2b1f4673d38373dd8635da180f58a0a893e69937fddb90eb5",
+          "8af71c446b9993c8d6c1766ca82c577c181c94c65a6ca02d9159ee778e86eceb",
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:33:39.613360+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "5281666e91ca57980a7d76348a9541d001154c79b030f0d1510f31989fe1393a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e7244af02839bbb43172075cd67eb5447894aff70ce86675a159fb0b40750c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission was the first to carry a crew?",
+        "sample_hashes": [
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308",
+          "ca8ab279dd480ea2b1f4673d38373dd8635da180f58a0a893e69937fddb90eb5",
+          "8af71c446b9993c8d6c1766ca82c577c181c94c65a6ca02d9159ee778e86eceb",
+          "38f4a4b120d8094f0e11773c4fa520fb4be9ce92a7d2df0f237761090c4e4308",
+          "8af71c446b9993c8d6c1766ca82c577c181c94c65a6ca02d9159ee778e86eceb"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:33:48.315965+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "a62fff53bf25e0549fdb84093cde93128c364eeaef2befb5bf2042944f55a10e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

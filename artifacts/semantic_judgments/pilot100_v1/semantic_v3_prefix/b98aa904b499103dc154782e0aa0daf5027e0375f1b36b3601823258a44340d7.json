@@ -1,0 +1,116 @@
+{
+  "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:21.973274+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "f65c747389f9dcc6971fc0b68307e8c882006afce35e4973b85eea63e9a5edcd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df",
+          "00ed9264d7c44b4dca8bed0cc1207685c05b7b3489b89823f8244bd9f6b28d3e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:23.740670+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "7ad865ffef19166eef7593e789d68e65f5b7e449c0a10a39e206833991281ddd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

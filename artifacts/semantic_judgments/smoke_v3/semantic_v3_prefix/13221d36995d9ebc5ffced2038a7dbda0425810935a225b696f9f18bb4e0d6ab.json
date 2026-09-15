@@ -1,0 +1,132 @@
+{
+  "case_id": "13221d36995d9ebc5ffced2038a7dbda0425810935a225b696f9f18bb4e0d6ab",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "13221d36995d9ebc5ffced2038a7dbda0425810935a225b696f9f18bb4e0d6ab",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как назывался первый искусственный спутник Земли?",
+        "sample_hashes": [
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "082c5b2335a2ac74ca1eb59c459f71f264d5d7a1db492ccf32d7526871a9954a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:59:50.385879+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "d32a990851f5998cb42b51193fe4b0ec581452502943de9794326592dd08d769",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "13221d36995d9ebc5ffced2038a7dbda0425810935a225b696f9f18bb4e0d6ab",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как назывался первый искусственный спутник Земли?",
+        "sample_hashes": [
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "082c5b2335a2ac74ca1eb59c459f71f264d5d7a1db492ccf32d7526871a9954a",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:59:50.937995+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "73483d593635caf82d92738e9a2b5d316d70ee8ed3b283397d1dcd99cb3cd950",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "13221d36995d9ebc5ffced2038a7dbda0425810935a225b696f9f18bb4e0d6ab",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как назывался первый искусственный спутник Земли?",
+        "sample_hashes": [
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "082c5b2335a2ac74ca1eb59c459f71f264d5d7a1db492ccf32d7526871a9954a",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26",
+          "bc18aeed4b8e8f7148945393247ac2daa234f26ec7459099f79c37cf92521c26"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:00:46.348834+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "afc2323c28c2e2754d278791878c9b1fee7d0c501e4841346d3bcfddc3c31c85",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

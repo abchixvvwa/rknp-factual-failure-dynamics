@@ -1,0 +1,163 @@
+{
+  "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто стал лауреатом Нобелевской премии по литературе за 1940 год?",
+        "sample_hashes": [
+          "d152a6f9e5daa518148c2f8256bf38ad064e36d4e16a1676e9a041b986fcdf7f",
+          "393575327334a753153e0bd39c82e7e5a205420210768dacd552a16472731bbe",
+          "ada0cd7f8d9bd3499683e978c73d1807d21eaed6b041510a4e76b2cda9087663",
+          "407a019439442b410de9ab819083954a2ce8f0f5142fd7e550a5afce62156f25",
+          "b576ac1939571a9018b2c2ca6ace6ed0c740acf8ae94ef06abc235099be8adf2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:30:50.704976+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ec97567b106cb7cf537808cdc7ea154f921b5689c43f9032b987bfca30b4807e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто стал лауреатом Нобелевской премии по литературе за 1940 год?",
+        "sample_hashes": [
+          "d152a6f9e5daa518148c2f8256bf38ad064e36d4e16a1676e9a041b986fcdf7f",
+          "393575327334a753153e0bd39c82e7e5a205420210768dacd552a16472731bbe",
+          "ada0cd7f8d9bd3499683e978c73d1807d21eaed6b041510a4e76b2cda9087663",
+          "407a019439442b410de9ab819083954a2ce8f0f5142fd7e550a5afce62156f25",
+          "b576ac1939571a9018b2c2ca6ace6ed0c740acf8ae94ef06abc235099be8adf2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:30:50.704976+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ec97567b106cb7cf537808cdc7ea154f921b5689c43f9032b987bfca30b4807e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто стал лауреатом Нобелевской премии по литературе за 1940 год?",
+        "sample_hashes": [
+          "d152a6f9e5daa518148c2f8256bf38ad064e36d4e16a1676e9a041b986fcdf7f",
+          "393575327334a753153e0bd39c82e7e5a205420210768dacd552a16472731bbe",
+          "ada0cd7f8d9bd3499683e978c73d1807d21eaed6b041510a4e76b2cda9087663",
+          "407a019439442b410de9ab819083954a2ce8f0f5142fd7e550a5afce62156f25",
+          "b576ac1939571a9018b2c2ca6ace6ed0c740acf8ae94ef06abc235099be8adf2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:30:50.704976+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ec97567b106cb7cf537808cdc7ea154f921b5689c43f9032b987bfca30b4807e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто стал лауреатом Нобелевской премии по литературе за 1940 год?",
+        "sample_hashes": [
+          "d152a6f9e5daa518148c2f8256bf38ad064e36d4e16a1676e9a041b986fcdf7f",
+          "393575327334a753153e0bd39c82e7e5a205420210768dacd552a16472731bbe",
+          "ada0cd7f8d9bd3499683e978c73d1807d21eaed6b041510a4e76b2cda9087663",
+          "407a019439442b410de9ab819083954a2ce8f0f5142fd7e550a5afce62156f25",
+          "b576ac1939571a9018b2c2ca6ace6ed0c740acf8ae94ef06abc235099be8adf2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:30:50.704976+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ec97567b106cb7cf537808cdc7ea154f921b5689c43f9032b987bfca30b4807e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "2a101d0c209e9e683a03b445f0dbcac2dc771127400ac8c4bb2b52367da5659c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2a101d0c209e9e683a03b445f0dbcac2dc771127400ac8c4bb2b52367da5659c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой вид белого медведя является коренным для Антарктиды?",
+        "sample_hashes": [
+          "c3b363ea6b9baca2e7246d66eb67fcb56e4585bd8350d86b6f236321dff99913",
+          "5ab18a6897e0d491cdc3d12ab6f5d44424d9dd922e65e34a7c713ff2cbff07ec",
+          "646abfc57a66ada774c3d3445dce20b9e9973c94e9d58f91eda16bb2777178e7",
+          "87977a38f8070c10dca50baa66ccbd12b7c40860c6f2bc052e991bb617c85e52",
+          "c5b7daf1318d4199707c090d925dde1cf4f75c71ae570670b333a2591e5b4ef4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:56.849762+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e5e60c28c10d5bf16857460710d0ac6129daad786ff08bd8b33df19b7f48d297",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2a101d0c209e9e683a03b445f0dbcac2dc771127400ac8c4bb2b52367da5659c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой вид белого медведя является коренным для Антарктиды?",
+        "sample_hashes": [
+          "c3b363ea6b9baca2e7246d66eb67fcb56e4585bd8350d86b6f236321dff99913",
+          "5ab18a6897e0d491cdc3d12ab6f5d44424d9dd922e65e34a7c713ff2cbff07ec",
+          "646abfc57a66ada774c3d3445dce20b9e9973c94e9d58f91eda16bb2777178e7",
+          "87977a38f8070c10dca50baa66ccbd12b7c40860c6f2bc052e991bb617c85e52",
+          "c5b7daf1318d4199707c090d925dde1cf4f75c71ae570670b333a2591e5b4ef4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:56.849762+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e5e60c28c10d5bf16857460710d0ac6129daad786ff08bd8b33df19b7f48d297",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2a101d0c209e9e683a03b445f0dbcac2dc771127400ac8c4bb2b52367da5659c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой вид белого медведя является коренным для Антарктиды?",
+        "sample_hashes": [
+          "c3b363ea6b9baca2e7246d66eb67fcb56e4585bd8350d86b6f236321dff99913",
+          "5ab18a6897e0d491cdc3d12ab6f5d44424d9dd922e65e34a7c713ff2cbff07ec",
+          "646abfc57a66ada774c3d3445dce20b9e9973c94e9d58f91eda16bb2777178e7",
+          "87977a38f8070c10dca50baa66ccbd12b7c40860c6f2bc052e991bb617c85e52",
+          "c5b7daf1318d4199707c090d925dde1cf4f75c71ae570670b333a2591e5b4ef4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:56.849762+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e5e60c28c10d5bf16857460710d0ac6129daad786ff08bd8b33df19b7f48d297",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2a101d0c209e9e683a03b445f0dbcac2dc771127400ac8c4bb2b52367da5659c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой вид белого медведя является коренным для Антарктиды?",
+        "sample_hashes": [
+          "c3b363ea6b9baca2e7246d66eb67fcb56e4585bd8350d86b6f236321dff99913",
+          "5ab18a6897e0d491cdc3d12ab6f5d44424d9dd922e65e34a7c713ff2cbff07ec",
+          "646abfc57a66ada774c3d3445dce20b9e9973c94e9d58f91eda16bb2777178e7",
+          "87977a38f8070c10dca50baa66ccbd12b7c40860c6f2bc052e991bb617c85e52",
+          "c5b7daf1318d4199707c090d925dde1cf4f75c71ae570670b333a2591e5b4ef4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:56.849762+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e5e60c28c10d5bf16857460710d0ac6129daad786ff08bd8b33df19b7f48d297",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

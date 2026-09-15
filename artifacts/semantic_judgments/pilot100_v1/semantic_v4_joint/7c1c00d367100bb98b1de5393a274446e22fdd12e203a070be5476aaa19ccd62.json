@@ -1,0 +1,159 @@
+{
+  "case_id": "7c1c00d367100bb98b1de5393a274446e22fdd12e203a070be5476aaa19ccd62",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7c1c00d367100bb98b1de5393a274446e22fdd12e203a070be5476aaa19ccd62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақорда сайтына сәйкес Қазақстан аумағының көлемі бойынша әлемде нешінші орында?",
+        "sample_hashes": [
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "172804cc09e2b08e95abbd6af69562ac87cf971ad635f7b8bc4546845c991727",
+          "cba0adfcb6c9cfd1abdb13e3626717915f8109014b954eb457d122028b565918",
+          "f12732c4afb28fae98193db22baa1a11d41ed0fb44ae9ae6a92085b02b7214fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:56.741020+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "279ee8d3cd33ac07b5ebd7f128be8969f8058c32302d05218f2019f146d1d35f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7c1c00d367100bb98b1de5393a274446e22fdd12e203a070be5476aaa19ccd62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақорда сайтына сәйкес Қазақстан аумағының көлемі бойынша әлемде нешінші орында?",
+        "sample_hashes": [
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "172804cc09e2b08e95abbd6af69562ac87cf971ad635f7b8bc4546845c991727",
+          "cba0adfcb6c9cfd1abdb13e3626717915f8109014b954eb457d122028b565918",
+          "f12732c4afb28fae98193db22baa1a11d41ed0fb44ae9ae6a92085b02b7214fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:56.741020+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "279ee8d3cd33ac07b5ebd7f128be8969f8058c32302d05218f2019f146d1d35f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7c1c00d367100bb98b1de5393a274446e22fdd12e203a070be5476aaa19ccd62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақорда сайтына сәйкес Қазақстан аумағының көлемі бойынша әлемде нешінші орында?",
+        "sample_hashes": [
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "172804cc09e2b08e95abbd6af69562ac87cf971ad635f7b8bc4546845c991727",
+          "cba0adfcb6c9cfd1abdb13e3626717915f8109014b954eb457d122028b565918",
+          "f12732c4afb28fae98193db22baa1a11d41ed0fb44ae9ae6a92085b02b7214fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:56.741020+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "279ee8d3cd33ac07b5ebd7f128be8969f8058c32302d05218f2019f146d1d35f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7c1c00d367100bb98b1de5393a274446e22fdd12e203a070be5476aaa19ccd62",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ақорда сайтына сәйкес Қазақстан аумағының көлемі бойынша әлемде нешінші орында?",
+        "sample_hashes": [
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "8c6cc82f96102b5ccf7491cc6ef3ea8c30102674fab902061e51db93ed7af530",
+          "172804cc09e2b08e95abbd6af69562ac87cf971ad635f7b8bc4546845c991727",
+          "cba0adfcb6c9cfd1abdb13e3626717915f8109014b954eb457d122028b565918",
+          "f12732c4afb28fae98193db22baa1a11d41ed0fb44ae9ae6a92085b02b7214fc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:56.741020+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "279ee8d3cd33ac07b5ebd7f128be8969f8058c32302d05218f2019f146d1d35f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

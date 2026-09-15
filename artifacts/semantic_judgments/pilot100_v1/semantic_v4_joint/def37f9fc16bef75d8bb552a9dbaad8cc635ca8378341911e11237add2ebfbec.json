@@ -1,0 +1,159 @@
+{
+  "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто разработал государственный флаг Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "8a2a3de774a2e904bc2ada9dfb1d67962a985469f9227a64a78e30eb855efe57",
+          "a568ad4fbaba3101ef7c8e03968000e6788b9f43a0257ebc7fb588b9ee96ac81",
+          "1af9670a46683e0dd6a49d714d1ccead54e833afdef21abad237c1be545a7e46",
+          "09249a468236ed231df83f468bc48ae0e36b695c0e20e057ffcbe235d440fe9c",
+          "7bce2a864590ba0e596706b3e659d4f0cf78044658dae3780377ce7d4c709368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:15:03.441394+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "6c6a34703ce5760febe28073a101b53b95212cc1a68a6baf15763dd6830c1aba",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто разработал государственный флаг Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "8a2a3de774a2e904bc2ada9dfb1d67962a985469f9227a64a78e30eb855efe57",
+          "a568ad4fbaba3101ef7c8e03968000e6788b9f43a0257ebc7fb588b9ee96ac81",
+          "1af9670a46683e0dd6a49d714d1ccead54e833afdef21abad237c1be545a7e46",
+          "09249a468236ed231df83f468bc48ae0e36b695c0e20e057ffcbe235d440fe9c",
+          "7bce2a864590ba0e596706b3e659d4f0cf78044658dae3780377ce7d4c709368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:15:03.441394+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "6c6a34703ce5760febe28073a101b53b95212cc1a68a6baf15763dd6830c1aba",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто разработал государственный флаг Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "8a2a3de774a2e904bc2ada9dfb1d67962a985469f9227a64a78e30eb855efe57",
+          "a568ad4fbaba3101ef7c8e03968000e6788b9f43a0257ebc7fb588b9ee96ac81",
+          "1af9670a46683e0dd6a49d714d1ccead54e833afdef21abad237c1be545a7e46",
+          "09249a468236ed231df83f468bc48ae0e36b695c0e20e057ffcbe235d440fe9c",
+          "7bce2a864590ba0e596706b3e659d4f0cf78044658dae3780377ce7d4c709368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:15:03.441394+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "6c6a34703ce5760febe28073a101b53b95212cc1a68a6baf15763dd6830c1aba",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто разработал государственный флаг Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "8a2a3de774a2e904bc2ada9dfb1d67962a985469f9227a64a78e30eb855efe57",
+          "a568ad4fbaba3101ef7c8e03968000e6788b9f43a0257ebc7fb588b9ee96ac81",
+          "1af9670a46683e0dd6a49d714d1ccead54e833afdef21abad237c1be545a7e46",
+          "09249a468236ed231df83f468bc48ae0e36b695c0e20e057ffcbe235d440fe9c",
+          "7bce2a864590ba0e596706b3e659d4f0cf78044658dae3780377ce7d4c709368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:15:03.441394+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "6c6a34703ce5760febe28073a101b53b95212cc1a68a6baf15763dd6830c1aba",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

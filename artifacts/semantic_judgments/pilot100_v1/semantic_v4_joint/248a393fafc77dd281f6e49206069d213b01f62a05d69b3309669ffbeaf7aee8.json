@@ -1,0 +1,159 @@
+{
+  "case_id": "248a393fafc77dd281f6e49206069d213b01f62a05d69b3309669ffbeaf7aee8",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "248a393fafc77dd281f6e49206069d213b01f62a05d69b3309669ffbeaf7aee8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году состоялась первоначальная церемония открытия Суэцкого канала?",
+        "sample_hashes": [
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:46.365780+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2369545671073a17eccb62fb46539f6afaec7c53b90151e2271f5d975ef70012",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "248a393fafc77dd281f6e49206069d213b01f62a05d69b3309669ffbeaf7aee8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году состоялась первоначальная церемония открытия Суэцкого канала?",
+        "sample_hashes": [
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:46.365780+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2369545671073a17eccb62fb46539f6afaec7c53b90151e2271f5d975ef70012",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "248a393fafc77dd281f6e49206069d213b01f62a05d69b3309669ffbeaf7aee8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году состоялась первоначальная церемония открытия Суэцкого канала?",
+        "sample_hashes": [
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:46.365780+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2369545671073a17eccb62fb46539f6afaec7c53b90151e2271f5d975ef70012",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "248a393fafc77dd281f6e49206069d213b01f62a05d69b3309669ffbeaf7aee8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году состоялась первоначальная церемония открытия Суэцкого канала?",
+        "sample_hashes": [
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab",
+          "98144ee76f3e2b1e5e40f5246f505c329656dbc5fec9179a02df114e376c2db5",
+          "930f7bc78c2340e72256603f3c3803be6664b9b05bd91a996fcec771c6917dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:46.365780+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2369545671073a17eccb62fb46539f6afaec7c53b90151e2271f5d975ef70012",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

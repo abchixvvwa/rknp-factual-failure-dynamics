@@ -1,0 +1,233 @@
+{
+  "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:34:20.454988+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "d66cd4e3c069a8831cc83279590885029556a3695040393142ea93cb80eda0bf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:34:23.114772+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e36a979a04ddb7b7c48921eb0274aa101edd5829abc0c3710c9f6b0e08f5de3a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:34:26.736199+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1ea3ebe3cab3b1d679aebc50b5d651f0bd21798fda9be593ae65cc830cfa71a2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:34:23.114772+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e36a979a04ddb7b7c48921eb0274aa101edd5829abc0c3710c9f6b0e08f5de3a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:34:30.613773+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1d501afd424bb16076f3b223f11fb7645272571b8699b38ed62d543881fcbd62",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:34:23.114772+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e36a979a04ddb7b7c48921eb0274aa101edd5829abc0c3710c9f6b0e08f5de3a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3",
+          "e3e4866daf7262dd80a57ab9c42ad4c4329607f7ae9bdcd48be0e65918a0f4f1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:34:33.496911+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "e094035902f592c2ebb3c2aba65c0aba3c7fc4261c1425a2bdf09a4ed48bd231",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:34:23.114772+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e36a979a04ddb7b7c48921eb0274aa101edd5829abc0c3710c9f6b0e08f5de3a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

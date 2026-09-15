@@ -1,0 +1,159 @@
+{
+  "case_id": "e92520366cba5f93ca3f953d59e5119d6f1ef538a79dbed1466fa17b4fbf0744",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e92520366cba5f93ca3f953d59e5119d6f1ef538a79dbed1466fa17b4fbf0744",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1982 год?",
+        "sample_hashes": [
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "7b0469ef1adedf0992eb8a7f3d5dec640c39cbce7db805b66ff8345b8240a10a",
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "de52329cbb345576ff50478a2b88fa34cc27f69b7435555e3f611117e6ac4803",
+          "8807f1a2a1fbed41da9d50571320d1cbb722a33939fd2c7b641b3e2b6538d36e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:56.733906+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "bf614abdfb04cf78dcd5b628993cd3207860283447b1a8b285aed5e739716f75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e92520366cba5f93ca3f953d59e5119d6f1ef538a79dbed1466fa17b4fbf0744",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1982 год?",
+        "sample_hashes": [
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "7b0469ef1adedf0992eb8a7f3d5dec640c39cbce7db805b66ff8345b8240a10a",
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "de52329cbb345576ff50478a2b88fa34cc27f69b7435555e3f611117e6ac4803",
+          "8807f1a2a1fbed41da9d50571320d1cbb722a33939fd2c7b641b3e2b6538d36e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:56.733906+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "bf614abdfb04cf78dcd5b628993cd3207860283447b1a8b285aed5e739716f75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e92520366cba5f93ca3f953d59e5119d6f1ef538a79dbed1466fa17b4fbf0744",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1982 год?",
+        "sample_hashes": [
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "7b0469ef1adedf0992eb8a7f3d5dec640c39cbce7db805b66ff8345b8240a10a",
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "de52329cbb345576ff50478a2b88fa34cc27f69b7435555e3f611117e6ac4803",
+          "8807f1a2a1fbed41da9d50571320d1cbb722a33939fd2c7b641b3e2b6538d36e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:56.733906+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "bf614abdfb04cf78dcd5b628993cd3207860283447b1a8b285aed5e739716f75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e92520366cba5f93ca3f953d59e5119d6f1ef538a79dbed1466fa17b4fbf0744",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1982 год?",
+        "sample_hashes": [
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "7b0469ef1adedf0992eb8a7f3d5dec640c39cbce7db805b66ff8345b8240a10a",
+          "e5ce327ed4b15afa75254105c44458d8a7c055667152e31269bd8f0fcfcd1ee6",
+          "de52329cbb345576ff50478a2b88fa34cc27f69b7435555e3f611117e6ac4803",
+          "8807f1a2a1fbed41da9d50571320d1cbb722a33939fd2c7b641b3e2b6538d36e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:56.733906+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "bf614abdfb04cf78dcd5b628993cd3207860283447b1a8b285aed5e739716f75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

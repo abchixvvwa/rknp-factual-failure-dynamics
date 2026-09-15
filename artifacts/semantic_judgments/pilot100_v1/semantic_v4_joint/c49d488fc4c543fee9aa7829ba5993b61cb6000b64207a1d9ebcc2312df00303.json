@@ -1,0 +1,159 @@
+{
+  "case_id": "c49d488fc4c543fee9aa7829ba5993b61cb6000b64207a1d9ebcc2312df00303",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c49d488fc4c543fee9aa7829ba5993b61cb6000b64207a1d9ebcc2312df00303",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Адамның қалыпты диплоидты жасушасында неше хромосома болады?",
+        "sample_hashes": [
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "a7632591a6b146adf62911dec2a2d7753d5323553fb9a4728a56a2cb79d11e3b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:47.176836+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "d41d5f6b5305090d1a83727ca15990c984a830b79d4f0bc894c2730a6027513e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c49d488fc4c543fee9aa7829ba5993b61cb6000b64207a1d9ebcc2312df00303",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Адамның қалыпты диплоидты жасушасында неше хромосома болады?",
+        "sample_hashes": [
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "a7632591a6b146adf62911dec2a2d7753d5323553fb9a4728a56a2cb79d11e3b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:47.176836+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "d41d5f6b5305090d1a83727ca15990c984a830b79d4f0bc894c2730a6027513e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c49d488fc4c543fee9aa7829ba5993b61cb6000b64207a1d9ebcc2312df00303",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Адамның қалыпты диплоидты жасушасында неше хромосома болады?",
+        "sample_hashes": [
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "a7632591a6b146adf62911dec2a2d7753d5323553fb9a4728a56a2cb79d11e3b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:47.176836+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "d41d5f6b5305090d1a83727ca15990c984a830b79d4f0bc894c2730a6027513e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c49d488fc4c543fee9aa7829ba5993b61cb6000b64207a1d9ebcc2312df00303",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Адамның қалыпты диплоидты жасушасында неше хромосома болады?",
+        "sample_hashes": [
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "b29a74fc78b97876822aa0277cb9799944c8f5fbd48385575bafa49042b66d24",
+          "fa3f9ee79aff2938f11966515626092674c76be088f425e7065510a16db0a0e0",
+          "a7632591a6b146adf62911dec2a2d7753d5323553fb9a4728a56a2cb79d11e3b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:47.176836+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "d41d5f6b5305090d1a83727ca15990c984a830b79d4f0bc894c2730a6027513e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

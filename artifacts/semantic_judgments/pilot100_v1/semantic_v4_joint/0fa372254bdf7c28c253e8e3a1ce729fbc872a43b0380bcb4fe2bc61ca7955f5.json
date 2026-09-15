@@ -1,0 +1,163 @@
+{
+  "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какого числа Казахстан провозгласил независимость в 1991 году?",
+        "sample_hashes": [
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [true, true, false, false]\n}",
+        "created_at": "2026-09-14T18:40:20.222419+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "aa85577f9516acb8649d40b5f3738c86af9055063aa7fe27db18d181ce166d72",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какого числа Казахстан провозгласил независимость в 1991 году?",
+        "sample_hashes": [
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [true, true, false, false]\n}",
+        "created_at": "2026-09-14T18:40:20.222419+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "aa85577f9516acb8649d40b5f3738c86af9055063aa7fe27db18d181ce166d72",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какого числа Казахстан провозгласил независимость в 1991 году?",
+        "sample_hashes": [
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [true, true, false, false]\n}",
+        "created_at": "2026-09-14T18:40:20.222419+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "aa85577f9516acb8649d40b5f3738c86af9055063aa7fe27db18d181ce166d72",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какого числа Казахстан провозгласил независимость в 1991 году?",
+        "sample_hashes": [
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "7cf55e4c5bd85beda8a0f295ae1dfa871220a6d3b2ce0509c977a11ce613f348",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360",
+          "a7e48cb8c9269c3f0b74012e4dea792d72ee48357a110386e3598688a6f11360"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [true, true, false, false]\n}",
+        "created_at": "2026-09-14T18:40:20.222419+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "aa85577f9516acb8649d40b5f3738c86af9055063aa7fe27db18d181ce166d72",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2], [3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

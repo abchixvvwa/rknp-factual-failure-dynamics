@@ -1,0 +1,179 @@
+{
+  "overall": {
+    "resolved": 889,
+    "correct": 714,
+    "incorrect": 175,
+    "accuracy": 0.8031496062992126,
+    "unresolved_invalid": 11
+  },
+  "by_model": [
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "count": 297,
+      "sum": 228,
+      "accuracy": 0.7676767676767676,
+      "error_rate": 0.23232323232323238
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "count": 299,
+      "sum": 255,
+      "accuracy": 0.8528428093645485,
+      "error_rate": 0.14715719063545152
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "count": 293,
+      "sum": 231,
+      "accuracy": 0.78839590443686,
+      "error_rate": 0.21160409556313997
+    }
+  ],
+  "by_language": [
+    {
+      "language": "en",
+      "count": 298,
+      "sum": 254,
+      "accuracy": 0.8523489932885906,
+      "error_rate": 0.1476510067114094
+    },
+    {
+      "language": "kk",
+      "count": 294,
+      "sum": 216,
+      "accuracy": 0.7346938775510204,
+      "error_rate": 0.26530612244897955
+    },
+    {
+      "language": "ru",
+      "count": 297,
+      "sum": 244,
+      "accuracy": 0.8215488215488216,
+      "error_rate": 0.17845117845117842
+    }
+  ],
+  "by_category": [
+    {
+      "category": "adversarial_false_premise",
+      "count": 177,
+      "sum": 121,
+      "accuracy": 0.6836158192090396,
+      "error_rate": 0.3163841807909604
+    },
+    {
+      "category": "culture",
+      "count": 138,
+      "sum": 119,
+      "accuracy": 0.8623188405797102,
+      "error_rate": 0.1376811594202898
+    },
+    {
+      "category": "geography",
+      "count": 144,
+      "sum": 136,
+      "accuracy": 0.9444444444444444,
+      "error_rate": 0.05555555555555558
+    },
+    {
+      "category": "history",
+      "count": 144,
+      "sum": 128,
+      "accuracy": 0.8888888888888888,
+      "error_rate": 0.11111111111111116
+    },
+    {
+      "category": "kazakhstan",
+      "count": 142,
+      "sum": 68,
+      "accuracy": 0.4788732394366197,
+      "error_rate": 0.5211267605633803
+    },
+    {
+      "category": "science",
+      "count": 144,
+      "sum": 142,
+      "accuracy": 0.9861111111111112,
+      "error_rate": 0.01388888888888884
+    }
+  ],
+  "by_model_language": [
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "language": "en",
+      "count": 98,
+      "sum": 82,
+      "accuracy": 0.8367346938775511,
+      "error_rate": 0.16326530612244894
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "language": "kk",
+      "count": 100,
+      "sum": 66,
+      "accuracy": 0.66,
+      "error_rate": 0.33999999999999997
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "language": "ru",
+      "count": 99,
+      "sum": 80,
+      "accuracy": 0.8080808080808081,
+      "error_rate": 0.19191919191919193
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "language": "en",
+      "count": 100,
+      "sum": 88,
+      "accuracy": 0.88,
+      "error_rate": 0.12
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "language": "kk",
+      "count": 99,
+      "sum": 85,
+      "accuracy": 0.8585858585858586,
+      "error_rate": 0.14141414141414144
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "language": "ru",
+      "count": 100,
+      "sum": 82,
+      "accuracy": 0.82,
+      "error_rate": 0.18000000000000005
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "language": "en",
+      "count": 100,
+      "sum": 84,
+      "accuracy": 0.84,
+      "error_rate": 0.16000000000000003
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "language": "kk",
+      "count": 95,
+      "sum": 65,
+      "accuracy": 0.6842105263157895,
+      "error_rate": 0.3157894736842105
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "language": "ru",
+      "count": 98,
+      "sum": 82,
+      "accuracy": 0.8367346938775511,
+      "error_rate": 0.16326530612244894
+    }
+  ],
+  "label_status": {
+    "manual_correct": 557,
+    "manual_incorrect": 175,
+    "auto_correct": 157,
+    "unresolved": 11
+  }
+}

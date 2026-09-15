@@ -1,0 +1,163 @@
+{
+  "case_id": "bd7e1a88786b3317b6e0c26ddd671c9ddff9d3f56be415c63dd6e7e54371dc45",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd7e1a88786b3317b6e0c26ddd671c9ddff9d3f56be415c63dd6e7e54371dc45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1993 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "a20d6c77dae315501b2eb2e05704120330ba8fa49716a601f36e3ab95087b9db",
+          "675bcee202d2d1db2d14b2da3d78d0a943107e72fbcaa6a83110df984d41b029"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:06.082247+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "88fbae3df2e41036d9cf4149a1e4abb612bcfc7dc2a28bcfe6d900c6a1be818d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd7e1a88786b3317b6e0c26ddd671c9ddff9d3f56be415c63dd6e7e54371dc45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1993 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "a20d6c77dae315501b2eb2e05704120330ba8fa49716a601f36e3ab95087b9db",
+          "675bcee202d2d1db2d14b2da3d78d0a943107e72fbcaa6a83110df984d41b029"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:06.082247+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "88fbae3df2e41036d9cf4149a1e4abb612bcfc7dc2a28bcfe6d900c6a1be818d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd7e1a88786b3317b6e0c26ddd671c9ddff9d3f56be415c63dd6e7e54371dc45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1993 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "a20d6c77dae315501b2eb2e05704120330ba8fa49716a601f36e3ab95087b9db",
+          "675bcee202d2d1db2d14b2da3d78d0a943107e72fbcaa6a83110df984d41b029"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:06.082247+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "88fbae3df2e41036d9cf4149a1e4abb612bcfc7dc2a28bcfe6d900c6a1be818d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd7e1a88786b3317b6e0c26ddd671c9ddff9d3f56be415c63dd6e7e54371dc45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1993 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "60a5fbcd2e6c18e0b37a05001ed198d3cee86cb150039a00c83d0d5732ece24b",
+          "a20d6c77dae315501b2eb2e05704120330ba8fa49716a601f36e3ab95087b9db",
+          "675bcee202d2d1db2d14b2da3d78d0a943107e72fbcaa6a83110df984d41b029"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:06.082247+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "88fbae3df2e41036d9cf4149a1e4abb612bcfc7dc2a28bcfe6d900c6a1be818d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2], [3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

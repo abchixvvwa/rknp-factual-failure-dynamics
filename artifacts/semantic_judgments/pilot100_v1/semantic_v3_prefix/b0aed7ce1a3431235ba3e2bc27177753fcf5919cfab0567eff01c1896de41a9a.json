@@ -1,0 +1,136 @@
+{
+  "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:37.566511+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "6db062bf05f4bfa43002c80f5d578f6a203a61076878fbfc8a7e647ea0dbbf91",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0,\"D\":1},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:19:40.486884+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "43b85fbdd54d52cf1cda58afc2b9e380f787b1eb9b9232264e213d105fc354e3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b0aed7ce1a3431235ba3e2bc27177753fcf5919cfab0567eff01c1896de41a9a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted American Gothic?",
+        "sample_hashes": [
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "e7ea188b3d8d721ace8f381b353c7815eae5c62a1b3dbd866b61ae074692342b",
+          "bc4f5971c4ffca2853cff5c39f695c036aabfe2390f1c4b525001c6e68df58ef",
+          "ef0813fa368013f84509472ba2f6b916f94bc5f0745ccc5782c0898fd365c28f",
+          "27422ce5e5930e33045fffbfe2c05ffc94be233c30aa1124211208579fa8978a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:43.494222+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "fa2216f7f5f2e7db6b1e47877d2f95ec8e28af898bf9021c75819a4e9c7abc5d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

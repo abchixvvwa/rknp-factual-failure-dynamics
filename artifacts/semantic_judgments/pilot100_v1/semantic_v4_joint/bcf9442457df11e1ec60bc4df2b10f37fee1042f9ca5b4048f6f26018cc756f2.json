@@ -1,0 +1,159 @@
+{
+  "case_id": "bcf9442457df11e1ec60bc4df2b10f37fee1042f9ca5b4048f6f26018cc756f2",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bcf9442457df11e1ec60bc4df2b10f37fee1042f9ca5b4048f6f26018cc756f2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's long jump at the 1944 Summer Olympics?",
+        "sample_hashes": [
+          "2c72d4a705bd818b2fb4d5cd4ad3df708930e2caf494cc8d236e7514a536dc1c",
+          "f99ee3bc550a56b065899fbfb9a511bb9ccb4f2e5790fed2bd6004c0da8bc088",
+          "c4df673fe54e149696a0e714d5a772abafa5ed8756d8f2333809c7cfb04ea499",
+          "25f9a99f871a3db6f708367a32cde6b8b4ae9ceeb6b043701441d2e5c31a3974",
+          "c5ebe89dc41484ab5ea38e009fb4a4f3fbc93ea8268c8088b1964ac3fc10edb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:06.439465+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "1b6e9a097e401ad0de0aad96096a2651cfe24c094d517b270d90a5fb8b2b191c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bcf9442457df11e1ec60bc4df2b10f37fee1042f9ca5b4048f6f26018cc756f2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's long jump at the 1944 Summer Olympics?",
+        "sample_hashes": [
+          "2c72d4a705bd818b2fb4d5cd4ad3df708930e2caf494cc8d236e7514a536dc1c",
+          "f99ee3bc550a56b065899fbfb9a511bb9ccb4f2e5790fed2bd6004c0da8bc088",
+          "c4df673fe54e149696a0e714d5a772abafa5ed8756d8f2333809c7cfb04ea499",
+          "25f9a99f871a3db6f708367a32cde6b8b4ae9ceeb6b043701441d2e5c31a3974",
+          "c5ebe89dc41484ab5ea38e009fb4a4f3fbc93ea8268c8088b1964ac3fc10edb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:06.439465+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "1b6e9a097e401ad0de0aad96096a2651cfe24c094d517b270d90a5fb8b2b191c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bcf9442457df11e1ec60bc4df2b10f37fee1042f9ca5b4048f6f26018cc756f2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's long jump at the 1944 Summer Olympics?",
+        "sample_hashes": [
+          "2c72d4a705bd818b2fb4d5cd4ad3df708930e2caf494cc8d236e7514a536dc1c",
+          "f99ee3bc550a56b065899fbfb9a511bb9ccb4f2e5790fed2bd6004c0da8bc088",
+          "c4df673fe54e149696a0e714d5a772abafa5ed8756d8f2333809c7cfb04ea499",
+          "25f9a99f871a3db6f708367a32cde6b8b4ae9ceeb6b043701441d2e5c31a3974",
+          "c5ebe89dc41484ab5ea38e009fb4a4f3fbc93ea8268c8088b1964ac3fc10edb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:06.439465+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "1b6e9a097e401ad0de0aad96096a2651cfe24c094d517b270d90a5fb8b2b191c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bcf9442457df11e1ec60bc4df2b10f37fee1042f9ca5b4048f6f26018cc756f2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's long jump at the 1944 Summer Olympics?",
+        "sample_hashes": [
+          "2c72d4a705bd818b2fb4d5cd4ad3df708930e2caf494cc8d236e7514a536dc1c",
+          "f99ee3bc550a56b065899fbfb9a511bb9ccb4f2e5790fed2bd6004c0da8bc088",
+          "c4df673fe54e149696a0e714d5a772abafa5ed8756d8f2333809c7cfb04ea499",
+          "25f9a99f871a3db6f708367a32cde6b8b4ae9ceeb6b043701441d2e5c31a3974",
+          "c5ebe89dc41484ab5ea38e009fb4a4f3fbc93ea8268c8088b1964ac3fc10edb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:06.439465+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "1b6e9a097e401ad0de0aad96096a2651cfe24c094d517b270d90a5fb8b2b191c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

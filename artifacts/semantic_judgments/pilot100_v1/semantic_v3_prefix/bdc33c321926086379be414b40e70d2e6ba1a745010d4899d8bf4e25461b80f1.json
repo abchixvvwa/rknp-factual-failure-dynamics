@@ -1,0 +1,150 @@
+{
+  "case_id": "bdc33c321926086379be414b40e70d2e6ba1a745010d4899d8bf4e25461b80f1",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "bdc33c321926086379be414b40e70d2e6ba1a745010d4899d8bf4e25461b80f1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who commanded Apollo 11?",
+        "sample_hashes": [
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:32:43.420776+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "9c18b3333a5d6b5f60f0b9c9a16df197a84aa25060c0aa03f87bc484138c3ddf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "bdc33c321926086379be414b40e70d2e6ba1a745010d4899d8bf4e25461b80f1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who commanded Apollo 11?",
+        "sample_hashes": [
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:32:43.420776+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "9c18b3333a5d6b5f60f0b9c9a16df197a84aa25060c0aa03f87bc484138c3ddf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bdc33c321926086379be414b40e70d2e6ba1a745010d4899d8bf4e25461b80f1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who commanded Apollo 11?",
+        "sample_hashes": [
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "48ae78ed94236ed7434bda97ba2fef243e4cb81a1f430c08418cc714df3ef64e"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0,\"D\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T05:32:43.791573+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "fc755e0b63990b75f07b18f650ae8e6eff3c1d2e2c8ac4be0bd8d67d0cba2920",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bdc33c321926086379be414b40e70d2e6ba1a745010d4899d8bf4e25461b80f1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who commanded Apollo 11?",
+        "sample_hashes": [
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "7ed9f9d403769c8fe09cdd9a90804d9c3770f10df9f71ee5d8ed391994258ca7",
+          "48ae78ed94236ed7434bda97ba2fef243e4cb81a1f430c08418cc714df3ef64e",
+          "48ae78ed94236ed7434bda97ba2fef243e4cb81a1f430c08418cc714df3ef64e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:32:44.548657+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "a448184c46092f9662089403107c65daf4615141e100128521d2e08076c2fb72",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

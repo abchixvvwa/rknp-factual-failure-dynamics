@@ -1,0 +1,159 @@
+{
+  "case_id": "980963bbfee015cb85f92c918b0e0b0953654b67628afbfb2988885913d00225",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "980963bbfee015cb85f92c918b0e0b0953654b67628afbfb2988885913d00225",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской марафон на Олимпийских играх 1916 года?",
+        "sample_hashes": [
+          "b66891c6c7ea7df165c0f8cd74478fd3eccca757c7036290a9303ed2f8546383",
+          "1b1726ccf1e3ce1b97305b38ca7afbf69ec68edb767dae0a779d6bcad7550a4f",
+          "17519f505f04353b7887fc951831f58af72d270c1c4be7639015ccd0d05c1af5",
+          "18a81cab64048bd560b63d9c65b7b3c0341fe4961354f7f9fbe20fb9158c6332",
+          "d68616e0c6de15c61c3826bfb1cf27f5f118481b85c2b4e340d5e7462d6ff648"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:01.616799+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "c2bb125324e2a940afebb1963ad84d894a35fcbce91cd4e2ad764f62a13b6e78",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "980963bbfee015cb85f92c918b0e0b0953654b67628afbfb2988885913d00225",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской марафон на Олимпийских играх 1916 года?",
+        "sample_hashes": [
+          "b66891c6c7ea7df165c0f8cd74478fd3eccca757c7036290a9303ed2f8546383",
+          "1b1726ccf1e3ce1b97305b38ca7afbf69ec68edb767dae0a779d6bcad7550a4f",
+          "17519f505f04353b7887fc951831f58af72d270c1c4be7639015ccd0d05c1af5",
+          "18a81cab64048bd560b63d9c65b7b3c0341fe4961354f7f9fbe20fb9158c6332",
+          "d68616e0c6de15c61c3826bfb1cf27f5f118481b85c2b4e340d5e7462d6ff648"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:01.616799+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "c2bb125324e2a940afebb1963ad84d894a35fcbce91cd4e2ad764f62a13b6e78",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "980963bbfee015cb85f92c918b0e0b0953654b67628afbfb2988885913d00225",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской марафон на Олимпийских играх 1916 года?",
+        "sample_hashes": [
+          "b66891c6c7ea7df165c0f8cd74478fd3eccca757c7036290a9303ed2f8546383",
+          "1b1726ccf1e3ce1b97305b38ca7afbf69ec68edb767dae0a779d6bcad7550a4f",
+          "17519f505f04353b7887fc951831f58af72d270c1c4be7639015ccd0d05c1af5",
+          "18a81cab64048bd560b63d9c65b7b3c0341fe4961354f7f9fbe20fb9158c6332",
+          "d68616e0c6de15c61c3826bfb1cf27f5f118481b85c2b4e340d5e7462d6ff648"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:01.616799+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "c2bb125324e2a940afebb1963ad84d894a35fcbce91cd4e2ad764f62a13b6e78",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "980963bbfee015cb85f92c918b0e0b0953654b67628afbfb2988885913d00225",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской марафон на Олимпийских играх 1916 года?",
+        "sample_hashes": [
+          "b66891c6c7ea7df165c0f8cd74478fd3eccca757c7036290a9303ed2f8546383",
+          "1b1726ccf1e3ce1b97305b38ca7afbf69ec68edb767dae0a779d6bcad7550a4f",
+          "17519f505f04353b7887fc951831f58af72d270c1c4be7639015ccd0d05c1af5",
+          "18a81cab64048bd560b63d9c65b7b3c0341fe4961354f7f9fbe20fb9158c6332",
+          "d68616e0c6de15c61c3826bfb1cf27f5f118481b85c2b4e340d5e7462d6ff648"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:01.616799+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "c2bb125324e2a940afebb1963ad84d894a35fcbce91cd4e2ad764f62a13b6e78",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

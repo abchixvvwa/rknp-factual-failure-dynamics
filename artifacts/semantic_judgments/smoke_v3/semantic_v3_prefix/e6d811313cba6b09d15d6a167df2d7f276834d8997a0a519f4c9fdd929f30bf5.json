@@ -1,0 +1,229 @@
+{
+  "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:13:56.083108+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "e6df172709c8cfcf373387b39f48ea246ba7226c91709ede3776b147c864996f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:13:56.662570+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e800db2931cd4a3d7be775475fb9c333e030b60045d5a3735cf3518923e4a739",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:13:58.115162+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "5224a6abc09c6dbf2ec3a95622474d787e14eb17ab82c57a4d547a4cf6b3e31b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:13:56.662570+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e800db2931cd4a3d7be775475fb9c333e030b60045d5a3735cf3518923e4a739",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "7b403522f2f5b7b889dcabebf4a3c820ba8767e8a9fd73b56e465644770cb8bf"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 1,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:14:00.879357+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "4a63fe523a89d55d64809bef3027fe6b62fe4311a9d29918c7238e478aa662c8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "7b403522f2f5b7b889dcabebf4a3c820ba8767e8a9fd73b56e465644770cb8bf"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:14:01.288373+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "6a01556be162c7615f82d6933f0613868d377703529a2901ed8f400155bc4eb9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e6d811313cba6b09d15d6a167df2d7f276834d8997a0a519f4c9fdd929f30bf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Қазақстан Біріккен Ұлттар Ұйымына қай күні қабылданды?",
+        "sample_hashes": [
+          "c6d5e3cc552ec421bda1cfb1ee8ceafdeb52cb46f2adbdd92db95b0bc60dc916",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "0118916172e1fea961fc1834317505825d4503ae5caf236d709e5cd4a01a46c5",
+          "7b403522f2f5b7b889dcabebf4a3c820ba8767e8a9fd73b56e465644770cb8bf",
+          "e6da107ddbd5166a32e0396eff3532927f8bed8a5ded501792715467053ca1d5"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 2,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:14:50.038511+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "bdf77fbdad555d092d14ef1a24df2fbb044447c2cd670d941eaba258bd086cb0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

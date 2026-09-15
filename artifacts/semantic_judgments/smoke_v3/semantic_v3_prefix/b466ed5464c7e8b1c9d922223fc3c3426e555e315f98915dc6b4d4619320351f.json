@@ -1,0 +1,193 @@
+{
+  "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856",
+          "bf7f13d29b75d08e5b370d4877ae2272f8d1ff10754329a31e71970271db9a94"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:48.570705+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "01b3f578b14c8dfabfc9b1281ea6dd39f9f7945d0c12bb54dc335dc2c5319c7d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:02:49.050473+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "56d7bf68984c196d833c22b8a402ac1cdbf2f2fecd1540c46846f9fa7ec56003",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856",
+          "bf7f13d29b75d08e5b370d4877ae2272f8d1ff10754329a31e71970271db9a94",
+          "84844df64a2b146c114ab499ee639364bf9c58278934a6efa109ce057002ac7a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:49.490793+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "3a5ac5714b63c494ed4d12fe8ce69793bf7b4f072b003e8ec560188bfb0dc8e1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:02:49.050473+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "56d7bf68984c196d833c22b8a402ac1cdbf2f2fecd1540c46846f9fa7ec56003",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856",
+          "bf7f13d29b75d08e5b370d4877ae2272f8d1ff10754329a31e71970271db9a94",
+          "84844df64a2b146c114ab499ee639364bf9c58278934a6efa109ce057002ac7a",
+          "f86025170d160751dcf5a4ae3a5d1257c140ff0e9a4f9d38dd04a64efe9d94a9"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:51.782082+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "47056d51b149452e98764d4971f97b9b97817f0f1965c71f7ef4dafff3b8c95a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b466ed5464c7e8b1c9d922223fc3c3426e555e315f98915dc6b4d4619320351f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the deepest lake in the world?",
+        "sample_hashes": [
+          "5c0919f5361904c6db61c9cec66efe47dbfec5b7031b18aa07577acbd78d3856",
+          "bf7f13d29b75d08e5b370d4877ae2272f8d1ff10754329a31e71970271db9a94",
+          "84844df64a2b146c114ab499ee639364bf9c58278934a6efa109ce057002ac7a",
+          "f86025170d160751dcf5a4ae3a5d1257c140ff0e9a4f9d38dd04a64efe9d94a9",
+          "165aa36b7351f4f89a9260cc3a425375b8f6aac07bedfe4105a00ac5102d6c1b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:52.190363+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "01d2df078dec6e9396f24125b955d9277a51eefc75c4849501062208ed5e325b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

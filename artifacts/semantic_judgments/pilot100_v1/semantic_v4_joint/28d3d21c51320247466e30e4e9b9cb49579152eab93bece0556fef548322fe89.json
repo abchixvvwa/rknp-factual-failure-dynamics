@@ -1,0 +1,169 @@
+{
+  "case_id": "28d3d21c51320247466e30e4e9b9cb49579152eab93bece0556fef548322fe89",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "28d3d21c51320247466e30e4e9b9cb49579152eab93bece0556fef548322fe89",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік елтаңбасының ортасында киіз үйдің қай бөлігі бейнеленген?",
+        "sample_hashes": [
+          "3d13088080596559120b6b69fe15d33f2a598efbb08af9e01fef1c7921252a88",
+          "75468c2dfb07a76c89af5375bbc845d1b69146cfd2aa6318da34d5268a222e82",
+          "80ccb75ad6c96b8c7226d3a1217b127f2cba0cc2f02bb41c9a2303dedea98e27",
+          "90aeaaf4a5dc3d569b1e908d307cf8071db6d722c358a065dcdf080b08f09be6",
+          "449025cf4ec861ab60e307d01d7a29697254d96674802ae49dbd74daff80d0ea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:23:07.280135+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1aa89e306d65214e33dc472e07575813302047c7d39f0ee94fc6bb9131509057",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "28d3d21c51320247466e30e4e9b9cb49579152eab93bece0556fef548322fe89",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік елтаңбасының ортасында киіз үйдің қай бөлігі бейнеленген?",
+        "sample_hashes": [
+          "3d13088080596559120b6b69fe15d33f2a598efbb08af9e01fef1c7921252a88",
+          "75468c2dfb07a76c89af5375bbc845d1b69146cfd2aa6318da34d5268a222e82",
+          "80ccb75ad6c96b8c7226d3a1217b127f2cba0cc2f02bb41c9a2303dedea98e27",
+          "90aeaaf4a5dc3d569b1e908d307cf8071db6d722c358a065dcdf080b08f09be6",
+          "449025cf4ec861ab60e307d01d7a29697254d96674802ae49dbd74daff80d0ea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:23:07.280135+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1aa89e306d65214e33dc472e07575813302047c7d39f0ee94fc6bb9131509057",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "28d3d21c51320247466e30e4e9b9cb49579152eab93bece0556fef548322fe89",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік елтаңбасының ортасында киіз үйдің қай бөлігі бейнеленген?",
+        "sample_hashes": [
+          "3d13088080596559120b6b69fe15d33f2a598efbb08af9e01fef1c7921252a88",
+          "75468c2dfb07a76c89af5375bbc845d1b69146cfd2aa6318da34d5268a222e82",
+          "80ccb75ad6c96b8c7226d3a1217b127f2cba0cc2f02bb41c9a2303dedea98e27",
+          "90aeaaf4a5dc3d569b1e908d307cf8071db6d722c358a065dcdf080b08f09be6",
+          "449025cf4ec861ab60e307d01d7a29697254d96674802ae49dbd74daff80d0ea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:23:07.280135+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1aa89e306d65214e33dc472e07575813302047c7d39f0ee94fc6bb9131509057",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "28d3d21c51320247466e30e4e9b9cb49579152eab93bece0556fef548322fe89",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік елтаңбасының ортасында киіз үйдің қай бөлігі бейнеленген?",
+        "sample_hashes": [
+          "3d13088080596559120b6b69fe15d33f2a598efbb08af9e01fef1c7921252a88",
+          "75468c2dfb07a76c89af5375bbc845d1b69146cfd2aa6318da34d5268a222e82",
+          "80ccb75ad6c96b8c7226d3a1217b127f2cba0cc2f02bb41c9a2303dedea98e27",
+          "90aeaaf4a5dc3d569b1e908d307cf8071db6d722c358a065dcdf080b08f09be6",
+          "449025cf4ec861ab60e307d01d7a29697254d96674802ae49dbd74daff80d0ea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:23:07.280135+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "1aa89e306d65214e33dc472e07575813302047c7d39f0ee94fc6bb9131509057",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3], [1], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

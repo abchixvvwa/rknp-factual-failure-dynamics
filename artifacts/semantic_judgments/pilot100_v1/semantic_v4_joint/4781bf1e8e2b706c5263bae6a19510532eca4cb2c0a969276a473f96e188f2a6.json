@@ -1,0 +1,159 @@
+{
+  "case_id": "4781bf1e8e2b706c5263bae6a19510532eca4cb2c0a969276a473f96e188f2a6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4781bf1e8e2b706c5263bae6a19510532eca4cb2c0a969276a473f96e188f2a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Шолпанның ең жалпақ табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "d6bd9c83c8d36513647142081ce9326d8e339983adcd21667d92fe459f76df2b",
+          "4387be632a78e8a89489f10001d7a65b33f6b526778f77ea677bdd10894e7f43",
+          "4b690ee4317f9fad29cb910da24a20a19760fe580932e69e099d7868107bd74e",
+          "a03ea5a23697eadedda7e0146a77c9c8c26d7ff24940aa2ffb6ca2dfd94976ea",
+          "aae00b29d4338b0eaf16045f37e313ef9b7f0af692edc6d4fdcd3eb7a8ecf8dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:29.783717+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "3b1fe8d1af7f2566fc0543516758520bb139b560d69b5abb3b5549960b6c5311",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4781bf1e8e2b706c5263bae6a19510532eca4cb2c0a969276a473f96e188f2a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Шолпанның ең жалпақ табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "d6bd9c83c8d36513647142081ce9326d8e339983adcd21667d92fe459f76df2b",
+          "4387be632a78e8a89489f10001d7a65b33f6b526778f77ea677bdd10894e7f43",
+          "4b690ee4317f9fad29cb910da24a20a19760fe580932e69e099d7868107bd74e",
+          "a03ea5a23697eadedda7e0146a77c9c8c26d7ff24940aa2ffb6ca2dfd94976ea",
+          "aae00b29d4338b0eaf16045f37e313ef9b7f0af692edc6d4fdcd3eb7a8ecf8dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:29.783717+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "3b1fe8d1af7f2566fc0543516758520bb139b560d69b5abb3b5549960b6c5311",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4781bf1e8e2b706c5263bae6a19510532eca4cb2c0a969276a473f96e188f2a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Шолпанның ең жалпақ табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "d6bd9c83c8d36513647142081ce9326d8e339983adcd21667d92fe459f76df2b",
+          "4387be632a78e8a89489f10001d7a65b33f6b526778f77ea677bdd10894e7f43",
+          "4b690ee4317f9fad29cb910da24a20a19760fe580932e69e099d7868107bd74e",
+          "a03ea5a23697eadedda7e0146a77c9c8c26d7ff24940aa2ffb6ca2dfd94976ea",
+          "aae00b29d4338b0eaf16045f37e313ef9b7f0af692edc6d4fdcd3eb7a8ecf8dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:29.783717+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "3b1fe8d1af7f2566fc0543516758520bb139b560d69b5abb3b5549960b6c5311",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4781bf1e8e2b706c5263bae6a19510532eca4cb2c0a969276a473f96e188f2a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Шолпанның ең жалпақ табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "d6bd9c83c8d36513647142081ce9326d8e339983adcd21667d92fe459f76df2b",
+          "4387be632a78e8a89489f10001d7a65b33f6b526778f77ea677bdd10894e7f43",
+          "4b690ee4317f9fad29cb910da24a20a19760fe580932e69e099d7868107bd74e",
+          "a03ea5a23697eadedda7e0146a77c9c8c26d7ff24940aa2ffb6ca2dfd94976ea",
+          "aae00b29d4338b0eaf16045f37e313ef9b7f0af692edc6d4fdcd3eb7a8ecf8dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:29.783717+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "3b1fe8d1af7f2566fc0543516758520bb139b560d69b5abb3b5549960b6c5311",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

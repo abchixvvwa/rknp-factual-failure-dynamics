@@ -1,0 +1,159 @@
+{
+  "case_id": "ee70e7ae1c7b6bbe5edd5b1b40e4304c61c0c9bfeb53a1f3228a16debbba6702",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ee70e7ae1c7b6bbe5edd5b1b40e4304c61c0c9bfeb53a1f3228a16debbba6702",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году французские солдаты обнаружили Розеттский камень?",
+        "sample_hashes": [
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "f4aa1c68b6f66dbf964c611d7788ba2430c4b5df4a59c69f3c1cd024393fefe4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:42.443609+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "2a9a1eacf2abc1bcebb2fcc11d9aa6f2e2b5365dc12794ef1f29cad2b439e88c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ee70e7ae1c7b6bbe5edd5b1b40e4304c61c0c9bfeb53a1f3228a16debbba6702",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году французские солдаты обнаружили Розеттский камень?",
+        "sample_hashes": [
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "f4aa1c68b6f66dbf964c611d7788ba2430c4b5df4a59c69f3c1cd024393fefe4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:42.443609+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "2a9a1eacf2abc1bcebb2fcc11d9aa6f2e2b5365dc12794ef1f29cad2b439e88c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ee70e7ae1c7b6bbe5edd5b1b40e4304c61c0c9bfeb53a1f3228a16debbba6702",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году французские солдаты обнаружили Розеттский камень?",
+        "sample_hashes": [
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "f4aa1c68b6f66dbf964c611d7788ba2430c4b5df4a59c69f3c1cd024393fefe4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:42.443609+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "2a9a1eacf2abc1bcebb2fcc11d9aa6f2e2b5365dc12794ef1f29cad2b439e88c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ee70e7ae1c7b6bbe5edd5b1b40e4304c61c0c9bfeb53a1f3228a16debbba6702",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году французские солдаты обнаружили Розеттский камень?",
+        "sample_hashes": [
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "63a4b69673ba773821ec0128843e7c2a0c7089c4f85f2b05d088cae62bf64647",
+          "7ee93f7d1ecedf76dfe7ce0714018b5172188f8c565ce905633682c218a07467",
+          "f4aa1c68b6f66dbf964c611d7788ba2430c4b5df4a59c69f3c1cd024393fefe4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:36:42.443609+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "2a9a1eacf2abc1bcebb2fcc11d9aa6f2e2b5365dc12794ef1f29cad2b439e88c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

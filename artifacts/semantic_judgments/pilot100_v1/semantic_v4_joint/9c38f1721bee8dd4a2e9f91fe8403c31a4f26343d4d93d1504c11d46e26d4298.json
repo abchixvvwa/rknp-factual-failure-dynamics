@@ -1,0 +1,159 @@
+{
+  "case_id": "9c38f1721bee8dd4a2e9f91fe8403c31a4f26343d4d93d1504c11d46e26d4298",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c38f1721bee8dd4a2e9f91fe8403c31a4f26343d4d93d1504c11d46e26d4298",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Панама каналы 1914 жылы қай күні ресми түрде ашылды?",
+        "sample_hashes": [
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "4d272f44b3a33022d2595a6bc2769cb18b25718c58b326756c002e5eb379f416",
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "8add827cb9e7009500cc336d5ad6d66ad248ab43aac8a6013460381ffd6ecde0",
+          "cf62a2c84dd0f57d5cabbf0834df34db71ee4d2c0f63d73094df72a7c7fa0f6a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:04.964444+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "8662b9876f2ef70e949d3a71cd99b935e8a99c0a1b4be0cecfed47704dfb6fe8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c38f1721bee8dd4a2e9f91fe8403c31a4f26343d4d93d1504c11d46e26d4298",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Панама каналы 1914 жылы қай күні ресми түрде ашылды?",
+        "sample_hashes": [
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "4d272f44b3a33022d2595a6bc2769cb18b25718c58b326756c002e5eb379f416",
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "8add827cb9e7009500cc336d5ad6d66ad248ab43aac8a6013460381ffd6ecde0",
+          "cf62a2c84dd0f57d5cabbf0834df34db71ee4d2c0f63d73094df72a7c7fa0f6a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:04.964444+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "8662b9876f2ef70e949d3a71cd99b935e8a99c0a1b4be0cecfed47704dfb6fe8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c38f1721bee8dd4a2e9f91fe8403c31a4f26343d4d93d1504c11d46e26d4298",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Панама каналы 1914 жылы қай күні ресми түрде ашылды?",
+        "sample_hashes": [
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "4d272f44b3a33022d2595a6bc2769cb18b25718c58b326756c002e5eb379f416",
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "8add827cb9e7009500cc336d5ad6d66ad248ab43aac8a6013460381ffd6ecde0",
+          "cf62a2c84dd0f57d5cabbf0834df34db71ee4d2c0f63d73094df72a7c7fa0f6a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:04.964444+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "8662b9876f2ef70e949d3a71cd99b935e8a99c0a1b4be0cecfed47704dfb6fe8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9c38f1721bee8dd4a2e9f91fe8403c31a4f26343d4d93d1504c11d46e26d4298",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Панама каналы 1914 жылы қай күні ресми түрде ашылды?",
+        "sample_hashes": [
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "4d272f44b3a33022d2595a6bc2769cb18b25718c58b326756c002e5eb379f416",
+          "ab3f75d13df40e3a87132b03fdece29a6ef3460030e14d3005d71e6f26d22ded",
+          "8add827cb9e7009500cc336d5ad6d66ad248ab43aac8a6013460381ffd6ecde0",
+          "cf62a2c84dd0f57d5cabbf0834df34db71ee4d2c0f63d73094df72a7c7fa0f6a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:04.964444+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "8662b9876f2ef70e949d3a71cd99b935e8a99c0a1b4be0cecfed47704dfb6fe8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

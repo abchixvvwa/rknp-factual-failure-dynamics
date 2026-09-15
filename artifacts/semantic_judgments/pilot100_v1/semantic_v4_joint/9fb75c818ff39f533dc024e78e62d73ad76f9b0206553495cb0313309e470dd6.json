@@ -1,0 +1,167 @@
+{
+  "case_id": "9fb75c818ff39f533dc024e78e62d73ad76f9b0206553495cb0313309e470dd6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fb75c818ff39f533dc024e78e62d73ad76f9b0206553495cb0313309e470dd6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who created the print The Great Wave off Kanagawa?",
+        "sample_hashes": [
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:06.508805+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "13d0e2d06cf5da0b5e7b647a023f6ce788be60829a9f22bb8f16899b46e0f7fb",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fb75c818ff39f533dc024e78e62d73ad76f9b0206553495cb0313309e470dd6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who created the print The Great Wave off Kanagawa?",
+        "sample_hashes": [
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:06.508805+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "13d0e2d06cf5da0b5e7b647a023f6ce788be60829a9f22bb8f16899b46e0f7fb",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fb75c818ff39f533dc024e78e62d73ad76f9b0206553495cb0313309e470dd6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who created the print The Great Wave off Kanagawa?",
+        "sample_hashes": [
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:06.508805+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "13d0e2d06cf5da0b5e7b647a023f6ce788be60829a9f22bb8f16899b46e0f7fb",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2], [1, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fb75c818ff39f533dc024e78e62d73ad76f9b0206553495cb0313309e470dd6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who created the print The Great Wave off Kanagawa?",
+        "sample_hashes": [
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f",
+          "a334f1bfeb2106d3856f35b357abde545123764b9991e6ad2e9b6ef409b3adab",
+          "7ec8567e64fbbc2a83e4678ba1d7381b7443bd2c80ef08d2c643d0a9fb9c6a8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:06.508805+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "13d0e2d06cf5da0b5e7b647a023f6ce788be60829a9f22bb8f16899b46e0f7fb",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 4], [1, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:29.851098+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "1e9df7a7d72f219af28dd8a07570890a00e42308ef9663f04e33d862f2697339",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:30.754589+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "974572615d5a0e12f5d948bc5cd6c745dde2112d2be351ede5615522a37f3e27",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:31.642963+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "b6c319b5f8bdaf51e6754d8a937ff43a4611acd432c005b918617acc88179754",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:33.814408+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "41be979d11afd34962b47cd080ecd9c115ae6dc0e43f77bdaed6b62d28600d0c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e",
+          "e135e31054bd1688e8a168bbe50fc5b560e7ab17e1ff2416679968029c572c23"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:34.514172+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "c6056a9164ec6c447b7c14d6dad35a4a1efcda84d3ba39770a97737580eb5557",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 3], [1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:33.814408+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "41be979d11afd34962b47cd080ecd9c115ae6dc0e43f77bdaed6b62d28600d0c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e",
+          "e135e31054bd1688e8a168bbe50fc5b560e7ab17e1ff2416679968029c572c23",
+          "e10657d7cc5f79a995a545f721369817ee54c58f15dad1f451100acb26feb67d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 0,\n    \"E\": 3\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:35.397665+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d06744db0aac7bb7f3418b688042c187e293bfdbb10e2ee3bed91e1cccc08a28",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 3], [1], [2], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "99f2fef1d40bfec1efb2635cab26aef657ec73fe74c20796caecc2517fac3bd5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who designed Kazakhstan's national flag adopted in 1992?",
+        "sample_hashes": [
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a",
+          "28cdebffd60b57d9a74c8b5111ac46c419fad905d6aedafddfec0a488852879f",
+          "2ca1aa0bb80aad1524a85adee5325015dcb4a073128b5f598bffcd429ea74c0e",
+          "e10657d7cc5f79a995a545f721369817ee54c58f15dad1f451100acb26feb67d"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:36.664816+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "b63f86110e6892c78c51200a80f762299480279838f43b4c3cb3d757ee11c2ac",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

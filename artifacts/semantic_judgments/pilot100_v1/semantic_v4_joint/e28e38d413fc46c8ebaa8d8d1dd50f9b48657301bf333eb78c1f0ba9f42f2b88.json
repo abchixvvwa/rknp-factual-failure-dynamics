@@ -1,0 +1,159 @@
+{
+  "case_id": "e28e38d413fc46c8ebaa8d8d1dd50f9b48657301bf333eb78c1f0ba9f42f2b88",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e28e38d413fc46c8ebaa8d8d1dd50f9b48657301bf333eb78c1f0ba9f42f2b88",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Apollo mission first used the Lunar Roving Vehicle on the Moon?",
+        "sample_hashes": [
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "84b89498e65f279b53954631a408478cdc5f3147a6fe55d1fb59ce9a4d9264d8",
+          "fc4187c5163e09a9b5074c51d0c8205153258fc5dbd09f2e3e34f9d9669a911b",
+          "ea492d2fda5d7e23f73ca1ffb6f7301eb1f59efb657dbd6d0056f9c1013eddbf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:02:02.564926+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "c7f0e3dd122179b22d5222352bd872857339366459782b4ba5139fdc870c74cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e28e38d413fc46c8ebaa8d8d1dd50f9b48657301bf333eb78c1f0ba9f42f2b88",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Apollo mission first used the Lunar Roving Vehicle on the Moon?",
+        "sample_hashes": [
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "84b89498e65f279b53954631a408478cdc5f3147a6fe55d1fb59ce9a4d9264d8",
+          "fc4187c5163e09a9b5074c51d0c8205153258fc5dbd09f2e3e34f9d9669a911b",
+          "ea492d2fda5d7e23f73ca1ffb6f7301eb1f59efb657dbd6d0056f9c1013eddbf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:02:02.564926+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "c7f0e3dd122179b22d5222352bd872857339366459782b4ba5139fdc870c74cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e28e38d413fc46c8ebaa8d8d1dd50f9b48657301bf333eb78c1f0ba9f42f2b88",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Apollo mission first used the Lunar Roving Vehicle on the Moon?",
+        "sample_hashes": [
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "84b89498e65f279b53954631a408478cdc5f3147a6fe55d1fb59ce9a4d9264d8",
+          "fc4187c5163e09a9b5074c51d0c8205153258fc5dbd09f2e3e34f9d9669a911b",
+          "ea492d2fda5d7e23f73ca1ffb6f7301eb1f59efb657dbd6d0056f9c1013eddbf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:02:02.564926+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "c7f0e3dd122179b22d5222352bd872857339366459782b4ba5139fdc870c74cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e28e38d413fc46c8ebaa8d8d1dd50f9b48657301bf333eb78c1f0ba9f42f2b88",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Apollo mission first used the Lunar Roving Vehicle on the Moon?",
+        "sample_hashes": [
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "c247d3faed04cfcb67448a18b7a8b728a14d4492d8259ec20e92a459319acc22",
+          "84b89498e65f279b53954631a408478cdc5f3147a6fe55d1fb59ce9a4d9264d8",
+          "fc4187c5163e09a9b5074c51d0c8205153258fc5dbd09f2e3e34f9d9669a911b",
+          "ea492d2fda5d7e23f73ca1ffb6f7301eb1f59efb657dbd6d0056f9c1013eddbf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:02:02.564926+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "c7f0e3dd122179b22d5222352bd872857339366459782b4ba5139fdc870c74cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

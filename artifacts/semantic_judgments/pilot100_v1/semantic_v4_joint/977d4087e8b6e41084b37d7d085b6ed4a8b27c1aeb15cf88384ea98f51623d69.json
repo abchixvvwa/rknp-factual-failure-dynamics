@@ -1,0 +1,159 @@
+{
+  "case_id": "977d4087e8b6e41084b37d7d085b6ed4a8b27c1aeb15cf88384ea98f51623d69",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "977d4087e8b6e41084b37d7d085b6ed4a8b27c1aeb15cf88384ea98f51623d69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал музыку государственного гимна Казахстана, принятого в 2006 году?",
+        "sample_hashes": [
+          "c6c43621d27c211678e2d2f314594ca9031a3387894e8178cc1920b9c4d095d8",
+          "fb3e599f443f0f9864989129daaa566af0015b343362c385073e3df510514893",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7",
+          "e7ee1ef51624cae0ed71fdf53e3107b5ccbea1094503528c7a56883d1a5cde37",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:01.378238+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "4e54f1aebe8c17cd75f981c5295188d8ce2f264574562ddcbe60967aa1adf1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "977d4087e8b6e41084b37d7d085b6ed4a8b27c1aeb15cf88384ea98f51623d69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал музыку государственного гимна Казахстана, принятого в 2006 году?",
+        "sample_hashes": [
+          "c6c43621d27c211678e2d2f314594ca9031a3387894e8178cc1920b9c4d095d8",
+          "fb3e599f443f0f9864989129daaa566af0015b343362c385073e3df510514893",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7",
+          "e7ee1ef51624cae0ed71fdf53e3107b5ccbea1094503528c7a56883d1a5cde37",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:01.378238+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "4e54f1aebe8c17cd75f981c5295188d8ce2f264574562ddcbe60967aa1adf1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "977d4087e8b6e41084b37d7d085b6ed4a8b27c1aeb15cf88384ea98f51623d69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал музыку государственного гимна Казахстана, принятого в 2006 году?",
+        "sample_hashes": [
+          "c6c43621d27c211678e2d2f314594ca9031a3387894e8178cc1920b9c4d095d8",
+          "fb3e599f443f0f9864989129daaa566af0015b343362c385073e3df510514893",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7",
+          "e7ee1ef51624cae0ed71fdf53e3107b5ccbea1094503528c7a56883d1a5cde37",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:01.378238+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "4e54f1aebe8c17cd75f981c5295188d8ce2f264574562ddcbe60967aa1adf1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "977d4087e8b6e41084b37d7d085b6ed4a8b27c1aeb15cf88384ea98f51623d69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал музыку государственного гимна Казахстана, принятого в 2006 году?",
+        "sample_hashes": [
+          "c6c43621d27c211678e2d2f314594ca9031a3387894e8178cc1920b9c4d095d8",
+          "fb3e599f443f0f9864989129daaa566af0015b343362c385073e3df510514893",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7",
+          "e7ee1ef51624cae0ed71fdf53e3107b5ccbea1094503528c7a56883d1a5cde37",
+          "7da944f71f149059cbd8849ce2fe7efabcdccf34b8bc66cbfa431e38d521c7b7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:01.378238+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "4e54f1aebe8c17cd75f981c5295188d8ce2f264574562ddcbe60967aa1adf1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

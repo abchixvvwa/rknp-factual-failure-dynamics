@@ -1,0 +1,169 @@
+{
+  "case_id": "e4e1c90f29bf8d1a439550119f63af39d86584e471cbecafdf2c6a0e500ace9f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e4e1c90f29bf8d1a439550119f63af39d86584e471cbecafdf2c6a0e500ace9f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тингведлир ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "f2fef7701aef7e3959d4450e5494d42e8c013c4c5f481c42a3af9f94e4504ce1",
+          "d5b8bf6c64f0cd9c7dea0c768798c0cddb9180c924b76fe9e763e2ba39ff7366",
+          "674246bffdd341ae5c6c3ab78b758d17e567852b691205ca05d41464ea099469",
+          "c62e27f359f3183a06827580f066cdffa8a4edfd08129c0302ec004457aeea3b",
+          "9d9e2d93616f563ad388c02f6d30bb6a056bfb77092f3c2045f181972bb91d14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:40.608892+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "c639b0c153af29ad6841969394ddd2d0f55c2e19724fa88ef9626a8ffe030dd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e4e1c90f29bf8d1a439550119f63af39d86584e471cbecafdf2c6a0e500ace9f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тингведлир ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "f2fef7701aef7e3959d4450e5494d42e8c013c4c5f481c42a3af9f94e4504ce1",
+          "d5b8bf6c64f0cd9c7dea0c768798c0cddb9180c924b76fe9e763e2ba39ff7366",
+          "674246bffdd341ae5c6c3ab78b758d17e567852b691205ca05d41464ea099469",
+          "c62e27f359f3183a06827580f066cdffa8a4edfd08129c0302ec004457aeea3b",
+          "9d9e2d93616f563ad388c02f6d30bb6a056bfb77092f3c2045f181972bb91d14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:40.608892+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "c639b0c153af29ad6841969394ddd2d0f55c2e19724fa88ef9626a8ffe030dd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e4e1c90f29bf8d1a439550119f63af39d86584e471cbecafdf2c6a0e500ace9f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тингведлир ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "f2fef7701aef7e3959d4450e5494d42e8c013c4c5f481c42a3af9f94e4504ce1",
+          "d5b8bf6c64f0cd9c7dea0c768798c0cddb9180c924b76fe9e763e2ba39ff7366",
+          "674246bffdd341ae5c6c3ab78b758d17e567852b691205ca05d41464ea099469",
+          "c62e27f359f3183a06827580f066cdffa8a4edfd08129c0302ec004457aeea3b",
+          "9d9e2d93616f563ad388c02f6d30bb6a056bfb77092f3c2045f181972bb91d14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:40.608892+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "c639b0c153af29ad6841969394ddd2d0f55c2e19724fa88ef9626a8ffe030dd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e4e1c90f29bf8d1a439550119f63af39d86584e471cbecafdf2c6a0e500ace9f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тингведлир ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "f2fef7701aef7e3959d4450e5494d42e8c013c4c5f481c42a3af9f94e4504ce1",
+          "d5b8bf6c64f0cd9c7dea0c768798c0cddb9180c924b76fe9e763e2ba39ff7366",
+          "674246bffdd341ae5c6c3ab78b758d17e567852b691205ca05d41464ea099469",
+          "c62e27f359f3183a06827580f066cdffa8a4edfd08129c0302ec004457aeea3b",
+          "9d9e2d93616f563ad388c02f6d30bb6a056bfb77092f3c2045f181972bb91d14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:40.608892+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "c639b0c153af29ad6841969394ddd2d0f55c2e19724fa88ef9626a8ffe030dd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3], [1], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

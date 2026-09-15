@@ -1,0 +1,167 @@
+{
+  "case_id": "8b05df207a906bdef91ba80cfe4d4467b4ee58556049aa688c0678b412223a29",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8b05df207a906bdef91ba80cfe4d4467b4ee58556049aa688c0678b412223a29",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой правитель приказал построить нынешний мавзолей Ходжи Ахмеда Ясави в конце XIV века?",
+        "sample_hashes": [
+          "f8ecb8bdf20410bd1887a588e06e21d39c47162da4cdd5a5a16a51b89274a16f",
+          "d905d465dbcf1ca722e3c5159cedf81f572aac41069e61afca245581f926b4f3",
+          "2b1e82d76b8552f1806b78284412aa9e3f0eb99d11003e7891bd69abd1d1cabf",
+          "3f1f04e89be8cb0f010913ecc01a39e5613112abcc79fcc4c8c6f18bb7ce5699",
+          "ac1765636a64f789bd0e541026d26581e76a28c50d51b565e1e0e6eb2d4e764b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:59.013597+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "bc0aa645851456f8ce8c8bd266a7cf614aeb19ddfb03b9ec219c25d8a2751fa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8b05df207a906bdef91ba80cfe4d4467b4ee58556049aa688c0678b412223a29",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой правитель приказал построить нынешний мавзолей Ходжи Ахмеда Ясави в конце XIV века?",
+        "sample_hashes": [
+          "f8ecb8bdf20410bd1887a588e06e21d39c47162da4cdd5a5a16a51b89274a16f",
+          "d905d465dbcf1ca722e3c5159cedf81f572aac41069e61afca245581f926b4f3",
+          "2b1e82d76b8552f1806b78284412aa9e3f0eb99d11003e7891bd69abd1d1cabf",
+          "3f1f04e89be8cb0f010913ecc01a39e5613112abcc79fcc4c8c6f18bb7ce5699",
+          "ac1765636a64f789bd0e541026d26581e76a28c50d51b565e1e0e6eb2d4e764b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:59.013597+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "bc0aa645851456f8ce8c8bd266a7cf614aeb19ddfb03b9ec219c25d8a2751fa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8b05df207a906bdef91ba80cfe4d4467b4ee58556049aa688c0678b412223a29",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой правитель приказал построить нынешний мавзолей Ходжи Ахмеда Ясави в конце XIV века?",
+        "sample_hashes": [
+          "f8ecb8bdf20410bd1887a588e06e21d39c47162da4cdd5a5a16a51b89274a16f",
+          "d905d465dbcf1ca722e3c5159cedf81f572aac41069e61afca245581f926b4f3",
+          "2b1e82d76b8552f1806b78284412aa9e3f0eb99d11003e7891bd69abd1d1cabf",
+          "3f1f04e89be8cb0f010913ecc01a39e5613112abcc79fcc4c8c6f18bb7ce5699",
+          "ac1765636a64f789bd0e541026d26581e76a28c50d51b565e1e0e6eb2d4e764b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:59.013597+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "bc0aa645851456f8ce8c8bd266a7cf614aeb19ddfb03b9ec219c25d8a2751fa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8b05df207a906bdef91ba80cfe4d4467b4ee58556049aa688c0678b412223a29",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой правитель приказал построить нынешний мавзолей Ходжи Ахмеда Ясави в конце XIV века?",
+        "sample_hashes": [
+          "f8ecb8bdf20410bd1887a588e06e21d39c47162da4cdd5a5a16a51b89274a16f",
+          "d905d465dbcf1ca722e3c5159cedf81f572aac41069e61afca245581f926b4f3",
+          "2b1e82d76b8552f1806b78284412aa9e3f0eb99d11003e7891bd69abd1d1cabf",
+          "3f1f04e89be8cb0f010913ecc01a39e5613112abcc79fcc4c8c6f18bb7ce5699",
+          "ac1765636a64f789bd0e541026d26581e76a28c50d51b565e1e0e6eb2d4e764b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:58:59.013597+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "bc0aa645851456f8ce8c8bd266a7cf614aeb19ddfb03b9ec219c25d8a2751fa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

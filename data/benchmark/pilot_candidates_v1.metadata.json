@@ -1,0 +1,18 @@
+{
+  "facts": 24,
+  "target": 100,
+  "remaining": 76,
+  "categories": {
+    "history": 4,
+    "geography": 4,
+    "science": 4,
+    "culture": 4,
+    "kazakhstan": 4,
+    "adversarial_false_premise": 4
+  },
+  "verified_by_human": 0,
+  "seed_sha256": "9b08491b58f3e6ff685e7930374aa35f4def8a7edb355e2a3eda38a82931b130",
+  "inference_started": false,
+  "status": "Incomplete candidate batch; not the scientific pilot benchmark",
+  "csv_sha256": "adfc1db84e1d0c660c72614090a9da4ece6c2b81bf5484a5cfb0fc0ba5f05276"
+}

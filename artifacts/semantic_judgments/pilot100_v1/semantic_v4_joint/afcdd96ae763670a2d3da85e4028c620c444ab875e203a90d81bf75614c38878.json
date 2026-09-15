@@ -1,0 +1,159 @@
+{
+  "case_id": "afcdd96ae763670a2d3da85e4028c620c444ab875e203a90d81bf75614c38878",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "afcdd96ae763670a2d3da85e4028c620c444ab875e203a90d81bf75614c38878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year was the Nineteenth Amendment to the US Constitution ratified?",
+        "sample_hashes": [
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:56.393407+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "c4338be8829ac32d17706f0ed33362a7e4bf95215efbd8cea43b8f5f1ee09e2d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "afcdd96ae763670a2d3da85e4028c620c444ab875e203a90d81bf75614c38878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year was the Nineteenth Amendment to the US Constitution ratified?",
+        "sample_hashes": [
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:56.393407+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "c4338be8829ac32d17706f0ed33362a7e4bf95215efbd8cea43b8f5f1ee09e2d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "afcdd96ae763670a2d3da85e4028c620c444ab875e203a90d81bf75614c38878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year was the Nineteenth Amendment to the US Constitution ratified?",
+        "sample_hashes": [
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:56.393407+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "c4338be8829ac32d17706f0ed33362a7e4bf95215efbd8cea43b8f5f1ee09e2d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "afcdd96ae763670a2d3da85e4028c620c444ab875e203a90d81bf75614c38878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year was the Nineteenth Amendment to the US Constitution ratified?",
+        "sample_hashes": [
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a",
+          "6b5f40c09215713a1fa83ea2de2adcae17e605b8958a2d7379e15b561687ee8f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:56.393407+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "c4338be8829ac32d17706f0ed33362a7e4bf95215efbd8cea43b8f5f1ee09e2d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

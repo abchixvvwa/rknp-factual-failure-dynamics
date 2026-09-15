@@ -1,0 +1,157 @@
+{
+  "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Континентальный конгресс принял Декларацию независимости США?",
+        "sample_hashes": [
+          "ca3f92fcbc2719625e5ef9caf88121be12351edf05128625c61df040f4728cfd",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:57:46.038733+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "f36395e67721f171228e00a6c96824f25eead8aa51a7b6d06429dda2e6bc2a05",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Континентальный конгресс принял Декларацию независимости США?",
+        "sample_hashes": [
+          "ca3f92fcbc2719625e5ef9caf88121be12351edf05128625c61df040f4728cfd",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d",
+          "2463c7cd11031b5ec3edcc4e8f40d6fd59a1588b3b3dee66d2fbc30901073a90"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:57:46.762770+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "893de2f6d09c41b6c60de859affa65812f0ad7ec7f527bc4ebd5ecd9110d4b28",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Континентальный конгресс принял Декларацию независимости США?",
+        "sample_hashes": [
+          "ca3f92fcbc2719625e5ef9caf88121be12351edf05128625c61df040f4728cfd",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d",
+          "2463c7cd11031b5ec3edcc4e8f40d6fd59a1588b3b3dee66d2fbc30901073a90",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:57:47.980210+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "45dd1c634f1709cc7eabfedaf6ffafbcfc459aa0724d4d6e8e41b176e503b185",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 3], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Континентальный конгресс принял Декларацию независимости США?",
+        "sample_hashes": [
+          "ca3f92fcbc2719625e5ef9caf88121be12351edf05128625c61df040f4728cfd",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d",
+          "2463c7cd11031b5ec3edcc4e8f40d6fd59a1588b3b3dee66d2fbc30901073a90",
+          "0cd00c5613700050ef8e5ebc9e404e809b070035563a2d7b24b275dd5602de4d",
+          "df3251a60615443336a0ae6f629e4609106fa4fcc180e8e0b4587d7d6cae43c6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:58:46.142903+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "d206e28994a056115cb675effef86d2d18f34434e5e092e04d41696e879169d9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

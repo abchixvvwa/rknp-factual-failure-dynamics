@@ -1,0 +1,177 @@
+{
+  "case_id": "e01fb395a52d18c06ce22044bfb64740e5f52e9917939fae8329f9d8fd376c9e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01fb395a52d18c06ce22044bfb64740e5f52e9917939fae8329f9d8fd376c9e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?",
+        "sample_hashes": [
+          "53c60c32c6d8d6366c726b4b7738f0ae284b22001b7173201d9d57c43c80b23c",
+          "b0097f54dc7706368afabfb0ec853536de4bb6eba6e71602daa25c2108231694",
+          "de9c923b2faa13403b439b33da399719c7ecd6f3c03023538b60e28d11a9588e",
+          "93f440d63cd2b5312e3773fe7e659d52a0cd3a9545b2212b671a04e74ae7614f",
+          "4a05eeccfb5b09526edd7d36601b47b516f238d1235ebed1f5cb2f69bdd949f7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [3, 3, 3, 3, 3],\n    [3, 3, 3, 3, 3]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:09.685882+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "45db25e698b6b194eb423822bd0a92128ca41bd2c386c33c2fc4b221caf3b1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01fb395a52d18c06ce22044bfb64740e5f52e9917939fae8329f9d8fd376c9e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?",
+        "sample_hashes": [
+          "53c60c32c6d8d6366c726b4b7738f0ae284b22001b7173201d9d57c43c80b23c",
+          "b0097f54dc7706368afabfb0ec853536de4bb6eba6e71602daa25c2108231694",
+          "de9c923b2faa13403b439b33da399719c7ecd6f3c03023538b60e28d11a9588e",
+          "93f440d63cd2b5312e3773fe7e659d52a0cd3a9545b2212b671a04e74ae7614f",
+          "4a05eeccfb5b09526edd7d36601b47b516f238d1235ebed1f5cb2f69bdd949f7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [3, 3, 3, 3, 3],\n    [3, 3, 3, 3, 3]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:09.685882+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "45db25e698b6b194eb423822bd0a92128ca41bd2c386c33c2fc4b221caf3b1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 3,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01fb395a52d18c06ce22044bfb64740e5f52e9917939fae8329f9d8fd376c9e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?",
+        "sample_hashes": [
+          "53c60c32c6d8d6366c726b4b7738f0ae284b22001b7173201d9d57c43c80b23c",
+          "b0097f54dc7706368afabfb0ec853536de4bb6eba6e71602daa25c2108231694",
+          "de9c923b2faa13403b439b33da399719c7ecd6f3c03023538b60e28d11a9588e",
+          "93f440d63cd2b5312e3773fe7e659d52a0cd3a9545b2212b671a04e74ae7614f",
+          "4a05eeccfb5b09526edd7d36601b47b516f238d1235ebed1f5cb2f69bdd949f7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [3, 3, 3, 3, 3],\n    [3, 3, 3, 3, 3]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:09.685882+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "45db25e698b6b194eb423822bd0a92128ca41bd2c386c33c2fc4b221caf3b1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 3,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01fb395a52d18c06ce22044bfb64740e5f52e9917939fae8329f9d8fd376c9e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?",
+        "sample_hashes": [
+          "53c60c32c6d8d6366c726b4b7738f0ae284b22001b7173201d9d57c43c80b23c",
+          "b0097f54dc7706368afabfb0ec853536de4bb6eba6e71602daa25c2108231694",
+          "de9c923b2faa13403b439b33da399719c7ecd6f3c03023538b60e28d11a9588e",
+          "93f440d63cd2b5312e3773fe7e659d52a0cd3a9545b2212b671a04e74ae7614f",
+          "4a05eeccfb5b09526edd7d36601b47b516f238d1235ebed1f5cb2f69bdd949f7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [3, 3, 3, 3, 3],\n    [3, 3, 3, 3, 3]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:09.685882+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "45db25e698b6b194eb423822bd0a92128ca41bd2c386c33c2fc4b221caf3b1b7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 4], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

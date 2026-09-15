@@ -1,0 +1,153 @@
+{
+  "case_id": "3e367e98099b7be78c77498b2ee3f638919fd6c6820c4ae05475460505c0ee1c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e367e98099b7be78c77498b2ee3f638919fd6c6820c4ae05475460505c0ee1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Komodo National Park?",
+        "sample_hashes": [
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:05.989709+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "3a643f1fe5ac163407ea60d1b7965890c122de33d2ca323fcf58eb7304da142f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e367e98099b7be78c77498b2ee3f638919fd6c6820c4ae05475460505c0ee1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Komodo National Park?",
+        "sample_hashes": [
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:08.793389+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "0c32e81cb71748675fd1114fafcc36c0d3870fa4776d9005301495ff0522d368",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e367e98099b7be78c77498b2ee3f638919fd6c6820c4ae05475460505c0ee1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Komodo National Park?",
+        "sample_hashes": [
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e",
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:11.931053+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "a0642c6e72c01198e5ba8976d6298f39aabc2ac1232503279ed8d7c537dad146",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e367e98099b7be78c77498b2ee3f638919fd6c6820c4ae05475460505c0ee1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Komodo National Park?",
+        "sample_hashes": [
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e",
+          "ac8c29db4aa4a32f6882ed5e9ad1d011cfdb6a144bdf74a79cfa067c929f043e",
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede",
+          "b26ea476eec7d2feed549c49402f1e06c3d9a52da9d7101061ed8704458e1ede"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:15.161443+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "d5f3d50cf758a9507b1b7ffecf48acaf274c565928d2a9c39116cd63210f0401",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "475233e4f94aad87ba808f5433461bdbb4f66ab87cf9fcd3b171131552f6401d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "475233e4f94aad87ba808f5433461bdbb4f66ab87cf9fcd3b171131552f6401d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы жазғы Олимпиада ойындарында ерлер арасындағы 100 метрге жүгіруді кім жеңді?",
+        "sample_hashes": [
+          "4a1f33aad579d1033874983e08ea9310d70b9bf854ef07774f4764a28121f035",
+          "d15e923bcf69af8b98f2c46f25aa27a1665cebf1579bbc5b96dcee33b6b0e329",
+          "a548ae3143b82a21a61d49f674b4cfe1b0ced93392ea2f2820730b9dddfe3504",
+          "0306f51855101f1c70c330e559d3d75773e5442f92778b33149d98f2f1281e6e",
+          "a6e9a2396df55e7f232f882004812a341d5976502c7a270061f44f3eb46122c9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:25.627027+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "4fe0259fa0bb0fbe199d2c467e741d90f8facd0f6b69f40100e05be25268a930",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "475233e4f94aad87ba808f5433461bdbb4f66ab87cf9fcd3b171131552f6401d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы жазғы Олимпиада ойындарында ерлер арасындағы 100 метрге жүгіруді кім жеңді?",
+        "sample_hashes": [
+          "4a1f33aad579d1033874983e08ea9310d70b9bf854ef07774f4764a28121f035",
+          "d15e923bcf69af8b98f2c46f25aa27a1665cebf1579bbc5b96dcee33b6b0e329",
+          "a548ae3143b82a21a61d49f674b4cfe1b0ced93392ea2f2820730b9dddfe3504",
+          "0306f51855101f1c70c330e559d3d75773e5442f92778b33149d98f2f1281e6e",
+          "a6e9a2396df55e7f232f882004812a341d5976502c7a270061f44f3eb46122c9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:25.627027+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "4fe0259fa0bb0fbe199d2c467e741d90f8facd0f6b69f40100e05be25268a930",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "475233e4f94aad87ba808f5433461bdbb4f66ab87cf9fcd3b171131552f6401d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы жазғы Олимпиада ойындарында ерлер арасындағы 100 метрге жүгіруді кім жеңді?",
+        "sample_hashes": [
+          "4a1f33aad579d1033874983e08ea9310d70b9bf854ef07774f4764a28121f035",
+          "d15e923bcf69af8b98f2c46f25aa27a1665cebf1579bbc5b96dcee33b6b0e329",
+          "a548ae3143b82a21a61d49f674b4cfe1b0ced93392ea2f2820730b9dddfe3504",
+          "0306f51855101f1c70c330e559d3d75773e5442f92778b33149d98f2f1281e6e",
+          "a6e9a2396df55e7f232f882004812a341d5976502c7a270061f44f3eb46122c9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:25.627027+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "4fe0259fa0bb0fbe199d2c467e741d90f8facd0f6b69f40100e05be25268a930",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "475233e4f94aad87ba808f5433461bdbb4f66ab87cf9fcd3b171131552f6401d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы жазғы Олимпиада ойындарында ерлер арасындағы 100 метрге жүгіруді кім жеңді?",
+        "sample_hashes": [
+          "4a1f33aad579d1033874983e08ea9310d70b9bf854ef07774f4764a28121f035",
+          "d15e923bcf69af8b98f2c46f25aa27a1665cebf1579bbc5b96dcee33b6b0e329",
+          "a548ae3143b82a21a61d49f674b4cfe1b0ced93392ea2f2820730b9dddfe3504",
+          "0306f51855101f1c70c330e559d3d75773e5442f92778b33149d98f2f1281e6e",
+          "a6e9a2396df55e7f232f882004812a341d5976502c7a270061f44f3eb46122c9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:25.627027+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "4fe0259fa0bb0fbe199d2c467e741d90f8facd0f6b69f40100e05be25268a930",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

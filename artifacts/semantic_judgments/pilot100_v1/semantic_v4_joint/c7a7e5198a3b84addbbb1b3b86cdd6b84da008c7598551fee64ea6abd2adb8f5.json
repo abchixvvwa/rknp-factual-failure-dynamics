@@ -1,0 +1,159 @@
+{
+  "case_id": "c7a7e5198a3b84addbbb1b3b86cdd6b84da008c7598551fee64ea6abd2adb8f5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c7a7e5198a3b84addbbb1b3b86cdd6b84da008c7598551fee64ea6abd2adb8f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какое место в мире по площади территории занимает Казахстан согласно сайту Акорды?",
+        "sample_hashes": [
+          "808f8e82627c713a071e59f35d003d249a629d3f98da12d85184a9bba911a248",
+          "721d01669f080eb927553dac38fb20ed9ed6e72462d882c7414f107ec0b59b1b",
+          "6b8e768d178ddb1f9bf39386c49a43d47e8e22d4e7d3a5923b01c66f56bb4423",
+          "a0c6853dbb22e9afb4febbaaa18803e9c9ed7edbdf3542ae27e75d957bc675ba",
+          "13b3e3986d39d0a96cf7a499392c76344a2f0f9d1ae413676d6043584e1f8380"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:01.254084+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "35c77fd3a37b2143b668d86c2b7a219a691b55e47cd75d5a39f8d34104f45400",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c7a7e5198a3b84addbbb1b3b86cdd6b84da008c7598551fee64ea6abd2adb8f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какое место в мире по площади территории занимает Казахстан согласно сайту Акорды?",
+        "sample_hashes": [
+          "808f8e82627c713a071e59f35d003d249a629d3f98da12d85184a9bba911a248",
+          "721d01669f080eb927553dac38fb20ed9ed6e72462d882c7414f107ec0b59b1b",
+          "6b8e768d178ddb1f9bf39386c49a43d47e8e22d4e7d3a5923b01c66f56bb4423",
+          "a0c6853dbb22e9afb4febbaaa18803e9c9ed7edbdf3542ae27e75d957bc675ba",
+          "13b3e3986d39d0a96cf7a499392c76344a2f0f9d1ae413676d6043584e1f8380"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:01.254084+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "35c77fd3a37b2143b668d86c2b7a219a691b55e47cd75d5a39f8d34104f45400",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c7a7e5198a3b84addbbb1b3b86cdd6b84da008c7598551fee64ea6abd2adb8f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какое место в мире по площади территории занимает Казахстан согласно сайту Акорды?",
+        "sample_hashes": [
+          "808f8e82627c713a071e59f35d003d249a629d3f98da12d85184a9bba911a248",
+          "721d01669f080eb927553dac38fb20ed9ed6e72462d882c7414f107ec0b59b1b",
+          "6b8e768d178ddb1f9bf39386c49a43d47e8e22d4e7d3a5923b01c66f56bb4423",
+          "a0c6853dbb22e9afb4febbaaa18803e9c9ed7edbdf3542ae27e75d957bc675ba",
+          "13b3e3986d39d0a96cf7a499392c76344a2f0f9d1ae413676d6043584e1f8380"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:01.254084+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "35c77fd3a37b2143b668d86c2b7a219a691b55e47cd75d5a39f8d34104f45400",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c7a7e5198a3b84addbbb1b3b86cdd6b84da008c7598551fee64ea6abd2adb8f5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какое место в мире по площади территории занимает Казахстан согласно сайту Акорды?",
+        "sample_hashes": [
+          "808f8e82627c713a071e59f35d003d249a629d3f98da12d85184a9bba911a248",
+          "721d01669f080eb927553dac38fb20ed9ed6e72462d882c7414f107ec0b59b1b",
+          "6b8e768d178ddb1f9bf39386c49a43d47e8e22d4e7d3a5923b01c66f56bb4423",
+          "a0c6853dbb22e9afb4febbaaa18803e9c9ed7edbdf3542ae27e75d957bc675ba",
+          "13b3e3986d39d0a96cf7a499392c76344a2f0f9d1ae413676d6043584e1f8380"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:01.254084+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "35c77fd3a37b2143b668d86c2b7a219a691b55e47cd75d5a39f8d34104f45400",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

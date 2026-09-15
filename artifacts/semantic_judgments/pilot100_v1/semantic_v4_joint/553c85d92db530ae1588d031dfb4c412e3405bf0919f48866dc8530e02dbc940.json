@@ -1,0 +1,159 @@
+{
+  "case_id": "553c85d92db530ae1588d031dfb4c412e3405bf0919f48866dc8530e02dbc940",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "553c85d92db530ae1588d031dfb4c412e3405bf0919f48866dc8530e02dbc940",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of hydrogen?",
+        "sample_hashes": [
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:03.837932+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "3bb84e65e87522f77ee35a239f174a36b577843d4497ce203156006573a39f53",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "553c85d92db530ae1588d031dfb4c412e3405bf0919f48866dc8530e02dbc940",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of hydrogen?",
+        "sample_hashes": [
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:03.837932+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "3bb84e65e87522f77ee35a239f174a36b577843d4497ce203156006573a39f53",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "553c85d92db530ae1588d031dfb4c412e3405bf0919f48866dc8530e02dbc940",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of hydrogen?",
+        "sample_hashes": [
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:03.837932+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "3bb84e65e87522f77ee35a239f174a36b577843d4497ce203156006573a39f53",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "553c85d92db530ae1588d031dfb4c412e3405bf0919f48866dc8530e02dbc940",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of hydrogen?",
+        "sample_hashes": [
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "d345b1e676aaadb573a8fba8f8b90642a3af83115592dc62abb4e559ed20e3f2",
+          "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:03.837932+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "3bb84e65e87522f77ee35a239f174a36b577843d4497ce203156006573a39f53",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

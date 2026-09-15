@@ -1,0 +1,161 @@
+{
+  "case_id": "e3d4aed3fe1b63c37472cc026a8e32cddc3d529931cbc65e40e40950c67fbf80",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3d4aed3fe1b63c37472cc026a8e32cddc3d529931cbc65e40e40950c67fbf80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город является столицей Казахстана по состоянию на сентябрь 2026 года?",
+        "sample_hashes": [
+          "a885009377398de220a8567a460464e24c37e0f7942d5e2762e112e13d6fad07",
+          "3babb4b8edec9f48c070535ccc20b3e0fa9b2226bfcc85d17db4407796451691",
+          "f9d4af635f11f159185562c4f1af6e203ca49745061d798294af275b595ec440",
+          "64415f4121f4615b162365673f590caa38b7ea250cea5b7685c9573e9b61ce4b",
+          "237308f3a9c760451cc5cf4a48ffb972096e0ce3a433a03817dde5b476f133df"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:34:40.292129+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "7a05da7c4746c84fd150e6e944aa1391b00a7e23ca26b199345fcc546fd1dcb2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3d4aed3fe1b63c37472cc026a8e32cddc3d529931cbc65e40e40950c67fbf80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город является столицей Казахстана по состоянию на сентябрь 2026 года?",
+        "sample_hashes": [
+          "a885009377398de220a8567a460464e24c37e0f7942d5e2762e112e13d6fad07",
+          "3babb4b8edec9f48c070535ccc20b3e0fa9b2226bfcc85d17db4407796451691",
+          "f9d4af635f11f159185562c4f1af6e203ca49745061d798294af275b595ec440",
+          "64415f4121f4615b162365673f590caa38b7ea250cea5b7685c9573e9b61ce4b",
+          "237308f3a9c760451cc5cf4a48ffb972096e0ce3a433a03817dde5b476f133df"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:34:40.292129+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "7a05da7c4746c84fd150e6e944aa1391b00a7e23ca26b199345fcc546fd1dcb2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3d4aed3fe1b63c37472cc026a8e32cddc3d529931cbc65e40e40950c67fbf80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город является столицей Казахстана по состоянию на сентябрь 2026 года?",
+        "sample_hashes": [
+          "a885009377398de220a8567a460464e24c37e0f7942d5e2762e112e13d6fad07",
+          "3babb4b8edec9f48c070535ccc20b3e0fa9b2226bfcc85d17db4407796451691",
+          "f9d4af635f11f159185562c4f1af6e203ca49745061d798294af275b595ec440",
+          "64415f4121f4615b162365673f590caa38b7ea250cea5b7685c9573e9b61ce4b",
+          "237308f3a9c760451cc5cf4a48ffb972096e0ce3a433a03817dde5b476f133df"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:34:40.292129+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "7a05da7c4746c84fd150e6e944aa1391b00a7e23ca26b199345fcc546fd1dcb2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3d4aed3fe1b63c37472cc026a8e32cddc3d529931cbc65e40e40950c67fbf80",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город является столицей Казахстана по состоянию на сентябрь 2026 года?",
+        "sample_hashes": [
+          "a885009377398de220a8567a460464e24c37e0f7942d5e2762e112e13d6fad07",
+          "3babb4b8edec9f48c070535ccc20b3e0fa9b2226bfcc85d17db4407796451691",
+          "f9d4af635f11f159185562c4f1af6e203ca49745061d798294af275b595ec440",
+          "64415f4121f4615b162365673f590caa38b7ea250cea5b7685c9573e9b61ce4b",
+          "237308f3a9c760451cc5cf4a48ffb972096e0ce3a433a03817dde5b476f133df"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:34:40.292129+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "7a05da7c4746c84fd150e6e944aa1391b00a7e23ca26b199345fcc546fd1dcb2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

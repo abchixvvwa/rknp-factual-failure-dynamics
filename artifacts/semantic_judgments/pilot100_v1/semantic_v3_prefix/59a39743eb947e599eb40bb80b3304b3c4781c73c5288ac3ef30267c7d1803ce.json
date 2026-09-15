@@ -1,0 +1,182 @@
+{
+  "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Panama Canal officially open in 1914?",
+        "sample_hashes": [
+          "588ddf5d0ae188af2033e0be70e1ba6996aff40472ef62ffde98ec13086a3987",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:51.551809+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "564f4441a534655327ef462389183278909150e93c56a521782ba38e8e3e0c77",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Panama Canal officially open in 1914?",
+        "sample_hashes": [
+          "588ddf5d0ae188af2033e0be70e1ba6996aff40472ef62ffde98ec13086a3987",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:55.040682+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "5914171094ef6ee08d9c989e7bcd163112e703d97a21e585871cb60928bc0978",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Panama Canal officially open in 1914?",
+        "sample_hashes": [
+          "588ddf5d0ae188af2033e0be70e1ba6996aff40472ef62ffde98ec13086a3987",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e",
+          "ff39c33da10bc1fcfdae2944f8ab48d70676a08be37dd4bb255c666a2313b0f4"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:57.923917+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "a82aa9048b68b2433fa88bb2735bdf69e860783b9ca558d0724e860e940f5e66",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Panama Canal officially open in 1914?",
+        "sample_hashes": [
+          "588ddf5d0ae188af2033e0be70e1ba6996aff40472ef62ffde98ec13086a3987",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e",
+          "ff39c33da10bc1fcfdae2944f8ab48d70676a08be37dd4bb255c666a2313b0f4",
+          "ac1a03858f1815844927a0cd3aab42c612be1ae409f581f54f2a525ccfc18d47"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:03.282585+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "99c4337f05ee3cc9f383d16500a06947555b745616e3c6f209e057f3edb1e0bc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "59a39743eb947e599eb40bb80b3304b3c4781c73c5288ac3ef30267c7d1803ce",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Panama Canal officially open in 1914?",
+        "sample_hashes": [
+          "588ddf5d0ae188af2033e0be70e1ba6996aff40472ef62ffde98ec13086a3987",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e",
+          "ff39c33da10bc1fcfdae2944f8ab48d70676a08be37dd4bb255c666a2313b0f4",
+          "ac1a03858f1815844927a0cd3aab42c612be1ae409f581f54f2a525ccfc18d47",
+          "012f98f095afb12ea9d54629dcf5a47987b555e4a4f84afd9e06bcd26db3b59e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 1,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:04.174774+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "13b1eb963249834fdf5286f1674341f93e277560ea292bdc6d94f28af53231d9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "c8b9b51c430537ebe72db332b890e53281335b61b5941d05f32eb8166e831d14",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8b9b51c430537ebe72db332b890e53281335b61b5941d05f32eb8166e831d14",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город принял первые современные Олимпийские игры в 1896 году?",
+        "sample_hashes": [
+          "861a9a517d9883f761f911786c1b22e67c81045b0d500d4e2af16a9b043d770c",
+          "6375e3c1662c9f3c6d7e69336075f6b549420af00b14b621d5193bd28588ea1f",
+          "42892177ba75acb974cd11cdb80df0c7e6e36cf63cbadebdab6857df27294ec1",
+          "27c0c7e7b14a1c22932c11b6ccbe247c63a6068db09822c86849c2c085c77d1c",
+          "a8c6951b2d7d537695c6cf71f825fbeea02e9995275a2d79b20d5184e79ca472"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:58.625485+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "7f1e6c48cf3d452d02d085f2fe3e97fee73c9c8630df2e5ea669e6cee2f9c78c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8b9b51c430537ebe72db332b890e53281335b61b5941d05f32eb8166e831d14",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город принял первые современные Олимпийские игры в 1896 году?",
+        "sample_hashes": [
+          "861a9a517d9883f761f911786c1b22e67c81045b0d500d4e2af16a9b043d770c",
+          "6375e3c1662c9f3c6d7e69336075f6b549420af00b14b621d5193bd28588ea1f",
+          "42892177ba75acb974cd11cdb80df0c7e6e36cf63cbadebdab6857df27294ec1",
+          "27c0c7e7b14a1c22932c11b6ccbe247c63a6068db09822c86849c2c085c77d1c",
+          "a8c6951b2d7d537695c6cf71f825fbeea02e9995275a2d79b20d5184e79ca472"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:58.625485+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "7f1e6c48cf3d452d02d085f2fe3e97fee73c9c8630df2e5ea669e6cee2f9c78c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8b9b51c430537ebe72db332b890e53281335b61b5941d05f32eb8166e831d14",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город принял первые современные Олимпийские игры в 1896 году?",
+        "sample_hashes": [
+          "861a9a517d9883f761f911786c1b22e67c81045b0d500d4e2af16a9b043d770c",
+          "6375e3c1662c9f3c6d7e69336075f6b549420af00b14b621d5193bd28588ea1f",
+          "42892177ba75acb974cd11cdb80df0c7e6e36cf63cbadebdab6857df27294ec1",
+          "27c0c7e7b14a1c22932c11b6ccbe247c63a6068db09822c86849c2c085c77d1c",
+          "a8c6951b2d7d537695c6cf71f825fbeea02e9995275a2d79b20d5184e79ca472"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:58.625485+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "7f1e6c48cf3d452d02d085f2fe3e97fee73c9c8630df2e5ea669e6cee2f9c78c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8b9b51c430537ebe72db332b890e53281335b61b5941d05f32eb8166e831d14",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой город принял первые современные Олимпийские игры в 1896 году?",
+        "sample_hashes": [
+          "861a9a517d9883f761f911786c1b22e67c81045b0d500d4e2af16a9b043d770c",
+          "6375e3c1662c9f3c6d7e69336075f6b549420af00b14b621d5193bd28588ea1f",
+          "42892177ba75acb974cd11cdb80df0c7e6e36cf63cbadebdab6857df27294ec1",
+          "27c0c7e7b14a1c22932c11b6ccbe247c63a6068db09822c86849c2c085c77d1c",
+          "a8c6951b2d7d537695c6cf71f825fbeea02e9995275a2d79b20d5184e79ca472"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:58.625485+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "7f1e6c48cf3d452d02d085f2fe3e97fee73c9c8630df2e5ea669e6cee2f9c78c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

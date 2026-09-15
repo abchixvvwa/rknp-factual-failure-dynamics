@@ -1,0 +1,159 @@
+{
+  "case_id": "d957ecef719fe3eb2a2baf69f3c97eed52d4183437ad395d38b419cce4bf2104",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d957ecef719fe3eb2a2baf69f3c97eed52d4183437ad395d38b419cce4bf2104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Earth's largest natural planetary ring today?",
+        "sample_hashes": [
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "d9d3aa868b165bf1a9ccb9261ce40acb1be7ab3bef8fc20c04b9d110136ea076",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db",
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:53:30.073655+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "a1fe0ff9dd9fb8e309e56e23103c80fbc1d582751f1ebf8fbaa821681f0a7826",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d957ecef719fe3eb2a2baf69f3c97eed52d4183437ad395d38b419cce4bf2104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Earth's largest natural planetary ring today?",
+        "sample_hashes": [
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "d9d3aa868b165bf1a9ccb9261ce40acb1be7ab3bef8fc20c04b9d110136ea076",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db",
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:53:30.073655+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "a1fe0ff9dd9fb8e309e56e23103c80fbc1d582751f1ebf8fbaa821681f0a7826",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d957ecef719fe3eb2a2baf69f3c97eed52d4183437ad395d38b419cce4bf2104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Earth's largest natural planetary ring today?",
+        "sample_hashes": [
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "d9d3aa868b165bf1a9ccb9261ce40acb1be7ab3bef8fc20c04b9d110136ea076",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db",
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:53:30.073655+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "a1fe0ff9dd9fb8e309e56e23103c80fbc1d582751f1ebf8fbaa821681f0a7826",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d957ecef719fe3eb2a2baf69f3c97eed52d4183437ad395d38b419cce4bf2104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Earth's largest natural planetary ring today?",
+        "sample_hashes": [
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "d9d3aa868b165bf1a9ccb9261ce40acb1be7ab3bef8fc20c04b9d110136ea076",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db",
+          "99651ced207688b9af2fe3c51388587ec3548d74f834da25518b05b01af5fb2c",
+          "2614ca0994b55824922925b398354decb2a690020c6e20d44f0e544d3b11c0db"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:53:30.073655+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "a1fe0ff9dd9fb8e309e56e23103c80fbc1d582751f1ebf8fbaa821681f0a7826",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Канагавадағы үлкен толқын» гравюрасын кім жасаған?",
+        "sample_hashes": [
+          "8b875b1cc9331a92d3b5b3c47b8961970994d49be149e2ff696f7045c0a0083e",
+          "fbfcb7224cc4797d0c4139a28eb6e32953f2678372ed29fa059273fec39cc6f0",
+          "ff1d503e5d331f34f5b48147dc65edc3a0368f03188ce5d00821f7fff965e167",
+          "36aaf34b1f840e32903720e6f3478103988f90afdf90d49f6a278c336cb2b6f4",
+          "17f8b0971b2c6ce77e368b4464d077e8823f9e8535911d748cf61d112da1eab9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:58:46.427875+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "9f5b83afd9398cedce87ca0ccb53928f165e5262dc775fc333190216fd896666",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Канагавадағы үлкен толқын» гравюрасын кім жасаған?",
+        "sample_hashes": [
+          "8b875b1cc9331a92d3b5b3c47b8961970994d49be149e2ff696f7045c0a0083e",
+          "fbfcb7224cc4797d0c4139a28eb6e32953f2678372ed29fa059273fec39cc6f0",
+          "ff1d503e5d331f34f5b48147dc65edc3a0368f03188ce5d00821f7fff965e167",
+          "36aaf34b1f840e32903720e6f3478103988f90afdf90d49f6a278c336cb2b6f4",
+          "17f8b0971b2c6ce77e368b4464d077e8823f9e8535911d748cf61d112da1eab9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:58:46.427875+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "9f5b83afd9398cedce87ca0ccb53928f165e5262dc775fc333190216fd896666",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Канагавадағы үлкен толқын» гравюрасын кім жасаған?",
+        "sample_hashes": [
+          "8b875b1cc9331a92d3b5b3c47b8961970994d49be149e2ff696f7045c0a0083e",
+          "fbfcb7224cc4797d0c4139a28eb6e32953f2678372ed29fa059273fec39cc6f0",
+          "ff1d503e5d331f34f5b48147dc65edc3a0368f03188ce5d00821f7fff965e167",
+          "36aaf34b1f840e32903720e6f3478103988f90afdf90d49f6a278c336cb2b6f4",
+          "17f8b0971b2c6ce77e368b4464d077e8823f9e8535911d748cf61d112da1eab9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:58:46.427875+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "9f5b83afd9398cedce87ca0ccb53928f165e5262dc775fc333190216fd896666",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Канагавадағы үлкен толқын» гравюрасын кім жасаған?",
+        "sample_hashes": [
+          "8b875b1cc9331a92d3b5b3c47b8961970994d49be149e2ff696f7045c0a0083e",
+          "fbfcb7224cc4797d0c4139a28eb6e32953f2678372ed29fa059273fec39cc6f0",
+          "ff1d503e5d331f34f5b48147dc65edc3a0368f03188ce5d00821f7fff965e167",
+          "36aaf34b1f840e32903720e6f3478103988f90afdf90d49f6a278c336cb2b6f4",
+          "17f8b0971b2c6ce77e368b4464d077e8823f9e8535911d748cf61d112da1eab9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:58:46.427875+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "9f5b83afd9398cedce87ca0ccb53928f165e5262dc775fc333190216fd896666",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

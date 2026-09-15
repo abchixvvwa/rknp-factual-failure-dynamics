@@ -1,0 +1,159 @@
+{
+  "case_id": "bd4a0b28c74147336fcb91d26c4240c9f4eb48aa972bb4f94f3d54960b76674f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd4a0b28c74147336fcb91d26c4240c9f4eb48aa972bb4f94f3d54960b76674f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит остров Чеджу?",
+        "sample_hashes": [
+          "d98e1f25919290b771766e8897836239cf17caee8767323d8687ea49f4859094",
+          "49d048279a65491faa3c74b8f072a82ff6fc163a96a1491e1c824935c54b4c88",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412",
+          "a8013a13d9603c110edcb87dcd0cd358fe00531a4c26123e35a7e22a70a44e1a",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:17.331365+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0786937f0eab1c1f69db8945e2c1a05e4c1b6a5dec384ee49341832d67c41d57",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd4a0b28c74147336fcb91d26c4240c9f4eb48aa972bb4f94f3d54960b76674f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит остров Чеджу?",
+        "sample_hashes": [
+          "d98e1f25919290b771766e8897836239cf17caee8767323d8687ea49f4859094",
+          "49d048279a65491faa3c74b8f072a82ff6fc163a96a1491e1c824935c54b4c88",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412",
+          "a8013a13d9603c110edcb87dcd0cd358fe00531a4c26123e35a7e22a70a44e1a",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:17.331365+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0786937f0eab1c1f69db8945e2c1a05e4c1b6a5dec384ee49341832d67c41d57",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd4a0b28c74147336fcb91d26c4240c9f4eb48aa972bb4f94f3d54960b76674f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит остров Чеджу?",
+        "sample_hashes": [
+          "d98e1f25919290b771766e8897836239cf17caee8767323d8687ea49f4859094",
+          "49d048279a65491faa3c74b8f072a82ff6fc163a96a1491e1c824935c54b4c88",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412",
+          "a8013a13d9603c110edcb87dcd0cd358fe00531a4c26123e35a7e22a70a44e1a",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:17.331365+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0786937f0eab1c1f69db8945e2c1a05e4c1b6a5dec384ee49341832d67c41d57",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bd4a0b28c74147336fcb91d26c4240c9f4eb48aa972bb4f94f3d54960b76674f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит остров Чеджу?",
+        "sample_hashes": [
+          "d98e1f25919290b771766e8897836239cf17caee8767323d8687ea49f4859094",
+          "49d048279a65491faa3c74b8f072a82ff6fc163a96a1491e1c824935c54b4c88",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412",
+          "a8013a13d9603c110edcb87dcd0cd358fe00531a4c26123e35a7e22a70a44e1a",
+          "deba6e4ede2cf892585fa383dc7128ab9c4e29ca662c0065dd84de7e54f93412"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:17.331365+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "0786937f0eab1c1f69db8945e2c1a05e4c1b6a5dec384ee49341832d67c41d57",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

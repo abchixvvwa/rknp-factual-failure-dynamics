@@ -1,0 +1,159 @@
+{
+  "case_id": "be0acba92e293bd8947e4f75fc3f74efe1b104e207ce329e0e176af00bbf99cf",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "be0acba92e293bd8947e4f75fc3f74efe1b104e207ce329e0e176af00bbf99cf",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ocean directly borders Kazakhstan's coastline?",
+        "sample_hashes": [
+          "6411d03098ec2dcc2552ac3a97ace3d2e143dbd46dcf4bddfa36ddade1828c1d",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "c082fb297c75e9e3b4b61cf28b646163d8f2f0b24ab81960fd4c23c8d3c522d5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:07.596225+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "464afef78a4423293edc84a5a3d3b342d22ba3d5d764d2176be405b1ad510fbf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "be0acba92e293bd8947e4f75fc3f74efe1b104e207ce329e0e176af00bbf99cf",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ocean directly borders Kazakhstan's coastline?",
+        "sample_hashes": [
+          "6411d03098ec2dcc2552ac3a97ace3d2e143dbd46dcf4bddfa36ddade1828c1d",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "c082fb297c75e9e3b4b61cf28b646163d8f2f0b24ab81960fd4c23c8d3c522d5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:07.596225+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "464afef78a4423293edc84a5a3d3b342d22ba3d5d764d2176be405b1ad510fbf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "be0acba92e293bd8947e4f75fc3f74efe1b104e207ce329e0e176af00bbf99cf",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ocean directly borders Kazakhstan's coastline?",
+        "sample_hashes": [
+          "6411d03098ec2dcc2552ac3a97ace3d2e143dbd46dcf4bddfa36ddade1828c1d",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "c082fb297c75e9e3b4b61cf28b646163d8f2f0b24ab81960fd4c23c8d3c522d5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:07.596225+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "464afef78a4423293edc84a5a3d3b342d22ba3d5d764d2176be405b1ad510fbf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "be0acba92e293bd8947e4f75fc3f74efe1b104e207ce329e0e176af00bbf99cf",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ocean directly borders Kazakhstan's coastline?",
+        "sample_hashes": [
+          "6411d03098ec2dcc2552ac3a97ace3d2e143dbd46dcf4bddfa36ddade1828c1d",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "aea322bd0933c9a600bcf91422b76c522c17bf0eb5cd2c5047bd6295e53e7e97",
+          "c082fb297c75e9e3b4b61cf28b646163d8f2f0b24ab81960fd4c23c8d3c522d5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:07.596225+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "464afef78a4423293edc84a5a3d3b342d22ba3d5d764d2176be405b1ad510fbf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

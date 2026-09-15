@@ -1,0 +1,159 @@
+{
+  "case_id": "b1e02b3e6025003ea1f09234d7f72762e4764d23063b1a65a960a81c815dd463",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1e02b3e6025003ea1f09234d7f72762e4764d23063b1a65a960a81c815dd463",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какое время года летучие мыши откладывают яйца?",
+        "sample_hashes": [
+          "34bfca61b388418190bd70ead4a5ae7531bb7785ad6ca76fa0ca8ffd05accfbc",
+          "39ad9a1adb554cdb43dc7786e360de1c8208cea380a84d24343f31f6d977a7e0",
+          "d6ac5bcdeca5b87936c2479d70f45755c21679d8ca3943ed7b510c9475d4e5a6",
+          "27d8c195b103cdd04c21c50b99e70c2ae63e48c9755ae0caee2e34b5fb8a4eaf",
+          "cdc3829f2dcb159f480d662da1d47778e8cd864b09bba7502ded67e67d1bd1c1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:51.534918+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "d0328de74bceafe68664a5e1ba7b5ed277abc0630f1cd7876c659d40c2d09b3b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1e02b3e6025003ea1f09234d7f72762e4764d23063b1a65a960a81c815dd463",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какое время года летучие мыши откладывают яйца?",
+        "sample_hashes": [
+          "34bfca61b388418190bd70ead4a5ae7531bb7785ad6ca76fa0ca8ffd05accfbc",
+          "39ad9a1adb554cdb43dc7786e360de1c8208cea380a84d24343f31f6d977a7e0",
+          "d6ac5bcdeca5b87936c2479d70f45755c21679d8ca3943ed7b510c9475d4e5a6",
+          "27d8c195b103cdd04c21c50b99e70c2ae63e48c9755ae0caee2e34b5fb8a4eaf",
+          "cdc3829f2dcb159f480d662da1d47778e8cd864b09bba7502ded67e67d1bd1c1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:51.534918+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "d0328de74bceafe68664a5e1ba7b5ed277abc0630f1cd7876c659d40c2d09b3b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1e02b3e6025003ea1f09234d7f72762e4764d23063b1a65a960a81c815dd463",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какое время года летучие мыши откладывают яйца?",
+        "sample_hashes": [
+          "34bfca61b388418190bd70ead4a5ae7531bb7785ad6ca76fa0ca8ffd05accfbc",
+          "39ad9a1adb554cdb43dc7786e360de1c8208cea380a84d24343f31f6d977a7e0",
+          "d6ac5bcdeca5b87936c2479d70f45755c21679d8ca3943ed7b510c9475d4e5a6",
+          "27d8c195b103cdd04c21c50b99e70c2ae63e48c9755ae0caee2e34b5fb8a4eaf",
+          "cdc3829f2dcb159f480d662da1d47778e8cd864b09bba7502ded67e67d1bd1c1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:51.534918+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "d0328de74bceafe68664a5e1ba7b5ed277abc0630f1cd7876c659d40c2d09b3b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b1e02b3e6025003ea1f09234d7f72762e4764d23063b1a65a960a81c815dd463",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какое время года летучие мыши откладывают яйца?",
+        "sample_hashes": [
+          "34bfca61b388418190bd70ead4a5ae7531bb7785ad6ca76fa0ca8ffd05accfbc",
+          "39ad9a1adb554cdb43dc7786e360de1c8208cea380a84d24343f31f6d977a7e0",
+          "d6ac5bcdeca5b87936c2479d70f45755c21679d8ca3943ed7b510c9475d4e5a6",
+          "27d8c195b103cdd04c21c50b99e70c2ae63e48c9755ae0caee2e34b5fb8a4eaf",
+          "cdc3829f2dcb159f480d662da1d47778e8cd864b09bba7502ded67e67d1bd1c1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:15:51.534918+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "d0328de74bceafe68664a5e1ba7b5ed277abc0630f1cd7876c659d40c2d09b3b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

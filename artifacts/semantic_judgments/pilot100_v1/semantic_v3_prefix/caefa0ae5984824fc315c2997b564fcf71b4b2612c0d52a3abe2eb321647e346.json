@@ -1,0 +1,233 @@
+{
+  "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5",
+          "cf83d5e2f05796ebdee744823e85cf79a5482d6189393ec009efa78c418a3850"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:16:23.911646+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "358f8deee50592743fb74f9975c0619d09ff05aeb242bc7d789341b865818519",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:16:25.394447+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "da38c55c654bac2dbcc0a0e7abba28020de35547db673c3cd364c16f0c5a05ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5",
+          "cf83d5e2f05796ebdee744823e85cf79a5482d6189393ec009efa78c418a3850",
+          "083a5df8276613fd9f4336dbcf59d9b64919ad6084e193738161e6a21ff7631b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:16:27.334703+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "24f68879f8df600fafadafc47b08e97b5c9de04073610ba0394e806fc6c206d0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:16:25.394447+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "da38c55c654bac2dbcc0a0e7abba28020de35547db673c3cd364c16f0c5a05ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5",
+          "cf83d5e2f05796ebdee744823e85cf79a5482d6189393ec009efa78c418a3850",
+          "083a5df8276613fd9f4336dbcf59d9b64919ad6084e193738161e6a21ff7631b",
+          "49686338ee74eac3118360da706de4a939a07e564d3dcec61279976b92d21ec0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:16:28.035033+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "104d194e5172be50fb3bca0266b626b33f854cebeb96bc4b4307786431fc6857",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:16:25.394447+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "da38c55c654bac2dbcc0a0e7abba28020de35547db673c3cd364c16f0c5a05ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5",
+          "cf83d5e2f05796ebdee744823e85cf79a5482d6189393ec009efa78c418a3850",
+          "083a5df8276613fd9f4336dbcf59d9b64919ad6084e193738161e6a21ff7631b",
+          "49686338ee74eac3118360da706de4a939a07e564d3dcec61279976b92d21ec0",
+          "083a5df8276613fd9f4336dbcf59d9b64919ad6084e193738161e6a21ff7631b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:16:28.897289+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "36168ff1cc0a69fb9235c5f260ce89026efff1464bbef854aa8209f14cae6030",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "caefa0ae5984824fc315c2997b564fcf71b4b2612c0d52a3abe2eb321647e346",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Peace Prize for 1948?",
+        "sample_hashes": [
+          "406dbbdc7e576d16b8b6cdf3388268b58800496c1b37fd8d0d809c5c8e43c8c5"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:16:25.394447+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "da38c55c654bac2dbcc0a0e7abba28020de35547db673c3cd364c16f0c5a05ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "30aee3231c6bf9ff7fe84e4342a81a41ee796081da17f5670608972d88d60f59",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "30aee3231c6bf9ff7fe84e4342a81a41ee796081da17f5670608972d88d60f59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Үлкен қызыл дақ қай планетада орналасқан?",
+        "sample_hashes": [
+          "8aafc39099e3190fa6d6dc0afe8f3250cc7f5e3d6623f2307470baa8411f174f",
+          "6f5ca38cb0366219ef855e04440b9bd11252331546523a5e2ba5f7df5ad374d4",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8",
+          "ed8aeafa8ef25310621d0090756f69af3b97816b42f677c73e48bbf5d6b0b9b3",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:15:03.918036+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "1da13ded546c29e1ae602798cf651cae0c403466e6cf9d2f682c17a6ebccc8e2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "30aee3231c6bf9ff7fe84e4342a81a41ee796081da17f5670608972d88d60f59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Үлкен қызыл дақ қай планетада орналасқан?",
+        "sample_hashes": [
+          "8aafc39099e3190fa6d6dc0afe8f3250cc7f5e3d6623f2307470baa8411f174f",
+          "6f5ca38cb0366219ef855e04440b9bd11252331546523a5e2ba5f7df5ad374d4",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8",
+          "ed8aeafa8ef25310621d0090756f69af3b97816b42f677c73e48bbf5d6b0b9b3",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:15:03.918036+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "1da13ded546c29e1ae602798cf651cae0c403466e6cf9d2f682c17a6ebccc8e2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "30aee3231c6bf9ff7fe84e4342a81a41ee796081da17f5670608972d88d60f59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Үлкен қызыл дақ қай планетада орналасқан?",
+        "sample_hashes": [
+          "8aafc39099e3190fa6d6dc0afe8f3250cc7f5e3d6623f2307470baa8411f174f",
+          "6f5ca38cb0366219ef855e04440b9bd11252331546523a5e2ba5f7df5ad374d4",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8",
+          "ed8aeafa8ef25310621d0090756f69af3b97816b42f677c73e48bbf5d6b0b9b3",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:15:03.918036+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "1da13ded546c29e1ae602798cf651cae0c403466e6cf9d2f682c17a6ebccc8e2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "30aee3231c6bf9ff7fe84e4342a81a41ee796081da17f5670608972d88d60f59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Үлкен қызыл дақ қай планетада орналасқан?",
+        "sample_hashes": [
+          "8aafc39099e3190fa6d6dc0afe8f3250cc7f5e3d6623f2307470baa8411f174f",
+          "6f5ca38cb0366219ef855e04440b9bd11252331546523a5e2ba5f7df5ad374d4",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8",
+          "ed8aeafa8ef25310621d0090756f69af3b97816b42f677c73e48bbf5d6b0b9b3",
+          "d4d56b8a2a641762f17d19e9c58fbfbe3f48dfde74036aa27ac9854457c961c8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:15:03.918036+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "1da13ded546c29e1ae602798cf651cae0c403466e6cf9d2f682c17a6ebccc8e2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

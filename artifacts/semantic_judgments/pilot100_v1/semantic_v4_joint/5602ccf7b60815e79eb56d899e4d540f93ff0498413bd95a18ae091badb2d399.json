@@ -1,0 +1,159 @@
+{
+  "case_id": "5602ccf7b60815e79eb56d899e4d540f93ff0498413bd95a18ae091badb2d399",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5602ccf7b60815e79eb56d899e4d540f93ff0498413bd95a18ae091badb2d399",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит атолл Альдабра?",
+        "sample_hashes": [
+          "d0acbb9e69d5eb284e435b6a0bb52ead017ccd09983f3e60ac2ad4dc4ce790fe",
+          "3187d46bad83d698e58ecc47daac0dc45a5d7f8492ed2c3a82fc95ba2d8660ce",
+          "4801f0fe39f6d5cb86c0d7f0792cf2a8c228ffb1ac26a28d368b347d7e243a30",
+          "d847aa07e0cce3e810a555e7aec73be4483008ccb2c3856efc1953b5e91fbe04",
+          "3e271ab223aae4853543af52d975ea9b9971c093018ec299b6ebf95c44a4ea37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:39:50.369366+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "39d0ac2c617817936b2e3d0c0a861640561a1c5de30127f76ef7cfe05ab7971b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5602ccf7b60815e79eb56d899e4d540f93ff0498413bd95a18ae091badb2d399",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит атолл Альдабра?",
+        "sample_hashes": [
+          "d0acbb9e69d5eb284e435b6a0bb52ead017ccd09983f3e60ac2ad4dc4ce790fe",
+          "3187d46bad83d698e58ecc47daac0dc45a5d7f8492ed2c3a82fc95ba2d8660ce",
+          "4801f0fe39f6d5cb86c0d7f0792cf2a8c228ffb1ac26a28d368b347d7e243a30",
+          "d847aa07e0cce3e810a555e7aec73be4483008ccb2c3856efc1953b5e91fbe04",
+          "3e271ab223aae4853543af52d975ea9b9971c093018ec299b6ebf95c44a4ea37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:39:50.369366+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "39d0ac2c617817936b2e3d0c0a861640561a1c5de30127f76ef7cfe05ab7971b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5602ccf7b60815e79eb56d899e4d540f93ff0498413bd95a18ae091badb2d399",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит атолл Альдабра?",
+        "sample_hashes": [
+          "d0acbb9e69d5eb284e435b6a0bb52ead017ccd09983f3e60ac2ad4dc4ce790fe",
+          "3187d46bad83d698e58ecc47daac0dc45a5d7f8492ed2c3a82fc95ba2d8660ce",
+          "4801f0fe39f6d5cb86c0d7f0792cf2a8c228ffb1ac26a28d368b347d7e243a30",
+          "d847aa07e0cce3e810a555e7aec73be4483008ccb2c3856efc1953b5e91fbe04",
+          "3e271ab223aae4853543af52d975ea9b9971c093018ec299b6ebf95c44a4ea37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:39:50.369366+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "39d0ac2c617817936b2e3d0c0a861640561a1c5de30127f76ef7cfe05ab7971b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5602ccf7b60815e79eb56d899e4d540f93ff0498413bd95a18ae091badb2d399",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой стране принадлежит атолл Альдабра?",
+        "sample_hashes": [
+          "d0acbb9e69d5eb284e435b6a0bb52ead017ccd09983f3e60ac2ad4dc4ce790fe",
+          "3187d46bad83d698e58ecc47daac0dc45a5d7f8492ed2c3a82fc95ba2d8660ce",
+          "4801f0fe39f6d5cb86c0d7f0792cf2a8c228ffb1ac26a28d368b347d7e243a30",
+          "d847aa07e0cce3e810a555e7aec73be4483008ccb2c3856efc1953b5e91fbe04",
+          "3e271ab223aae4853543af52d975ea9b9971c093018ec299b6ebf95c44a4ea37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:39:50.369366+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "39d0ac2c617817936b2e3d0c0a861640561a1c5de30127f76ef7cfe05ab7971b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

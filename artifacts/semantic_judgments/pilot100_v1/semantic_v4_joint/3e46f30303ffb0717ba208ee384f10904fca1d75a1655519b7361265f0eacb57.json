@@ -1,0 +1,159 @@
+{
+  "case_id": "3e46f30303ffb0717ba208ee384f10904fca1d75a1655519b7361265f0eacb57",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e46f30303ffb0717ba208ee384f10904fca1d75a1655519b7361265f0eacb57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the national currency of Kazakhstan?",
+        "sample_hashes": [
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "a8675f56b89b34903f9ac480b1232b19f4e02c3bea55b1b332a5e8f41af6ccf0",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:00:32.929117+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4400433578afe8a4a8a25cde54232341f714ddfc65128f3afc7263ea443dd520",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e46f30303ffb0717ba208ee384f10904fca1d75a1655519b7361265f0eacb57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the national currency of Kazakhstan?",
+        "sample_hashes": [
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "a8675f56b89b34903f9ac480b1232b19f4e02c3bea55b1b332a5e8f41af6ccf0",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:00:32.929117+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4400433578afe8a4a8a25cde54232341f714ddfc65128f3afc7263ea443dd520",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e46f30303ffb0717ba208ee384f10904fca1d75a1655519b7361265f0eacb57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the national currency of Kazakhstan?",
+        "sample_hashes": [
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "a8675f56b89b34903f9ac480b1232b19f4e02c3bea55b1b332a5e8f41af6ccf0",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:00:32.929117+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4400433578afe8a4a8a25cde54232341f714ddfc65128f3afc7263ea443dd520",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e46f30303ffb0717ba208ee384f10904fca1d75a1655519b7361265f0eacb57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the national currency of Kazakhstan?",
+        "sample_hashes": [
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "a8675f56b89b34903f9ac480b1232b19f4e02c3bea55b1b332a5e8f41af6ccf0",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d",
+          "661ce2fdbc6ecb9603b2f22974cd2d29b97f49b82a37ece6b405eef0a9a6862d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:00:32.929117+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4400433578afe8a4a8a25cde54232341f714ddfc65128f3afc7263ea443dd520",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "6ce3ab9a0533c6d83ccfbce589316dc7c181d69fc018ece4569624dd69646720",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6ce3ab9a0533c6d83ccfbce589316dc7c181d69fc018ece4569624dd69646720",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называлась песня, принятая в качестве государственного гимна Казахстана в 2006 году?",
+        "sample_hashes": [
+          "c7d085749e9009213844383bdc5f7ce072b3e9b64e676a4103b15e704acb8617",
+          "0531e88a6f6991eb582f53e04d3e59983c94d87e7f3a3d29df4bfe068b855472",
+          "c155842a31cd64635215935a43eccf7f1deb151925367042639cbb9448d7597e",
+          "5f95d1c283012df56def090111d66ff2e0a528dd6a6cf88a9eeafe37f20e4613",
+          "8a7066073a416f6f8ca2247526673d3433052fb224ed9da21ad4dcea888187c7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:21.783369+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "7c7eb5f99fe2f3d2eb49d63f46282b81804c47021c9db39fb8d8f376065a34ad",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6ce3ab9a0533c6d83ccfbce589316dc7c181d69fc018ece4569624dd69646720",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называлась песня, принятая в качестве государственного гимна Казахстана в 2006 году?",
+        "sample_hashes": [
+          "c7d085749e9009213844383bdc5f7ce072b3e9b64e676a4103b15e704acb8617",
+          "0531e88a6f6991eb582f53e04d3e59983c94d87e7f3a3d29df4bfe068b855472",
+          "c155842a31cd64635215935a43eccf7f1deb151925367042639cbb9448d7597e",
+          "5f95d1c283012df56def090111d66ff2e0a528dd6a6cf88a9eeafe37f20e4613",
+          "8a7066073a416f6f8ca2247526673d3433052fb224ed9da21ad4dcea888187c7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:21.783369+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "7c7eb5f99fe2f3d2eb49d63f46282b81804c47021c9db39fb8d8f376065a34ad",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6ce3ab9a0533c6d83ccfbce589316dc7c181d69fc018ece4569624dd69646720",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называлась песня, принятая в качестве государственного гимна Казахстана в 2006 году?",
+        "sample_hashes": [
+          "c7d085749e9009213844383bdc5f7ce072b3e9b64e676a4103b15e704acb8617",
+          "0531e88a6f6991eb582f53e04d3e59983c94d87e7f3a3d29df4bfe068b855472",
+          "c155842a31cd64635215935a43eccf7f1deb151925367042639cbb9448d7597e",
+          "5f95d1c283012df56def090111d66ff2e0a528dd6a6cf88a9eeafe37f20e4613",
+          "8a7066073a416f6f8ca2247526673d3433052fb224ed9da21ad4dcea888187c7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:21.783369+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "7c7eb5f99fe2f3d2eb49d63f46282b81804c47021c9db39fb8d8f376065a34ad",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6ce3ab9a0533c6d83ccfbce589316dc7c181d69fc018ece4569624dd69646720",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называлась песня, принятая в качестве государственного гимна Казахстана в 2006 году?",
+        "sample_hashes": [
+          "c7d085749e9009213844383bdc5f7ce072b3e9b64e676a4103b15e704acb8617",
+          "0531e88a6f6991eb582f53e04d3e59983c94d87e7f3a3d29df4bfe068b855472",
+          "c155842a31cd64635215935a43eccf7f1deb151925367042639cbb9448d7597e",
+          "5f95d1c283012df56def090111d66ff2e0a528dd6a6cf88a9eeafe37f20e4613",
+          "8a7066073a416f6f8ca2247526673d3433052fb224ed9da21ad4dcea888187c7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:21.783369+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "7c7eb5f99fe2f3d2eb49d63f46282b81804c47021c9db39fb8d8f376065a34ad",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

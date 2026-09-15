@@ -1,0 +1,171 @@
+{
+  "case_id": "60832c9250cd66fbbc874deabb49c67b35c08fcb69eeb3d8aca2a0b34d2cdcbe",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "60832c9250cd66fbbc874deabb49c67b35c08fcb69eeb3d8aca2a0b34d2cdcbe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию мира за 1948 год?",
+        "sample_hashes": [
+          "5dbf4f386ee7d6cc3b0cba9e38294bdb48e05982254bbb4383c895b6ebeaf193",
+          "7f0f86da97dddc688707dc2010aef283e05e03f7c99a5e84937eb3cbaa2c4ea1",
+          "217254668110307f258e45d45cd2462dd296e745e2402492f1c10d4c75fd449a",
+          "9db820df8130520679113dc7907f13b902b71af7a234d1e10223b5226af3bdec",
+          "697b8d5563a136e2d0144b6104b32a4fe5fa65417ed1366ac2ec4f5fb025acbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:52.082876+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0e5e1661eb17de6aefe9a3e4f40368cbd845e47f548f74af3c87542c78877947",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "60832c9250cd66fbbc874deabb49c67b35c08fcb69eeb3d8aca2a0b34d2cdcbe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию мира за 1948 год?",
+        "sample_hashes": [
+          "5dbf4f386ee7d6cc3b0cba9e38294bdb48e05982254bbb4383c895b6ebeaf193",
+          "7f0f86da97dddc688707dc2010aef283e05e03f7c99a5e84937eb3cbaa2c4ea1",
+          "217254668110307f258e45d45cd2462dd296e745e2402492f1c10d4c75fd449a",
+          "9db820df8130520679113dc7907f13b902b71af7a234d1e10223b5226af3bdec",
+          "697b8d5563a136e2d0144b6104b32a4fe5fa65417ed1366ac2ec4f5fb025acbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:52.082876+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0e5e1661eb17de6aefe9a3e4f40368cbd845e47f548f74af3c87542c78877947",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "60832c9250cd66fbbc874deabb49c67b35c08fcb69eeb3d8aca2a0b34d2cdcbe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию мира за 1948 год?",
+        "sample_hashes": [
+          "5dbf4f386ee7d6cc3b0cba9e38294bdb48e05982254bbb4383c895b6ebeaf193",
+          "7f0f86da97dddc688707dc2010aef283e05e03f7c99a5e84937eb3cbaa2c4ea1",
+          "217254668110307f258e45d45cd2462dd296e745e2402492f1c10d4c75fd449a",
+          "9db820df8130520679113dc7907f13b902b71af7a234d1e10223b5226af3bdec",
+          "697b8d5563a136e2d0144b6104b32a4fe5fa65417ed1366ac2ec4f5fb025acbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:52.082876+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0e5e1661eb17de6aefe9a3e4f40368cbd845e47f548f74af3c87542c78877947",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "60832c9250cd66fbbc874deabb49c67b35c08fcb69eeb3d8aca2a0b34d2cdcbe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию мира за 1948 год?",
+        "sample_hashes": [
+          "5dbf4f386ee7d6cc3b0cba9e38294bdb48e05982254bbb4383c895b6ebeaf193",
+          "7f0f86da97dddc688707dc2010aef283e05e03f7c99a5e84937eb3cbaa2c4ea1",
+          "217254668110307f258e45d45cd2462dd296e745e2402492f1c10d4c75fd449a",
+          "9db820df8130520679113dc7907f13b902b71af7a234d1e10223b5226af3bdec",
+          "697b8d5563a136e2d0144b6104b32a4fe5fa65417ed1366ac2ec4f5fb025acbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:52.082876+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0e5e1661eb17de6aefe9a3e4f40368cbd845e47f548f74af3c87542c78877947",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

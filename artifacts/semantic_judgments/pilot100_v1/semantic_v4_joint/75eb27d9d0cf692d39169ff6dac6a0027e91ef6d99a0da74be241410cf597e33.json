@@ -1,0 +1,159 @@
+{
+  "case_id": "75eb27d9d0cf692d39169ff6dac6a0027e91ef6d99a0da74be241410cf597e33",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75eb27d9d0cf692d39169ff6dac6a0027e91ef6d99a0da74be241410cf597e33",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазіргі кезде Жердің ең үлкен табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "7267cb8339d3ceacf4f64190021f106221be1ab2a897f29a4fb0c85a4eddacf4",
+          "cd94b2a34185f2e4ac6589c592408820a8413800a8331ceb7c41e52d4440935d",
+          "efc3902926decf99237e2280c095d085ba534eb99faa3e2a3bba669af76bc581",
+          "af53d671ac3b14a63868863c834060859acea0d65d7c5bb0ab1893a519cb4041",
+          "0a9a5e77007a09ca17a11e06fa2a07c80d7591de7bea3742111932b3bb539b23"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:28.334042+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "0bd6a1abc7c2603260bbe0716e13bae9d79d0b1ab392059a288814b19320634c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75eb27d9d0cf692d39169ff6dac6a0027e91ef6d99a0da74be241410cf597e33",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазіргі кезде Жердің ең үлкен табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "7267cb8339d3ceacf4f64190021f106221be1ab2a897f29a4fb0c85a4eddacf4",
+          "cd94b2a34185f2e4ac6589c592408820a8413800a8331ceb7c41e52d4440935d",
+          "efc3902926decf99237e2280c095d085ba534eb99faa3e2a3bba669af76bc581",
+          "af53d671ac3b14a63868863c834060859acea0d65d7c5bb0ab1893a519cb4041",
+          "0a9a5e77007a09ca17a11e06fa2a07c80d7591de7bea3742111932b3bb539b23"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:28.334042+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "0bd6a1abc7c2603260bbe0716e13bae9d79d0b1ab392059a288814b19320634c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75eb27d9d0cf692d39169ff6dac6a0027e91ef6d99a0da74be241410cf597e33",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазіргі кезде Жердің ең үлкен табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "7267cb8339d3ceacf4f64190021f106221be1ab2a897f29a4fb0c85a4eddacf4",
+          "cd94b2a34185f2e4ac6589c592408820a8413800a8331ceb7c41e52d4440935d",
+          "efc3902926decf99237e2280c095d085ba534eb99faa3e2a3bba669af76bc581",
+          "af53d671ac3b14a63868863c834060859acea0d65d7c5bb0ab1893a519cb4041",
+          "0a9a5e77007a09ca17a11e06fa2a07c80d7591de7bea3742111932b3bb539b23"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:28.334042+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "0bd6a1abc7c2603260bbe0716e13bae9d79d0b1ab392059a288814b19320634c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "75eb27d9d0cf692d39169ff6dac6a0027e91ef6d99a0da74be241410cf597e33",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазіргі кезде Жердің ең үлкен табиғи планеталық сақинасы қалай аталады?",
+        "sample_hashes": [
+          "7267cb8339d3ceacf4f64190021f106221be1ab2a897f29a4fb0c85a4eddacf4",
+          "cd94b2a34185f2e4ac6589c592408820a8413800a8331ceb7c41e52d4440935d",
+          "efc3902926decf99237e2280c095d085ba534eb99faa3e2a3bba669af76bc581",
+          "af53d671ac3b14a63868863c834060859acea0d65d7c5bb0ab1893a519cb4041",
+          "0a9a5e77007a09ca17a11e06fa2a07c80d7591de7bea3742111932b3bb539b23"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:28.334042+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "0bd6a1abc7c2603260bbe0716e13bae9d79d0b1ab392059a288814b19320634c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

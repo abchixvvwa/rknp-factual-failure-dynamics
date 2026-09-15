@@ -1,0 +1,167 @@
+{
+  "case_id": "cfd9f614e5c86fb7e8423541de1d8a0219147db736b3fc47200abccc0730a102",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cfd9f614e5c86fb7e8423541de1d8a0219147db736b3fc47200abccc0730a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Ночной дозор»?",
+        "sample_hashes": [
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:19.968439+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "bc6cb41b359df86da19b061b07344efbb5db349af2cf0c8fe4ed0c9f756e2407",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cfd9f614e5c86fb7e8423541de1d8a0219147db736b3fc47200abccc0730a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Ночной дозор»?",
+        "sample_hashes": [
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:19.968439+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "bc6cb41b359df86da19b061b07344efbb5db349af2cf0c8fe4ed0c9f756e2407",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cfd9f614e5c86fb7e8423541de1d8a0219147db736b3fc47200abccc0730a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Ночной дозор»?",
+        "sample_hashes": [
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:19.968439+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "bc6cb41b359df86da19b061b07344efbb5db349af2cf0c8fe4ed0c9f756e2407",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2], [1, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cfd9f614e5c86fb7e8423541de1d8a0219147db736b3fc47200abccc0730a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Ночной дозор»?",
+        "sample_hashes": [
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd",
+          "10c8b2776e191151c24caf7180f379ac3f46551df231d7cfea62731d652243b0",
+          "a16cbaa56cd23fb86b7ca0223499d11ad74b220757c505615ab9fca7ad8b50dd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:19.968439+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "bc6cb41b359df86da19b061b07344efbb5db349af2cf0c8fe4ed0c9f756e2407",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 4], [1, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

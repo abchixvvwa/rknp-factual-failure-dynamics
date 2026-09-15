@@ -1,0 +1,173 @@
+{
+  "case_id": "db1ba44650740fb77e06caf95a725fdbd5ae863a190d745fd8fbca92a95a1c4d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db1ba44650740fb77e06caf95a725fdbd5ae863a190d745fd8fbca92a95a1c4d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның жағалауын қай мұхит тікелей шайып жатыр?",
+        "sample_hashes": [
+          "88cb0d5b3e5c508141637c921608a7b9957b328ef5bacda91dcf8234b89b145f",
+          "3ef244c020f3e2e2ef2b0e49cc75d65c755104b9ea1bbd50add08139050259c3",
+          "5a91e9d8e541eab66d22937ca1ceee35e954c67e936d53c7e1ff03ce3819dfcf",
+          "265035e2313111116eb425dcdefaa9a10d9ef255bc60cef0143b2a37810e0ff9",
+          "d9cff3de67593d23d0e8500b5eae116a53624dfe619077ce60e78341e6318af8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 2, 0],\n    [0, 1, 2, 2, 2]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:05.707291+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "db8f281c606b5623eda887375bbd952718e3b57b46e91a1b30166566fe360198",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db1ba44650740fb77e06caf95a725fdbd5ae863a190d745fd8fbca92a95a1c4d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның жағалауын қай мұхит тікелей шайып жатыр?",
+        "sample_hashes": [
+          "88cb0d5b3e5c508141637c921608a7b9957b328ef5bacda91dcf8234b89b145f",
+          "3ef244c020f3e2e2ef2b0e49cc75d65c755104b9ea1bbd50add08139050259c3",
+          "5a91e9d8e541eab66d22937ca1ceee35e954c67e936d53c7e1ff03ce3819dfcf",
+          "265035e2313111116eb425dcdefaa9a10d9ef255bc60cef0143b2a37810e0ff9",
+          "d9cff3de67593d23d0e8500b5eae116a53624dfe619077ce60e78341e6318af8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 2, 0],\n    [0, 1, 2, 2, 2]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:05.707291+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "db8f281c606b5623eda887375bbd952718e3b57b46e91a1b30166566fe360198",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db1ba44650740fb77e06caf95a725fdbd5ae863a190d745fd8fbca92a95a1c4d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның жағалауын қай мұхит тікелей шайып жатыр?",
+        "sample_hashes": [
+          "88cb0d5b3e5c508141637c921608a7b9957b328ef5bacda91dcf8234b89b145f",
+          "3ef244c020f3e2e2ef2b0e49cc75d65c755104b9ea1bbd50add08139050259c3",
+          "5a91e9d8e541eab66d22937ca1ceee35e954c67e936d53c7e1ff03ce3819dfcf",
+          "265035e2313111116eb425dcdefaa9a10d9ef255bc60cef0143b2a37810e0ff9",
+          "d9cff3de67593d23d0e8500b5eae116a53624dfe619077ce60e78341e6318af8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 2, 0],\n    [0, 1, 2, 2, 2]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:05.707291+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "db8f281c606b5623eda887375bbd952718e3b57b46e91a1b30166566fe360198",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db1ba44650740fb77e06caf95a725fdbd5ae863a190d745fd8fbca92a95a1c4d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның жағалауын қай мұхит тікелей шайып жатыр?",
+        "sample_hashes": [
+          "88cb0d5b3e5c508141637c921608a7b9957b328ef5bacda91dcf8234b89b145f",
+          "3ef244c020f3e2e2ef2b0e49cc75d65c755104b9ea1bbd50add08139050259c3",
+          "5a91e9d8e541eab66d22937ca1ceee35e954c67e936d53c7e1ff03ce3819dfcf",
+          "265035e2313111116eb425dcdefaa9a10d9ef255bc60cef0143b2a37810e0ff9",
+          "d9cff3de67593d23d0e8500b5eae116a53624dfe619077ce60e78341e6318af8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 2, 0],\n    [0, 1, 2, 2, 2]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:18:05.707291+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "db8f281c606b5623eda887375bbd952718e3b57b46e91a1b30166566fe360198",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

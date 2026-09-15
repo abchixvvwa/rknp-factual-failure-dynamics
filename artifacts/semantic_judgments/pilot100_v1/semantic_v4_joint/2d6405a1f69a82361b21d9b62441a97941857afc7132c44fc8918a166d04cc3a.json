@@ -1,0 +1,159 @@
+{
+  "case_id": "2d6405a1f69a82361b21d9b62441a97941857afc7132c44fc8918a166d04cc3a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2d6405a1f69a82361b21d9b62441a97941857afc7132c44fc8918a166d04cc3a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country do the Galapagos Islands belong?",
+        "sample_hashes": [
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14",
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "b331b5912a4259de58296d1c500d3cc8415b8cd0500ae2ee06bdb0299a6e85d6",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:13.071557+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "9d210fe26f77b8260e16d5261ff6354463fe26ba83e4c286e88944fe1a7d5c99",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2d6405a1f69a82361b21d9b62441a97941857afc7132c44fc8918a166d04cc3a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country do the Galapagos Islands belong?",
+        "sample_hashes": [
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14",
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "b331b5912a4259de58296d1c500d3cc8415b8cd0500ae2ee06bdb0299a6e85d6",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:13.071557+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "9d210fe26f77b8260e16d5261ff6354463fe26ba83e4c286e88944fe1a7d5c99",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2d6405a1f69a82361b21d9b62441a97941857afc7132c44fc8918a166d04cc3a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country do the Galapagos Islands belong?",
+        "sample_hashes": [
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14",
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "b331b5912a4259de58296d1c500d3cc8415b8cd0500ae2ee06bdb0299a6e85d6",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:13.071557+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "9d210fe26f77b8260e16d5261ff6354463fe26ba83e4c286e88944fe1a7d5c99",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2d6405a1f69a82361b21d9b62441a97941857afc7132c44fc8918a166d04cc3a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country do the Galapagos Islands belong?",
+        "sample_hashes": [
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14",
+          "596de64ff395fea2715a8e79f239a5eee1dc34a233dd9499196f0ffaa4fd2c2c",
+          "b331b5912a4259de58296d1c500d3cc8415b8cd0500ae2ee06bdb0299a6e85d6",
+          "ecb9b5f34a3637372291f3ae6982d75acd56041c86fe0249ec1b88db73a8eb14"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:09:13.071557+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "9d210fe26f77b8260e16d5261ff6354463fe26ba83e4c286e88944fe1a7d5c99",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

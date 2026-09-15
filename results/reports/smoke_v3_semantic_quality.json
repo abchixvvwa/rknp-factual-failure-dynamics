@@ -1,0 +1,30 @@
+{
+  "judge_version": "semantic_v3_prefix",
+  "completed_case_files": 59,
+  "uncertain_cases": 0,
+  "valid_structured_responses": 210,
+  "invalid_structured_responses": 1,
+  "failed_api_attempts": 0,
+  "structured_success_rate": 0.995260663507109,
+  "cases_with_prefix_pair_revisions": 4,
+  "prefix_revision_details": [
+    {
+      "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+      "previous_pair_revisions": 6
+    },
+    {
+      "case_id": "1f1e50b2aabb9f1c6fd285c496c5f102916f5bfe0d38f6042339fc611bbe3d0b",
+      "previous_pair_revisions": 3
+    },
+    {
+      "case_id": "b57cccdb7c35d5f3132791c0ca18d9152c4d700e6b01a33a7a5a791366460033",
+      "previous_pair_revisions": 1
+    },
+    {
+      "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+      "previous_pair_revisions": 3
+    }
+  ],
+  "human_judge_agreement": "not measured",
+  "scientific_gate": "requires independent human semantic annotations"
+}

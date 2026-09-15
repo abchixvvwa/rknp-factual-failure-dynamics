@@ -1,0 +1,179 @@
+{
+  "case_id": "b00b9e9787a0a42b6a0bda4d6b3b5fc40c6bc38769d2f2053d099b42d3895926",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b00b9e9787a0a42b6a0bda4d6b3b5fc40c6bc38769d2f2053d099b42d3895926",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы қабылданған Қазақстанның мемлекеттік әнұранының музыкасын кім жазды?",
+        "sample_hashes": [
+          "f167f369218a1b298bf2affef344beac918606bf2e69988660690a417fd87275",
+          "5e62888ad8e59be9865e072bc7fb16453804fea97013f76abf9664438b748dac",
+          "cf5818cefc1476d5bc4cc35c00ae4c6f693791042a2bb67661667481a8dd62e0",
+          "dbdf882cd71dcd8e61392e54448d132a70bbf5e3593effbb7c9964db25f7c9d5",
+          "6204d0e54d3826c40398723c9bec6f04d88e408bac25e8020e683d762f6e893b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:15.950257+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2a53b3b62ba46abb83fdc1ffdc8dabc08c838023963fc6b80f17d11fb0f19fd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b00b9e9787a0a42b6a0bda4d6b3b5fc40c6bc38769d2f2053d099b42d3895926",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы қабылданған Қазақстанның мемлекеттік әнұранының музыкасын кім жазды?",
+        "sample_hashes": [
+          "f167f369218a1b298bf2affef344beac918606bf2e69988660690a417fd87275",
+          "5e62888ad8e59be9865e072bc7fb16453804fea97013f76abf9664438b748dac",
+          "cf5818cefc1476d5bc4cc35c00ae4c6f693791042a2bb67661667481a8dd62e0",
+          "dbdf882cd71dcd8e61392e54448d132a70bbf5e3593effbb7c9964db25f7c9d5",
+          "6204d0e54d3826c40398723c9bec6f04d88e408bac25e8020e683d762f6e893b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:15.950257+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2a53b3b62ba46abb83fdc1ffdc8dabc08c838023963fc6b80f17d11fb0f19fd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b00b9e9787a0a42b6a0bda4d6b3b5fc40c6bc38769d2f2053d099b42d3895926",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы қабылданған Қазақстанның мемлекеттік әнұранының музыкасын кім жазды?",
+        "sample_hashes": [
+          "f167f369218a1b298bf2affef344beac918606bf2e69988660690a417fd87275",
+          "5e62888ad8e59be9865e072bc7fb16453804fea97013f76abf9664438b748dac",
+          "cf5818cefc1476d5bc4cc35c00ae4c6f693791042a2bb67661667481a8dd62e0",
+          "dbdf882cd71dcd8e61392e54448d132a70bbf5e3593effbb7c9964db25f7c9d5",
+          "6204d0e54d3826c40398723c9bec6f04d88e408bac25e8020e683d762f6e893b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:15.950257+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2a53b3b62ba46abb83fdc1ffdc8dabc08c838023963fc6b80f17d11fb0f19fd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b00b9e9787a0a42b6a0bda4d6b3b5fc40c6bc38769d2f2053d099b42d3895926",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы қабылданған Қазақстанның мемлекеттік әнұранының музыкасын кім жазды?",
+        "sample_hashes": [
+          "f167f369218a1b298bf2affef344beac918606bf2e69988660690a417fd87275",
+          "5e62888ad8e59be9865e072bc7fb16453804fea97013f76abf9664438b748dac",
+          "cf5818cefc1476d5bc4cc35c00ae4c6f693791042a2bb67661667481a8dd62e0",
+          "dbdf882cd71dcd8e61392e54448d132a70bbf5e3593effbb7c9964db25f7c9d5",
+          "6204d0e54d3826c40398723c9bec6f04d88e408bac25e8020e683d762f6e893b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:15.950257+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "2a53b3b62ba46abb83fdc1ffdc8dabc08c838023963fc6b80f17d11fb0f19fd4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "fbb86a64dab74dbd9e1aecb5bf9ea46132a7e3cfa3fffa789077512979c2dbd2",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fbb86a64dab74dbd9e1aecb5bf9ea46132a7e3cfa3fffa789077512979c2dbd2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "599400aec63d0402637d47d7b4d161a84e5e6a3c2670a0c8fbbe283fe5d13dce",
+          "5021ecc3a7e45d882510a17ed65fdecd65b14d1184765ad45d1b635b3c5c837a",
+          "a7fd63c6bae29ad64170a67a337b6158fd76a875705613db6e2b87bd2feb65b0",
+          "2461ca8e6f7e3b0d27e67ab2957602b2b0fc412f445b4d34eaa906c87f6f6df8",
+          "5ff38e62a5f1d7ad740a3002dcb8980656a7ce5e832c59e9c479c72fbe8f2147"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.228144+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e96dc9b661560fc6b1662705eed2e1170800672589c48b3cfd35f41d6b7673b0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fbb86a64dab74dbd9e1aecb5bf9ea46132a7e3cfa3fffa789077512979c2dbd2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "599400aec63d0402637d47d7b4d161a84e5e6a3c2670a0c8fbbe283fe5d13dce",
+          "5021ecc3a7e45d882510a17ed65fdecd65b14d1184765ad45d1b635b3c5c837a",
+          "a7fd63c6bae29ad64170a67a337b6158fd76a875705613db6e2b87bd2feb65b0",
+          "2461ca8e6f7e3b0d27e67ab2957602b2b0fc412f445b4d34eaa906c87f6f6df8",
+          "5ff38e62a5f1d7ad740a3002dcb8980656a7ce5e832c59e9c479c72fbe8f2147"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.228144+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e96dc9b661560fc6b1662705eed2e1170800672589c48b3cfd35f41d6b7673b0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fbb86a64dab74dbd9e1aecb5bf9ea46132a7e3cfa3fffa789077512979c2dbd2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "599400aec63d0402637d47d7b4d161a84e5e6a3c2670a0c8fbbe283fe5d13dce",
+          "5021ecc3a7e45d882510a17ed65fdecd65b14d1184765ad45d1b635b3c5c837a",
+          "a7fd63c6bae29ad64170a67a337b6158fd76a875705613db6e2b87bd2feb65b0",
+          "2461ca8e6f7e3b0d27e67ab2957602b2b0fc412f445b4d34eaa906c87f6f6df8",
+          "5ff38e62a5f1d7ad740a3002dcb8980656a7ce5e832c59e9c479c72fbe8f2147"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.228144+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e96dc9b661560fc6b1662705eed2e1170800672589c48b3cfd35f41d6b7673b0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fbb86a64dab74dbd9e1aecb5bf9ea46132a7e3cfa3fffa789077512979c2dbd2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the men's marathon at the 1916 Olympic Games?",
+        "sample_hashes": [
+          "599400aec63d0402637d47d7b4d161a84e5e6a3c2670a0c8fbbe283fe5d13dce",
+          "5021ecc3a7e45d882510a17ed65fdecd65b14d1184765ad45d1b635b3c5c837a",
+          "a7fd63c6bae29ad64170a67a337b6158fd76a875705613db6e2b87bd2feb65b0",
+          "2461ca8e6f7e3b0d27e67ab2957602b2b0fc412f445b4d34eaa906c87f6f6df8",
+          "5ff38e62a5f1d7ad740a3002dcb8980656a7ce5e832c59e9c479c72fbe8f2147"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.228144+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "e96dc9b661560fc6b1662705eed2e1170800672589c48b3cfd35f41d6b7673b0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "d0d486d597500ae2e3d4fabe634dadc04e19f2b9fca4d85ffa97c81897466202",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d0d486d597500ae2e3d4fabe634dadc04e19f2b9fca4d85ffa97c81897466202",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Гутенберг Библиясы қай қалада басып шығарылды?",
+        "sample_hashes": [
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "18ac7128c0db905cdcb4d8fbdef7b8e7a3f6a61b24890d8054c8597adc78d940",
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "bb84598c5914a6e00c261d3db909be81a3f3c43a2d332d5ecdf48dbb1c7f771d",
+          "8258a0c341bde4101852b7bd1fa350b1b0a97425bd76bfd1da22526c5e6d6688"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:52.266157+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "8cb9da8fb3d5c6a050eba6878c979575a92922bee04d60dd869c5e1c4a005aa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d0d486d597500ae2e3d4fabe634dadc04e19f2b9fca4d85ffa97c81897466202",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Гутенберг Библиясы қай қалада басып шығарылды?",
+        "sample_hashes": [
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "18ac7128c0db905cdcb4d8fbdef7b8e7a3f6a61b24890d8054c8597adc78d940",
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "bb84598c5914a6e00c261d3db909be81a3f3c43a2d332d5ecdf48dbb1c7f771d",
+          "8258a0c341bde4101852b7bd1fa350b1b0a97425bd76bfd1da22526c5e6d6688"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:52.266157+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "8cb9da8fb3d5c6a050eba6878c979575a92922bee04d60dd869c5e1c4a005aa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d0d486d597500ae2e3d4fabe634dadc04e19f2b9fca4d85ffa97c81897466202",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Гутенберг Библиясы қай қалада басып шығарылды?",
+        "sample_hashes": [
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "18ac7128c0db905cdcb4d8fbdef7b8e7a3f6a61b24890d8054c8597adc78d940",
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "bb84598c5914a6e00c261d3db909be81a3f3c43a2d332d5ecdf48dbb1c7f771d",
+          "8258a0c341bde4101852b7bd1fa350b1b0a97425bd76bfd1da22526c5e6d6688"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:52.266157+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "8cb9da8fb3d5c6a050eba6878c979575a92922bee04d60dd869c5e1c4a005aa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d0d486d597500ae2e3d4fabe634dadc04e19f2b9fca4d85ffa97c81897466202",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Гутенберг Библиясы қай қалада басып шығарылды?",
+        "sample_hashes": [
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "18ac7128c0db905cdcb4d8fbdef7b8e7a3f6a61b24890d8054c8597adc78d940",
+          "995dba77d5028b97c68ac3077516af446e33cb4857e9e8d3629895dad6801d63",
+          "bb84598c5914a6e00c261d3db909be81a3f3c43a2d332d5ecdf48dbb1c7f771d",
+          "8258a0c341bde4101852b7bd1fa350b1b0a97425bd76bfd1da22526c5e6d6688"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:52.266157+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "8cb9da8fb3d5c6a050eba6878c979575a92922bee04d60dd869c5e1c4a005aa2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

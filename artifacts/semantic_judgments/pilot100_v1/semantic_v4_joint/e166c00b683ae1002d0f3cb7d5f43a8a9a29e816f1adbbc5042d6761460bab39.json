@@ -1,0 +1,159 @@
+{
+  "case_id": "e166c00b683ae1002d0f3cb7d5f43a8a9a29e816f1adbbc5042d6761460bab39",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e166c00b683ae1002d0f3cb7d5f43a8a9a29e816f1adbbc5042d6761460bab39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Таңбалы петроглифтері ЮНЕСКО-ның Дүниежүзілік мұра тізіміне қай жылы енгізілді?",
+        "sample_hashes": [
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "6b951f6ee5547084a56b917861d433cc28eb6916c31e195a91b28650cf18cd66"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:49.441343+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "e5ee1c89bcb4ec3f269b094dc6782c9bef35648c08be638adc07302b83d08a05",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e166c00b683ae1002d0f3cb7d5f43a8a9a29e816f1adbbc5042d6761460bab39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Таңбалы петроглифтері ЮНЕСКО-ның Дүниежүзілік мұра тізіміне қай жылы енгізілді?",
+        "sample_hashes": [
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "6b951f6ee5547084a56b917861d433cc28eb6916c31e195a91b28650cf18cd66"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:49.441343+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "e5ee1c89bcb4ec3f269b094dc6782c9bef35648c08be638adc07302b83d08a05",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e166c00b683ae1002d0f3cb7d5f43a8a9a29e816f1adbbc5042d6761460bab39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Таңбалы петроглифтері ЮНЕСКО-ның Дүниежүзілік мұра тізіміне қай жылы енгізілді?",
+        "sample_hashes": [
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "6b951f6ee5547084a56b917861d433cc28eb6916c31e195a91b28650cf18cd66"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:49.441343+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "e5ee1c89bcb4ec3f269b094dc6782c9bef35648c08be638adc07302b83d08a05",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e166c00b683ae1002d0f3cb7d5f43a8a9a29e816f1adbbc5042d6761460bab39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Таңбалы петроглифтері ЮНЕСКО-ның Дүниежүзілік мұра тізіміне қай жылы енгізілді?",
+        "sample_hashes": [
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "eaacfa0b013083e2b3b1b5d1c051383b5733aab87d839850d2e49ce3e1ea6db5",
+          "6b951f6ee5547084a56b917861d433cc28eb6916c31e195a91b28650cf18cd66"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:49.441343+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "e5ee1c89bcb4ec3f269b094dc6782c9bef35648c08be638adc07302b83d08a05",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

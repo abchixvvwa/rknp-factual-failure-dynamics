@@ -1,0 +1,159 @@
+{
+  "case_id": "e367a79ba94a12eaa1a08cee18bb773ab3244259d4cce87da1a3cb44e676df04",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e367a79ba94a12eaa1a08cee18bb773ab3244259d4cce87da1a3cb44e676df04",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which artist created The Scream?",
+        "sample_hashes": [
+          "2cd69ca6c3b24320476ce4d10689caa595fe671da02d5b05e3247baa64fa7668",
+          "bb5d8d4abbfe66b1ac4a47a7b06ae6499e717c3228da06a1042e90abc657c930",
+          "1ec76bd6a367d92eedf7abd9fce2a5fb534d0302c1c6e04111a45edab25f260a",
+          "fc02b5d1ecb0270311ab6a51710517ab612dcb9c8863c324c43c36bc658e5b2b",
+          "928968626718119d03b8dfd1023bf040fa1500d6f4361e8aed3cc63a24e39a49"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:19.744157+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "6af145b0cae6a5e624c4141b4d27703667c2b1f05b2e3adcf9a8f3d3141051a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e367a79ba94a12eaa1a08cee18bb773ab3244259d4cce87da1a3cb44e676df04",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which artist created The Scream?",
+        "sample_hashes": [
+          "2cd69ca6c3b24320476ce4d10689caa595fe671da02d5b05e3247baa64fa7668",
+          "bb5d8d4abbfe66b1ac4a47a7b06ae6499e717c3228da06a1042e90abc657c930",
+          "1ec76bd6a367d92eedf7abd9fce2a5fb534d0302c1c6e04111a45edab25f260a",
+          "fc02b5d1ecb0270311ab6a51710517ab612dcb9c8863c324c43c36bc658e5b2b",
+          "928968626718119d03b8dfd1023bf040fa1500d6f4361e8aed3cc63a24e39a49"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:19.744157+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "6af145b0cae6a5e624c4141b4d27703667c2b1f05b2e3adcf9a8f3d3141051a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e367a79ba94a12eaa1a08cee18bb773ab3244259d4cce87da1a3cb44e676df04",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which artist created The Scream?",
+        "sample_hashes": [
+          "2cd69ca6c3b24320476ce4d10689caa595fe671da02d5b05e3247baa64fa7668",
+          "bb5d8d4abbfe66b1ac4a47a7b06ae6499e717c3228da06a1042e90abc657c930",
+          "1ec76bd6a367d92eedf7abd9fce2a5fb534d0302c1c6e04111a45edab25f260a",
+          "fc02b5d1ecb0270311ab6a51710517ab612dcb9c8863c324c43c36bc658e5b2b",
+          "928968626718119d03b8dfd1023bf040fa1500d6f4361e8aed3cc63a24e39a49"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:19.744157+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "6af145b0cae6a5e624c4141b4d27703667c2b1f05b2e3adcf9a8f3d3141051a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e367a79ba94a12eaa1a08cee18bb773ab3244259d4cce87da1a3cb44e676df04",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which artist created The Scream?",
+        "sample_hashes": [
+          "2cd69ca6c3b24320476ce4d10689caa595fe671da02d5b05e3247baa64fa7668",
+          "bb5d8d4abbfe66b1ac4a47a7b06ae6499e717c3228da06a1042e90abc657c930",
+          "1ec76bd6a367d92eedf7abd9fce2a5fb534d0302c1c6e04111a45edab25f260a",
+          "fc02b5d1ecb0270311ab6a51710517ab612dcb9c8863c324c43c36bc658e5b2b",
+          "928968626718119d03b8dfd1023bf040fa1500d6f4361e8aed3cc63a24e39a49"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:19.744157+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "6af145b0cae6a5e624c4141b4d27703667c2b1f05b2e3adcf9a8f3d3141051a6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

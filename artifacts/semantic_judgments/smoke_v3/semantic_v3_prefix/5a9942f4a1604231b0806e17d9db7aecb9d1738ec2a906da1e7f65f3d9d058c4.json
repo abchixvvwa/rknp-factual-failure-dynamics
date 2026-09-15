@@ -1,0 +1,233 @@
+{
+  "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b",
+          "b8da92c4b16ef4d00ab19f8476108c4ff36e6b914c7f013d3e87be089bc778d7"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:04:49.320651+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "09fd669c67f4e971dc5116d54ec4a75fd8bd67bdfd11acb8004da2038d1e1c59",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:04:49.774036+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "e65f82285e68c8599740d0b06ebacf88f89f249d797cbb5552606830e596c3a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b",
+          "b8da92c4b16ef4d00ab19f8476108c4ff36e6b914c7f013d3e87be089bc778d7",
+          "2b8afa8cb71e4abb7d6d0f30f226bba55e037e7f1339754c28a9da6b96fdb006"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:04:51.995296+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "fa13d7b69104164cf44fb1d52425d1a1b5f0edb5088db580786a111fe712f44e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:04:49.774036+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "e65f82285e68c8599740d0b06ebacf88f89f249d797cbb5552606830e596c3a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b",
+          "b8da92c4b16ef4d00ab19f8476108c4ff36e6b914c7f013d3e87be089bc778d7",
+          "2b8afa8cb71e4abb7d6d0f30f226bba55e037e7f1339754c28a9da6b96fdb006",
+          "4bbd5b84b80cf92818b30245b87ff0b43d73ec34a824f66af8d5cec12397faa6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:04:52.496520+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "4faf476fe560a47cf9eb6d5d6aa807c3ffbd8875a9d0fcc8bf94519b62ee8808",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:04:49.774036+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "e65f82285e68c8599740d0b06ebacf88f89f249d797cbb5552606830e596c3a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b",
+          "b8da92c4b16ef4d00ab19f8476108c4ff36e6b914c7f013d3e87be089bc778d7",
+          "2b8afa8cb71e4abb7d6d0f30f226bba55e037e7f1339754c28a9da6b96fdb006",
+          "4bbd5b84b80cf92818b30245b87ff0b43d73ec34a824f66af8d5cec12397faa6",
+          "d531a4634d1caa9d6a8f4825d9da80354b581edfc40055d7b279301942bf0160"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:04:53.328608+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "d78e5427123cc4aec2dd0b498c053eef00f66b515725e87d5d082e79d77b9caf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "5a9942f4a1604231b0806e17d9db7aecb9d1738ec2a906da1e7f65f3d9d058c4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какое озеро самое глубокое в мире?",
+        "sample_hashes": [
+          "08e3c3654b5f5e5c78d2971a2eefcc4f30b0524a5fc2a2b63b2fa8da1dd8a84b"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:04:49.774036+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "e65f82285e68c8599740d0b06ebacf88f89f249d797cbb5552606830e596c3a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

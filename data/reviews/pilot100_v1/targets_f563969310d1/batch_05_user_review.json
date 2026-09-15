@@ -1,0 +1,26 @@
+{
+  "reviewer": "project_user",
+  "scope": "batch_05.md, items 201–250; entire response including added claims and self-corrections evaluated",
+  "source": "Explicit user submission in this conversation",
+  "incorrect_numbers": [202,203,204,211,212,214,215,218],
+  "correct_numbers": [201,205,206,207,208,209,210,213,216,217,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250],
+  "invalid_numbers": [],
+  "user_notes": {
+    "202": "Основное Тригве Ли верно, но добавлено неправильное полное имя Тригве Хаавельи Ли вместо Trygve Halvdan Lie.",
+    "203": "Тригве Ливе / Тригве Хауге Ливе — неправильное имя.",
+    "204": "Устав ООН подписали в Сан-Франциско 26 июня 1945 года, а не в Вашингтоне.",
+    "211": "Король в итоге назван верно, но модель ошибочно отвергает предпосылку и существование Runnymede. Там 15 июня 1215 King John согласился с условиями Magna Carta.",
+    "212": "Модель ложно отвергает Runnymede и утверждает, что Хартия была заключена в Лондоне.",
+    "214": "King John назван верно, но утверждение, что предпосылка вопроса неверна, ложно: вопрос корректен.",
+    "215": "Сначала Richard I, затем самокоррекция на John. При оценке всего ответа первая фактическая ошибка остаётся.",
+    "218": "Финальные 1799 и французские солдаты верны, но ранее утверждается обнаружение британцами и выдумана связь с Colonel Francesco Belzoni. British Museum указывает солдат Наполеона и Pierre-François Bouchard.",
+    "247": "Казахская фраза 15 август 1914 жасында грамматически кривая, но дата 15 августа 1914 передана однозначно и верно."
+  },
+  "user_source_urls": [
+    "https://www.un.org/sg/en/content/selection-and-appointment-of-trygve-halvdan-lie-0?utm_source=chatgpt.com",
+    "https://treaties.un.org/pages/showDetails.aspx?clang=_en&objid=080000028017ebb8&utm_source=chatgpt.com",
+    "https://www.parliament.uk/globalassets/documents/magna-carta-and-parliament-booklet.pdf?utm_source=chatgpt.com",
+    "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone?utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources; not represented as independent agent verification"
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "cececb4079dbea5d2d7de0575df42638b56d9b2ea30b3e2dcd4c8225988884c1",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cececb4079dbea5d2d7de0575df42638b56d9b2ea30b3e2dcd4c8225988884c1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Американская готика»?",
+        "sample_hashes": [
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "158bcfbe72a9a890e82a0b2f8d6a6d9b3650b521d06dff2ac2d88539447da194",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:41.973331+00:00",
+        "system_fingerprint": "fp_d81b3304b3",
+        "request_id": "e4f0aec3a083c5ac30c5bafcde21f65be0c9e4ada6b6ffa5ea20d646f82ab316",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cececb4079dbea5d2d7de0575df42638b56d9b2ea30b3e2dcd4c8225988884c1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Американская готика»?",
+        "sample_hashes": [
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "158bcfbe72a9a890e82a0b2f8d6a6d9b3650b521d06dff2ac2d88539447da194",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:41.973331+00:00",
+        "system_fingerprint": "fp_d81b3304b3",
+        "request_id": "e4f0aec3a083c5ac30c5bafcde21f65be0c9e4ada6b6ffa5ea20d646f82ab316",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cececb4079dbea5d2d7de0575df42638b56d9b2ea30b3e2dcd4c8225988884c1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Американская готика»?",
+        "sample_hashes": [
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "158bcfbe72a9a890e82a0b2f8d6a6d9b3650b521d06dff2ac2d88539447da194",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:41.973331+00:00",
+        "system_fingerprint": "fp_d81b3304b3",
+        "request_id": "e4f0aec3a083c5ac30c5bafcde21f65be0c9e4ada6b6ffa5ea20d646f82ab316",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cececb4079dbea5d2d7de0575df42638b56d9b2ea30b3e2dcd4c8225988884c1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Американская готика»?",
+        "sample_hashes": [
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36",
+          "158bcfbe72a9a890e82a0b2f8d6a6d9b3650b521d06dff2ac2d88539447da194",
+          "8cccd798ddf994fe5b1cd108b07a5c4215ba879e44762e109bc1b49f549e6d36"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:41.973331+00:00",
+        "system_fingerprint": "fp_d81b3304b3",
+        "request_id": "e4f0aec3a083c5ac30c5bafcde21f65be0c9e4ada6b6ffa5ea20d646f82ab316",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

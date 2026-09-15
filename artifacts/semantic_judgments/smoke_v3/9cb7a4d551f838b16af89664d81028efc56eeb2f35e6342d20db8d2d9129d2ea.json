@@ -1,0 +1,147 @@
+{
+  "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v1_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c"
+        ],
+        "raw_judge_response": "{\"groups\":[{\"group_id\":0,\"members\":[\"A\",\"B\",\"C\"]}],\"uncertain\":false}",
+        "created_at": "2026-09-10T05:17:06.278799+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "1c1f4cdfd11fafacf35a3b53557019bd81273cf3411f99dc66de3a67b91e6eb2",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v1_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983"
+        ],
+        "raw_judge_response": "{\"groups\":[{\"group_id\":0,\"members\":[\"A\",\"B\",\"C\",\"D\"]}],\"uncertain\":false}",
+        "created_at": "2026-09-10T05:17:06.686019+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "6d9e161a5cddd5c22c4204819578eeacf1b8eb7a62f43dc925c71c4d038ef14d",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v1_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "0230b3d6a68f6a595202ea16e8cb4cd880efc70b08efdca3a7cedd0073591b33"
+        ],
+        "raw_judge_response": "{\"groups\":[{\"group_id\":0,\"members\":[\"A\",\"B\",\"C\",\"D\"]},{\"group_id\":1,\"members\":[\"E\"]}],\"uncertain\":false}",
+        "created_at": "2026-09-10T05:17:07.314932+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "5e7ebcd8b187e2882706af5e26003427e91fd7b3635f933d56ffc8d6a07ae989",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v1_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "0230b3d6a68f6a595202ea16e8cb4cd880efc70b08efdca3a7cedd0073591b33"
+        ],
+        "raw_judge_response": "{\"matching_groups\":[0],\"uncertain\":false}",
+        "created_at": "2026-09-10T05:17:07.840953+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "82d3d11b6bc8aef0dbcc3f6003f41cf52e7341feb025c3a911b1cc4d9c6731af",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[0]",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

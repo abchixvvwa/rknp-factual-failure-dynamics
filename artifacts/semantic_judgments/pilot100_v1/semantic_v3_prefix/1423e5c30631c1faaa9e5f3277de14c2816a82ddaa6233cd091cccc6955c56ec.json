@@ -1,0 +1,213 @@
+{
+  "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "0040f77c724f1216994e5d9b9b6adf5d96f89333e33cc3165b0c31a98bb2b197"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:41.203467+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "6fc04fde6751f5c605d5e7106721bbf2aee616368dbecbb775ac37a913e0a256",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T09:12:41.864891+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "b83836205dd639c6ef2a0154794939640805e29362b859cfd640f5c9f7e80297",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "0040f77c724f1216994e5d9b9b6adf5d96f89333e33cc3165b0c31a98bb2b197",
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:45.752707+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "a5929c0b2873e7b556cc1994f427d8bcbaa82e91b512221aadb5ec0bd320ee0d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T09:12:41.864891+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "b83836205dd639c6ef2a0154794939640805e29362b859cfd640f5c9f7e80297",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "0040f77c724f1216994e5d9b9b6adf5d96f89333e33cc3165b0c31a98bb2b197",
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "b33f1bb842d9df66b8c00eae28944f79d9b5942e5c1362e7f006948c341a75fc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:49.727811+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "af65d4292fe1649f2751b9f539f4b0d5f9b331121b0a014a3edd45bf5d207073",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T09:12:41.864891+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "b83836205dd639c6ef2a0154794939640805e29362b859cfd640f5c9f7e80297",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1423e5c30631c1faaa9e5f3277de14c2816a82ddaa6233cd091cccc6955c56ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the width-to-length ratio of Kazakhstan's national flag?",
+        "sample_hashes": [
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "0040f77c724f1216994e5d9b9b6adf5d96f89333e33cc3165b0c31a98bb2b197",
+          "e4dd2f7e55f19e1b5e9e2e8143b8284fb0b769a9ca994db6815bb17ad6e1a2df",
+          "b33f1bb842d9df66b8c00eae28944f79d9b5942e5c1362e7f006948c341a75fc",
+          "7f7a937a99b789275b9b695f9ad5307c9fbf8af6c3c4bb1381239c444289ef40"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:55.791312+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "32e139bd6a72caef5d83d480165e6e1a8e4017550ce43a52161bbca416d8eccf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

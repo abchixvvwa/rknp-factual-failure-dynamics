@@ -1,0 +1,132 @@
+{
+  "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:00:43.808818+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "b75a924415e024bbba4c6781048f826661073fba3da44ce3368c011e93ed1f3b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:00:45.732551+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2981accc69155ba8d9f3d5b30d9f5a4df67859fe0788803ca88d19977a9526bf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:00:47.999600+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "6e75d8c2abd084e10fab868ec2fc7d200b5c899baf9ce71c079fd84f296bf2ef",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

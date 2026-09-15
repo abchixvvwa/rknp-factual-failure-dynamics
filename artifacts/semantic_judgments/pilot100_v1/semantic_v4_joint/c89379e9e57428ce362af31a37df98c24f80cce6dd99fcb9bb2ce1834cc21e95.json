@@ -1,0 +1,159 @@
+{
+  "case_id": "c89379e9e57428ce362af31a37df98c24f80cce6dd99fcb9bb2ce1834cc21e95",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c89379e9e57428ce362af31a37df98c24f80cce6dd99fcb9bb2ce1834cc21e95",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Marie Curie win the Nobel Prize in Literature?",
+        "sample_hashes": [
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "5f55aafcd2b6bc4e49211a6cbeceea41a30df4f7deffe82b0682b17cd0607f99",
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:25.075374+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "b784e5612136a2dfb6a0e353b765ead0bb352b9b2b895b5c5ba734307c5f89cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c89379e9e57428ce362af31a37df98c24f80cce6dd99fcb9bb2ce1834cc21e95",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Marie Curie win the Nobel Prize in Literature?",
+        "sample_hashes": [
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "5f55aafcd2b6bc4e49211a6cbeceea41a30df4f7deffe82b0682b17cd0607f99",
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:25.075374+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "b784e5612136a2dfb6a0e353b765ead0bb352b9b2b895b5c5ba734307c5f89cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c89379e9e57428ce362af31a37df98c24f80cce6dd99fcb9bb2ce1834cc21e95",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Marie Curie win the Nobel Prize in Literature?",
+        "sample_hashes": [
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "5f55aafcd2b6bc4e49211a6cbeceea41a30df4f7deffe82b0682b17cd0607f99",
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:25.075374+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "b784e5612136a2dfb6a0e353b765ead0bb352b9b2b895b5c5ba734307c5f89cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c89379e9e57428ce362af31a37df98c24f80cce6dd99fcb9bb2ce1834cc21e95",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Marie Curie win the Nobel Prize in Literature?",
+        "sample_hashes": [
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "5f55aafcd2b6bc4e49211a6cbeceea41a30df4f7deffe82b0682b17cd0607f99",
+          "e1204f02ecf1750f0023e821bd35dee043d09c12784499359bbaad61dac1683e",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900",
+          "b089ff156e2dff1d34090ea2baee858524488d6cd3b738f069b5d606bbeca900"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:25.075374+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "b784e5612136a2dfb6a0e353b765ead0bb352b9b2b895b5c5ba734307c5f89cd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

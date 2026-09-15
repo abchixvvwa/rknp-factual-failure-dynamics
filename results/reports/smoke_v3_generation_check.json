@@ -1,0 +1,105 @@
+{
+  "experiment_id": "smoke_v3",
+  "engineering_only": true,
+  "benchmark_sha256": "163ac1112124bf062de7a3f87ee20fb2c377fb9bbfc1f71eeaf826ade461b6a3",
+  "requests": 360,
+  "duplicate_request_keys": 0,
+  "expected_requests": 360,
+  "expected_cases": 60,
+  "empty_responses": 0,
+  "refusal_marker_responses": 0,
+  "repeated_sample_texts": 110,
+  "fingerprints_by_model": {
+    "openai/gpt-oss-20b": [
+      "fp_1074f9ce08",
+      "fp_1c0f5282a2",
+      "fp_228717f27c",
+      "fp_24bfb4a850",
+      "fp_2b688e7cc3",
+      "fp_3023a70d60",
+      "fp_334cc21c60",
+      "fp_34cb00738d",
+      "fp_37c9245f64",
+      "fp_3cdd24b83b",
+      "fp_4a35f7bd1b",
+      "fp_4f7e7dc26e",
+      "fp_565badff47",
+      "fp_587d0d67cc",
+      "fp_5979a0e1b7",
+      "fp_639a5351c8",
+      "fp_66891002f6",
+      "fp_66f3850a1a",
+      "fp_75c733514d",
+      "fp_7d448090ba",
+      "fp_80501ff3a1",
+      "fp_84bb35977d",
+      "fp_851252edc2",
+      "fp_8b41efc9a3",
+      "fp_8d13edce1d",
+      "fp_8e23cedc90",
+      "fp_92d51d08e5",
+      "fp_9340e7d14d",
+      "fp_996f667773",
+      "fp_99996fee8e",
+      "fp_9b8528b477",
+      "fp_a12402de73",
+      "fp_a4315eb300",
+      "fp_a8c584dda7",
+      "fp_c5a89987dc",
+      "fp_c9afb2bdb4",
+      "fp_d23c14756c",
+      "fp_d3e146e1a5",
+      "fp_d6de37e6be",
+      "fp_e189667b30",
+      "fp_e23fc997ca",
+      "fp_e2cb7a84ec",
+      "fp_e594c51153",
+      "fp_e99e93f2ac",
+      "fp_ef00694abe",
+      "fp_feb9b278f1"
+    ],
+    "qwen/qwen3.8-27b": [
+      "fp_43dd1ea4ee",
+      "fp_8da23ae6c7",
+      "fp_c7e30c203c"
+    ]
+  },
+  "observed_cases": 60,
+  "complete_cases": 59,
+  "invalid_responses": 3,
+  "exclusions": [
+    {
+      "case_id": "8ded53df5d2917d45dee834e81308551f576b00fbe07abe649970c13ec7d6f42",
+      "fact_id": "smoke_007",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 2
+    }
+  ],
+  "by_model": [
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "requests": 180,
+      "input_tokens": 25752,
+      "output_tokens": 10138
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "requests": 180,
+      "input_tokens": 18678,
+      "output_tokens": 5415
+    }
+  ],
+  "invalid_by_language": {
+    "kk": 3
+  },
+  "invalid_by_model": {
+    "qwen/qwen3.8-27b": 3
+  },
+  "finish_reasons": {
+    "stop": 357,
+    "length": 3
+  },
+  "interpretation": "Engineering feasibility evidence, not a scientific pilot and not evidence for predictive hypotheses"
+}

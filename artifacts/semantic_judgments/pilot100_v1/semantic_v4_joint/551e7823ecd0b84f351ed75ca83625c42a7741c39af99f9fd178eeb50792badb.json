@@ -1,0 +1,159 @@
+{
+  "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3",
+          "e3e4866daf7262dd80a57ab9c42ad4c4329607f7ae9bdcd48be0e65918a0f4f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:17.787353+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "6a15b71bb1bde942d03b839127eb44019124f38222e749314c2ca4a2b0ef6f82",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3",
+          "e3e4866daf7262dd80a57ab9c42ad4c4329607f7ae9bdcd48be0e65918a0f4f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:17.787353+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "6a15b71bb1bde942d03b839127eb44019124f38222e749314c2ca4a2b0ef6f82",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3",
+          "e3e4866daf7262dd80a57ab9c42ad4c4329607f7ae9bdcd48be0e65918a0f4f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:17.787353+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "6a15b71bb1bde942d03b839127eb44019124f38222e749314c2ca4a2b0ef6f82",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "551e7823ecd0b84f351ed75ca83625c42a7741c39af99f9fd178eeb50792badb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы алғаш рет экипажбен ұшты?",
+        "sample_hashes": [
+          "68e849e9edc36d03147f8211ab73a7eb3abc31a571c6c6c020a38877ab0ec00b",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "0c0c359db18734c1e929f0742b6d2cea12aff287404dae299d7f1411040a7774",
+          "6c5bacec49e17d83f2dff346b03bf6efe3f7152560baa2b5cf54639c438cc4a3",
+          "e3e4866daf7262dd80a57ab9c42ad4c4329607f7ae9bdcd48be0e65918a0f4f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:17.787353+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "6a15b71bb1bde942d03b839127eb44019124f38222e749314c2ca4a2b0ef6f82",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

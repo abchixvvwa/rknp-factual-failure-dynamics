@@ -1,0 +1,167 @@
+{
+  "case_id": "cb3229db8646934520925444c3b1880d0d50fe42b65134f3c6c6151eb955b6dd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb3229db8646934520925444c3b1880d0d50fe42b65134f3c6c6151eb955b6dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы адамдарды алғаш рет Ай маңына жеткізді?",
+        "sample_hashes": [
+          "b4f8a839f71eacda09d574f8999f45418a06a1cc8170dac591c4879aeb24b9a3",
+          "09ae1375ff77df1f1cdf24f7ed45b45eae89a4836ed68ba71d988ba04afd1fb9",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "477ff06ae4fd949a24d0dc3f4d876cbf5e1c2c3be94ad3b4e29f348b51d10cd9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:33.285859+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b1c2e606983199e32f255c128d282a952beae8db3bad202fcff6b47bb29d6ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb3229db8646934520925444c3b1880d0d50fe42b65134f3c6c6151eb955b6dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы адамдарды алғаш рет Ай маңына жеткізді?",
+        "sample_hashes": [
+          "b4f8a839f71eacda09d574f8999f45418a06a1cc8170dac591c4879aeb24b9a3",
+          "09ae1375ff77df1f1cdf24f7ed45b45eae89a4836ed68ba71d988ba04afd1fb9",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "477ff06ae4fd949a24d0dc3f4d876cbf5e1c2c3be94ad3b4e29f348b51d10cd9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:33.285859+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b1c2e606983199e32f255c128d282a952beae8db3bad202fcff6b47bb29d6ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb3229db8646934520925444c3b1880d0d50fe42b65134f3c6c6151eb955b6dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы адамдарды алғаш рет Ай маңына жеткізді?",
+        "sample_hashes": [
+          "b4f8a839f71eacda09d574f8999f45418a06a1cc8170dac591c4879aeb24b9a3",
+          "09ae1375ff77df1f1cdf24f7ed45b45eae89a4836ed68ba71d988ba04afd1fb9",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "477ff06ae4fd949a24d0dc3f4d876cbf5e1c2c3be94ad3b4e29f348b51d10cd9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:33.285859+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b1c2e606983199e32f255c128d282a952beae8db3bad202fcff6b47bb29d6ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb3229db8646934520925444c3b1880d0d50fe42b65134f3c6c6151eb955b6dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Аполлон» бағдарламасының қай миссиясы адамдарды алғаш рет Ай маңына жеткізді?",
+        "sample_hashes": [
+          "b4f8a839f71eacda09d574f8999f45418a06a1cc8170dac591c4879aeb24b9a3",
+          "09ae1375ff77df1f1cdf24f7ed45b45eae89a4836ed68ba71d988ba04afd1fb9",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "713ded58e3633766ef6e29c309c20cb5f85b3ba8708da1201538b458d1df0bc1",
+          "477ff06ae4fd949a24d0dc3f4d876cbf5e1c2c3be94ad3b4e29f348b51d10cd9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:33.285859+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "b1c2e606983199e32f255c128d282a952beae8db3bad202fcff6b47bb29d6ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

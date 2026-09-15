@@ -1,0 +1,280 @@
+{
+  "observed_cases": 900,
+  "feature_rows": 832,
+  "excluded": [
+    {
+      "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "a203505f9073f72fb29a4364a10735d35ff3ccce5c7f32342d7d17f1de2ef235",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "6a800d310d467dc97c321b74201b03e9f20a177422a3500b6bdea0b54a0d4af1",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "3273d6d3311192fd108ee4a408f7331590d5619bf1b4be97b378a62f2f5040e8",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "b7724e65b3ed704d44e60c427e685ff842c48a00b95d99452b8eaff4eba615fb",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "47832c8a194cb9631e69eb57fa1f5e0a9dacaf690bfcb314588d2260a547db58",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "5988bca59e03847620d907e80af8b628d1319e54a87387a2637bfabc53591e0c",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "8247620111e64c3e82bb7bc66c7558a9318f64b31f5af561bd70d08cfda2890a",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "23fbae5534c853f99f1f22cbbb4e1001686fd45b60c045b50c4768d63c9e4019",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "7e65ae9f7ab086940ec36c1bb8ce1ce4c101464abeb8df362265a964b3a6c7ae",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "f72a51aa80fe2c84ad978dd88c15115225879f6613a6101e68fb6f09313a880a",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "9e3b340994071b50d14e6557a96179e3f5368b73c2de8f471cb442a62034d570",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "66e065af69a65ae8a3cd5ef329b2f9081d0ef0a85e5550e3ec3a375fd95c5439",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "f3252ce1c6c013935b21ed2b039a98a5c6b425af5484f36792e163550b53662c",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "3b0c94e9d438641c83c8c0da7a1be04c5028947720d149faa8da6df08ce7efb3",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "49dcc08541936fcfbfd5ab2600728a9a998a6a2fdc384f4a03536f42496d9a57",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "def37f9fc16bef75d8bb552a9dbaad8cc635ca8378341911e11237add2ebfbec",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "1663f563be9bc33ccae55cea2e96213a7c9216431310cd85f373be9978b21f0c",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "ce851550b91c66f00d3e4001f4f2d4e5bd253fdd6c537e9443ebd7ef118cddc1",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "34a49cc762f1c8a57e7f5b6429e6ac6c2ee72bacdf1a169759df2af8826c3828",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "21f93ddc6b6a21cb59b1d6461cc8064fa3b6325e0057a1ae90d908786663a1d9",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "c54f91612db85196914057485c6e85e6faf96b66705badb5c17693fd2f92ba9a",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "4375e7a78a0d49aaffd4fceaadb4a29f875ea9d34285fd4e7d823b5d1be4588b",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "1e5081c69cef942f720d7b1d19a534c14a5eb08cc692346beac33bb44e64c68a",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "39f227251990e36a5189da4d8c647088dd075ba4f4fbc6ab7cfa5abc55841fc3",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "ed486eb0e1b7a2f00f38fa7bf891cad64342e16cb0d9b7639f9232b76fc38889",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "a06b84de6af8b569e65155462feac7ee146c302a472c5626993322b3b1259fff",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "d2952eeb797c70c83bd6c26033c9898f9bd83238fea6204de6c6956f681f817e",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "7e103bad25323f4c7786d726eeff897f00957e0ff62a1e26422b4564d5fe12f7",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "9107a155222a6316734296b6bd3edea52b18f18630904d016aa1c29d26d1086c",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "be87d15a1fe1ad1ce5a75cb1b24f29e4baab998b21340cdb747ad50a8f325cb9",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "536904218d713c92e36b49ec8dbc10b704846410da57fb7aeacb2cc6f69c7244",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "2c5e3fbaf3a3d3faa1411239264d98ea37891ab65429a568760c122edb620014",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "1a191e814457f831d2d3be19863244cf016e39e81d56a29dc5b64d76c3513d38",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "3f2a33b08693b1ab828947c1e810216552f8168adbf7b2e8af58948cf03beec0",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "0fa372254bdf7c28c253e8e3a1ce729fbc872a43b0380bcb4fe2bc61ca7955f5",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "dbe497744ddc736d299de9efe1f94ec0785ca8f4d692f295eb6bebb27f47839d",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "c8a0b52f67181c4a4269f68eb15e6b621c3525118d0450ebbdac4c32b5f0c651",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "11e94978fb958d4a3c85ff7dab4e906b1920f305a44c6ece44ee7b23cc6b0d9c",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "8d6b9c4905ea0f1c7a15be354a98155ab31dfb51098c1b00f48559db2508ed35",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "90f5273637eb5286e3572e128cace94c46f3dcf2ce43fd438d7a85493dac74dd",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "93a0db4b2682c42ed6ddb91df794d6f03a861ccd08523508f1ddcfbdb075534c",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "5327ba467cfbb63b965f5d35509c8413e0c7f269d07f23626d600f3c294dbf18",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "a4bdc24ad5a9882be2f149ee7b91a674e804bf715cca75e290508c9eaeff3cbc",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "270706cf7d365ffee93beca56d6a5f7fdf423394572fcb082ac3a56a3e5714c9",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "c64d241f007890e6a00f216289a7fe04a9c6ca33a45d97c112de310f0fca5f09",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "09cfae5c873d994a3bf8e3910370f05fd6afb102477f48932663b9826526c2cb",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "b3e81097883c00fae7071503cc064af0c39acbe2b28b89881797c2e80dc86b69",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "99ef4d99a490d40b7dfbdc6d4b8e077fd7264b96809f9e2839a2dbd5def2f435",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "94642d24aaa1f4a931e4999c3424f70253b7699afc9069a413ca5aed69db7c49",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "3a90128418d5b43b36d6aa79611a170758a47516402c91b667fee528a0cc675a",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "82ad73369ecd431989ff7a3b4fdaf65663de79bbd2389833ef00d2bfe67cf21c",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "023c53fad91699ced05fe119d567b553ebe8175b53c2dac5ec4b06094e1138f1",
+      "reason": "Incomplete generations or missing grouping"
+    },
+    {
+      "case_id": "794a7a4258b756b6675326de09f0fa020ffd259c8b3bb0f966e97792cf049a00",
+      "reason": "Judge uncertainty requires human review"
+    },
+    {
+      "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+      "reason": "Judge uncertainty requires human review"
+    }
+  ],
+  "unresolved_labels": 0,
+  "note": "No predictive metrics are computed from engineering smoke data"
+}

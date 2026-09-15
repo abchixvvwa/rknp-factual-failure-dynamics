@@ -1,0 +1,159 @@
+{
+  "case_id": "bb3a2f83f8e78165f90b372b5fec74d1251b96b98bf7254d94b08820f107499f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bb3a2f83f8e78165f90b372b5fec74d1251b96b98bf7254d94b08820f107499f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер натрия?",
+        "sample_hashes": [
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "6786b5fd54d92e6682b7193aeac9c4d7888f4bc790ac5c324ed2acab0f084e6a",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:09.978019+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "fb9b802467d544d64ae11fd4626bdbb0cf6110dffcc2cd7c2843ecc502aa0e3a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bb3a2f83f8e78165f90b372b5fec74d1251b96b98bf7254d94b08820f107499f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер натрия?",
+        "sample_hashes": [
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "6786b5fd54d92e6682b7193aeac9c4d7888f4bc790ac5c324ed2acab0f084e6a",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:09.978019+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "fb9b802467d544d64ae11fd4626bdbb0cf6110dffcc2cd7c2843ecc502aa0e3a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bb3a2f83f8e78165f90b372b5fec74d1251b96b98bf7254d94b08820f107499f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер натрия?",
+        "sample_hashes": [
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "6786b5fd54d92e6682b7193aeac9c4d7888f4bc790ac5c324ed2acab0f084e6a",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:09.978019+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "fb9b802467d544d64ae11fd4626bdbb0cf6110dffcc2cd7c2843ecc502aa0e3a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bb3a2f83f8e78165f90b372b5fec74d1251b96b98bf7254d94b08820f107499f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер натрия?",
+        "sample_hashes": [
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "ac106b094b791d76e8cb827a0e1cf7e3c56a3557e323e2b23ae23d8c50a24598",
+          "6786b5fd54d92e6682b7193aeac9c4d7888f4bc790ac5c324ed2acab0f084e6a",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:09.978019+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "fb9b802467d544d64ae11fd4626bdbb0cf6110dffcc2cd7c2843ecc502aa0e3a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

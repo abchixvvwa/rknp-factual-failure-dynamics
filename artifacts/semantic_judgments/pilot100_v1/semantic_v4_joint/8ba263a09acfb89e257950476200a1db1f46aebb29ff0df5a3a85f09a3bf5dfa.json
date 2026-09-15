@@ -1,0 +1,161 @@
+{
+  "case_id": "8ba263a09acfb89e257950476200a1db1f46aebb29ff0df5a3a85f09a3bf5dfa",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8ba263a09acfb89e257950476200a1db1f46aebb29ff0df5a3a85f09a3bf5dfa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется национальная валюта Казахстана?",
+        "sample_hashes": [
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "ecfe9fd2c72652b78368ff3b664d15d86b7aa3e1c347f7c9d5b5a57216380dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:37.264204+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "99307e514e2a46ef12befd41db470f9c7740a0c5ab86d509e9fa1db268a18c31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8ba263a09acfb89e257950476200a1db1f46aebb29ff0df5a3a85f09a3bf5dfa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется национальная валюта Казахстана?",
+        "sample_hashes": [
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "ecfe9fd2c72652b78368ff3b664d15d86b7aa3e1c347f7c9d5b5a57216380dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:37.264204+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "99307e514e2a46ef12befd41db470f9c7740a0c5ab86d509e9fa1db268a18c31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8ba263a09acfb89e257950476200a1db1f46aebb29ff0df5a3a85f09a3bf5dfa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется национальная валюта Казахстана?",
+        "sample_hashes": [
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "ecfe9fd2c72652b78368ff3b664d15d86b7aa3e1c347f7c9d5b5a57216380dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:37.264204+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "99307e514e2a46ef12befd41db470f9c7740a0c5ab86d509e9fa1db268a18c31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8ba263a09acfb89e257950476200a1db1f46aebb29ff0df5a3a85f09a3bf5dfa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется национальная валюта Казахстана?",
+        "sample_hashes": [
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "fa1e09c4e32481117e98a6445996b0b4469231a82b6dd7a07ed3bcc5307027bd",
+          "3dd44b74f8caab3aa613526fbd88a9f75fa94f6f00181cf6bc74270c5398c64e",
+          "ecfe9fd2c72652b78368ff3b664d15d86b7aa3e1c347f7c9d5b5a57216380dab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:37.264204+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "99307e514e2a46ef12befd41db470f9c7740a0c5ab86d509e9fa1db268a18c31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

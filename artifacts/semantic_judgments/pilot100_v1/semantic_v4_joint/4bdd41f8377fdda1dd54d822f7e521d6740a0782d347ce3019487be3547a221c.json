@@ -1,0 +1,159 @@
+{
+  "case_id": "4bdd41f8377fdda1dd54d822f7e521d6740a0782d347ce3019487be3547a221c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4bdd41f8377fdda1dd54d822f7e521d6740a0782d347ce3019487be3547a221c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?",
+        "sample_hashes": [
+          "931202663a14a9f812d32e0b20f15577c19e0610f9079f8babec3dd3f01dd7c0",
+          "80cc138abbdfd2ff36225c9e71a6db3b6d6633fae017f64b3bd2ce07bdeedfaa",
+          "21d964613c79b5cca2018035371a32dbbe60834f51159a3c4400fcf66cf2b294",
+          "5af529128077daeec95323d53c09a48f932bb0ad3062a4e719183b333ed4210c",
+          "d394404da73c6cfc8ffbcb1e01e1d0737a5fa782f272563f600cbc8344c9d92e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:40.489839+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "878dbb8bcc3d13a6ed060d1409429b8ace66ecf755efe1c32e59fbca97254ef5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4bdd41f8377fdda1dd54d822f7e521d6740a0782d347ce3019487be3547a221c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?",
+        "sample_hashes": [
+          "931202663a14a9f812d32e0b20f15577c19e0610f9079f8babec3dd3f01dd7c0",
+          "80cc138abbdfd2ff36225c9e71a6db3b6d6633fae017f64b3bd2ce07bdeedfaa",
+          "21d964613c79b5cca2018035371a32dbbe60834f51159a3c4400fcf66cf2b294",
+          "5af529128077daeec95323d53c09a48f932bb0ad3062a4e719183b333ed4210c",
+          "d394404da73c6cfc8ffbcb1e01e1d0737a5fa782f272563f600cbc8344c9d92e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:40.489839+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "878dbb8bcc3d13a6ed060d1409429b8ace66ecf755efe1c32e59fbca97254ef5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4bdd41f8377fdda1dd54d822f7e521d6740a0782d347ce3019487be3547a221c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?",
+        "sample_hashes": [
+          "931202663a14a9f812d32e0b20f15577c19e0610f9079f8babec3dd3f01dd7c0",
+          "80cc138abbdfd2ff36225c9e71a6db3b6d6633fae017f64b3bd2ce07bdeedfaa",
+          "21d964613c79b5cca2018035371a32dbbe60834f51159a3c4400fcf66cf2b294",
+          "5af529128077daeec95323d53c09a48f932bb0ad3062a4e719183b333ed4210c",
+          "d394404da73c6cfc8ffbcb1e01e1d0737a5fa782f272563f600cbc8344c9d92e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:40.489839+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "878dbb8bcc3d13a6ed060d1409429b8ace66ecf755efe1c32e59fbca97254ef5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4bdd41f8377fdda1dd54d822f7e521d6740a0782d347ce3019487be3547a221c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?",
+        "sample_hashes": [
+          "931202663a14a9f812d32e0b20f15577c19e0610f9079f8babec3dd3f01dd7c0",
+          "80cc138abbdfd2ff36225c9e71a6db3b6d6633fae017f64b3bd2ce07bdeedfaa",
+          "21d964613c79b5cca2018035371a32dbbe60834f51159a3c4400fcf66cf2b294",
+          "5af529128077daeec95323d53c09a48f932bb0ad3062a4e719183b333ed4210c",
+          "d394404da73c6cfc8ffbcb1e01e1d0737a5fa782f272563f600cbc8344c9d92e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:40.489839+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "878dbb8bcc3d13a6ed060d1409429b8ace66ecf755efe1c32e59fbca97254ef5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

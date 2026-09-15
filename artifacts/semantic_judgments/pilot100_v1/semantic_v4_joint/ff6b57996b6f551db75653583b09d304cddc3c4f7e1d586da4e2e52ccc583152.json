@@ -1,0 +1,179 @@
+{
+  "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы Қазақстанның мемлекеттік әнұраны ретінде қабылданған ән қалай аталды?",
+        "sample_hashes": [
+          "13c3a493c54a659836fc3a03dda238f00bb2de2fd7882cd88b98ddc1a75e2ecf",
+          "dd53ad53b0a6cb4fb3cafe60c1fe877f0137cb35cbfcf95e9c72cbf26c45b49f",
+          "9bd779aad18fd0adefb5b00a8b1cdad845451b28e60adcce0c85be3f91673bf6",
+          "0d3c1442bfb8312a1afaff25a9d7953f1a9bfec1bf5779b8ecc9ef01dccbffd0",
+          "8a455f8107586e136699116570f009c7d4d3f76e8bfc3a82a0c7654448a1cab0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:11.120812+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "38e42554d8546a197d7b1222d4986480edf8a9b47de75ed853d66680548aea12",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы Қазақстанның мемлекеттік әнұраны ретінде қабылданған ән қалай аталды?",
+        "sample_hashes": [
+          "13c3a493c54a659836fc3a03dda238f00bb2de2fd7882cd88b98ddc1a75e2ecf",
+          "dd53ad53b0a6cb4fb3cafe60c1fe877f0137cb35cbfcf95e9c72cbf26c45b49f",
+          "9bd779aad18fd0adefb5b00a8b1cdad845451b28e60adcce0c85be3f91673bf6",
+          "0d3c1442bfb8312a1afaff25a9d7953f1a9bfec1bf5779b8ecc9ef01dccbffd0",
+          "8a455f8107586e136699116570f009c7d4d3f76e8bfc3a82a0c7654448a1cab0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:11.120812+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "38e42554d8546a197d7b1222d4986480edf8a9b47de75ed853d66680548aea12",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы Қазақстанның мемлекеттік әнұраны ретінде қабылданған ән қалай аталды?",
+        "sample_hashes": [
+          "13c3a493c54a659836fc3a03dda238f00bb2de2fd7882cd88b98ddc1a75e2ecf",
+          "dd53ad53b0a6cb4fb3cafe60c1fe877f0137cb35cbfcf95e9c72cbf26c45b49f",
+          "9bd779aad18fd0adefb5b00a8b1cdad845451b28e60adcce0c85be3f91673bf6",
+          "0d3c1442bfb8312a1afaff25a9d7953f1a9bfec1bf5779b8ecc9ef01dccbffd0",
+          "8a455f8107586e136699116570f009c7d4d3f76e8bfc3a82a0c7654448a1cab0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:11.120812+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "38e42554d8546a197d7b1222d4986480edf8a9b47de75ed853d66680548aea12",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 4,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff6b57996b6f551db75653583b09d304cddc3c4f7e1d586da4e2e52ccc583152",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "2006 жылы Қазақстанның мемлекеттік әнұраны ретінде қабылданған ән қалай аталды?",
+        "sample_hashes": [
+          "13c3a493c54a659836fc3a03dda238f00bb2de2fd7882cd88b98ddc1a75e2ecf",
+          "dd53ad53b0a6cb4fb3cafe60c1fe877f0137cb35cbfcf95e9c72cbf26c45b49f",
+          "9bd779aad18fd0adefb5b00a8b1cdad845451b28e60adcce0c85be3f91673bf6",
+          "0d3c1442bfb8312a1afaff25a9d7953f1a9bfec1bf5779b8ecc9ef01dccbffd0",
+          "8a455f8107586e136699116570f009c7d4d3f76e8bfc3a82a0c7654448a1cab0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0],\n    [1, 2, 3, 4, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:11.120812+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "38e42554d8546a197d7b1222d4986480edf8a9b47de75ed853d66680548aea12",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

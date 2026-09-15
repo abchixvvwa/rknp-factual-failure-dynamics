@@ -1,0 +1,34 @@
+{
+  "reviewer": "project_user",
+  "date": "2026-09-11",
+  "scope": "pilot_025–pilot_100",
+  "verified_count": 76,
+  "confirmation": "Проверены pilot_025–pilot_100. Фактические ответы: 76/76 VERIFIED. Источники: 76/76 подтверждают эталонные факты. EN/RU/KK semantic equivalence: VERIFIED для всех 76. Пользователь подтвердил aliases и разрешил verified_by_human=true после трёх правок.",
+  "changes": [
+    {
+      "fact_id": "pilot_025",
+      "field": "question_kk",
+      "before": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шарты қай жылы жасалды?",
+      "after": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?"
+    },
+    {
+      "fact_id": "pilot_030",
+      "field": "question_kk",
+      "before": "1215 жылы Раннимидте Еркіндіктің ұлы хартиясының шарттарына Англияның қай королі келісті?",
+      "after": "1215 жылы Раннимидте Ұлы еркіндік хартиясының шарттарына Англияның қай королі келісті?"
+    },
+    {
+      "fact_id": "pilot_036",
+      "field": "question_ru",
+      "before": "Какого числа в ноябре 1989 года открылись пограничные переходы в Берлинской стене?",
+      "after": "Какого числа в ноябре 1989 года открылись пограничные переходы через Берлинскую стену?"
+    }
+  ],
+  "preserved_alias": {
+    "fact_id": "pilot_032",
+    "alias": "Афина"
+  },
+  "source_sha256": "cfa451c2dd51b642d630a5eacf3b9d266870f853e59870e36ddbf43746f6ee0b",
+  "verified_sha256": "df2c36a8ac136194e654ba11d018d851cadcb9e48dc28578eaceb40143560ce6",
+  "semantic_judge_annotation_received": false
+}

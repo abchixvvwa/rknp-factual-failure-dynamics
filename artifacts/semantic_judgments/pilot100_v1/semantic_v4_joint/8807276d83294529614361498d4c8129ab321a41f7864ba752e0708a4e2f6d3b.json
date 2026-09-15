@@ -1,0 +1,159 @@
+{
+  "case_id": "8807276d83294529614361498d4c8129ab321a41f7864ba752e0708a4e2f6d3b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8807276d83294529614361498d4c8129ab321a41f7864ba752e0708a4e2f6d3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of carbon?",
+        "sample_hashes": [
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:28.015408+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4dc944054d740f9c579b3fd46e7b5570cb7b7470a6d9e8fded5e1200eddde8ce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8807276d83294529614361498d4c8129ab321a41f7864ba752e0708a4e2f6d3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of carbon?",
+        "sample_hashes": [
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:28.015408+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4dc944054d740f9c579b3fd46e7b5570cb7b7470a6d9e8fded5e1200eddde8ce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8807276d83294529614361498d4c8129ab321a41f7864ba752e0708a4e2f6d3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of carbon?",
+        "sample_hashes": [
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:28.015408+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4dc944054d740f9c579b3fd46e7b5570cb7b7470a6d9e8fded5e1200eddde8ce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8807276d83294529614361498d4c8129ab321a41f7864ba752e0708a4e2f6d3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the atomic number of carbon?",
+        "sample_hashes": [
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965",
+          "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "97bb16bccc6e7e8272080af8a5e05d10deeda39d681e9dfde25905defcc80965"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:28.015408+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "4dc944054d740f9c579b3fd46e7b5570cb7b7470a6d9e8fded5e1200eddde8ce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

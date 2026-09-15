@@ -1,0 +1,159 @@
+{
+  "case_id": "74b6212bc3f1027b8cf4619c0c2a3c19129ab7352acfb0628da1e4ca02962860",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "74b6212bc3f1027b8cf4619c0c2a3c19129ab7352acfb0628da1e4ca02962860",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Мария Кюри әдебиет саласындағы Нобель сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "dd6e35fb89abc6756363ead7ce90bbf59c7caed80a0b139db562355cb891f909",
+          "692fd3383473820a64fe21dce4df5736ba6656b597ce74eda7c637fcd564236e",
+          "01296098e60840a555c7fa8d2713ce498de245a45377ef779846006212fc425b",
+          "95af40329921d6cd42cfbb7122dc234565e9768194eb39e6dfdd28aee9f0f172",
+          "afce1b6e5b519f5418ddf6e168971ffbbaa2e384d2e3b4891006f79ac282cb2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.207619+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "a90ffe7887f2825cb2d233b23e46bcb616fa3fe068d013250dc93dbc994cfe25",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "74b6212bc3f1027b8cf4619c0c2a3c19129ab7352acfb0628da1e4ca02962860",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Мария Кюри әдебиет саласындағы Нобель сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "dd6e35fb89abc6756363ead7ce90bbf59c7caed80a0b139db562355cb891f909",
+          "692fd3383473820a64fe21dce4df5736ba6656b597ce74eda7c637fcd564236e",
+          "01296098e60840a555c7fa8d2713ce498de245a45377ef779846006212fc425b",
+          "95af40329921d6cd42cfbb7122dc234565e9768194eb39e6dfdd28aee9f0f172",
+          "afce1b6e5b519f5418ddf6e168971ffbbaa2e384d2e3b4891006f79ac282cb2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.207619+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "a90ffe7887f2825cb2d233b23e46bcb616fa3fe068d013250dc93dbc994cfe25",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "74b6212bc3f1027b8cf4619c0c2a3c19129ab7352acfb0628da1e4ca02962860",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Мария Кюри әдебиет саласындағы Нобель сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "dd6e35fb89abc6756363ead7ce90bbf59c7caed80a0b139db562355cb891f909",
+          "692fd3383473820a64fe21dce4df5736ba6656b597ce74eda7c637fcd564236e",
+          "01296098e60840a555c7fa8d2713ce498de245a45377ef779846006212fc425b",
+          "95af40329921d6cd42cfbb7122dc234565e9768194eb39e6dfdd28aee9f0f172",
+          "afce1b6e5b519f5418ddf6e168971ffbbaa2e384d2e3b4891006f79ac282cb2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.207619+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "a90ffe7887f2825cb2d233b23e46bcb616fa3fe068d013250dc93dbc994cfe25",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "74b6212bc3f1027b8cf4619c0c2a3c19129ab7352acfb0628da1e4ca02962860",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Мария Кюри әдебиет саласындағы Нобель сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "dd6e35fb89abc6756363ead7ce90bbf59c7caed80a0b139db562355cb891f909",
+          "692fd3383473820a64fe21dce4df5736ba6656b597ce74eda7c637fcd564236e",
+          "01296098e60840a555c7fa8d2713ce498de245a45377ef779846006212fc425b",
+          "95af40329921d6cd42cfbb7122dc234565e9768194eb39e6dfdd28aee9f0f172",
+          "afce1b6e5b519f5418ddf6e168971ffbbaa2e384d2e3b4891006f79ac282cb2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.207619+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "a90ffe7887f2825cb2d233b23e46bcb616fa3fe068d013250dc93dbc994cfe25",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "f21f8ad5d637eae479742ed7c5af58507dd0afc524df959072b50797ad2dba05",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f21f8ad5d637eae479742ed7c5af58507dd0afc524df959072b50797ad2dba05",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал гравюру «Большая волна в Канагаве»?",
+        "sample_hashes": [
+          "4e8cea6b5b57a5128f95a2efb16cc32fabd71b14c4abe1b8a7bc350e383ac3e2",
+          "d86e2e4b6735e94e3b04ea7e910bb63b18b1cc22238ca312bb78ea063118c935",
+          "ef565cb335eaf2cdb539c04363530746dad573bcb58f3be7335d651dc6fd654d",
+          "6853f3d698b6345dbd6917f7a879a39913a00ec16f135ec5814bf2f540c41d74",
+          "e5c9d9abf44c7f5f1a9d50a1cc41b1dec0ac2f4e68f6b32a49899f714206ec42"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:25.335667+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "f1fde6da97acad11d41f0e39fd894e1a7fab48a55217a17743a11f666522cabc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f21f8ad5d637eae479742ed7c5af58507dd0afc524df959072b50797ad2dba05",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал гравюру «Большая волна в Канагаве»?",
+        "sample_hashes": [
+          "4e8cea6b5b57a5128f95a2efb16cc32fabd71b14c4abe1b8a7bc350e383ac3e2",
+          "d86e2e4b6735e94e3b04ea7e910bb63b18b1cc22238ca312bb78ea063118c935",
+          "ef565cb335eaf2cdb539c04363530746dad573bcb58f3be7335d651dc6fd654d",
+          "6853f3d698b6345dbd6917f7a879a39913a00ec16f135ec5814bf2f540c41d74",
+          "e5c9d9abf44c7f5f1a9d50a1cc41b1dec0ac2f4e68f6b32a49899f714206ec42"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:25.335667+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "f1fde6da97acad11d41f0e39fd894e1a7fab48a55217a17743a11f666522cabc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f21f8ad5d637eae479742ed7c5af58507dd0afc524df959072b50797ad2dba05",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал гравюру «Большая волна в Канагаве»?",
+        "sample_hashes": [
+          "4e8cea6b5b57a5128f95a2efb16cc32fabd71b14c4abe1b8a7bc350e383ac3e2",
+          "d86e2e4b6735e94e3b04ea7e910bb63b18b1cc22238ca312bb78ea063118c935",
+          "ef565cb335eaf2cdb539c04363530746dad573bcb58f3be7335d651dc6fd654d",
+          "6853f3d698b6345dbd6917f7a879a39913a00ec16f135ec5814bf2f540c41d74",
+          "e5c9d9abf44c7f5f1a9d50a1cc41b1dec0ac2f4e68f6b32a49899f714206ec42"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:25.335667+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "f1fde6da97acad11d41f0e39fd894e1a7fab48a55217a17743a11f666522cabc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f21f8ad5d637eae479742ed7c5af58507dd0afc524df959072b50797ad2dba05",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто создал гравюру «Большая волна в Канагаве»?",
+        "sample_hashes": [
+          "4e8cea6b5b57a5128f95a2efb16cc32fabd71b14c4abe1b8a7bc350e383ac3e2",
+          "d86e2e4b6735e94e3b04ea7e910bb63b18b1cc22238ca312bb78ea063118c935",
+          "ef565cb335eaf2cdb539c04363530746dad573bcb58f3be7335d651dc6fd654d",
+          "6853f3d698b6345dbd6917f7a879a39913a00ec16f135ec5814bf2f540c41d74",
+          "e5c9d9abf44c7f5f1a9d50a1cc41b1dec0ac2f4e68f6b32a49899f714206ec42"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:25.335667+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "f1fde6da97acad11d41f0e39fd894e1a7fab48a55217a17743a11f666522cabc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

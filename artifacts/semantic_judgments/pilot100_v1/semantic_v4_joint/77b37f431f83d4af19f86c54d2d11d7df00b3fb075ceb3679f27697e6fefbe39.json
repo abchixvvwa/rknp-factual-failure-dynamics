@@ -1,0 +1,159 @@
+{
+  "case_id": "77b37f431f83d4af19f86c54d2d11d7df00b3fb075ceb3679f27697e6fefbe39",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77b37f431f83d4af19f86c54d2d11d7df00b3fb075ceb3679f27697e6fefbe39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік тілі қай тіл?",
+        "sample_hashes": [
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:10.147420+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "e994b1e1f359fb2db53e3eae2c78eff41286d8747623a391d38cd9d1cce77600",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77b37f431f83d4af19f86c54d2d11d7df00b3fb075ceb3679f27697e6fefbe39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік тілі қай тіл?",
+        "sample_hashes": [
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:10.147420+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "e994b1e1f359fb2db53e3eae2c78eff41286d8747623a391d38cd9d1cce77600",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77b37f431f83d4af19f86c54d2d11d7df00b3fb075ceb3679f27697e6fefbe39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік тілі қай тіл?",
+        "sample_hashes": [
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:10.147420+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "e994b1e1f359fb2db53e3eae2c78eff41286d8747623a391d38cd9d1cce77600",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77b37f431f83d4af19f86c54d2d11d7df00b3fb075ceb3679f27697e6fefbe39",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік тілі қай тіл?",
+        "sample_hashes": [
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "4d34315bac3c61cb03b1328990c03c207b3478a0a04957314251ffdfdc6c9169",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2",
+          "9983128cf641fcf0262a011744e815d0e37f5b5ed12efc527882b91e27eebed2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:10.147420+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "e994b1e1f359fb2db53e3eae2c78eff41286d8747623a391d38cd9d1cce77600",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

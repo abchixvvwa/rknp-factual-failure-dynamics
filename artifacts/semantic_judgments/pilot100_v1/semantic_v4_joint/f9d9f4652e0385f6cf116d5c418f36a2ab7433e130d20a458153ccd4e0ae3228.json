@@ -1,0 +1,159 @@
+{
+  "case_id": "f9d9f4652e0385f6cf116d5c418f36a2ab7433e130d20a458153ccd4e0ae3228",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9d9f4652e0385f6cf116d5c418f36a2ab7433e130d20a458153ccd4e0ae3228",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?",
+        "sample_hashes": [
+          "87bb3f0c973d529a28c67ffef31a55fe69cb0fb2ae6f365d64d607fb2ca61e30",
+          "c956df7eb644752c71c5912f5f8443dc566002c087d460d937d17513b089f979",
+          "cab93152ab202ad87aafb4bed250e2594d841cf61ce173716fc7cfd9577f7d4e",
+          "e417630b81b0c2e955d80cd96ea36b47f40c422faedc909fcc830d37da29b5dc",
+          "fb7002d8f96c19e3cc4d9a653b05695b9f5eedbd584cf2c497ea5066c9cb0789"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:52.045554+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "1dcb00e10bbc77607251a66554473a45f5abf2458cc3d3812abf44955cf54532",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9d9f4652e0385f6cf116d5c418f36a2ab7433e130d20a458153ccd4e0ae3228",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?",
+        "sample_hashes": [
+          "87bb3f0c973d529a28c67ffef31a55fe69cb0fb2ae6f365d64d607fb2ca61e30",
+          "c956df7eb644752c71c5912f5f8443dc566002c087d460d937d17513b089f979",
+          "cab93152ab202ad87aafb4bed250e2594d841cf61ce173716fc7cfd9577f7d4e",
+          "e417630b81b0c2e955d80cd96ea36b47f40c422faedc909fcc830d37da29b5dc",
+          "fb7002d8f96c19e3cc4d9a653b05695b9f5eedbd584cf2c497ea5066c9cb0789"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:52.045554+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "1dcb00e10bbc77607251a66554473a45f5abf2458cc3d3812abf44955cf54532",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9d9f4652e0385f6cf116d5c418f36a2ab7433e130d20a458153ccd4e0ae3228",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?",
+        "sample_hashes": [
+          "87bb3f0c973d529a28c67ffef31a55fe69cb0fb2ae6f365d64d607fb2ca61e30",
+          "c956df7eb644752c71c5912f5f8443dc566002c087d460d937d17513b089f979",
+          "cab93152ab202ad87aafb4bed250e2594d841cf61ce173716fc7cfd9577f7d4e",
+          "e417630b81b0c2e955d80cd96ea36b47f40c422faedc909fcc830d37da29b5dc",
+          "fb7002d8f96c19e3cc4d9a653b05695b9f5eedbd584cf2c497ea5066c9cb0789"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:52.045554+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "1dcb00e10bbc77607251a66554473a45f5abf2458cc3d3812abf44955cf54532",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9d9f4652e0385f6cf116d5c418f36a2ab7433e130d20a458153ccd4e0ae3228",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?",
+        "sample_hashes": [
+          "87bb3f0c973d529a28c67ffef31a55fe69cb0fb2ae6f365d64d607fb2ca61e30",
+          "c956df7eb644752c71c5912f5f8443dc566002c087d460d937d17513b089f979",
+          "cab93152ab202ad87aafb4bed250e2594d841cf61ce173716fc7cfd9577f7d4e",
+          "e417630b81b0c2e955d80cd96ea36b47f40c422faedc909fcc830d37da29b5dc",
+          "fb7002d8f96c19e3cc4d9a653b05695b9f5eedbd584cf2c497ea5066c9cb0789"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:52.045554+00:00",
+        "system_fingerprint": "fp_4a19b1544c",
+        "request_id": "1dcb00e10bbc77607251a66554473a45f5abf2458cc3d3812abf44955cf54532",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

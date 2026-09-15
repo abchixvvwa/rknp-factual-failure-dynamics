@@ -1,0 +1,11 @@
+fact_id,split
+smoke_001,train
+smoke_002,validation
+smoke_003,validation
+smoke_004,train
+smoke_005,train
+smoke_006,test
+smoke_007,train
+smoke_008,train
+smoke_009,train
+smoke_010,train

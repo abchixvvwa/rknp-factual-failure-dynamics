@@ -1,0 +1,159 @@
+{
+  "case_id": "0c696cf29552fc3ba95c963d2d7f06ff88bda2eb45304dc08b69561ddb719325",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0c696cf29552fc3ba95c963d2d7f06ff88bda2eb45304dc08b69561ddb719325",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Махатма Ганди получил Нобелевскую премию мира?",
+        "sample_hashes": [
+          "1b39e7acf16f0638164514650be78f36bdd0172f9f38a4d59552930676f26090",
+          "fe91f0c96c5e0cd4b80f2f87143be68bb2831883d188f30e22eb890e78cc65cc",
+          "3d60d58de2012cd4ba21c8a5ee85073a317e536d1ef96b24b3a97b3dab9b8fbf",
+          "5967c76261914b0f72e99edfe2741e4f77c8b4e5454268f958b37ed36131b65c",
+          "c7f9effd3c2ea7fe443e7a956be538814bc0b89f4c81de29537f324b4a2f51a9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:38.856320+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "90cf22a1441f821c892da56e2fae66778c16cb9110b4b79c6713659a1b9b02dd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0c696cf29552fc3ba95c963d2d7f06ff88bda2eb45304dc08b69561ddb719325",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Махатма Ганди получил Нобелевскую премию мира?",
+        "sample_hashes": [
+          "1b39e7acf16f0638164514650be78f36bdd0172f9f38a4d59552930676f26090",
+          "fe91f0c96c5e0cd4b80f2f87143be68bb2831883d188f30e22eb890e78cc65cc",
+          "3d60d58de2012cd4ba21c8a5ee85073a317e536d1ef96b24b3a97b3dab9b8fbf",
+          "5967c76261914b0f72e99edfe2741e4f77c8b4e5454268f958b37ed36131b65c",
+          "c7f9effd3c2ea7fe443e7a956be538814bc0b89f4c81de29537f324b4a2f51a9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:38.856320+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "90cf22a1441f821c892da56e2fae66778c16cb9110b4b79c6713659a1b9b02dd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0c696cf29552fc3ba95c963d2d7f06ff88bda2eb45304dc08b69561ddb719325",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Махатма Ганди получил Нобелевскую премию мира?",
+        "sample_hashes": [
+          "1b39e7acf16f0638164514650be78f36bdd0172f9f38a4d59552930676f26090",
+          "fe91f0c96c5e0cd4b80f2f87143be68bb2831883d188f30e22eb890e78cc65cc",
+          "3d60d58de2012cd4ba21c8a5ee85073a317e536d1ef96b24b3a97b3dab9b8fbf",
+          "5967c76261914b0f72e99edfe2741e4f77c8b4e5454268f958b37ed36131b65c",
+          "c7f9effd3c2ea7fe443e7a956be538814bc0b89f4c81de29537f324b4a2f51a9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:38.856320+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "90cf22a1441f821c892da56e2fae66778c16cb9110b4b79c6713659a1b9b02dd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0c696cf29552fc3ba95c963d2d7f06ff88bda2eb45304dc08b69561ddb719325",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году Махатма Ганди получил Нобелевскую премию мира?",
+        "sample_hashes": [
+          "1b39e7acf16f0638164514650be78f36bdd0172f9f38a4d59552930676f26090",
+          "fe91f0c96c5e0cd4b80f2f87143be68bb2831883d188f30e22eb890e78cc65cc",
+          "3d60d58de2012cd4ba21c8a5ee85073a317e536d1ef96b24b3a97b3dab9b8fbf",
+          "5967c76261914b0f72e99edfe2741e4f77c8b4e5454268f958b37ed36131b65c",
+          "c7f9effd3c2ea7fe443e7a956be538814bc0b89f4c81de29537f324b4a2f51a9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:40:38.856320+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "90cf22a1441f821c892da56e2fae66778c16cb9110b4b79c6713659a1b9b02dd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

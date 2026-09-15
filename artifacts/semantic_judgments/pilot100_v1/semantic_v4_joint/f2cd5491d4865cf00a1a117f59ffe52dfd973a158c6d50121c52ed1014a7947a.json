@@ -1,0 +1,159 @@
+{
+  "case_id": "f2cd5491d4865cf00a1a117f59ffe52dfd973a158c6d50121c52ed1014a7947a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f2cd5491d4865cf00a1a117f59ffe52dfd973a158c6d50121c52ed1014a7947a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1954 год?",
+        "sample_hashes": [
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "48fd0bced2d19a285de792a06e12b2bcb152befb331fd36042504be4427440c0",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417",
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:52:13.336237+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "062dd1242ef5ebb6c12c9a65a985a87aecd5557ee0acab53b43c5daa1caae250",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f2cd5491d4865cf00a1a117f59ffe52dfd973a158c6d50121c52ed1014a7947a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1954 год?",
+        "sample_hashes": [
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "48fd0bced2d19a285de792a06e12b2bcb152befb331fd36042504be4427440c0",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417",
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:52:13.336237+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "062dd1242ef5ebb6c12c9a65a985a87aecd5557ee0acab53b43c5daa1caae250",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f2cd5491d4865cf00a1a117f59ffe52dfd973a158c6d50121c52ed1014a7947a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1954 год?",
+        "sample_hashes": [
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "48fd0bced2d19a285de792a06e12b2bcb152befb331fd36042504be4427440c0",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417",
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:52:13.336237+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "062dd1242ef5ebb6c12c9a65a985a87aecd5557ee0acab53b43c5daa1caae250",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f2cd5491d4865cf00a1a117f59ffe52dfd973a158c6d50121c52ed1014a7947a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1954 год?",
+        "sample_hashes": [
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "48fd0bced2d19a285de792a06e12b2bcb152befb331fd36042504be4427440c0",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417",
+          "6e29b64aa81350d923294187903a42f6165db2857790204f3900f9ccef005cbb",
+          "7ceb5934f797c23b24a7bb01f08e184141b44e1c12cc044bd8ddb9693f964417"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:52:13.336237+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "062dd1242ef5ebb6c12c9a65a985a87aecd5557ee0acab53b43c5daa1caae250",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

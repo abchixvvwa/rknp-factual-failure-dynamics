@@ -1,0 +1,161 @@
+{
+  "case_id": "48778a61a5da2e05e0e8018625c834ac281a411d26c9575beac39f0f40678515",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48778a61a5da2e05e0e8018625c834ac281a411d26c9575beac39f0f40678515",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "44c550b0e0f3380f5de2a889454e576f26164a1b8a109222354fc5089e383057"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:37.600990+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "cf6a686e46537167336e05190f61249b2532cfb0fa3576df690e5be8eef57ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48778a61a5da2e05e0e8018625c834ac281a411d26c9575beac39f0f40678515",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "44c550b0e0f3380f5de2a889454e576f26164a1b8a109222354fc5089e383057"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:37.600990+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "cf6a686e46537167336e05190f61249b2532cfb0fa3576df690e5be8eef57ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48778a61a5da2e05e0e8018625c834ac281a411d26c9575beac39f0f40678515",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "44c550b0e0f3380f5de2a889454e576f26164a1b8a109222354fc5089e383057"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:37.600990+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "cf6a686e46537167336e05190f61249b2532cfb0fa3576df690e5be8eef57ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48778a61a5da2e05e0e8018625c834ac281a411d26c9575beac39f0f40678515",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "271ae9fbd22caedc7c77bfb2ab670a5365e88d1f1238d15251159786994a3a58",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "a234d6e227229eff67960caed715a01adf750499af11bde3494a3142d572b557",
+          "44c550b0e0f3380f5de2a889454e576f26164a1b8a109222354fc5089e383057"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:58:37.600990+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "cf6a686e46537167336e05190f61249b2532cfb0fa3576df690e5be8eef57ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

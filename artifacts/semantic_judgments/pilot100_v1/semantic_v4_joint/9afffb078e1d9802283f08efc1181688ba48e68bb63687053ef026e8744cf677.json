@@ -1,0 +1,159 @@
+{
+  "case_id": "9afffb078e1d9802283f08efc1181688ba48e68bb63687053ef026e8744cf677",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9afffb078e1d9802283f08efc1181688ba48e68bb63687053ef026e8744cf677",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Звёздная ночь» в 1889 году?",
+        "sample_hashes": [
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc",
+          "8461854631bce98bfad8569ec85f1ddde612c31cc89e43c6a9e8dca5479df6cd",
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:59.544056+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "3a39fb678948d228a43574107c712097f70fa386e136251870ff2bfc81c050df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9afffb078e1d9802283f08efc1181688ba48e68bb63687053ef026e8744cf677",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Звёздная ночь» в 1889 году?",
+        "sample_hashes": [
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc",
+          "8461854631bce98bfad8569ec85f1ddde612c31cc89e43c6a9e8dca5479df6cd",
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:59.544056+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "3a39fb678948d228a43574107c712097f70fa386e136251870ff2bfc81c050df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9afffb078e1d9802283f08efc1181688ba48e68bb63687053ef026e8744cf677",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Звёздная ночь» в 1889 году?",
+        "sample_hashes": [
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc",
+          "8461854631bce98bfad8569ec85f1ddde612c31cc89e43c6a9e8dca5479df6cd",
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:59.544056+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "3a39fb678948d228a43574107c712097f70fa386e136251870ff2bfc81c050df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9afffb078e1d9802283f08efc1181688ba48e68bb63687053ef026e8744cf677",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Звёздная ночь» в 1889 году?",
+        "sample_hashes": [
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc",
+          "8461854631bce98bfad8569ec85f1ddde612c31cc89e43c6a9e8dca5479df6cd",
+          "db5c00210fcbaf0c82fcda767bead827a26932dccd6633f0c70660e86525e9d3",
+          "a24b4b2b4ac82d6751fcb5ae483705c5e1e37942db7c9051fb8fd9e4774447bc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:59.544056+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "3a39fb678948d228a43574107c712097f70fa386e136251870ff2bfc81c050df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

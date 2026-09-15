@@ -1,0 +1,36 @@
+{
+  "utc_date": "2026-09-12",
+  "requests_today": 2716,
+  "per_model": [
+    {
+      "model": "openai/gpt-oss-20b",
+      "requests": 913,
+      "estimated_input_tokens": 510038,
+      "actual_input_tokens": 114834,
+      "output_tokens": 66061,
+      "count_429": 115,
+      "retries": 115,
+      "unknown_usage_requests": 115
+    },
+    {
+      "model": "qwen/qwen3.6-27b",
+      "requests": 831,
+      "estimated_input_tokens": 466220,
+      "actual_input_tokens": 81942,
+      "output_tokens": 30792,
+      "count_429": 29,
+      "retries": 33,
+      "unknown_usage_requests": 33
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "requests": 972,
+      "estimated_input_tokens": 544782,
+      "actual_input_tokens": 82142,
+      "output_tokens": 45207,
+      "count_429": 171,
+      "retries": 172,
+      "unknown_usage_requests": 172
+    }
+  ]
+}

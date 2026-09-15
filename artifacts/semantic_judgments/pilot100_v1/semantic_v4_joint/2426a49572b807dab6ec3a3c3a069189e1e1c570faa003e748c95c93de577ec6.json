@@ -1,0 +1,159 @@
+{
+  "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1935 год?",
+        "sample_hashes": [
+          "9045101149c5cf59914835f02dd246b69a30b510fa3f4fe53ef2ed2f7090dc05",
+          "fe6d1c109c87551c46badd5a51a7f09f0b638408dbad39ace555e6d42b0d085c",
+          "f4eecdcc4a31eb84c771965daf3b3dc79ccc578e775f1b3f9375fc0d44823e5b",
+          "5770f8f47f18d47ba3af3e1e04b68a0c373cf78b03ee94673e8965da172f27f7",
+          "2f7ddbc6088e37691020b1c4b201b03456522d7c66b8d23856f45aeca6993bc2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:32:25.540636+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "eb0ee07de23a09b8a3456631c7d468fc28f8a02688fa2ba3d84b11b30f8417a4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1935 год?",
+        "sample_hashes": [
+          "9045101149c5cf59914835f02dd246b69a30b510fa3f4fe53ef2ed2f7090dc05",
+          "fe6d1c109c87551c46badd5a51a7f09f0b638408dbad39ace555e6d42b0d085c",
+          "f4eecdcc4a31eb84c771965daf3b3dc79ccc578e775f1b3f9375fc0d44823e5b",
+          "5770f8f47f18d47ba3af3e1e04b68a0c373cf78b03ee94673e8965da172f27f7",
+          "2f7ddbc6088e37691020b1c4b201b03456522d7c66b8d23856f45aeca6993bc2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:32:25.540636+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "eb0ee07de23a09b8a3456631c7d468fc28f8a02688fa2ba3d84b11b30f8417a4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1935 год?",
+        "sample_hashes": [
+          "9045101149c5cf59914835f02dd246b69a30b510fa3f4fe53ef2ed2f7090dc05",
+          "fe6d1c109c87551c46badd5a51a7f09f0b638408dbad39ace555e6d42b0d085c",
+          "f4eecdcc4a31eb84c771965daf3b3dc79ccc578e775f1b3f9375fc0d44823e5b",
+          "5770f8f47f18d47ba3af3e1e04b68a0c373cf78b03ee94673e8965da172f27f7",
+          "2f7ddbc6088e37691020b1c4b201b03456522d7c66b8d23856f45aeca6993bc2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:32:25.540636+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "eb0ee07de23a09b8a3456631c7d468fc28f8a02688fa2ba3d84b11b30f8417a4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "2426a49572b807dab6ec3a3c3a069189e1e1c570faa003e748c95c93de577ec6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1935 год?",
+        "sample_hashes": [
+          "9045101149c5cf59914835f02dd246b69a30b510fa3f4fe53ef2ed2f7090dc05",
+          "fe6d1c109c87551c46badd5a51a7f09f0b638408dbad39ace555e6d42b0d085c",
+          "f4eecdcc4a31eb84c771965daf3b3dc79ccc578e775f1b3f9375fc0d44823e5b",
+          "5770f8f47f18d47ba3af3e1e04b68a0c373cf78b03ee94673e8965da172f27f7",
+          "2f7ddbc6088e37691020b1c4b201b03456522d7c66b8d23856f45aeca6993bc2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:32:25.540636+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "eb0ee07de23a09b8a3456631c7d468fc28f8a02688fa2ba3d84b11b30f8417a4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

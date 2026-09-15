@@ -1,0 +1,179 @@
+{
+  "case_id": "77315e42c55c141ead9d5e2c4634fbb8f21ae1dca00e09f84cc00e512c9dde4b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77315e42c55c141ead9d5e2c4634fbb8f21ae1dca00e09f84cc00e512c9dde4b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "f074a6f51cfc7028a189ee38e09d5c46c4b4bddc13781ebeaf90d7d10c6d91e3",
+          "39b475b44a50f36055cdc160c34da4e002af84099216a8f4ad72aa10601d3eff",
+          "ddc4038535fad09472f48a639ab9dcc2cc1b7584a13dc2419a528c481f35ab0b",
+          "9046669f0244a73c297eb38587050472d5dec692b7376dd04ef5d2f092a00bad",
+          "eb07dc6ce91c6d92e903414323f200e95986ae79e7a1d69609f39878d5cf99d0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:00.192519+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "6955334256cfa25c9c35653d0c564dc1b8be9c0d04dc022e8b1c28aaf0bcf286",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77315e42c55c141ead9d5e2c4634fbb8f21ae1dca00e09f84cc00e512c9dde4b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "f074a6f51cfc7028a189ee38e09d5c46c4b4bddc13781ebeaf90d7d10c6d91e3",
+          "39b475b44a50f36055cdc160c34da4e002af84099216a8f4ad72aa10601d3eff",
+          "ddc4038535fad09472f48a639ab9dcc2cc1b7584a13dc2419a528c481f35ab0b",
+          "9046669f0244a73c297eb38587050472d5dec692b7376dd04ef5d2f092a00bad",
+          "eb07dc6ce91c6d92e903414323f200e95986ae79e7a1d69609f39878d5cf99d0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:00.192519+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "6955334256cfa25c9c35653d0c564dc1b8be9c0d04dc022e8b1c28aaf0bcf286",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77315e42c55c141ead9d5e2c4634fbb8f21ae1dca00e09f84cc00e512c9dde4b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "f074a6f51cfc7028a189ee38e09d5c46c4b4bddc13781ebeaf90d7d10c6d91e3",
+          "39b475b44a50f36055cdc160c34da4e002af84099216a8f4ad72aa10601d3eff",
+          "ddc4038535fad09472f48a639ab9dcc2cc1b7584a13dc2419a528c481f35ab0b",
+          "9046669f0244a73c297eb38587050472d5dec692b7376dd04ef5d2f092a00bad",
+          "eb07dc6ce91c6d92e903414323f200e95986ae79e7a1d69609f39878d5cf99d0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:00.192519+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "6955334256cfa25c9c35653d0c564dc1b8be9c0d04dc022e8b1c28aaf0bcf286",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77315e42c55c141ead9d5e2c4634fbb8f21ae1dca00e09f84cc00e512c9dde4b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "f074a6f51cfc7028a189ee38e09d5c46c4b4bddc13781ebeaf90d7d10c6d91e3",
+          "39b475b44a50f36055cdc160c34da4e002af84099216a8f4ad72aa10601d3eff",
+          "ddc4038535fad09472f48a639ab9dcc2cc1b7584a13dc2419a528c481f35ab0b",
+          "9046669f0244a73c297eb38587050472d5dec692b7376dd04ef5d2f092a00bad",
+          "eb07dc6ce91c6d92e903414323f200e95986ae79e7a1d69609f39878d5cf99d0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:00.192519+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "6955334256cfa25c9c35653d0c564dc1b8be9c0d04dc022e8b1c28aaf0bcf286",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

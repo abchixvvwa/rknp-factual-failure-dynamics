@@ -1,0 +1,159 @@
+{
+  "case_id": "4b048baa71a9f44897feb0dfdc81617bc6c9570d926a469e4770f8b2ce81e3e3",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b048baa71a9f44897feb0dfdc81617bc6c9570d926a469e4770f8b2ce81e3e3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did the Suez Canal's original inauguration ceremony take place?",
+        "sample_hashes": [
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "b6e4c1a81d702edbae4614ceb2d34771ba190b774aa3ca95db08b944dd376e1e",
+          "f66e09213a428315a68baeb93205182e541bbe0d73404642b2573d520b54e722",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:07:02.771635+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "3cf367d7d02e90431ec74a302212a80f7886d5c2afeab550130135245be3c8f3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b048baa71a9f44897feb0dfdc81617bc6c9570d926a469e4770f8b2ce81e3e3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did the Suez Canal's original inauguration ceremony take place?",
+        "sample_hashes": [
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "b6e4c1a81d702edbae4614ceb2d34771ba190b774aa3ca95db08b944dd376e1e",
+          "f66e09213a428315a68baeb93205182e541bbe0d73404642b2573d520b54e722",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:07:02.771635+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "3cf367d7d02e90431ec74a302212a80f7886d5c2afeab550130135245be3c8f3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b048baa71a9f44897feb0dfdc81617bc6c9570d926a469e4770f8b2ce81e3e3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did the Suez Canal's original inauguration ceremony take place?",
+        "sample_hashes": [
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "b6e4c1a81d702edbae4614ceb2d34771ba190b774aa3ca95db08b944dd376e1e",
+          "f66e09213a428315a68baeb93205182e541bbe0d73404642b2573d520b54e722",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:07:02.771635+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "3cf367d7d02e90431ec74a302212a80f7886d5c2afeab550130135245be3c8f3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4b048baa71a9f44897feb0dfdc81617bc6c9570d926a469e4770f8b2ce81e3e3",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did the Suez Canal's original inauguration ceremony take place?",
+        "sample_hashes": [
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8",
+          "b6e4c1a81d702edbae4614ceb2d34771ba190b774aa3ca95db08b944dd376e1e",
+          "f66e09213a428315a68baeb93205182e541bbe0d73404642b2573d520b54e722",
+          "5c258804128ee3f8190e6df33262e4c09fe11b90c65d54b5c430bb834b30b1d8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:07:02.771635+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "3cf367d7d02e90431ec74a302212a80f7886d5c2afeab550130135245be3c8f3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

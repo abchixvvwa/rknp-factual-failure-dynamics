@@ -1,0 +1,159 @@
+{
+  "case_id": "200e77eab9a1fb42a4d796cdc76ca9cc84f45ecf33199ad5925d928d443916fa",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "200e77eab9a1fb42a4d796cdc76ca9cc84f45ecf33199ad5925d928d443916fa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Venus's widest natural planetary ring?",
+        "sample_hashes": [
+          "d4103065bae4eb98bb85475d228d2458ac35494c2a655487d30dfca0d12d80ee",
+          "e599bc01d97a6f849bc3c63d263a7b2a30d6b762d328680f690481e198a77eb9",
+          "f61a9b8c1e621c9e54d389fab530709d73c5f147af6f9de38d1f73e93435d2b8",
+          "58fb435e9e8fbc7921c6bcf36385ed8fbaf50b8a0bf2ebd60622cbfcf5a07f64",
+          "563ce04c1868a13b8c04d6f5acd36d0859ecb07a5c2f6810c751ba1f9923f4ff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:23.319587+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "b54fe98cd37dc420d9019f0c72c5e5ff69cf603a51ee550b84384408230cd75d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "200e77eab9a1fb42a4d796cdc76ca9cc84f45ecf33199ad5925d928d443916fa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Venus's widest natural planetary ring?",
+        "sample_hashes": [
+          "d4103065bae4eb98bb85475d228d2458ac35494c2a655487d30dfca0d12d80ee",
+          "e599bc01d97a6f849bc3c63d263a7b2a30d6b762d328680f690481e198a77eb9",
+          "f61a9b8c1e621c9e54d389fab530709d73c5f147af6f9de38d1f73e93435d2b8",
+          "58fb435e9e8fbc7921c6bcf36385ed8fbaf50b8a0bf2ebd60622cbfcf5a07f64",
+          "563ce04c1868a13b8c04d6f5acd36d0859ecb07a5c2f6810c751ba1f9923f4ff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:23.319587+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "b54fe98cd37dc420d9019f0c72c5e5ff69cf603a51ee550b84384408230cd75d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "200e77eab9a1fb42a4d796cdc76ca9cc84f45ecf33199ad5925d928d443916fa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Venus's widest natural planetary ring?",
+        "sample_hashes": [
+          "d4103065bae4eb98bb85475d228d2458ac35494c2a655487d30dfca0d12d80ee",
+          "e599bc01d97a6f849bc3c63d263a7b2a30d6b762d328680f690481e198a77eb9",
+          "f61a9b8c1e621c9e54d389fab530709d73c5f147af6f9de38d1f73e93435d2b8",
+          "58fb435e9e8fbc7921c6bcf36385ed8fbaf50b8a0bf2ebd60622cbfcf5a07f64",
+          "563ce04c1868a13b8c04d6f5acd36d0859ecb07a5c2f6810c751ba1f9923f4ff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:23.319587+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "b54fe98cd37dc420d9019f0c72c5e5ff69cf603a51ee550b84384408230cd75d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "200e77eab9a1fb42a4d796cdc76ca9cc84f45ecf33199ad5925d928d443916fa",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the name of Venus's widest natural planetary ring?",
+        "sample_hashes": [
+          "d4103065bae4eb98bb85475d228d2458ac35494c2a655487d30dfca0d12d80ee",
+          "e599bc01d97a6f849bc3c63d263a7b2a30d6b762d328680f690481e198a77eb9",
+          "f61a9b8c1e621c9e54d389fab530709d73c5f147af6f9de38d1f73e93435d2b8",
+          "58fb435e9e8fbc7921c6bcf36385ed8fbaf50b8a0bf2ebd60622cbfcf5a07f64",
+          "563ce04c1868a13b8c04d6f5acd36d0859ecb07a5c2f6810c751ba1f9923f4ff"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:44:23.319587+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "b54fe98cd37dc420d9019f0c72c5e5ff69cf603a51ee550b84384408230cd75d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

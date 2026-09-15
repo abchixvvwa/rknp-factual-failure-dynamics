@@ -1,0 +1,159 @@
+{
+  "case_id": "e671fd072b7b7b1679c1c365128a571a5a233cf2da279dfe84529e9ae5d20ce2",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e671fd072b7b7b1679c1c365128a571a5a233cf2da279dfe84529e9ae5d20ce2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая река сформировала Гранд-Каньон в Аризоне?",
+        "sample_hashes": [
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:22.022807+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "766e1e717dcfb87e00cdc70921cf8eb1be38aa9aea946297abd8a0ffef826b10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e671fd072b7b7b1679c1c365128a571a5a233cf2da279dfe84529e9ae5d20ce2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая река сформировала Гранд-Каньон в Аризоне?",
+        "sample_hashes": [
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:22.022807+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "766e1e717dcfb87e00cdc70921cf8eb1be38aa9aea946297abd8a0ffef826b10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e671fd072b7b7b1679c1c365128a571a5a233cf2da279dfe84529e9ae5d20ce2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая река сформировала Гранд-Каньон в Аризоне?",
+        "sample_hashes": [
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:22.022807+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "766e1e717dcfb87e00cdc70921cf8eb1be38aa9aea946297abd8a0ffef826b10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e671fd072b7b7b1679c1c365128a571a5a233cf2da279dfe84529e9ae5d20ce2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая река сформировала Гранд-Каньон в Аризоне?",
+        "sample_hashes": [
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655",
+          "ad1a07c383cdf36746da070bd6795705e70fdc08490c114ad308749b3a102ccc",
+          "d2ae97ea530399dc5cc35971472e9fcce2d427615a30f31d970f092bb3846655"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:22.022807+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "766e1e717dcfb87e00cdc70921cf8eb1be38aa9aea946297abd8a0ffef826b10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

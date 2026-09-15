@@ -1,0 +1,159 @@
+{
+  "case_id": "48a16d07f10ffb6ca25aa72c8071658d4a04f9959ffae0e75f5a1356440714f7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48a16d07f10ffb6ca25aa72c8071658d4a04f9959ffae0e75f5a1356440714f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ДНҚ құрамында азотты негіздердің неше стандартты түрі бар?",
+        "sample_hashes": [
+          "712f087a947351fd75993b4d3789e01829c9a4004c5e34a93035c292dcbb3041",
+          "2cf3d4080bdf22e2669bd95568c48c1ef74257f13d9ab7e66d99cbc0313ffc07",
+          "acd930d012f73b672913d7458e916a71a6e6af143f4219e3508920cc1cfe54d6",
+          "3540174d517c276668b839ff8714e3cb51ddadf3a124e771fa1e7e1eab8eac03",
+          "4fcc07abaf1681053c1a87255e8de91a14751dcc536f0227c24498001768318d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:56.523423+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "2ece8c37e84f8cc82b77bcb283b089e6cee0fe7895f497b4a0043f667948e1da",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48a16d07f10ffb6ca25aa72c8071658d4a04f9959ffae0e75f5a1356440714f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ДНҚ құрамында азотты негіздердің неше стандартты түрі бар?",
+        "sample_hashes": [
+          "712f087a947351fd75993b4d3789e01829c9a4004c5e34a93035c292dcbb3041",
+          "2cf3d4080bdf22e2669bd95568c48c1ef74257f13d9ab7e66d99cbc0313ffc07",
+          "acd930d012f73b672913d7458e916a71a6e6af143f4219e3508920cc1cfe54d6",
+          "3540174d517c276668b839ff8714e3cb51ddadf3a124e771fa1e7e1eab8eac03",
+          "4fcc07abaf1681053c1a87255e8de91a14751dcc536f0227c24498001768318d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:56.523423+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "2ece8c37e84f8cc82b77bcb283b089e6cee0fe7895f497b4a0043f667948e1da",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48a16d07f10ffb6ca25aa72c8071658d4a04f9959ffae0e75f5a1356440714f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ДНҚ құрамында азотты негіздердің неше стандартты түрі бар?",
+        "sample_hashes": [
+          "712f087a947351fd75993b4d3789e01829c9a4004c5e34a93035c292dcbb3041",
+          "2cf3d4080bdf22e2669bd95568c48c1ef74257f13d9ab7e66d99cbc0313ffc07",
+          "acd930d012f73b672913d7458e916a71a6e6af143f4219e3508920cc1cfe54d6",
+          "3540174d517c276668b839ff8714e3cb51ddadf3a124e771fa1e7e1eab8eac03",
+          "4fcc07abaf1681053c1a87255e8de91a14751dcc536f0227c24498001768318d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:56.523423+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "2ece8c37e84f8cc82b77bcb283b089e6cee0fe7895f497b4a0043f667948e1da",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48a16d07f10ffb6ca25aa72c8071658d4a04f9959ffae0e75f5a1356440714f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ДНҚ құрамында азотты негіздердің неше стандартты түрі бар?",
+        "sample_hashes": [
+          "712f087a947351fd75993b4d3789e01829c9a4004c5e34a93035c292dcbb3041",
+          "2cf3d4080bdf22e2669bd95568c48c1ef74257f13d9ab7e66d99cbc0313ffc07",
+          "acd930d012f73b672913d7458e916a71a6e6af143f4219e3508920cc1cfe54d6",
+          "3540174d517c276668b839ff8714e3cb51ddadf3a124e771fa1e7e1eab8eac03",
+          "4fcc07abaf1681053c1a87255e8de91a14751dcc536f0227c24498001768318d"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:53:56.523423+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "2ece8c37e84f8cc82b77bcb283b089e6cee0fe7895f497b4a0043f667948e1da",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

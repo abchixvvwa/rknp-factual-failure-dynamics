@@ -1,0 +1,159 @@
+{
+  "case_id": "aa12c0e90c22d1fdb5a26d85802a798fad8fbe1620eb8b9e1dcf4cda79bc2952",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa12c0e90c22d1fdb5a26d85802a798fad8fbe1620eb8b9e1dcf4cda79bc2952",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Халонг шығанағы қай елде орналасқан?",
+        "sample_hashes": [
+          "b87d0e0567dfec8ed471787c412050dfeebf802dabb9da6c05c0c76ab2ad80ec",
+          "25014b782b95d38d4e4f166148faabf831fd7f5d45b85a56a4f27930a4038264",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3",
+          "005bb19994a838224f4517bcfd1ad59dea5c90acd82d772b9200c1061e3b17bb",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:38.743391+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "0053d6ee8bd10256fb0f2e812aef993ba8607f4df83bf827ffe2b39be9b4e743",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa12c0e90c22d1fdb5a26d85802a798fad8fbe1620eb8b9e1dcf4cda79bc2952",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Халонг шығанағы қай елде орналасқан?",
+        "sample_hashes": [
+          "b87d0e0567dfec8ed471787c412050dfeebf802dabb9da6c05c0c76ab2ad80ec",
+          "25014b782b95d38d4e4f166148faabf831fd7f5d45b85a56a4f27930a4038264",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3",
+          "005bb19994a838224f4517bcfd1ad59dea5c90acd82d772b9200c1061e3b17bb",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:38.743391+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "0053d6ee8bd10256fb0f2e812aef993ba8607f4df83bf827ffe2b39be9b4e743",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa12c0e90c22d1fdb5a26d85802a798fad8fbe1620eb8b9e1dcf4cda79bc2952",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Халонг шығанағы қай елде орналасқан?",
+        "sample_hashes": [
+          "b87d0e0567dfec8ed471787c412050dfeebf802dabb9da6c05c0c76ab2ad80ec",
+          "25014b782b95d38d4e4f166148faabf831fd7f5d45b85a56a4f27930a4038264",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3",
+          "005bb19994a838224f4517bcfd1ad59dea5c90acd82d772b9200c1061e3b17bb",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:38.743391+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "0053d6ee8bd10256fb0f2e812aef993ba8607f4df83bf827ffe2b39be9b4e743",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa12c0e90c22d1fdb5a26d85802a798fad8fbe1620eb8b9e1dcf4cda79bc2952",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Халонг шығанағы қай елде орналасқан?",
+        "sample_hashes": [
+          "b87d0e0567dfec8ed471787c412050dfeebf802dabb9da6c05c0c76ab2ad80ec",
+          "25014b782b95d38d4e4f166148faabf831fd7f5d45b85a56a4f27930a4038264",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3",
+          "005bb19994a838224f4517bcfd1ad59dea5c90acd82d772b9200c1061e3b17bb",
+          "c020280a46f073fd9a901d4c546ee88ef61dd6ed15bed66f1b015b3eec59b1e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:38.743391+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "0053d6ee8bd10256fb0f2e812aef993ba8607f4df83bf827ffe2b39be9b4e743",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

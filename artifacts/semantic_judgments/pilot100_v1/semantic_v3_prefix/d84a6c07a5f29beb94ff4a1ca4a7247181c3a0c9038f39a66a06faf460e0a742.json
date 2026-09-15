@@ -1,0 +1,87 @@
+{
+  "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On which planet is the Great Red Spot?",
+        "sample_hashes": [
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "e9f7b5fd2fd28eef3d480f2359009c0d28af15c4324dba33b750b4bf98cc9e51"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:43.068947+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "7e7728f88af5538d58ea6b60c2473bf93c611cff28e03ce309fb2e7eeff4d55b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

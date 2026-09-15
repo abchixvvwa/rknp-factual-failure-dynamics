@@ -1,0 +1,159 @@
+{
+  "case_id": "c12eed8f493eedaded2638e4cb5e2e4d1de0c40c7a4a493fbb1bc43253d83a4a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c12eed8f493eedaded2638e4cb5e2e4d1de0c40c7a4a493fbb1bc43253d83a4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Француз сарбаздары Розетта тасын қай жылы тапты?",
+        "sample_hashes": [
+          "ca859fecb93a7396865d322ae31db6bb81a2ff52ab18db1cea7cf136054c6f5a",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:12.674029+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "a0d19a9fac3ccb3ea3cc23acbd3a5fb07062b1dc40c00d1458855110c75a7b08",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c12eed8f493eedaded2638e4cb5e2e4d1de0c40c7a4a493fbb1bc43253d83a4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Француз сарбаздары Розетта тасын қай жылы тапты?",
+        "sample_hashes": [
+          "ca859fecb93a7396865d322ae31db6bb81a2ff52ab18db1cea7cf136054c6f5a",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:12.674029+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "a0d19a9fac3ccb3ea3cc23acbd3a5fb07062b1dc40c00d1458855110c75a7b08",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c12eed8f493eedaded2638e4cb5e2e4d1de0c40c7a4a493fbb1bc43253d83a4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Француз сарбаздары Розетта тасын қай жылы тапты?",
+        "sample_hashes": [
+          "ca859fecb93a7396865d322ae31db6bb81a2ff52ab18db1cea7cf136054c6f5a",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:12.674029+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "a0d19a9fac3ccb3ea3cc23acbd3a5fb07062b1dc40c00d1458855110c75a7b08",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c12eed8f493eedaded2638e4cb5e2e4d1de0c40c7a4a493fbb1bc43253d83a4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Француз сарбаздары Розетта тасын қай жылы тапты?",
+        "sample_hashes": [
+          "ca859fecb93a7396865d322ae31db6bb81a2ff52ab18db1cea7cf136054c6f5a",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81",
+          "9265db1edd8aaf2ad6bb9fe823ad403dc09ee8aaffd197764bdfc43451ff6c81"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:12.674029+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "a0d19a9fac3ccb3ea3cc23acbd3a5fb07062b1dc40c00d1458855110c75a7b08",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

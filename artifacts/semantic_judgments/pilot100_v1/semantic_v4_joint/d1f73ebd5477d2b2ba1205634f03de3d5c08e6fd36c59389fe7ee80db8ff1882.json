@@ -1,0 +1,159 @@
+{
+  "case_id": "d1f73ebd5477d2b2ba1205634f03de3d5c08e6fd36c59389fe7ee80db8ff1882",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d1f73ebd5477d2b2ba1205634f03de3d5c08e6fd36c59389fe7ee80db8ff1882",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится бухта Халонг?",
+        "sample_hashes": [
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:28.227765+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "359b32a93ef6c6620c918b5b19c01676ff0c0b2ce3d36169e8fdd746d673b928",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d1f73ebd5477d2b2ba1205634f03de3d5c08e6fd36c59389fe7ee80db8ff1882",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится бухта Халонг?",
+        "sample_hashes": [
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:28.227765+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "359b32a93ef6c6620c918b5b19c01676ff0c0b2ce3d36169e8fdd746d673b928",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d1f73ebd5477d2b2ba1205634f03de3d5c08e6fd36c59389fe7ee80db8ff1882",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится бухта Халонг?",
+        "sample_hashes": [
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:28.227765+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "359b32a93ef6c6620c918b5b19c01676ff0c0b2ce3d36169e8fdd746d673b928",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d1f73ebd5477d2b2ba1205634f03de3d5c08e6fd36c59389fe7ee80db8ff1882",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится бухта Халонг?",
+        "sample_hashes": [
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "5ad14686686f206d082da63e334c3c322fa3865d9360fa72b99d1fbc8c4f8cba",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a",
+          "b7f78cd68918e842792b4e946d16d759d2a33cc762fffb1694440d7805ec9a7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:28.227765+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "359b32a93ef6c6620c918b5b19c01676ff0c0b2ce3d36169e8fdd746d673b928",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

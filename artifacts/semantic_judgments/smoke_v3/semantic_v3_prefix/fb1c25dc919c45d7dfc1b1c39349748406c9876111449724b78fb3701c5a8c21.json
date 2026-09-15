@@ -1,0 +1,239 @@
+{
+  "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "ce2411793a7040d72080148f3a87ad4ba378feb4dc301b81b7151ff8c8de22ca"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:53.988114+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "36d7a566ff0045cab0cd30a3e4b51797b17c317d46a604e941a7e683bd6a5919",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:54.736165+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "7ccc5e98291991389a5c00182b9527acd38260197b615648443ef47282bba548",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "ce2411793a7040d72080148f3a87ad4ba378feb4dc301b81b7151ff8c8de22ca",
+          "3ff4ff52646d4556974e6a760d7a41bca32823c8ee2a1654d5787794936cb307"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:55.183062+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "f33897b0f1a5a315921c2b9b8e5d992525fe9274b0c6aa6b3fb62d6b29c0bca5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:54.736165+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "7ccc5e98291991389a5c00182b9527acd38260197b615648443ef47282bba548",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "ce2411793a7040d72080148f3a87ad4ba378feb4dc301b81b7151ff8c8de22ca",
+          "3ff4ff52646d4556974e6a760d7a41bca32823c8ee2a1654d5787794936cb307",
+          "3f236485da751835760450edc6efc8c0a2396216e5c7909c9a4a5712b8594ccd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:55.690241+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "2f7e090462b7a85a9b027d21ea9d29ca68383c727b918d2b79dec4c53003b23e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "3f236485da751835760450edc6efc8c0a2396216e5c7909c9a4a5712b8594ccd"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:10:49.620165+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "87d34aeb3c5562b9201fd9186a1659fd489a0045fb75224c8405dbff5f55f868",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "ce2411793a7040d72080148f3a87ad4ba378feb4dc301b81b7151ff8c8de22ca",
+          "3ff4ff52646d4556974e6a760d7a41bca32823c8ee2a1654d5787794936cb307",
+          "3f236485da751835760450edc6efc8c0a2396216e5c7909c9a4a5712b8594ccd",
+          "81ef31f6be0d5d26734358d02d3cfb01b0c9f7ff40c31861bc48b35caf99bff8"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:10:54.319759+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "c4808e2662882cac20ee51f06c09aab309f0b91b950f118a43b5e6f074e0f0bf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "fb1c25dc919c45d7dfc1b1c39349748406c9876111449724b78fb3701c5a8c21",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "1901 жылы әдебиет бойынша Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "41658b4525fab70e46e07afc749a98f3dcf7bba2d5b8c6b1e30698193774fe9c",
+          "3f236485da751835760450edc6efc8c0a2396216e5c7909c9a4a5712b8594ccd"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:10:49.620165+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "87d34aeb3c5562b9201fd9186a1659fd489a0045fb75224c8405dbff5f55f868",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

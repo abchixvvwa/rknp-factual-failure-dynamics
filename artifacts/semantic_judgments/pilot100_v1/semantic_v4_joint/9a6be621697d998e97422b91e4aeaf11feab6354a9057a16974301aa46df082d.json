@@ -1,0 +1,159 @@
+{
+  "case_id": "9a6be621697d998e97422b91e4aeaf11feab6354a9057a16974301aa46df082d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9a6be621697d998e97422b91e4aeaf11feab6354a9057a16974301aa46df082d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой язык является государственным языком Казахстана?",
+        "sample_hashes": [
+          "bca5ed48b151c9ed748db1f219deb8ad9d5b7021b38da276d08b69ba283cc6e8",
+          "072c0d602ebb26c79b0930db6dbfb9fedbab3546e03a1c436b62a4c19a23a04f",
+          "d994370bd99375145ac6d1931508e1232efc700687d3df306baf9ae8a8f6256d",
+          "eec68ea1bda13a52f50e466b1b4ed6a241d760ba3b8bbc94e80f56c8474dcf1b",
+          "93786c9e403026978746ae4d0860aaa9bf15b7d428b0ca4027efd56e5614ec46"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:25.040284+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "dcf330a1b6135fcf1b1bfecbd6422b7c725f664167f48e2f054dac4c59373b2e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9a6be621697d998e97422b91e4aeaf11feab6354a9057a16974301aa46df082d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой язык является государственным языком Казахстана?",
+        "sample_hashes": [
+          "bca5ed48b151c9ed748db1f219deb8ad9d5b7021b38da276d08b69ba283cc6e8",
+          "072c0d602ebb26c79b0930db6dbfb9fedbab3546e03a1c436b62a4c19a23a04f",
+          "d994370bd99375145ac6d1931508e1232efc700687d3df306baf9ae8a8f6256d",
+          "eec68ea1bda13a52f50e466b1b4ed6a241d760ba3b8bbc94e80f56c8474dcf1b",
+          "93786c9e403026978746ae4d0860aaa9bf15b7d428b0ca4027efd56e5614ec46"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:25.040284+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "dcf330a1b6135fcf1b1bfecbd6422b7c725f664167f48e2f054dac4c59373b2e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9a6be621697d998e97422b91e4aeaf11feab6354a9057a16974301aa46df082d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой язык является государственным языком Казахстана?",
+        "sample_hashes": [
+          "bca5ed48b151c9ed748db1f219deb8ad9d5b7021b38da276d08b69ba283cc6e8",
+          "072c0d602ebb26c79b0930db6dbfb9fedbab3546e03a1c436b62a4c19a23a04f",
+          "d994370bd99375145ac6d1931508e1232efc700687d3df306baf9ae8a8f6256d",
+          "eec68ea1bda13a52f50e466b1b4ed6a241d760ba3b8bbc94e80f56c8474dcf1b",
+          "93786c9e403026978746ae4d0860aaa9bf15b7d428b0ca4027efd56e5614ec46"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:25.040284+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "dcf330a1b6135fcf1b1bfecbd6422b7c725f664167f48e2f054dac4c59373b2e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9a6be621697d998e97422b91e4aeaf11feab6354a9057a16974301aa46df082d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой язык является государственным языком Казахстана?",
+        "sample_hashes": [
+          "bca5ed48b151c9ed748db1f219deb8ad9d5b7021b38da276d08b69ba283cc6e8",
+          "072c0d602ebb26c79b0930db6dbfb9fedbab3546e03a1c436b62a4c19a23a04f",
+          "d994370bd99375145ac6d1931508e1232efc700687d3df306baf9ae8a8f6256d",
+          "eec68ea1bda13a52f50e466b1b4ed6a241d760ba3b8bbc94e80f56c8474dcf1b",
+          "93786c9e403026978746ae4d0860aaa9bf15b7d428b0ca4027efd56e5614ec46"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:25.040284+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "dcf330a1b6135fcf1b1bfecbd6422b7c725f664167f48e2f054dac4c59373b2e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

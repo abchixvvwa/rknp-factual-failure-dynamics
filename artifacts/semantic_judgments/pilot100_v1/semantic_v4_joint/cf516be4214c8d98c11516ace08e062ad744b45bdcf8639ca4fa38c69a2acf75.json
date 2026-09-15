@@ -1,0 +1,177 @@
+{
+  "case_id": "cf516be4214c8d98c11516ace08e062ad744b45bdcf8639ca4fa38c69a2acf75",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cf516be4214c8d98c11516ace08e062ad744b45bdcf8639ca4fa38c69a2acf75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Ойшыл» мүсінін кім жасаған?",
+        "sample_hashes": [
+          "e18140b1e942c68db4db1742b2fba6e92a4b04059df83aa93e61dd24308f2b86",
+          "00a1bce77b2794676543841daee18ead25a41b14c41559f817876a3b48b0114a",
+          "a69895edabefb2ec68ce202f45d5b4aebedc1b6326b0278abb9fb0713f97e6e7",
+          "9d93ad63f06e0a0589b7eef374e7292640ca1dcac1b6f88a941be1dbafd288c1",
+          "46f731335b3b98b8701db313e81add28350119530d966c1776aadbc308c9a05e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:24:01.332318+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "04d3b7c9542dac74ca1a198a8d9418b15f075d32129407cf8350250169a9c330",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cf516be4214c8d98c11516ace08e062ad744b45bdcf8639ca4fa38c69a2acf75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Ойшыл» мүсінін кім жасаған?",
+        "sample_hashes": [
+          "e18140b1e942c68db4db1742b2fba6e92a4b04059df83aa93e61dd24308f2b86",
+          "00a1bce77b2794676543841daee18ead25a41b14c41559f817876a3b48b0114a",
+          "a69895edabefb2ec68ce202f45d5b4aebedc1b6326b0278abb9fb0713f97e6e7",
+          "9d93ad63f06e0a0589b7eef374e7292640ca1dcac1b6f88a941be1dbafd288c1",
+          "46f731335b3b98b8701db313e81add28350119530d966c1776aadbc308c9a05e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:24:01.332318+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "04d3b7c9542dac74ca1a198a8d9418b15f075d32129407cf8350250169a9c330",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cf516be4214c8d98c11516ace08e062ad744b45bdcf8639ca4fa38c69a2acf75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Ойшыл» мүсінін кім жасаған?",
+        "sample_hashes": [
+          "e18140b1e942c68db4db1742b2fba6e92a4b04059df83aa93e61dd24308f2b86",
+          "00a1bce77b2794676543841daee18ead25a41b14c41559f817876a3b48b0114a",
+          "a69895edabefb2ec68ce202f45d5b4aebedc1b6326b0278abb9fb0713f97e6e7",
+          "9d93ad63f06e0a0589b7eef374e7292640ca1dcac1b6f88a941be1dbafd288c1",
+          "46f731335b3b98b8701db313e81add28350119530d966c1776aadbc308c9a05e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:24:01.332318+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "04d3b7c9542dac74ca1a198a8d9418b15f075d32129407cf8350250169a9c330",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cf516be4214c8d98c11516ace08e062ad744b45bdcf8639ca4fa38c69a2acf75",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Ойшыл» мүсінін кім жасаған?",
+        "sample_hashes": [
+          "e18140b1e942c68db4db1742b2fba6e92a4b04059df83aa93e61dd24308f2b86",
+          "00a1bce77b2794676543841daee18ead25a41b14c41559f817876a3b48b0114a",
+          "a69895edabefb2ec68ce202f45d5b4aebedc1b6326b0278abb9fb0713f97e6e7",
+          "9d93ad63f06e0a0589b7eef374e7292640ca1dcac1b6f88a941be1dbafd288c1",
+          "46f731335b3b98b8701db313e81add28350119530d966c1776aadbc308c9a05e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 2, 0, 0],\n    [0, 1, 2, 3, 0],\n    [0, 1, 2, 3, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:24:01.332318+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "04d3b7c9542dac74ca1a198a8d9418b15f075d32129407cf8350250169a9c330",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

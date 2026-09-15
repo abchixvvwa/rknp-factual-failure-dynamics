@@ -1,0 +1,143 @@
+{
+  "case_id": "c61b0302b07d6b048f11cec9b05dd9f65c55b838df6b9c8e191b96217a2ea3b7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "c61b0302b07d6b048f11cec9b05dd9f65c55b838df6b9c8e191b96217a2ea3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "4f5c8c43e1f5a8b41081aa2633be168a55aba79ee9a6665d08c0994ecd47b560"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:15:07.522070+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "20e74de6c431d4e0bd5013363bd3186bb6e9554505d46978c71660215519f9cd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "c61b0302b07d6b048f11cec9b05dd9f65c55b838df6b9c8e191b96217a2ea3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "4f5c8c43e1f5a8b41081aa2633be168a55aba79ee9a6665d08c0994ecd47b560"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:15:07.522070+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "20e74de6c431d4e0bd5013363bd3186bb6e9554505d46978c71660215519f9cd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "c61b0302b07d6b048f11cec9b05dd9f65c55b838df6b9c8e191b96217a2ea3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "4f5c8c43e1f5a8b41081aa2633be168a55aba79ee9a6665d08c0994ecd47b560"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:15:07.522070+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "20e74de6c431d4e0bd5013363bd3186bb6e9554505d46978c71660215519f9cd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "c61b0302b07d6b048f11cec9b05dd9f65c55b838df6b9c8e191b96217a2ea3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "4f5c8c43e1f5a8b41081aa2633be168a55aba79ee9a6665d08c0994ecd47b560"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:15:07.522070+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "20e74de6c431d4e0bd5013363bd3186bb6e9554505d46978c71660215519f9cd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

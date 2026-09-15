@@ -1,0 +1,220 @@
+{
+  "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc",
+          "d92d3102ced2f98b536f8ad266c3c395fb8197eddbdc53b2e1e7696a25cc186d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:42.086862+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "5004dc097062de173c6970312161af567a60cfaa57a56a9bc18f19ff1f5aa672",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:44.833627+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "ca479174642e57f1de38b0d9b3fe3af5bfac0b0ae30dba65d5708d531b20fb51",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc",
+          "d92d3102ced2f98b536f8ad266c3c395fb8197eddbdc53b2e1e7696a25cc186d",
+          "c984d1d7578346ef2e608ec352082262669605f2d9420f9e4e209a175a00dd34"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:48.282093+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "07877156b286bda38cead62b0f7a1010a13fd89fff64efeb33e36ff27c047fd6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:44.833627+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "ca479174642e57f1de38b0d9b3fe3af5bfac0b0ae30dba65d5708d531b20fb51",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc",
+          "d92d3102ced2f98b536f8ad266c3c395fb8197eddbdc53b2e1e7696a25cc186d",
+          "c984d1d7578346ef2e608ec352082262669605f2d9420f9e4e209a175a00dd34",
+          "4b2118d28bf52b1f375e616bb6818895afea8653f93fdb37f25be539bdb1d8b2"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:51.153624+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ad88954ede48d0efbf9dedd49d97045b82a4187cc41644c1b9355e30020487b8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc",
+          "4b2118d28bf52b1f375e616bb6818895afea8653f93fdb37f25be539bdb1d8b2"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:13:55.316211+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "04396352acf5b388548d7d5204abedbd624bc925aa12f0975a607523d2494bff",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7fbac5334a14309151e65c0b795d9cfd94180c3a75e2384103160f381c4f6b57",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the United Nations Charter signed in June 1945?",
+        "sample_hashes": [
+          "7ffde48c86123097452769e247296301901ab13ee357ad6193eeded4cf8876dc",
+          "d92d3102ced2f98b536f8ad266c3c395fb8197eddbdc53b2e1e7696a25cc186d",
+          "c984d1d7578346ef2e608ec352082262669605f2d9420f9e4e209a175a00dd34",
+          "4b2118d28bf52b1f375e616bb6818895afea8653f93fdb37f25be539bdb1d8b2",
+          "dd25c42e2a6cf78bcc54272671a00b9f411325166fee0aa198f683bd64895386"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:13:58.056744+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "cf9633f2d4ebf10ba318b1fb4fe0f3209f8cebf9c4da9f20d839e9d0ef83a3d8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "31767ab544c5fb0d4bfb44357ba2b5af0caa87dd9c5d3656d67512c610653200",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31767ab544c5fb0d4bfb44357ba2b5af0caa87dd9c5d3656d67512c610653200",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which species of polar bear is native to Antarctica?",
+        "sample_hashes": [
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "aeb96a017f3d93264411c5267cad8f22ac8aea2e1667bfcd5becb2b91ad178a4",
+          "425565f057820e10f4f18ebb3e5a6c0eb01e17fcf48e8b70fd40b9b98834dd0e",
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "e8d9732ad55c722ead845a9b1f53a19e789858b89d54615366f3c5b7c07169e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:07.384397+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "a9affc94a85584e5a3cb3ef686a56fceee17d80d8e8e732d917b981f3daba503",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31767ab544c5fb0d4bfb44357ba2b5af0caa87dd9c5d3656d67512c610653200",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which species of polar bear is native to Antarctica?",
+        "sample_hashes": [
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "aeb96a017f3d93264411c5267cad8f22ac8aea2e1667bfcd5becb2b91ad178a4",
+          "425565f057820e10f4f18ebb3e5a6c0eb01e17fcf48e8b70fd40b9b98834dd0e",
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "e8d9732ad55c722ead845a9b1f53a19e789858b89d54615366f3c5b7c07169e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:07.384397+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "a9affc94a85584e5a3cb3ef686a56fceee17d80d8e8e732d917b981f3daba503",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31767ab544c5fb0d4bfb44357ba2b5af0caa87dd9c5d3656d67512c610653200",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which species of polar bear is native to Antarctica?",
+        "sample_hashes": [
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "aeb96a017f3d93264411c5267cad8f22ac8aea2e1667bfcd5becb2b91ad178a4",
+          "425565f057820e10f4f18ebb3e5a6c0eb01e17fcf48e8b70fd40b9b98834dd0e",
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "e8d9732ad55c722ead845a9b1f53a19e789858b89d54615366f3c5b7c07169e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:07.384397+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "a9affc94a85584e5a3cb3ef686a56fceee17d80d8e8e732d917b981f3daba503",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31767ab544c5fb0d4bfb44357ba2b5af0caa87dd9c5d3656d67512c610653200",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which species of polar bear is native to Antarctica?",
+        "sample_hashes": [
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "aeb96a017f3d93264411c5267cad8f22ac8aea2e1667bfcd5becb2b91ad178a4",
+          "425565f057820e10f4f18ebb3e5a6c0eb01e17fcf48e8b70fd40b9b98834dd0e",
+          "3e1479b0f9c1c948e0d07c262006622266f1e90fb5a52c49aa2fec11a52a702b",
+          "e8d9732ad55c722ead845a9b1f53a19e789858b89d54615366f3c5b7c07169e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:07.384397+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "a9affc94a85584e5a3cb3ef686a56fceee17d80d8e8e732d917b981f3daba503",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

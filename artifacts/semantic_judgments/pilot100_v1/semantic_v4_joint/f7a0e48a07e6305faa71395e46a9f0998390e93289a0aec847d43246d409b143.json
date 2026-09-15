@@ -1,0 +1,159 @@
+{
+  "case_id": "f7a0e48a07e6305faa71395e46a9f0998390e93289a0aec847d43246d409b143",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f7a0e48a07e6305faa71395e46a9f0998390e93289a0aec847d43246d409b143",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Тингведлир?",
+        "sample_hashes": [
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:32.395992+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "ca97b76b2cb2b815a787eba246f1e35867fa9c8fdb0a93ab101fd1f94ceee6c3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f7a0e48a07e6305faa71395e46a9f0998390e93289a0aec847d43246d409b143",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Тингведлир?",
+        "sample_hashes": [
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:32.395992+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "ca97b76b2cb2b815a787eba246f1e35867fa9c8fdb0a93ab101fd1f94ceee6c3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f7a0e48a07e6305faa71395e46a9f0998390e93289a0aec847d43246d409b143",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Тингведлир?",
+        "sample_hashes": [
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:32.395992+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "ca97b76b2cb2b815a787eba246f1e35867fa9c8fdb0a93ab101fd1f94ceee6c3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f7a0e48a07e6305faa71395e46a9f0998390e93289a0aec847d43246d409b143",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Тингведлир?",
+        "sample_hashes": [
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4",
+          "a903159e175dbbc6f80115d3bd7f90a4d6748936ae9d670bf5aa4b5b85c40eba",
+          "befeba2271bea7047396b15ee3411937ca3a79dec7e9bd102d27a70ccd0fffa4"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:32.395992+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "ca97b76b2cb2b815a787eba246f1e35867fa9c8fdb0a93ab101fd1f94ceee6c3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

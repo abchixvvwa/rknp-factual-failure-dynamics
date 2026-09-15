@@ -1,0 +1,163 @@
+{
+  "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075",
+          "1d60f85f3dd6764d5a5504ac09bccdcbf8d4eff66bf8958d5f6d51fefe97b820"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:02:53.039953+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9aa0a7f78e4aaa398ea0837ce6a90b5b024280dc880e2b1665b0015e5b4cd462",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075",
+          "1d60f85f3dd6764d5a5504ac09bccdcbf8d4eff66bf8958d5f6d51fefe97b820"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:02:53.039953+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9aa0a7f78e4aaa398ea0837ce6a90b5b024280dc880e2b1665b0015e5b4cd462",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075",
+          "1d60f85f3dd6764d5a5504ac09bccdcbf8d4eff66bf8958d5f6d51fefe97b820"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:02:53.039953+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9aa0a7f78e4aaa398ea0837ce6a90b5b024280dc880e2b1665b0015e5b4cd462",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2b1fad49224bf935d0d093b37f34f92e2c5f3c745de66384499740379a7a6f10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who composed the music of Kazakhstan's national anthem adopted in 2006?",
+        "sample_hashes": [
+          "355a05ec6c2e40cf68448a6c7ed406ee03895053b849c8d69da106911246b6b9",
+          "dc9334d06a0993d4ea42321dad24acb514aec5cd7c7e861723abcfc2aab215a0",
+          "5c6084f9e16f2ba8d744909484d514a29f23600cbd3a6b5ac8809a3a8d16741a",
+          "6554cacc43437f93c13a249eaed17d8878809dce7b265fc215c6c655d0a49075",
+          "1d60f85f3dd6764d5a5504ac09bccdcbf8d4eff66bf8958d5f6d51fefe97b820"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:02:53.039953+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "9aa0a7f78e4aaa398ea0837ce6a90b5b024280dc880e2b1665b0015e5b4cd462",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

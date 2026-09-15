@@ -1,0 +1,159 @@
+{
+  "case_id": "d805b9063818a96fd42e1c6ef98fa576b7abc64a8c99da7b17ec5a7691a906a5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d805b9063818a96fd42e1c6ef98fa576b7abc64a8c99da7b17ec5a7691a906a5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой миссии «Аполлон» впервые использовали лунный автомобиль на Луне?",
+        "sample_hashes": [
+          "b4a58bc2276e5be546e3cf4f07f8a6c07b1acf7d40e53e263630f8c997697b32",
+          "5ed6b8c8b5f1d895b7f485f91fc5083ffdb77f78e3c1b9ec5f1d5b9d6cf4f0fe",
+          "45380dcf447d11729b883062b3040d8d9966da7c833c88eba6d83e64f21f8350",
+          "d08ee98735d9a9167f75a11c5bcf2c92b91477d7a0d6e4140ce729db36c3c4e7",
+          "5c10f3afe6d73ce730e65a89a3970c10316cd959a2b00926a03524dd54d276d1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:36.662372+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9c48b6018eb78ff49e42b74810f1814f5b1dfe3239c136100f4198d8d23eae52",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d805b9063818a96fd42e1c6ef98fa576b7abc64a8c99da7b17ec5a7691a906a5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой миссии «Аполлон» впервые использовали лунный автомобиль на Луне?",
+        "sample_hashes": [
+          "b4a58bc2276e5be546e3cf4f07f8a6c07b1acf7d40e53e263630f8c997697b32",
+          "5ed6b8c8b5f1d895b7f485f91fc5083ffdb77f78e3c1b9ec5f1d5b9d6cf4f0fe",
+          "45380dcf447d11729b883062b3040d8d9966da7c833c88eba6d83e64f21f8350",
+          "d08ee98735d9a9167f75a11c5bcf2c92b91477d7a0d6e4140ce729db36c3c4e7",
+          "5c10f3afe6d73ce730e65a89a3970c10316cd959a2b00926a03524dd54d276d1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:36.662372+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9c48b6018eb78ff49e42b74810f1814f5b1dfe3239c136100f4198d8d23eae52",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d805b9063818a96fd42e1c6ef98fa576b7abc64a8c99da7b17ec5a7691a906a5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой миссии «Аполлон» впервые использовали лунный автомобиль на Луне?",
+        "sample_hashes": [
+          "b4a58bc2276e5be546e3cf4f07f8a6c07b1acf7d40e53e263630f8c997697b32",
+          "5ed6b8c8b5f1d895b7f485f91fc5083ffdb77f78e3c1b9ec5f1d5b9d6cf4f0fe",
+          "45380dcf447d11729b883062b3040d8d9966da7c833c88eba6d83e64f21f8350",
+          "d08ee98735d9a9167f75a11c5bcf2c92b91477d7a0d6e4140ce729db36c3c4e7",
+          "5c10f3afe6d73ce730e65a89a3970c10316cd959a2b00926a03524dd54d276d1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:36.662372+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9c48b6018eb78ff49e42b74810f1814f5b1dfe3239c136100f4198d8d23eae52",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d805b9063818a96fd42e1c6ef98fa576b7abc64a8c99da7b17ec5a7691a906a5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой миссии «Аполлон» впервые использовали лунный автомобиль на Луне?",
+        "sample_hashes": [
+          "b4a58bc2276e5be546e3cf4f07f8a6c07b1acf7d40e53e263630f8c997697b32",
+          "5ed6b8c8b5f1d895b7f485f91fc5083ffdb77f78e3c1b9ec5f1d5b9d6cf4f0fe",
+          "45380dcf447d11729b883062b3040d8d9966da7c833c88eba6d83e64f21f8350",
+          "d08ee98735d9a9167f75a11c5bcf2c92b91477d7a0d6e4140ce729db36c3c4e7",
+          "5c10f3afe6d73ce730e65a89a3970c10316cd959a2b00926a03524dd54d276d1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:36.662372+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9c48b6018eb78ff49e42b74810f1814f5b1dfe3239c136100f4198d8d23eae52",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

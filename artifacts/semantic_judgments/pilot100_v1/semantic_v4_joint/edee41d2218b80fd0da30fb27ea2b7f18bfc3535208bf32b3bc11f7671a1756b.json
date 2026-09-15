@@ -1,0 +1,159 @@
+{
+  "case_id": "edee41d2218b80fd0da30fb27ea2b7f18bfc3535208bf32b3bc11f7671a1756b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "edee41d2218b80fd0da30fb27ea2b7f18bfc3535208bf32b3bc11f7671a1756b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится древний город Петра?",
+        "sample_hashes": [
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "22e7c96dc50e0d125e4735414ed7b9948052f816c3814e9eef6b7400ea5f97a4",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:11.208221+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "84adfac4cf90ff3f8c6efe8a39478a2185a135a38d2f787ebb5eff2f313731b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "edee41d2218b80fd0da30fb27ea2b7f18bfc3535208bf32b3bc11f7671a1756b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится древний город Петра?",
+        "sample_hashes": [
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "22e7c96dc50e0d125e4735414ed7b9948052f816c3814e9eef6b7400ea5f97a4",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:11.208221+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "84adfac4cf90ff3f8c6efe8a39478a2185a135a38d2f787ebb5eff2f313731b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "edee41d2218b80fd0da30fb27ea2b7f18bfc3535208bf32b3bc11f7671a1756b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится древний город Петра?",
+        "sample_hashes": [
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "22e7c96dc50e0d125e4735414ed7b9948052f816c3814e9eef6b7400ea5f97a4",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:11.208221+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "84adfac4cf90ff3f8c6efe8a39478a2185a135a38d2f787ebb5eff2f313731b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "edee41d2218b80fd0da30fb27ea2b7f18bfc3535208bf32b3bc11f7671a1756b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится древний город Петра?",
+        "sample_hashes": [
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "53e88f32f7742c7d26dc535502443370f6495d0c6809fb5960bef32292c73475",
+          "22e7c96dc50e0d125e4735414ed7b9948052f816c3814e9eef6b7400ea5f97a4",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60",
+          "a1096001d43801065f3bcce4f956cbdeb22b5a7342c42770ac8ce87778f7ef60"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:11.208221+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "84adfac4cf90ff3f8c6efe8a39478a2185a135a38d2f787ebb5eff2f313731b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

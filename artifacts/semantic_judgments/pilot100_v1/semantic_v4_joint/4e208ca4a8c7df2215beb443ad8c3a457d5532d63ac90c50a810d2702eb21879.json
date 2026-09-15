@@ -1,0 +1,159 @@
+{
+  "case_id": "4e208ca4a8c7df2215beb443ad8c3a457d5532d63ac90c50a810d2702eb21879",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4e208ca4a8c7df2215beb443ad8c3a457d5532d63ac90c50a810d2702eb21879",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым астронавтом на борту «Вояджера-1»?",
+        "sample_hashes": [
+          "09c51ad5b6ee57dbad326633948ba798bee2e6794885e84fc9adcc0361271864",
+          "5c4cc1fb640656d7b44f81d8e22e2b32cf9bc416203c8ec7145a71b5a26b167c",
+          "79ead633ae8356e481a7668323e9deb47691cb474ba10d2dc82a79470d2a076c",
+          "108188cb67b225ec12b93f8b2a5bfbfc613c5d0edc490e87ccb38282bffd25f6",
+          "ad50c4823318e9aaf121712e69ce1e019619ea811e2e57c113481ddcbcb76930"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:06.372576+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "28446e96b22ba309f7978fb33ad4c3a2d460375bdfa16038cd14f22f342ac9ed",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4e208ca4a8c7df2215beb443ad8c3a457d5532d63ac90c50a810d2702eb21879",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым астронавтом на борту «Вояджера-1»?",
+        "sample_hashes": [
+          "09c51ad5b6ee57dbad326633948ba798bee2e6794885e84fc9adcc0361271864",
+          "5c4cc1fb640656d7b44f81d8e22e2b32cf9bc416203c8ec7145a71b5a26b167c",
+          "79ead633ae8356e481a7668323e9deb47691cb474ba10d2dc82a79470d2a076c",
+          "108188cb67b225ec12b93f8b2a5bfbfc613c5d0edc490e87ccb38282bffd25f6",
+          "ad50c4823318e9aaf121712e69ce1e019619ea811e2e57c113481ddcbcb76930"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:06.372576+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "28446e96b22ba309f7978fb33ad4c3a2d460375bdfa16038cd14f22f342ac9ed",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4e208ca4a8c7df2215beb443ad8c3a457d5532d63ac90c50a810d2702eb21879",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым астронавтом на борту «Вояджера-1»?",
+        "sample_hashes": [
+          "09c51ad5b6ee57dbad326633948ba798bee2e6794885e84fc9adcc0361271864",
+          "5c4cc1fb640656d7b44f81d8e22e2b32cf9bc416203c8ec7145a71b5a26b167c",
+          "79ead633ae8356e481a7668323e9deb47691cb474ba10d2dc82a79470d2a076c",
+          "108188cb67b225ec12b93f8b2a5bfbfc613c5d0edc490e87ccb38282bffd25f6",
+          "ad50c4823318e9aaf121712e69ce1e019619ea811e2e57c113481ddcbcb76930"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:06.372576+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "28446e96b22ba309f7978fb33ad4c3a2d460375bdfa16038cd14f22f342ac9ed",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4e208ca4a8c7df2215beb443ad8c3a457d5532d63ac90c50a810d2702eb21879",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто был первым астронавтом на борту «Вояджера-1»?",
+        "sample_hashes": [
+          "09c51ad5b6ee57dbad326633948ba798bee2e6794885e84fc9adcc0361271864",
+          "5c4cc1fb640656d7b44f81d8e22e2b32cf9bc416203c8ec7145a71b5a26b167c",
+          "79ead633ae8356e481a7668323e9deb47691cb474ba10d2dc82a79470d2a076c",
+          "108188cb67b225ec12b93f8b2a5bfbfc613c5d0edc490e87ccb38282bffd25f6",
+          "ad50c4823318e9aaf121712e69ce1e019619ea811e2e57c113481ddcbcb76930"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:06.372576+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "28446e96b22ba309f7978fb33ad4c3a2d460375bdfa16038cd14f22f342ac9ed",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

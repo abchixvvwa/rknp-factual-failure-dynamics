@@ -1,0 +1,236 @@
+{
+  "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669",
+          "b1e8373cf8b9157ecd10ac61fcd49c093199143e581073bc562251801544fc28"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:12:28.306254+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "28254409b3bd6df5e2716128aa6126da9dfaa64f8d582165dd50608bbe31c399",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:12:32.787072+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "6503cba986296648ad0209138d687c8dfb7d129e56cf9f8f7bba5881114bf40a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669",
+          "b1e8373cf8b9157ecd10ac61fcd49c093199143e581073bc562251801544fc28",
+          "d30f76244b83fa477c6c3550d809135b8fac36c7c70b79dfa186956f36499813"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:12:35.719195+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "7693ce05f4ffb5c352ad2d981322b2244522c4031045496e5b1d116593351469",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669",
+          "d30f76244b83fa477c6c3550d809135b8fac36c7c70b79dfa186956f36499813"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:12:38.776891+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "842d9da1dc18399254275176104ea39e6e1203c818b559a93391dbbbc22dd7df",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669",
+          "b1e8373cf8b9157ecd10ac61fcd49c093199143e581073bc562251801544fc28",
+          "d30f76244b83fa477c6c3550d809135b8fac36c7c70b79dfa186956f36499813",
+          "38a790e96649c00226e62ef12a836e90c4d7491ef7f448548b428162b0f9014d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:12:41.674221+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "4306376a01dd2e4b3c293997c9202555e4acd1ead9fd4713cbc13b1366130f64",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:12:32.787072+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "6503cba986296648ad0209138d687c8dfb7d129e56cf9f8f7bba5881114bf40a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669",
+          "b1e8373cf8b9157ecd10ac61fcd49c093199143e581073bc562251801544fc28",
+          "d30f76244b83fa477c6c3550d809135b8fac36c7c70b79dfa186956f36499813",
+          "38a790e96649c00226e62ef12a836e90c4d7491ef7f448548b428162b0f9014d",
+          "843dca8ae6ca43cd020e66d943f16a553c99bc3d5e0c2ef17c8ae28cf78c086a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:12:44.580307+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "7aa3974a0bd3001644043dd75d60513de8c403977e1f308949bf8cab7e4ed41d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "c90bf51a1cb2c65d7e60f5b6d7432c5e634693b61a4057bf493a0b86295bc146",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who first walked on the Moon during Apollo 13?",
+        "sample_hashes": [
+          "9f6b17655a9e6ea9e4d9732482d36bcf560c510a5b5bf3e07174e9a57b601669"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:12:32.787072+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "6503cba986296648ad0209138d687c8dfb7d129e56cf9f8f7bba5881114bf40a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

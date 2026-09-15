@@ -1,0 +1,159 @@
+{
+  "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе Казахстана находится мавзолей Ходжи Ахмеда Ясави?",
+        "sample_hashes": [
+          "7bcab7ec42bd46396a1f9bc29c151f4179181348cbe8f447a53670571766483a",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb",
+          "14a6695ff5e0f34cd826d9083fd83dbe98971ca838871bceb7ad0aee57a6d4c2",
+          "753663d6806b4082bcb2e73eb45ca516f6d086eaa28d3e531aaccd3dc145ada6",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:11:06.768584+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "13c7dd7e635897c84f64d9fc381cd2bf357069d434cf8301ff5139c5fb15f62f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе Казахстана находится мавзолей Ходжи Ахмеда Ясави?",
+        "sample_hashes": [
+          "7bcab7ec42bd46396a1f9bc29c151f4179181348cbe8f447a53670571766483a",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb",
+          "14a6695ff5e0f34cd826d9083fd83dbe98971ca838871bceb7ad0aee57a6d4c2",
+          "753663d6806b4082bcb2e73eb45ca516f6d086eaa28d3e531aaccd3dc145ada6",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:11:06.768584+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "13c7dd7e635897c84f64d9fc381cd2bf357069d434cf8301ff5139c5fb15f62f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе Казахстана находится мавзолей Ходжи Ахмеда Ясави?",
+        "sample_hashes": [
+          "7bcab7ec42bd46396a1f9bc29c151f4179181348cbe8f447a53670571766483a",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb",
+          "14a6695ff5e0f34cd826d9083fd83dbe98971ca838871bceb7ad0aee57a6d4c2",
+          "753663d6806b4082bcb2e73eb45ca516f6d086eaa28d3e531aaccd3dc145ada6",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:11:06.768584+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "13c7dd7e635897c84f64d9fc381cd2bf357069d434cf8301ff5139c5fb15f62f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "79a9467d6c61b3623a4c65b2fd814343388432d51062e1abc66f09023a800f24",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе Казахстана находится мавзолей Ходжи Ахмеда Ясави?",
+        "sample_hashes": [
+          "7bcab7ec42bd46396a1f9bc29c151f4179181348cbe8f447a53670571766483a",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb",
+          "14a6695ff5e0f34cd826d9083fd83dbe98971ca838871bceb7ad0aee57a6d4c2",
+          "753663d6806b4082bcb2e73eb45ca516f6d086eaa28d3e531aaccd3dc145ada6",
+          "404fd8d56231c6ace0ff903d045b7ac9533d4432508d675ae187638775c20bfb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-15T02:11:06.768584+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "13c7dd7e635897c84f64d9fc381cd2bf357069d434cf8301ff5139c5fb15f62f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

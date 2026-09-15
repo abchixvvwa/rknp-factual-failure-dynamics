@@ -1,0 +1,159 @@
+{
+  "case_id": "dcf28c11ab1a249311cb2b901fab9f42d8c50115a7b73622c166a3c17fc8bc0d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dcf28c11ab1a249311cb2b901fab9f42d8c50115a7b73622c166a3c17fc8bc0d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Суэц каналының алғашқы ашылу салтанаты қай жылы өтті?",
+        "sample_hashes": [
+          "420509d7e6271a087b7ed23dc1a0e2f3be83d48f7980295f428bab042d78fd5b",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "e6087371fa5efa1a3c568c43f34d26e59dde4e0afd58289963d40854730189a4",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:28.730892+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "2f190bc5fb0cc6833f2a79d634d16fa147bc8dcc358d9f3731563f771b66a2f6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dcf28c11ab1a249311cb2b901fab9f42d8c50115a7b73622c166a3c17fc8bc0d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Суэц каналының алғашқы ашылу салтанаты қай жылы өтті?",
+        "sample_hashes": [
+          "420509d7e6271a087b7ed23dc1a0e2f3be83d48f7980295f428bab042d78fd5b",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "e6087371fa5efa1a3c568c43f34d26e59dde4e0afd58289963d40854730189a4",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:28.730892+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "2f190bc5fb0cc6833f2a79d634d16fa147bc8dcc358d9f3731563f771b66a2f6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dcf28c11ab1a249311cb2b901fab9f42d8c50115a7b73622c166a3c17fc8bc0d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Суэц каналының алғашқы ашылу салтанаты қай жылы өтті?",
+        "sample_hashes": [
+          "420509d7e6271a087b7ed23dc1a0e2f3be83d48f7980295f428bab042d78fd5b",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "e6087371fa5efa1a3c568c43f34d26e59dde4e0afd58289963d40854730189a4",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:28.730892+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "2f190bc5fb0cc6833f2a79d634d16fa147bc8dcc358d9f3731563f771b66a2f6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dcf28c11ab1a249311cb2b901fab9f42d8c50115a7b73622c166a3c17fc8bc0d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Суэц каналының алғашқы ашылу салтанаты қай жылы өтті?",
+        "sample_hashes": [
+          "420509d7e6271a087b7ed23dc1a0e2f3be83d48f7980295f428bab042d78fd5b",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "e6087371fa5efa1a3c568c43f34d26e59dde4e0afd58289963d40854730189a4",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086",
+          "5169428ddd5e278252f38ff1870b177b3ac61eb31b4c91d143cf9fa3e4f2c086"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:28.730892+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "2f190bc5fb0cc6833f2a79d634d16fa147bc8dcc358d9f3731563f771b66a2f6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

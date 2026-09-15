@@ -1,0 +1,233 @@
+{
+  "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579",
+          "288079a27d3985aeded89c9910a1076c1ca5dcc4c4036a74d6b0aaf83f24ab2c"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:43.561774+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "3928c68e401e7fce68279c53f74c28c716056fc38da019db70b22662a144911d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:44.772992+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "efb23ea54187ada0d1a398b72ddf7fd018ea86b8ad59d12bb78bd8a7423f1b51",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579",
+          "288079a27d3985aeded89c9910a1076c1ca5dcc4c4036a74d6b0aaf83f24ab2c",
+          "7f9e94580d971ba1ccfc7eb61732469b44f6a079ad304b2bd21ea91edadd794b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:24:33.319322+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "a4a4fa02b61bf159dcc41f33dc7fa123476ddfaaec2298606ad84dbb379fbd77",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:44.772992+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "efb23ea54187ada0d1a398b72ddf7fd018ea86b8ad59d12bb78bd8a7423f1b51",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579",
+          "288079a27d3985aeded89c9910a1076c1ca5dcc4c4036a74d6b0aaf83f24ab2c",
+          "7f9e94580d971ba1ccfc7eb61732469b44f6a079ad304b2bd21ea91edadd794b",
+          "26b655bf760cf5fa9b1b45caebb256b1c480f9b6a445d9531d6e5631e7d2124a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:24:34.440511+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "acdf1c14b983de6df661e5b7a51167e4bd394bc1c24e69dca953bafcd5d26a33",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:44.772992+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "efb23ea54187ada0d1a398b72ddf7fd018ea86b8ad59d12bb78bd8a7423f1b51",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579",
+          "288079a27d3985aeded89c9910a1076c1ca5dcc4c4036a74d6b0aaf83f24ab2c",
+          "7f9e94580d971ba1ccfc7eb61732469b44f6a079ad304b2bd21ea91edadd794b",
+          "26b655bf760cf5fa9b1b45caebb256b1c480f9b6a445d9531d6e5631e7d2124a",
+          "c878642b22d1c81a86bc06d22f5b780a3b08a55ba523be8e628de613a10a957a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:24:35.852855+00:00",
+        "system_fingerprint": "fp_96d96a151c",
+        "request_id": "2759c67134653a83dbae1e3d16acd5cb161a7a2d24e3999884ae8624379b9697",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "4997cb6bf937a2faa8a0e0b7c0519562d3aafa118547fa1474c74a1ca02daf59",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Как называется крупнейший естественный спутник Венеры?",
+        "sample_hashes": [
+          "206c37002ba562a3a55ab70ab21708801e6b9b91ab694663846db56fe61ba579"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:23:44.772992+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "efb23ea54187ada0d1a398b72ddf7fd018ea86b8ad59d12bb78bd8a7423f1b51",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

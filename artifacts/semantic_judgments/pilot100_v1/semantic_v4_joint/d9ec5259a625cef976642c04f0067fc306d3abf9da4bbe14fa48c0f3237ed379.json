@@ -1,0 +1,159 @@
+{
+  "case_id": "d9ec5259a625cef976642c04f0067fc306d3abf9da4bbe14fa48c0f3237ed379",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d9ec5259a625cef976642c04f0067fc306d3abf9da4bbe14fa48c0f3237ed379",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Чеджу аралы қай елге тиесілі?",
+        "sample_hashes": [
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "d3b7b0c57d306bd3471550767ac0b8a17ee804f4a72cbc886f7f8b029d6b982f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:03.814859+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "70b393af8251e9c79952bdbfdd3ec16969f7c7d068e1eb9c3d66f3061cb03726",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d9ec5259a625cef976642c04f0067fc306d3abf9da4bbe14fa48c0f3237ed379",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Чеджу аралы қай елге тиесілі?",
+        "sample_hashes": [
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "d3b7b0c57d306bd3471550767ac0b8a17ee804f4a72cbc886f7f8b029d6b982f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:03.814859+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "70b393af8251e9c79952bdbfdd3ec16969f7c7d068e1eb9c3d66f3061cb03726",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d9ec5259a625cef976642c04f0067fc306d3abf9da4bbe14fa48c0f3237ed379",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Чеджу аралы қай елге тиесілі?",
+        "sample_hashes": [
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "d3b7b0c57d306bd3471550767ac0b8a17ee804f4a72cbc886f7f8b029d6b982f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:03.814859+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "70b393af8251e9c79952bdbfdd3ec16969f7c7d068e1eb9c3d66f3061cb03726",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d9ec5259a625cef976642c04f0067fc306d3abf9da4bbe14fa48c0f3237ed379",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Чеджу аралы қай елге тиесілі?",
+        "sample_hashes": [
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "b39f8d5d1ea0f14e442ad3709f8f05bde5c30be3be56d4678cc77c8a6bbee495",
+          "d3b7b0c57d306bd3471550767ac0b8a17ee804f4a72cbc886f7f8b029d6b982f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:03.814859+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "70b393af8251e9c79952bdbfdd3ec16969f7c7d068e1eb9c3d66f3061cb03726",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

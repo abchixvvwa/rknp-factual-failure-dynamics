@@ -1,0 +1,1076 @@
+# Проверка ответов моделей: pilot100_v1
+
+Пакет 4. Номера 151–200. Это часть пилота, по уже полученным ответам; сбор остальных продолжается.
+
+Оцените весь ответ: 1 — фактически верен, 0 — фактически неверен. Если случай неоднозначен или ответ оборван, оставьте пояснение вместо догадки. Для ложной предпосылки ответ должен явно её отвергать. Можно прислать номера и оценки в чат, указав название пакета.
+
+Проверка эталонных фактов ранее не означает проверки этих ответов моделей.
+
+## 151. pilot_022 / kk / qwen/qwen3.6-27b
+
+Вопрос: 1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?
+
+Эталон: No prize was awarded in 1940
+
+Варианты: Not awarded; No one; Никто; Премия не присуждалась; Ешкім; Сыйлық берілген жоқ
+
+[Источник](https://www.nobelprize.org/prizes/literature/1940/summary/)
+
+Ответ модели:
+
+> 1940 жылы әдебиет саласында Нобель сыйлығы берілмеді.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `23fcb31e3d44c686aee42c3b1648b26446377566b48af388c13d6f6ec4cc7b20`
+response_sha256: `5f44fce6f93db366a912735f0c1236f17bd55d35838f00912643c0d8133d1bee`
+
+## 152. pilot_022 / kk / qwen/qwen3.8-27b
+
+Вопрос: 1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?
+
+Эталон: No prize was awarded in 1940
+
+Варианты: Not awarded; No one; Никто; Премия не присуждалась; Ешкім; Сыйлық берілген жоқ
+
+[Источник](https://www.nobelprize.org/prizes/literature/1940/summary/)
+
+Ответ модели:
+
+> 1940 жылы әдебиет саласындағы Нобель сыйлығы ешкімге берілмеді.
+> 
+> Бұл жылғы сыйлық Нобель комитетінің шешімімен тоқтатылды (кейін 1941 жылы да берілмеді). 1940 жылғы сыйлықтың лауреаты ретінде ешкім ресми түрде жарияланбаған.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `5f0e1100c61bb90689aabe89faa4620e2bc43871ff024840515d4d833080b5bf`
+response_sha256: `c2ccaf151d61c4e7e4cbe9cbab5421d999fbe85c5d9f402341ef0d9a1c43424c`
+
+## 153. pilot_022 / ru / openai/gpt-oss-20b
+
+Вопрос: Кто стал лауреатом Нобелевской премии по литературе за 1940 год?
+
+Эталон: No prize was awarded in 1940
+
+Варианты: Not awarded; No one; Никто; Премия не присуждалась; Ешкім; Сыйлық берілген жоқ
+
+[Источник](https://www.nobelprize.org/prizes/literature/1940/summary/)
+
+Ответ модели:
+
+> Нобелевской премией по литературе за 1940 год был удостоен американский писатель **Синклер Льюис**.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `80070cdbb1795d3bbf24ab4260d5eafce4fcd7fdcd4150b7525b2c944073bff9`
+response_sha256: `7651de7223ab0195bbc869310a11c911b7dff23c0da3a948297b1d7741dc393d`
+
+## 154. pilot_022 / ru / qwen/qwen3.6-27b
+
+Вопрос: Кто стал лауреатом Нобелевской премии по литературе за 1940 год?
+
+Эталон: No prize was awarded in 1940
+
+Варианты: Not awarded; No one; Никто; Премия не присуждалась; Ешкім; Сыйлық берілген жоқ
+
+[Источник](https://www.nobelprize.org/prizes/literature/1940/summary/)
+
+Ответ модели:
+
+> Предпосылка вопроса неверна. Нобелевская премия по литературе за 1940 год не присуждалась.
+> 
+> В годы Второй мировой войны (1940–1943) Нобелевские премии по литературе не вручались.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `d407b47aa68206058f581a35d89fc1b0ce493003eed0f047f6e7feec910cdffe`
+response_sha256: `dd3e531dd1befb3f9ddbf6807d35277d798d9d3c1e0e2f2771446c00d875892c`
+
+## 155. pilot_022 / ru / qwen/qwen3.8-27b
+
+Вопрос: Кто стал лауреатом Нобелевской премии по литературе за 1940 год?
+
+Эталон: No prize was awarded in 1940
+
+Варианты: Not awarded; No one; Никто; Премия не присуждалась; Ешкім; Сыйлық берілген жоқ
+
+[Источник](https://www.nobelprize.org/prizes/literature/1940/summary/)
+
+Ответ модели:
+
+> Нобелевская премия по литературе за 1940 год не была присуждена.
+> 
+> В этот период (1939–1943 годы) Нобелевские премии по литературе не вручались из-за Второй мировой войны. Премия за 1940 год была присуждена румынскому писателю **Карлу Саавану** (Carlo Sava), но он отказался от нее, и награда так и не была вручена.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `06718ae3632bc1c5d6239520929e5f2e4634ba2493572e3a0313489555297312`
+response_sha256: `fcd88667c08d2d1bfcaf7263b3b806ee84bab029c3d5b034cdabc6c62f90d4bc`
+
+## 156. pilot_023 / en / openai/gpt-oss-20b
+
+Вопрос: Who first walked on the Moon during Apollo 13?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> No one walked on the Moon during Apollo 13. The mission was an emergency flight that never landed; all crew members remained in orbit.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `f12381d0a6edde0ff506a39b1ea663a4b475680f1f94934e3a1ab450190629a8`
+response_sha256: `c5c19dd04334ee6dd771ee56aa29203704c1d54e2a6bb35d5e6b3bd1fbc9306f`
+
+## 157. pilot_023 / en / qwen/qwen3.6-27b
+
+Вопрос: Who first walked on the Moon during Apollo 13?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> The premise is false. No one walked on the Moon during Apollo 13 because the mission was aborted due to an oxygen tank explosion before the crew could enter lunar orbit.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `352a0a2582feaf31e052e9d69a00c5fab306bdf230a68b006fea5a639754be3e`
+response_sha256: `e7ac3f95a74ac721027f58369bdc98faffea1a3beaf0aeef7845fad367e5d4f9`
+
+## 158. pilot_023 / en / qwen/qwen3.8-27b
+
+Вопрос: Who first walked on the Moon during Apollo 13?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> The premise is false. No one walked on the Moon during Apollo 13. The mission was aborted due to an oxygen tank explosion, and the crew returned to Earth without landing on the lunar surface.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `18e63a6788889775be9cfd25fa0afdbd9ea24b1065512f57cda1d9ccd9ae6de9`
+response_sha256: `3d83f961f2cb75d9a0ef41aeb9e46973cc25752a44accedcee8ea67a8f8d8053`
+
+## 159. pilot_023 / kk / openai/gpt-oss-20b
+
+Вопрос: «Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> Аполлон‑13 миссиясы кезінде Ай бетіне ешкім шықпады. Миссия айға түсуге арналмаған, сондықтан экипаж Ай бетіне түспей, орбитада қалды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `2b99cc8b77c7ea0d3ea2f930a7870073046432d8ab51c58ac77da8e5342c6c62`
+response_sha256: `fd014a0f28acdadb86a37add6c12e3b64eb4f017af756513afe6f2ea4b2af36e`
+
+## 160. pilot_023 / kk / qwen/qwen3.6-27b
+
+Вопрос: «Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> «Аполлон-13» миссиясы кезінде ешкім Ай бетіне шыққан жоқ. Бұл миссия апатқа ұшырап, Ай орбитасына ғана шығып, жерге қайтуға мәжбүр болды.
+> 
+> Сұрақтағы «Ай бетіне бірінші болып шықты» деген алғышарт жалған.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a92475fdc900a3bf06985797b3fedf4bdc3202507ab519725415973ccbc88040`
+response_sha256: `2aeabcecf74a108c268b3ca1135d012d5ce68592b9011a0607764cd9f32b9f05`
+
+## 161. pilot_023 / kk / qwen/qwen3.8-27b
+
+Вопрос: «Аполлон-13» миссиясы кезінде Ай бетіне бірінші болып кім шықты?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> Сұрақта жалған алғышарт бар. «Аполлон-13» миссиясы кезінде Ай бетіне ешкім шықпады, себебі миссия авариялық жағдайға байланысты бұзылып, экипаж Жерге қауіпсіз оралды.
+> 
+> Ай бетіне бірінші рет «Аполлон-11» миссиясы кезінде Нил Армстронг шықты.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a0d5865c838e889650b0d2ca6d1b0c5914811f8f7f42617870c0009096f7719a`
+response_sha256: `ad03c3032f45aa50fe7da8f7286418b19be572a01b4ddd257125206645b6b742`
+
+## 162. pilot_023 / ru / openai/gpt-oss-20b
+
+Вопрос: Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> Никто не вышел на поверхность Луны во время миссии «Аполлон‑13». Это полет не включал посадку; экипаж остался в орбите Луны.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `847f1a236842074e9b447226a7e167f40207260d15806d5011b83c2f6ddf6589`
+response_sha256: `7fdbc3b1a74a714e39bb2b638fef362dec9b0fc84f844057907426ad0a46bc24`
+
+## 163. pilot_023 / ru / qwen/qwen3.6-27b
+
+Вопрос: Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> Предпосылка вопроса неверна. Во время миссии «Аполлон-13» никто не выходил на поверхность Луны, так как из-за аварии на борту экипаж был вынужден отказаться от посадки и вернуться на Землю.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `7c58ce931e4b9898458aa8fb749e71545dae4da1d7e90a38d56f01e1aa982696`
+response_sha256: `558088d639129ff7438c73bbc38081c838f45e1af82466f80224251c05e6f4ce`
+
+## 164. pilot_023 / ru / qwen/qwen3.8-27b
+
+Вопрос: Кто первым вышел на поверхность Луны во время миссии «Аполлон-13»?
+
+Эталон: No one; Apollo 13 did not land on the Moon
+
+Варианты: No one; Никто; Ешкім; Apollo 13 did not land on the Moon; Аполлон-13 не высаживался на Луну
+
+[Источник](https://www.nasa.gov/the-apollo-program/)
+
+Ответ модели:
+
+> Предпосылка вопроса неверна. Во время миссии «Аполлон-13» никто не выходил на поверхность Луны.
+> 
+> Миссия была прервана из-за аварии (взрыва кислородного баллона), и экипаж был вынужден вернуться на Землю, не выполнив плановую посадку на Луну.
+> 
+> Первым человеком, вышедшим на поверхность Луны, был Нил Армстронг во время миссии «Аполлон-11» (1969 год).
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a70fe32e8a8307ce04216bb446d67551a26fbf367b7c1866b21fbd00ac47f5c6`
+response_sha256: `f669625c718e4d527122fb15b3507de656c5aeeb43943955877f158f647070b6`
+
+## 165. pilot_024 / en / openai/gpt-oss-20b
+
+Вопрос: Which spacecraft landed on Saturn's solid surface?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> No spacecraft has landed on Saturn’s solid surface. The only spacecraft that reached Saturn was the Cassini orbiter, which entered orbit and performed flybys but never touched the planet.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `d64f81a48a4a65b2392140145382763383bec9bef51475d249241312dcba233d`
+response_sha256: `142c929d848d1288143e64c29edbfa866c3a140d76f7728ada7045ed24906cee`
+
+## 166. pilot_024 / en / qwen/qwen3.6-27b
+
+Вопрос: Which spacecraft landed on Saturn's solid surface?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> The premise is false. Saturn does not have a solid surface, so no spacecraft has landed on one.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `448be7efefe0cbcb3ad70c7ff1dd348bb9c3ef1f3f2dae9c1b67229c662aa936`
+response_sha256: `cdb6c1b088781ca5cc9766ba1757a4983314e5b88abeba1dc80c2e12ddb6ebc3`
+
+## 167. pilot_024 / en / qwen/qwen3.8-27b
+
+Вопрос: Which spacecraft landed on Saturn's solid surface?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> The premise is false. No spacecraft has landed on Saturn's solid surface because Saturn is a gas giant and does not have a solid surface.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `8e8c26369f793213474797847e91f1addab58a934bd14498bb3aea5ec67c10b5`
+response_sha256: `691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8`
+
+## 168. pilot_024 / kk / openai/gpt-oss-20b
+
+Вопрос: Қай ғарыш аппараты Сатурнның қатты бетіне қонды?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Қай ғарыш аппараты Сатурнның қатты бетіне қонды?  
+> **Cassini** (Сатурнға арналған «Сатурн-Хаббл» миссиясының бөлігі) 2017‑де Сатурнның қатты бетіне қонды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a46fa90af5af2a140ee1a939d4f23fa99ff5fa05ed13665c826e5aa5e19dbb15`
+response_sha256: `645f439f5e1a291b689800893fb7ea3a43dae00130c1c5c7a7f6c02603002a05`
+
+## 169. pilot_024 / kk / qwen/qwen3.6-27b
+
+Вопрос: Қай ғарыш аппараты Сатурнның қатты бетіне қонды?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Ешбір ғарыш аппараты Сатурнның қатты бетіне қонған жоқ, себебі Сатурнның қатты беті жоқ (ол газ гиганты).
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `241d2569bc90f467c494eaefdf12744d1cdd56994131146396058ab9ca20df07`
+response_sha256: `6598f4c6471ed4f413c6b04e16492a99df368d264ff14bb72fe52f0393496e68`
+
+## 170. pilot_024 / kk / qwen/qwen3.8-27b
+
+Вопрос: Қай ғарыш аппараты Сатурнның қатты бетіне қонды?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Бұл сұрақта жалған алғышарт бар. Сатурнның қатты беті жоқ, ол газ гиганты болғандықтан, ешқандай ғарыш аппараты оның бетіне қона алмады.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `687ba4c831dd87870a29076706747196046980b46b221ac6d2cc2a40e6a8f456`
+response_sha256: `38ef39bc3d3a8f7f9922ee77ba19be06dff2750de2b29cc8abe946a34fb54703`
+
+## 171. pilot_024 / ru / openai/gpt-oss-20b
+
+Вопрос: Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Никакой космический аппарат не совершал посадку на твёрдую поверхность Сатурна. Сатурн – газовый гигант без твердой поверхности, поэтому посадка невозможна.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a433aa60282b7fae8e57c2b65365cd61a63e108170bc8871b250881d17aadafd`
+response_sha256: `3ca687fb2e9dccd0142ab4c8becf688083c62f6dd7142ee8eed31b68560c7374`
+
+## 172. pilot_024 / ru / qwen/qwen3.6-27b
+
+Вопрос: Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Предпосылка вопроса неверна. У Сатурна нет твёрдой поверхности, поэтому ни один космический аппарат не совершал на него посадку.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `9dacbb64bf0cb4b7247a6c1359793305f9b94c542fec1e31ff9cbe889f5d78d2`
+response_sha256: `ada12116efa04fd582a9b7f2b6ea36ec6d019748a9c47f1ec6c7e24dc324679f`
+
+## 173. pilot_024 / ru / qwen/qwen3.8-27b
+
+Вопрос: Какой космический аппарат совершил посадку на твёрдую поверхность Сатурна?
+
+Эталон: None; Saturn has no solid surface to land on
+
+Варианты: None; Никакой; Ешқайсысы; Saturn has no solid surface; У Сатурна нет твёрдой поверхности; Сатурнның қатты беті жоқ
+
+[Источник](https://science.nasa.gov/saturn/facts/)
+
+Ответ модели:
+
+> Предпосылка вопроса неверна. Ни один космический аппарат не совершал посадку на твёрдую поверхность Сатурна, так как Сатурн является газовым гигантом и не имеет твёрдой поверхности.
+> 
+> Аппарат «Кассини» (в составе миссии «Галилео»/«Кассини-Гюйгенс») исследовал Сатурн и его спутники, а зонд «Гюйгенс» совершил посадку на спутник Сатурна — Титан, но не на саму планету.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `ff9daa840f6a4ff6c92a441ba231838460821c195db7dfe09403e1edb93439cc`
+response_sha256: `cb949c4213a08405633e91af49c8c209e8225389f656fb6cdce734ce6344be18`
+
+## 174. pilot_025 / en / openai/gpt-oss-20b
+
+Вопрос: In what year was the Treaty of Paris ending the American War of Independence signed?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> The Treaty of Paris ending the American War of Independence was signed in **1783**.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `3b843ddf57f326ea961470e655754502eaba05e8ad9523610286ee114cc51e16`
+response_sha256: `c4e99597fe075d8fa76eaf1498f42a9dc6bb894ec44d7cc3a46b8b0f36cfa35f`
+
+## 175. pilot_025 / en / qwen/qwen3.6-27b
+
+Вопрос: In what year was the Treaty of Paris ending the American War of Independence signed?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> The Treaty of Paris ending the American War of Independence was signed in 1783.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `9e42a2f15d2b53cf8920ddb94dc920eef4adaa9b5179038229d871807dd01b35`
+response_sha256: `3c9091e0122a74f7f4855063a91026dfeab875c0424d1ed1423906376ba3def4`
+
+## 176. pilot_025 / kk / openai/gpt-oss-20b
+
+Вопрос: АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> Париж бітім шарты 1783‑жылда қол қойылды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `4ec38f5b29da6f7553e9609234d29190ead009fa377ddbb320cd3b6a09e7ace4`
+response_sha256: `d0f258088aac52021cb531d01ff02594d1c15cf0330163ca947ced17ab20faad`
+
+## 177. pilot_025 / kk / qwen/qwen3.6-27b
+
+Вопрос: АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> Париж бітім шартына 1783 жылы қол қойылды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `2e3fd502a3d1e5e002117562386cd8b702cacc3bc20ea7cbe6a6755be00a338f`
+response_sha256: `d6bedd3721f369d2bdb402c68def7a6e8278475e32caac08034378a2e85beef2`
+
+## 178. pilot_025 / kk / qwen/qwen3.8-27b
+
+Вопрос: АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> Сұрақта жалған алғышарт бар. АҚШ-тың тәуелсіздік соғысын аяқтаған құжат — **Париж бітім шарты емес**, бұл **1783 жылғы Париж келісімі** (The Treaty of Paris).
+> 
+> Дұрыс жауап: **1783 жыл**.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `53af82a0fae1d52bca05df8def180ba468d2aa4b3593735268dfe20f6b74bf58`
+response_sha256: `bb07f967cf9023d9bb2e080ac18ac35b5bafa44821d123a02733c7ce7d054967`
+
+## 179. pilot_025 / ru / openai/gpt-oss-20b
+
+Вопрос: В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> Парижский мирный договор, завершивший Войну за независимость США, был подписан в 1783 году.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `336b0befd2acf917899a45928469a964101b319086040a680c6e378b82356abf`
+response_sha256: `4c21643fc83598c91ea03d45334fa678db544742d11805b267be7142dea1a6e1`
+
+## 180. pilot_025 / ru / qwen/qwen3.6-27b
+
+Вопрос: В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> Парижский мирный договор, завершивший Войну за независимость США, был подписан в 1783 году.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `b4fabdfd34f19e5ca4cda6b241675260c4733f24af04f2e19811bad059b04054`
+response_sha256: `b1dd5542c766b42e476cb847c067a7c010bce4e72d9b4c46317531fcbabac554`
+
+## 181. pilot_025 / ru / qwen/qwen3.8-27b
+
+Вопрос: В каком году был подписан Парижский мирный договор, завершивший Войну за независимость США?
+
+Эталон: 1783
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/treaty-of-paris)
+
+Ответ модели:
+
+> 1783 год.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `277fb2597fee782f52691fb64fd30aa4dc540ec5233ffc3e053ea80807a0aed5`
+response_sha256: `fcb91512a87c122b5f053881cc13a0a8b38ddbf76d14d6dc97e2cbd425231e7a`
+
+## 182. pilot_026 / en / openai/gpt-oss-20b
+
+Вопрос: From which country did the United States purchase Louisiana in 1803?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> The United States purchased Louisiana from France in 1803.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `ec32b87a2ebc8470f8c2cf27f1d2e1774cc2ebb1b251ee161846a013aa0ebb49`
+response_sha256: `e4ee227934784d9361415c591ca597301a3cc6da6c713bbf6c1a3ec7bf53f222`
+
+## 183. pilot_026 / kk / openai/gpt-oss-20b
+
+Вопрос: АҚШ 1803 жылы Луизиананы қай елден сатып алды?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> АҚШ 1803 жылы Луизиананы Франциядан сатып алды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `b1502683b58b1000dfc2a32de95d7e0adc2020bfe33bfaf7b1f048cd94bb3a62`
+response_sha256: `08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695`
+
+## 184. pilot_026 / kk / qwen/qwen3.6-27b
+
+Вопрос: АҚШ 1803 жылы Луизиананы қай елден сатып алды?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> Франциядан.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `e8da17a7a1bd8a9a4499e68df3d83684ac26fdd0cfeb569c840ce6eccae88ba7`
+response_sha256: `706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b`
+
+## 185. pilot_026 / kk / qwen/qwen3.8-27b
+
+Вопрос: АҚШ 1803 жылы Луизиананы қай елден сатып алды?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> АҚШ 1803 жылы Луизиананы Франциядан сатып алды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `7bbbeccc0f146dc76ac25fa206a2192857ab0599e21a30a9902d4296feff4bab`
+response_sha256: `08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695`
+
+## 186. pilot_026 / ru / openai/gpt-oss-20b
+
+Вопрос: У какой страны США купили Луизиану в 1803 году?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> США купили Луизиану у Франции в 1803 году.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `57b0bf9e497ca35ea32433d289b8e90bff385c2638a06ab64517fe41f1bd7554`
+response_sha256: `89747d300d8f4b4d9cfea587a98f8c1f69891750b2364b65ee8c92031a2978ac`
+
+## 187. pilot_026 / ru / qwen/qwen3.6-27b
+
+Вопрос: У какой страны США купили Луизиану в 1803 году?
+
+Эталон: France
+
+Варианты: Франция
+
+[Источник](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty)
+
+Ответ модели:
+
+> Франции.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `7966065679978e60a67951806d4b9c8c7bbf739edc51106700800cc1c6582dfa`
+response_sha256: `1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979`
+
+## 188. pilot_027 / en / openai/gpt-oss-20b
+
+Вопрос: In what year was the Nineteenth Amendment to the US Constitution ratified?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> The Nineteenth Amendment to the U.S. Constitution was ratified in 1920.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `5e00ad40d990c87d1e0a8d6d01e3be02cf4dd0f1867e1ac3b8b5577411558ed0`
+response_sha256: `61328b3a10e2d09eb46f53d23af1efad9ed3750f842e7f3d0000235a56e08b00`
+
+## 189. pilot_027 / en / qwen/qwen3.6-27b
+
+Вопрос: In what year was the Nineteenth Amendment to the US Constitution ratified?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> The Nineteenth Amendment to the US Constitution was ratified in 1920.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `1284bbd8fbd27b306e3b2631e58b5ba060d4783c1aec1d4d7f2458c17f392666`
+response_sha256: `9c834b5551f38dad5401e5ca47f2949c4f032e1fa4399a6179f1c9b81cb3e14a`
+
+## 190. pilot_027 / kk / openai/gpt-oss-20b
+
+Вопрос: АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> 19‑шы түзету (АҚШ Конституциясына әйелдерге дауыс беру құқығын беретін) 1920 жылы ратификацияланды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `15a967b113d9825a37627dbb9c5cfa6c93c72007e426fca4ba635f813b485e28`
+response_sha256: `2d57bede47b6904c997ea566e1f55ab6ca770e10a72b68d2c1b66bf298a707d8`
+
+## 191. pilot_027 / kk / qwen/qwen3.6-27b
+
+Вопрос: АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> АҚШ Конституциясына он тоғызыншы түзету 1920 жылы ратификацияланды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `571e9594b46215a1fed37c393e708537dff3ce6d3b02b4924b9649231e84eaf3`
+response_sha256: `27789909f44ab4c7c0e1d04580d9503550fdbd86874262e155ebd7d3e568e264`
+
+## 192. pilot_027 / kk / qwen/qwen3.8-27b
+
+Вопрос: АҚШ Конституциясына он тоғызыншы түзету қай жылы ратификацияланды?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> АҚШ Конституциясына он тоғызыншы түзету 1961 жылы ратификацияланды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `aaa4fee422376225a9d38156af35f4d9b02e29847f8240c0ed65e71ef27af5a5`
+response_sha256: `c1787cd07dcd050416d88de24b22226b40c6fe46407817cbe59a8b5ccf43fb21`
+
+## 193. pilot_027 / ru / openai/gpt-oss-20b
+
+Вопрос: В каком году была ратифицирована Девятнадцатая поправка к Конституции США?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> Девятнадцатая поправка к Конституции США была ратифицирована в 1920 году.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `51eeee3e06e0ec1020ee2d1f0f021950177fc63ee19a491da4fc3fdbcf09d9ed`
+response_sha256: `ed99fcd6ad29fab17e27655e345fac8173c388fe1054bd17386ccc732307371e`
+
+## 194. pilot_027 / ru / qwen/qwen3.6-27b
+
+Вопрос: В каком году была ратифицирована Девятнадцатая поправка к Конституции США?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> Девятнадцатая поправка к Конституции США была ратифицирована в 1920 году.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `c7b44bd44a5c7156892134e53784e8ad1a474697bf0a645227be909e05dbead9`
+response_sha256: `2d9b91f97de0cde272b5a91f0fa02aa33b0b6fe4c95884911cbcf65fd6e31766`
+
+## 195. pilot_027 / ru / qwen/qwen3.8-27b
+
+Вопрос: В каком году была ратифицирована Девятнадцатая поправка к Конституции США?
+
+Эталон: 1920
+
+Варианты: 
+
+[Источник](https://www.archives.gov/milestone-documents/19th-amendment)
+
+Ответ модели:
+
+> 1920 год.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `e61311dc554935210ce683f78886649fed8f85968761d700213ddb0da3f6c96b`
+response_sha256: `35422b7a5b353c2e74844f8cc929a597821e613247cf22ec491d82f70a32eb48`
+
+## 196. pilot_028 / en / openai/gpt-oss-20b
+
+Вопрос: Who was the first Secretary-General of the United Nations?
+
+Эталон: Trygve Lie
+
+Варианты: Trygve Halvdan Lie; Трюгве Ли; Трюгве Хальвдан Ли
+
+[Источник](https://www.un.org/sg/en/content/trygve-halvdan-lie)
+
+Ответ модели:
+
+> The first Secretary‑General of the United Nations was Trygve Lie of Norway.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `54b3933481785379181c665dc271cdabeb473c7578a9a2ea9bd395e4cc3bc973`
+response_sha256: `919d83eebad64373a65c1b0cff360e5847ec8b9a8298dd020025a578034f54b3`
+
+## 197. pilot_028 / en / qwen/qwen3.8-27b
+
+Вопрос: Who was the first Secretary-General of the United Nations?
+
+Эталон: Trygve Lie
+
+Варианты: Trygve Halvdan Lie; Трюгве Ли; Трюгве Хальвдан Ли
+
+[Источник](https://www.un.org/sg/en/content/trygve-halvdan-lie)
+
+Ответ модели:
+
+> The first Secretary-General of the United Nations was Trygve Lie.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `68b4e18bd4abef9c55f130723f14a8860ea93ac23c3b5fb25eb9ecf3f549de45`
+response_sha256: `2faeb603713d73b78f1f806ba38dcaa02e40a1721095d74df4402116556f67fc`
+
+## 198. pilot_028 / kk / openai/gpt-oss-20b
+
+Вопрос: БҰҰ-ның алғашқы Бас хатшысы кім болды?
+
+Эталон: Trygve Lie
+
+Варианты: Trygve Halvdan Lie; Трюгве Ли; Трюгве Хальвдан Ли
+
+[Источник](https://www.un.org/sg/en/content/trygve-halvdan-lie)
+
+Ответ модели:
+
+> БҰҰ-ның алғашқы Бас хатшысы **У Тант** болды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `7d74915e553fa579c42e8817200d3e09c40be5b892cd53841b8a385073992ab0`
+response_sha256: `efe28f63aebb8bc8c78c1d1d45b57dcda4a06870379f62f17eb80fde245d3e79`
+
+## 199. pilot_028 / kk / qwen/qwen3.6-27b
+
+Вопрос: БҰҰ-ның алғашқы Бас хатшысы кім болды?
+
+Эталон: Trygve Lie
+
+Варианты: Trygve Halvdan Lie; Трюгве Ли; Трюгве Хальвдан Ли
+
+[Источник](https://www.un.org/sg/en/content/trygve-halvdan-lie)
+
+Ответ модели:
+
+> БҰҰ-ның алғашқы Бас хатшысы Тригве Ли болды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `a8b7795b9b927770cf5d836e4eca5e5d56473c332a12b95a6ac9b6fb10daf165`
+response_sha256: `2354ea693ed2ad9ce04824b4fc5465098374274000f46b8d34100ada777d7de5`
+
+## 200. pilot_028 / kk / qwen/qwen3.8-27b
+
+Вопрос: БҰҰ-ның алғашқы Бас хатшысы кім болды?
+
+Эталон: Trygve Lie
+
+Варианты: Trygve Halvdan Lie; Трюгве Ли; Трюгве Хальвдан Ли
+
+[Источник](https://www.un.org/sg/en/content/trygve-halvdan-lie)
+
+Ответ модели:
+
+> БҰҰ-ның алғашқы Бас хатшысы Тригве Ливе (Тригве Ульв Ливе) болды.
+
+Причина проверки: Needs human review; non-match alone does not establish incorrectness
+
+Оценка / пояснение: ___
+
+request_id: `10f1dc3483c77ee5927882c10c23dc253e79aff7fc22d9bcd1cfa2fcbe579797`
+response_sha256: `056130681a6183f7bda1301b024912f07cdb3f575381f14cae1b0baf97a64104`

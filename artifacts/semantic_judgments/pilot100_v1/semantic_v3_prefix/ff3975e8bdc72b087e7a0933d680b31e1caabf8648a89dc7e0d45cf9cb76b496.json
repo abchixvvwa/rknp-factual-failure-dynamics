@@ -1,0 +1,233 @@
+{
+  "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:02.026359+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "5beb137b9ca3013dfa84ba1960e1db68829602fcc8561b8e5548f6419ed89d11",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:07.349064+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e6229d7dbca69f69f1829759f89d54c50bdeb48f8ba232acfe992c80e5631c65",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f",
+          "ee708750e346e10c56cfcaa5c86e217bc68567052d5bc0fb34cab3ebbeb3e3b4"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:10.639745+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "2d2efb29485e443983758398421cc06b46803860cedc082abb59f4710c86870c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:07.349064+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e6229d7dbca69f69f1829759f89d54c50bdeb48f8ba232acfe992c80e5631c65",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f",
+          "ee708750e346e10c56cfcaa5c86e217bc68567052d5bc0fb34cab3ebbeb3e3b4",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:11.507082+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "4cf59037c8d86e9d363c50956af1ec9542ff9e9fa84a7c110d0e1c1237950ed9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:07.349064+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e6229d7dbca69f69f1829759f89d54c50bdeb48f8ba232acfe992c80e5631c65",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f",
+          "ee708750e346e10c56cfcaa5c86e217bc68567052d5bc0fb34cab3ebbeb3e3b4",
+          "aed3d2c5c4fd58ce3bc6bcaa5379e2a2e73cfb3ea1152b1b7666567ae16f639f",
+          "bdd914288ce7fac4ce416bd5dd9c5503352bb2b46578ac32dab889ac607187b9"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:13.059081+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "65a3cb8ddf43004e0c4c76fe6402360ec3172c5c8ccd27439ac007ae88a75f4e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "ff3975e8bdc72b087e7a0933d680b31e1caabf8648a89dc7e0d45cf9cb76b496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which English king agreed to Magna Carta at Runnymede in 1215?",
+        "sample_hashes": [
+          "bfc0b95939fccec0f9595140ecb34a717a2a7d24383873d94aeb7ff67b19fa2e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:07.349064+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e6229d7dbca69f69f1829759f89d54c50bdeb48f8ba232acfe992c80e5631c65",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "5667c9ddf2f22dd3c33ff851274399f4b862cb19c9028e21c3a2e2cffea50efd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5667c9ddf2f22dd3c33ff851274399f4b862cb19c9028e21c3a2e2cffea50efd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Jeju Island belong?",
+        "sample_hashes": [
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:12.819171+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a08f3a1de4b80de3b31a74c7fd2b15a50bc796d1f9d1d2f33c1649516fadcf47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5667c9ddf2f22dd3c33ff851274399f4b862cb19c9028e21c3a2e2cffea50efd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Jeju Island belong?",
+        "sample_hashes": [
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:12.819171+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a08f3a1de4b80de3b31a74c7fd2b15a50bc796d1f9d1d2f33c1649516fadcf47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5667c9ddf2f22dd3c33ff851274399f4b862cb19c9028e21c3a2e2cffea50efd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Jeju Island belong?",
+        "sample_hashes": [
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:12.819171+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a08f3a1de4b80de3b31a74c7fd2b15a50bc796d1f9d1d2f33c1649516fadcf47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5667c9ddf2f22dd3c33ff851274399f4b862cb19c9028e21c3a2e2cffea50efd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Jeju Island belong?",
+        "sample_hashes": [
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231",
+          "c85329e3779e4096c2e13bea0182f857883cda3413891e25a4723425cfd552d5",
+          "a242d5090d49382c66a9aaeaa28cb86b6198f9c7afa306e01999963374de9231"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:12.819171+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a08f3a1de4b80de3b31a74c7fd2b15a50bc796d1f9d1d2f33c1649516fadcf47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

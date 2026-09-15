@@ -1,0 +1,159 @@
+{
+  "case_id": "aead9f870692f7c0e93bfc78e193f998779330f1014881d8b6eed4c2e60ba6c7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aead9f870692f7c0e93bfc78e193f998779330f1014881d8b6eed4c2e60ba6c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по физике за 1931 год?",
+        "sample_hashes": [
+          "66981d975da336e81da8d70429b3cd4021948a2d35439dccc79c844cebe6f063",
+          "1d9e1ddea968a5c12034a702a9581c58f6cf853437fc412d0b091cfd13a238cf",
+          "8cb1aa4f026c18db9658bf3468f706ca591d8919cbd263c6189f623c3007ec8c",
+          "7ad4ef1a484355479fab6c0c64b13102b6a0ef103ec5f886e259e09fe886b420",
+          "091f924d1439d41e7dc6b71b2c8fa4de673ada7195451ed2585fabe715d08b09"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:12.455010+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "53352e3bad2ae7690da9f2c7b3fc595e3455d9a22e3b9c9051c564e618eff536",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aead9f870692f7c0e93bfc78e193f998779330f1014881d8b6eed4c2e60ba6c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по физике за 1931 год?",
+        "sample_hashes": [
+          "66981d975da336e81da8d70429b3cd4021948a2d35439dccc79c844cebe6f063",
+          "1d9e1ddea968a5c12034a702a9581c58f6cf853437fc412d0b091cfd13a238cf",
+          "8cb1aa4f026c18db9658bf3468f706ca591d8919cbd263c6189f623c3007ec8c",
+          "7ad4ef1a484355479fab6c0c64b13102b6a0ef103ec5f886e259e09fe886b420",
+          "091f924d1439d41e7dc6b71b2c8fa4de673ada7195451ed2585fabe715d08b09"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:12.455010+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "53352e3bad2ae7690da9f2c7b3fc595e3455d9a22e3b9c9051c564e618eff536",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aead9f870692f7c0e93bfc78e193f998779330f1014881d8b6eed4c2e60ba6c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по физике за 1931 год?",
+        "sample_hashes": [
+          "66981d975da336e81da8d70429b3cd4021948a2d35439dccc79c844cebe6f063",
+          "1d9e1ddea968a5c12034a702a9581c58f6cf853437fc412d0b091cfd13a238cf",
+          "8cb1aa4f026c18db9658bf3468f706ca591d8919cbd263c6189f623c3007ec8c",
+          "7ad4ef1a484355479fab6c0c64b13102b6a0ef103ec5f886e259e09fe886b420",
+          "091f924d1439d41e7dc6b71b2c8fa4de673ada7195451ed2585fabe715d08b09"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:12.455010+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "53352e3bad2ae7690da9f2c7b3fc595e3455d9a22e3b9c9051c564e618eff536",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aead9f870692f7c0e93bfc78e193f998779330f1014881d8b6eed4c2e60ba6c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по физике за 1931 год?",
+        "sample_hashes": [
+          "66981d975da336e81da8d70429b3cd4021948a2d35439dccc79c844cebe6f063",
+          "1d9e1ddea968a5c12034a702a9581c58f6cf853437fc412d0b091cfd13a238cf",
+          "8cb1aa4f026c18db9658bf3468f706ca591d8919cbd263c6189f623c3007ec8c",
+          "7ad4ef1a484355479fab6c0c64b13102b6a0ef103ec5f886e259e09fe886b420",
+          "091f924d1439d41e7dc6b71b2c8fa4de673ada7195451ed2585fabe715d08b09"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:12.455010+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "53352e3bad2ae7690da9f2c7b3fc595e3455d9a22e3b9c9051c564e618eff536",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

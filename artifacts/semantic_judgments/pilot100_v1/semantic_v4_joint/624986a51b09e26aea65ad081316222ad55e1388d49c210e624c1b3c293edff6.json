@@ -1,0 +1,159 @@
+{
+  "case_id": "624986a51b09e26aea65ad081316222ad55e1388d49c210e624c1b3c293edff6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "624986a51b09e26aea65ad081316222ad55e1388d49c210e624c1b3c293edff6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране расположен Мачу-Пикчу?",
+        "sample_hashes": [
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5",
+          "bd815501e49f390cb64cc2a4d65da7898c0af30f4d1dac73c6cfb1bee085a01a",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:54.393076+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "fb8a1c890cc673e4c9bcc9e47241e46b04bdf78ebf2de28e00370139168aa6f9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "624986a51b09e26aea65ad081316222ad55e1388d49c210e624c1b3c293edff6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране расположен Мачу-Пикчу?",
+        "sample_hashes": [
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5",
+          "bd815501e49f390cb64cc2a4d65da7898c0af30f4d1dac73c6cfb1bee085a01a",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:54.393076+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "fb8a1c890cc673e4c9bcc9e47241e46b04bdf78ebf2de28e00370139168aa6f9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "624986a51b09e26aea65ad081316222ad55e1388d49c210e624c1b3c293edff6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране расположен Мачу-Пикчу?",
+        "sample_hashes": [
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5",
+          "bd815501e49f390cb64cc2a4d65da7898c0af30f4d1dac73c6cfb1bee085a01a",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:54.393076+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "fb8a1c890cc673e4c9bcc9e47241e46b04bdf78ebf2de28e00370139168aa6f9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "624986a51b09e26aea65ad081316222ad55e1388d49c210e624c1b3c293edff6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране расположен Мачу-Пикчу?",
+        "sample_hashes": [
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "8f90067ce3c303195717257d46d56419a777e7325dff9b0e425765bd83a8002c",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5",
+          "bd815501e49f390cb64cc2a4d65da7898c0af30f4d1dac73c6cfb1bee085a01a",
+          "613418f380cc9c35b7920dd7edbdc25375a0ae6c5bb03fe3e5b35c3421d6afb5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:54.393076+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "fb8a1c890cc673e4c9bcc9e47241e46b04bdf78ebf2de28e00370139168aa6f9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

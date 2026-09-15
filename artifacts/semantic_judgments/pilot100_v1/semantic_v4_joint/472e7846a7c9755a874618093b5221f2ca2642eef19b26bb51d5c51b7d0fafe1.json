@@ -1,0 +1,159 @@
+{
+  "case_id": "472e7846a7c9755a874618093b5221f2ca2642eef19b26bb51d5c51b7d0fafe1",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "472e7846a7c9755a874618093b5221f2ca2642eef19b26bb51d5c51b7d0fafe1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстан 1991 жылы тәуелсіздігін қай күні жариялады?",
+        "sample_hashes": [
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "18292e84ffbfba641df296c32b440b778503261f94cc15f527728a69b45c214a",
+          "ea2ecb6a05e44994cf355a89f67e36d10959e46f85aeda112cd14c6d4f07c48b",
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "c859dc6b9b06dabd95466901d39151e99cadb651f250b71f6a6256d4f2549f3c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:13.452453+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "89428603ba0721729e3e08b2d53d786379c30c1db3dfca59e1ebf75ebff6f921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "472e7846a7c9755a874618093b5221f2ca2642eef19b26bb51d5c51b7d0fafe1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстан 1991 жылы тәуелсіздігін қай күні жариялады?",
+        "sample_hashes": [
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "18292e84ffbfba641df296c32b440b778503261f94cc15f527728a69b45c214a",
+          "ea2ecb6a05e44994cf355a89f67e36d10959e46f85aeda112cd14c6d4f07c48b",
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "c859dc6b9b06dabd95466901d39151e99cadb651f250b71f6a6256d4f2549f3c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:13.452453+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "89428603ba0721729e3e08b2d53d786379c30c1db3dfca59e1ebf75ebff6f921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "472e7846a7c9755a874618093b5221f2ca2642eef19b26bb51d5c51b7d0fafe1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстан 1991 жылы тәуелсіздігін қай күні жариялады?",
+        "sample_hashes": [
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "18292e84ffbfba641df296c32b440b778503261f94cc15f527728a69b45c214a",
+          "ea2ecb6a05e44994cf355a89f67e36d10959e46f85aeda112cd14c6d4f07c48b",
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "c859dc6b9b06dabd95466901d39151e99cadb651f250b71f6a6256d4f2549f3c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:13.452453+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "89428603ba0721729e3e08b2d53d786379c30c1db3dfca59e1ebf75ebff6f921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "472e7846a7c9755a874618093b5221f2ca2642eef19b26bb51d5c51b7d0fafe1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстан 1991 жылы тәуелсіздігін қай күні жариялады?",
+        "sample_hashes": [
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "18292e84ffbfba641df296c32b440b778503261f94cc15f527728a69b45c214a",
+          "ea2ecb6a05e44994cf355a89f67e36d10959e46f85aeda112cd14c6d4f07c48b",
+          "3832a753e81b493efa435bdfa37e3f2f55e2598a45c36be798b69bb8c5fca9d9",
+          "c859dc6b9b06dabd95466901d39151e99cadb651f250b71f6a6256d4f2549f3c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:13.452453+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "89428603ba0721729e3e08b2d53d786379c30c1db3dfca59e1ebf75ebff6f921",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

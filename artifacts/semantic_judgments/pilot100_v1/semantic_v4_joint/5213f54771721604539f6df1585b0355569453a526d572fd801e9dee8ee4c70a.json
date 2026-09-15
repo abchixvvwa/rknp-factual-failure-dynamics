@@ -1,0 +1,179 @@
+{
+  "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1935 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "33bb27c99bc329b232f5e8c73332a2fc8e7ce8780f408e7fd09d931b6bcb07de",
+          "24c496d04b76ff7ac558430fdf78448693a8aa7c44bb1755b3fc9e59bbb22a4d",
+          "bd43704979a829f5a764fd00f6da3fe58fc1289dfa2321ee488268ccf449cabe",
+          "0dc471423377bf05b93f32f04bd388a4f26bc897e2fc15936c82243ea65bef66",
+          "6a6964063dd44e33ba25f488f45b40c62d774fdd44e44ae03a09165980813070"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 4]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:14.558284+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "61c8a0a2720f95d14188ca43e308d2eef4f291744a72f18a5fe41137599a1158",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1935 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "33bb27c99bc329b232f5e8c73332a2fc8e7ce8780f408e7fd09d931b6bcb07de",
+          "24c496d04b76ff7ac558430fdf78448693a8aa7c44bb1755b3fc9e59bbb22a4d",
+          "bd43704979a829f5a764fd00f6da3fe58fc1289dfa2321ee488268ccf449cabe",
+          "0dc471423377bf05b93f32f04bd388a4f26bc897e2fc15936c82243ea65bef66",
+          "6a6964063dd44e33ba25f488f45b40c62d774fdd44e44ae03a09165980813070"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 4]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:14.558284+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "61c8a0a2720f95d14188ca43e308d2eef4f291744a72f18a5fe41137599a1158",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1935 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "33bb27c99bc329b232f5e8c73332a2fc8e7ce8780f408e7fd09d931b6bcb07de",
+          "24c496d04b76ff7ac558430fdf78448693a8aa7c44bb1755b3fc9e59bbb22a4d",
+          "bd43704979a829f5a764fd00f6da3fe58fc1289dfa2321ee488268ccf449cabe",
+          "0dc471423377bf05b93f32f04bd388a4f26bc897e2fc15936c82243ea65bef66",
+          "6a6964063dd44e33ba25f488f45b40c62d774fdd44e44ae03a09165980813070"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 4]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:14.558284+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "61c8a0a2720f95d14188ca43e308d2eef4f291744a72f18a5fe41137599a1158",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5213f54771721604539f6df1585b0355569453a526d572fd801e9dee8ee4c70a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1935 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "33bb27c99bc329b232f5e8c73332a2fc8e7ce8780f408e7fd09d931b6bcb07de",
+          "24c496d04b76ff7ac558430fdf78448693a8aa7c44bb1755b3fc9e59bbb22a4d",
+          "bd43704979a829f5a764fd00f6da3fe58fc1289dfa2321ee488268ccf449cabe",
+          "0dc471423377bf05b93f32f04bd388a4f26bc897e2fc15936c82243ea65bef66",
+          "6a6964063dd44e33ba25f488f45b40c62d774fdd44e44ae03a09165980813070"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 4]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:14.558284+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "61c8a0a2720f95d14188ca43e308d2eef4f291744a72f18a5fe41137599a1158",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

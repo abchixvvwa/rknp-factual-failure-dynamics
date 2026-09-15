@@ -1,0 +1,159 @@
+{
+  "case_id": "c07bf48a8e2943a590a9d403ac1ea713a218a2540805bcaf61fc23fb6c780669",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c07bf48a8e2943a590a9d403ac1ea713a218a2540805bcaf61fc23fb6c780669",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many standard types of nucleotide bases are there in DNA?",
+        "sample_hashes": [
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "8235e324648967615280f43501cd9270ee06238eea2a72443b787605e353bf60",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "86ddb9556919ca3b316d58e71b4a78af6bce554d1bcf53fdb30dd197e947ba4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:48:19.001087+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "9fe07a21d30d60f7962615e7e1fcb89ec0083d3fea7d651e6172214c9dc9f123",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c07bf48a8e2943a590a9d403ac1ea713a218a2540805bcaf61fc23fb6c780669",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many standard types of nucleotide bases are there in DNA?",
+        "sample_hashes": [
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "8235e324648967615280f43501cd9270ee06238eea2a72443b787605e353bf60",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "86ddb9556919ca3b316d58e71b4a78af6bce554d1bcf53fdb30dd197e947ba4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:48:19.001087+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "9fe07a21d30d60f7962615e7e1fcb89ec0083d3fea7d651e6172214c9dc9f123",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c07bf48a8e2943a590a9d403ac1ea713a218a2540805bcaf61fc23fb6c780669",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many standard types of nucleotide bases are there in DNA?",
+        "sample_hashes": [
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "8235e324648967615280f43501cd9270ee06238eea2a72443b787605e353bf60",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "86ddb9556919ca3b316d58e71b4a78af6bce554d1bcf53fdb30dd197e947ba4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:48:19.001087+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "9fe07a21d30d60f7962615e7e1fcb89ec0083d3fea7d651e6172214c9dc9f123",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c07bf48a8e2943a590a9d403ac1ea713a218a2540805bcaf61fc23fb6c780669",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many standard types of nucleotide bases are there in DNA?",
+        "sample_hashes": [
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "8235e324648967615280f43501cd9270ee06238eea2a72443b787605e353bf60",
+          "4976a7341cea8a989b98ad6b0499dd7a3be4240bee5c60aa5d25d75355293dc2",
+          "86ddb9556919ca3b316d58e71b4a78af6bce554d1bcf53fdb30dd197e947ba4b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:48:19.001087+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "9fe07a21d30d60f7962615e7e1fcb89ec0083d3fea7d651e6172214c9dc9f123",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

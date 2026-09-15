@@ -1,0 +1,159 @@
+{
+  "case_id": "19a04b4d905fa3716f92a085138716919b4d13416702ec78eccbfcb5febee367",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "19a04b4d905fa3716f92a085138716919b4d13416702ec78eccbfcb5febee367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сокотра архипелагы қай елдің құрамына кіреді?",
+        "sample_hashes": [
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:29.684119+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "9e4862ca30c1657913678007bbae4a3c490107be30e142ba915f3a7fcf4ad00c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "19a04b4d905fa3716f92a085138716919b4d13416702ec78eccbfcb5febee367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сокотра архипелагы қай елдің құрамына кіреді?",
+        "sample_hashes": [
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:29.684119+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "9e4862ca30c1657913678007bbae4a3c490107be30e142ba915f3a7fcf4ad00c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "19a04b4d905fa3716f92a085138716919b4d13416702ec78eccbfcb5febee367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сокотра архипелагы қай елдің құрамына кіреді?",
+        "sample_hashes": [
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:29.684119+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "9e4862ca30c1657913678007bbae4a3c490107be30e142ba915f3a7fcf4ad00c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "19a04b4d905fa3716f92a085138716919b4d13416702ec78eccbfcb5febee367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сокотра архипелагы қай елдің құрамына кіреді?",
+        "sample_hashes": [
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "2c162ca00cb62f25b220ea574080aaf7deda90c5b65f767524bab326156b5a53",
+          "a4ba52f8f84b43398e2f6fe49439f428dab65e6c4318bd6cf85c0ea4886deb37"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:29.684119+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "9e4862ca30c1657913678007bbae4a3c490107be30e142ba915f3a7fcf4ad00c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

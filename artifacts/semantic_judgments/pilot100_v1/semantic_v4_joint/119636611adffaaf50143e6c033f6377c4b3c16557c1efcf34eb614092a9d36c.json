@@ -1,0 +1,159 @@
+{
+  "case_id": "119636611adffaaf50143e6c033f6377c4b3c16557c1efcf34eb614092a9d36c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "119636611adffaaf50143e6c033f6377c4b3c16557c1efcf34eb614092a9d36c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "f3d21ef6817fba7cd6eb1a5c4aaa8a503eb564c06c9b4f0543c08021ecb3b1d9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:47:26.071916+00:00",
+        "system_fingerprint": "fp_8db49de948",
+        "request_id": "d3df36a5dbc131f3428a135fe9713bed585dccf0903f5fb5b9383e6bccf14df0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "119636611adffaaf50143e6c033f6377c4b3c16557c1efcf34eb614092a9d36c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "f3d21ef6817fba7cd6eb1a5c4aaa8a503eb564c06c9b4f0543c08021ecb3b1d9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:47:26.071916+00:00",
+        "system_fingerprint": "fp_8db49de948",
+        "request_id": "d3df36a5dbc131f3428a135fe9713bed585dccf0903f5fb5b9383e6bccf14df0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "119636611adffaaf50143e6c033f6377c4b3c16557c1efcf34eb614092a9d36c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "f3d21ef6817fba7cd6eb1a5c4aaa8a503eb564c06c9b4f0543c08021ecb3b1d9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:47:26.071916+00:00",
+        "system_fingerprint": "fp_8db49de948",
+        "request_id": "d3df36a5dbc131f3428a135fe9713bed585dccf0903f5fb5b9383e6bccf14df0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "119636611adffaaf50143e6c033f6377c4b3c16557c1efcf34eb614092a9d36c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On what date did the Berlin Wall border crossings open in November 1989?",
+        "sample_hashes": [
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "3d711a33689884e00f15f6938af686dfa91e0c1674ef6a0287f95b2c66356b85",
+          "f3d21ef6817fba7cd6eb1a5c4aaa8a503eb564c06c9b4f0543c08021ecb3b1d9"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:47:26.071916+00:00",
+        "system_fingerprint": "fp_8db49de948",
+        "request_id": "d3df36a5dbc131f3428a135fe9713bed585dccf0903f5fb5b9383e6bccf14df0",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

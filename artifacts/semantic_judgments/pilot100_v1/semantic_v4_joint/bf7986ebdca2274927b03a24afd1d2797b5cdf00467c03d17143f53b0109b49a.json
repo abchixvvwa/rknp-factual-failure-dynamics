@@ -1,0 +1,161 @@
+{
+  "case_id": "bf7986ebdca2274927b03a24afd1d2797b5cdf00467c03d17143f53b0109b49a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bf7986ebdca2274927b03a24afd1d2797b5cdf00467c03d17143f53b0109b49a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "416b25d193a6a1ed3ea21b6b1644e8d47e32167503f6c8ef3f04bc596f7cb420",
+          "00eae146c4b3a8133626c265304a6612dd5da87c1f8e31ab597eb468f7913c2e",
+          "46962821a5ec27e9f23baab517c43afc969db9bbb0aeff289fd87f94b955a53d",
+          "6295a157b27632ea51e612e1060f455dce07b09e8c010fc797ddc27ef08e17ca",
+          "b6e8e68b36dff129db259665f16c4f147cb67dcd5d7e7423639384adfef4ac5a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:54.855326+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "9cf8c7096aee08b5782e63f45648def972ddc9c651fa9f0fbf10a97fbe22b9c7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bf7986ebdca2274927b03a24afd1d2797b5cdf00467c03d17143f53b0109b49a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "416b25d193a6a1ed3ea21b6b1644e8d47e32167503f6c8ef3f04bc596f7cb420",
+          "00eae146c4b3a8133626c265304a6612dd5da87c1f8e31ab597eb468f7913c2e",
+          "46962821a5ec27e9f23baab517c43afc969db9bbb0aeff289fd87f94b955a53d",
+          "6295a157b27632ea51e612e1060f455dce07b09e8c010fc797ddc27ef08e17ca",
+          "b6e8e68b36dff129db259665f16c4f147cb67dcd5d7e7423639384adfef4ac5a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:54.855326+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "9cf8c7096aee08b5782e63f45648def972ddc9c651fa9f0fbf10a97fbe22b9c7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bf7986ebdca2274927b03a24afd1d2797b5cdf00467c03d17143f53b0109b49a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "416b25d193a6a1ed3ea21b6b1644e8d47e32167503f6c8ef3f04bc596f7cb420",
+          "00eae146c4b3a8133626c265304a6612dd5da87c1f8e31ab597eb468f7913c2e",
+          "46962821a5ec27e9f23baab517c43afc969db9bbb0aeff289fd87f94b955a53d",
+          "6295a157b27632ea51e612e1060f455dce07b09e8c010fc797ddc27ef08e17ca",
+          "b6e8e68b36dff129db259665f16c4f147cb67dcd5d7e7423639384adfef4ac5a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:54.855326+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "9cf8c7096aee08b5782e63f45648def972ddc9c651fa9f0fbf10a97fbe22b9c7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "bf7986ebdca2274927b03a24afd1d2797b5cdf00467c03d17143f53b0109b49a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "416b25d193a6a1ed3ea21b6b1644e8d47e32167503f6c8ef3f04bc596f7cb420",
+          "00eae146c4b3a8133626c265304a6612dd5da87c1f8e31ab597eb468f7913c2e",
+          "46962821a5ec27e9f23baab517c43afc969db9bbb0aeff289fd87f94b955a53d",
+          "6295a157b27632ea51e612e1060f455dce07b09e8c010fc797ddc27ef08e17ca",
+          "b6e8e68b36dff129db259665f16c4f147cb67dcd5d7e7423639384adfef4ac5a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:12:54.855326+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "9cf8c7096aee08b5782e63f45648def972ddc9c651fa9f0fbf10a97fbe22b9c7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

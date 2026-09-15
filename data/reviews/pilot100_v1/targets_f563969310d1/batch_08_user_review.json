@@ -1,0 +1,8 @@
+{
+  "reviewer": "project_user",
+  "scope": "batch_08.md, items 351–352",
+  "source": "Explicit user message: 351=1, 352=1",
+  "correct_numbers": [351,352],
+  "incorrect_numbers": [],
+  "invalid_numbers": []
+}

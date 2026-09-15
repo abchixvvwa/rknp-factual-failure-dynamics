@@ -1,0 +1,159 @@
+{
+  "case_id": "05075296d805262c1e45d07ef3bc6fd8b55365318fef362bdc3f256d1355e3dc",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05075296d805262c1e45d07ef3bc6fd8b55365318fef362bdc3f256d1355e3dc",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1215 жылы Раннимидте Ұлы еркіндік хартиясының шарттарына Англияның қай королі келісті?",
+        "sample_hashes": [
+          "d2f148867e9e5926e9ff54eeafce66078d82a9e3de0879b587d2cb0e5e5ce763",
+          "381a9349ede2eb2abbbdbf9986a7e90d2f752adbcb48f3205ec744598f2dc7ae",
+          "855cffc4dc166ff751e063eba011d4804fe24a88e8900d436fc57f54d2b6c4c0",
+          "880e286098e3932bd55259d188999a7f59975b70414facc69ae638f7d5d7b12f",
+          "c31d64da90f6d9d9f364a9f9b3b77363809bda43c431c921a4be21c162b7e59b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:17.532829+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "a298644921c572c6c95acceefdeb85bf1abad65cf8f6caaf38f7041243514126",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05075296d805262c1e45d07ef3bc6fd8b55365318fef362bdc3f256d1355e3dc",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1215 жылы Раннимидте Ұлы еркіндік хартиясының шарттарына Англияның қай королі келісті?",
+        "sample_hashes": [
+          "d2f148867e9e5926e9ff54eeafce66078d82a9e3de0879b587d2cb0e5e5ce763",
+          "381a9349ede2eb2abbbdbf9986a7e90d2f752adbcb48f3205ec744598f2dc7ae",
+          "855cffc4dc166ff751e063eba011d4804fe24a88e8900d436fc57f54d2b6c4c0",
+          "880e286098e3932bd55259d188999a7f59975b70414facc69ae638f7d5d7b12f",
+          "c31d64da90f6d9d9f364a9f9b3b77363809bda43c431c921a4be21c162b7e59b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:17.532829+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "a298644921c572c6c95acceefdeb85bf1abad65cf8f6caaf38f7041243514126",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05075296d805262c1e45d07ef3bc6fd8b55365318fef362bdc3f256d1355e3dc",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1215 жылы Раннимидте Ұлы еркіндік хартиясының шарттарына Англияның қай королі келісті?",
+        "sample_hashes": [
+          "d2f148867e9e5926e9ff54eeafce66078d82a9e3de0879b587d2cb0e5e5ce763",
+          "381a9349ede2eb2abbbdbf9986a7e90d2f752adbcb48f3205ec744598f2dc7ae",
+          "855cffc4dc166ff751e063eba011d4804fe24a88e8900d436fc57f54d2b6c4c0",
+          "880e286098e3932bd55259d188999a7f59975b70414facc69ae638f7d5d7b12f",
+          "c31d64da90f6d9d9f364a9f9b3b77363809bda43c431c921a4be21c162b7e59b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:17.532829+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "a298644921c572c6c95acceefdeb85bf1abad65cf8f6caaf38f7041243514126",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05075296d805262c1e45d07ef3bc6fd8b55365318fef362bdc3f256d1355e3dc",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1215 жылы Раннимидте Ұлы еркіндік хартиясының шарттарына Англияның қай королі келісті?",
+        "sample_hashes": [
+          "d2f148867e9e5926e9ff54eeafce66078d82a9e3de0879b587d2cb0e5e5ce763",
+          "381a9349ede2eb2abbbdbf9986a7e90d2f752adbcb48f3205ec744598f2dc7ae",
+          "855cffc4dc166ff751e063eba011d4804fe24a88e8900d436fc57f54d2b6c4c0",
+          "880e286098e3932bd55259d188999a7f59975b70414facc69ae638f7d5d7b12f",
+          "c31d64da90f6d9d9f364a9f9b3b77363809bda43c431c921a4be21c162b7e59b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:17.532829+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "a298644921c572c6c95acceefdeb85bf1abad65cf8f6caaf38f7041243514126",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

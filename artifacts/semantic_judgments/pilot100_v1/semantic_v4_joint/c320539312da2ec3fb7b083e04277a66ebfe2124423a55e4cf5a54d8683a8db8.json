@@ -1,0 +1,159 @@
+{
+  "case_id": "c320539312da2ec3fb7b083e04277a66ebfe2124423a55e4cf5a54d8683a8db8",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c320539312da2ec3fb7b083e04277a66ebfe2124423a55e4cf5a54d8683a8db8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Девушка с жемчужной серёжкой»?",
+        "sample_hashes": [
+          "868de722f1ccdebb76b93bc7809199e299408f640890256466495c1fe8bf259d",
+          "1ea0aa6a8878f97732241c44aa0eaa3b24dd6ccfce1da4b915a7cd7ef9e97de8",
+          "da6d5cc026a0049c054d60df1f2c658d810dda469c13117982102357289bf6f2",
+          "cee2868e0d55405af697f198c08d42db87b4ca5725a344a4815597f28baeafc9",
+          "2259ce67bbae2fe2101f14660e000aa2beb7d376f62eb2f1bb261ae759acddb1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:59.317607+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "8f579ffcd204c3852f61609a093887df5a4bee430d7d9c183fc28ef0e399aa97",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c320539312da2ec3fb7b083e04277a66ebfe2124423a55e4cf5a54d8683a8db8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Девушка с жемчужной серёжкой»?",
+        "sample_hashes": [
+          "868de722f1ccdebb76b93bc7809199e299408f640890256466495c1fe8bf259d",
+          "1ea0aa6a8878f97732241c44aa0eaa3b24dd6ccfce1da4b915a7cd7ef9e97de8",
+          "da6d5cc026a0049c054d60df1f2c658d810dda469c13117982102357289bf6f2",
+          "cee2868e0d55405af697f198c08d42db87b4ca5725a344a4815597f28baeafc9",
+          "2259ce67bbae2fe2101f14660e000aa2beb7d376f62eb2f1bb261ae759acddb1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:59.317607+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "8f579ffcd204c3852f61609a093887df5a4bee430d7d9c183fc28ef0e399aa97",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c320539312da2ec3fb7b083e04277a66ebfe2124423a55e4cf5a54d8683a8db8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Девушка с жемчужной серёжкой»?",
+        "sample_hashes": [
+          "868de722f1ccdebb76b93bc7809199e299408f640890256466495c1fe8bf259d",
+          "1ea0aa6a8878f97732241c44aa0eaa3b24dd6ccfce1da4b915a7cd7ef9e97de8",
+          "da6d5cc026a0049c054d60df1f2c658d810dda469c13117982102357289bf6f2",
+          "cee2868e0d55405af697f198c08d42db87b4ca5725a344a4815597f28baeafc9",
+          "2259ce67bbae2fe2101f14660e000aa2beb7d376f62eb2f1bb261ae759acddb1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:59.317607+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "8f579ffcd204c3852f61609a093887df5a4bee430d7d9c183fc28ef0e399aa97",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c320539312da2ec3fb7b083e04277a66ebfe2124423a55e4cf5a54d8683a8db8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Девушка с жемчужной серёжкой»?",
+        "sample_hashes": [
+          "868de722f1ccdebb76b93bc7809199e299408f640890256466495c1fe8bf259d",
+          "1ea0aa6a8878f97732241c44aa0eaa3b24dd6ccfce1da4b915a7cd7ef9e97de8",
+          "da6d5cc026a0049c054d60df1f2c658d810dda469c13117982102357289bf6f2",
+          "cee2868e0d55405af697f198c08d42db87b4ca5725a344a4815597f28baeafc9",
+          "2259ce67bbae2fe2101f14660e000aa2beb7d376f62eb2f1bb261ae759acddb1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:59.317607+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "8f579ffcd204c3852f61609a093887df5a4bee430d7d9c183fc28ef0e399aa97",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

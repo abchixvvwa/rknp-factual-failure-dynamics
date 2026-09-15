@@ -1,0 +1,159 @@
+{
+  "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1982 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "43f1cccb4b9bd6de82f17764e8f7d173cd67e595df54a02fd7704cb161d3e01f",
+          "e8bcce43d661db8b0ce7b7a3674e4807287417539e16aa810bbeb981588d9063",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "bd830057463c16b51af3a4e784687ee1e6359ffbdbcf8afce67d27d9fe9d449c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:14:03.130544+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "114598500d08a711b5cbfd6d82ce875208dc6733898de6d4edc979f82d62de62",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1982 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "43f1cccb4b9bd6de82f17764e8f7d173cd67e595df54a02fd7704cb161d3e01f",
+          "e8bcce43d661db8b0ce7b7a3674e4807287417539e16aa810bbeb981588d9063",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "bd830057463c16b51af3a4e784687ee1e6359ffbdbcf8afce67d27d9fe9d449c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:14:03.130544+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "114598500d08a711b5cbfd6d82ce875208dc6733898de6d4edc979f82d62de62",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1982 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "43f1cccb4b9bd6de82f17764e8f7d173cd67e595df54a02fd7704cb161d3e01f",
+          "e8bcce43d661db8b0ce7b7a3674e4807287417539e16aa810bbeb981588d9063",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "bd830057463c16b51af3a4e784687ee1e6359ffbdbcf8afce67d27d9fe9d449c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:14:03.130544+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "114598500d08a711b5cbfd6d82ce875208dc6733898de6d4edc979f82d62de62",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "5c48fbc466894383f9cf6b9fc318686a104b560994209b4ecf9b73192535dc2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1982 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "43f1cccb4b9bd6de82f17764e8f7d173cd67e595df54a02fd7704cb161d3e01f",
+          "e8bcce43d661db8b0ce7b7a3674e4807287417539e16aa810bbeb981588d9063",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "51929f45d8ee6b152ccc6a42a2f941157c18e07da56b8c26f7646977b8a23dcf",
+          "bd830057463c16b51af3a4e784687ee1e6359ffbdbcf8afce67d27d9fe9d449c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:14:03.130544+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "114598500d08a711b5cbfd6d82ce875208dc6733898de6d4edc979f82d62de62",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

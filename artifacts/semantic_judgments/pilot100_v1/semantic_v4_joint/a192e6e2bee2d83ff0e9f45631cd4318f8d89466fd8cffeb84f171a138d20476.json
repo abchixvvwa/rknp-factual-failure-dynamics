@@ -1,0 +1,167 @@
+{
+  "case_id": "a192e6e2bee2d83ff0e9f45631cd4318f8d89466fd8cffeb84f171a138d20476",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a192e6e2bee2d83ff0e9f45631cd4318f8d89466fd8cffeb84f171a138d20476",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Түнгі күзет» картинасын кім салған?",
+        "sample_hashes": [
+          "dea1d118b77aad5c3d029add69e54f4724f8523ae1c6a0453644b6f7b44e77ee",
+          "7828aeac0ffac578dd76bdf8b96656bce0e916ce535a44fcb0d351ee2aea637b",
+          "ff366a41d251f65d5612ddc1ee77964231588a255dbbc442c09e36ee4a271346",
+          "9498b851e2a134d9b48f8f0a6c75bdfd984530f308b543c05fbf078d61dbd2f0",
+          "402ab017db568d73cefce278b0bd0c71538d04c7ca3f95f29a3c31679cd35fdd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:54.123946+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "4dc87c0b5ef55165eb4d6777e7a87f172e806b91f3c6a06e409c1d3ba7ee51ae",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a192e6e2bee2d83ff0e9f45631cd4318f8d89466fd8cffeb84f171a138d20476",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Түнгі күзет» картинасын кім салған?",
+        "sample_hashes": [
+          "dea1d118b77aad5c3d029add69e54f4724f8523ae1c6a0453644b6f7b44e77ee",
+          "7828aeac0ffac578dd76bdf8b96656bce0e916ce535a44fcb0d351ee2aea637b",
+          "ff366a41d251f65d5612ddc1ee77964231588a255dbbc442c09e36ee4a271346",
+          "9498b851e2a134d9b48f8f0a6c75bdfd984530f308b543c05fbf078d61dbd2f0",
+          "402ab017db568d73cefce278b0bd0c71538d04c7ca3f95f29a3c31679cd35fdd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:54.123946+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "4dc87c0b5ef55165eb4d6777e7a87f172e806b91f3c6a06e409c1d3ba7ee51ae",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a192e6e2bee2d83ff0e9f45631cd4318f8d89466fd8cffeb84f171a138d20476",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Түнгі күзет» картинасын кім салған?",
+        "sample_hashes": [
+          "dea1d118b77aad5c3d029add69e54f4724f8523ae1c6a0453644b6f7b44e77ee",
+          "7828aeac0ffac578dd76bdf8b96656bce0e916ce535a44fcb0d351ee2aea637b",
+          "ff366a41d251f65d5612ddc1ee77964231588a255dbbc442c09e36ee4a271346",
+          "9498b851e2a134d9b48f8f0a6c75bdfd984530f308b543c05fbf078d61dbd2f0",
+          "402ab017db568d73cefce278b0bd0c71538d04c7ca3f95f29a3c31679cd35fdd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:54.123946+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "4dc87c0b5ef55165eb4d6777e7a87f172e806b91f3c6a06e409c1d3ba7ee51ae",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a192e6e2bee2d83ff0e9f45631cd4318f8d89466fd8cffeb84f171a138d20476",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Түнгі күзет» картинасын кім салған?",
+        "sample_hashes": [
+          "dea1d118b77aad5c3d029add69e54f4724f8523ae1c6a0453644b6f7b44e77ee",
+          "7828aeac0ffac578dd76bdf8b96656bce0e916ce535a44fcb0d351ee2aea637b",
+          "ff366a41d251f65d5612ddc1ee77964231588a255dbbc442c09e36ee4a271346",
+          "9498b851e2a134d9b48f8f0a6c75bdfd984530f308b543c05fbf078d61dbd2f0",
+          "402ab017db568d73cefce278b0bd0c71538d04c7ca3f95f29a3c31679cd35fdd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:54.123946+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "4dc87c0b5ef55165eb4d6777e7a87f172e806b91f3c6a06e409c1d3ba7ee51ae",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

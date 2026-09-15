@@ -1,0 +1,159 @@
+{
+  "case_id": "3511bac6f03b1af0cf385a1d8231b14b543b55baee51b1de35909c331f91807f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3511bac6f03b1af0cf385a1d8231b14b543b55baee51b1de35909c331f91807f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Алтынның атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b3c23b3c40761840452c5994abb501160cfae5b616d9c0b0ba1c076456ea0229",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:41.585968+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "763b3f4bb725ffe76569e813f5c883c961b602607bf621cc0341588085f0f2cc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3511bac6f03b1af0cf385a1d8231b14b543b55baee51b1de35909c331f91807f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Алтынның атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b3c23b3c40761840452c5994abb501160cfae5b616d9c0b0ba1c076456ea0229",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:41.585968+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "763b3f4bb725ffe76569e813f5c883c961b602607bf621cc0341588085f0f2cc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3511bac6f03b1af0cf385a1d8231b14b543b55baee51b1de35909c331f91807f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Алтынның атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b3c23b3c40761840452c5994abb501160cfae5b616d9c0b0ba1c076456ea0229",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:41.585968+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "763b3f4bb725ffe76569e813f5c883c961b602607bf621cc0341588085f0f2cc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3511bac6f03b1af0cf385a1d8231b14b543b55baee51b1de35909c331f91807f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Алтынның атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b3c23b3c40761840452c5994abb501160cfae5b616d9c0b0ba1c076456ea0229",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564",
+          "b9df3b699f4c1f40f7da4f5d026a0372be3eb535a23893b265dad63c24b41564"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:41.585968+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "763b3f4bb725ffe76569e813f5c883c961b602607bf621cc0341588085f0f2cc",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

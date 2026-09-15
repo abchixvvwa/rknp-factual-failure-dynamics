@@ -1,0 +1,159 @@
+{
+  "case_id": "1a78c370194f458f2fcf7b3ca2d0a220ea7be711674e08dcb73292424b3bd99f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1a78c370194f458f2fcf7b3ca2d0a220ea7be711674e08dcb73292424b3bd99f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица электрического сопротивления в СИ?",
+        "sample_hashes": [
+          "127ded2635f6ff6a60ee271cde8d44c1c84e515228e0c41db795228a7ede285d",
+          "d01fdc2a5522760645b0e59dd3121ccd9176e8df8b688c32ac7b468c5715786b",
+          "2d62a51cc76fa645ca0bcb8f982c002ffffffd259646578cd8816330e69c90f0",
+          "ec7552f113aefc0807f9b4b3b18294efbc1d09953f7e2ed918d6e88f0da20158",
+          "061d1e217420e1a8bcd944bf188b7c055f8b1f1f4a40efffdfd2e71bb937338b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:28.659196+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "4555d31356f77dad96ef98fc7ec14869f90be74d45df3b70c560ee8ebb340b67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1a78c370194f458f2fcf7b3ca2d0a220ea7be711674e08dcb73292424b3bd99f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица электрического сопротивления в СИ?",
+        "sample_hashes": [
+          "127ded2635f6ff6a60ee271cde8d44c1c84e515228e0c41db795228a7ede285d",
+          "d01fdc2a5522760645b0e59dd3121ccd9176e8df8b688c32ac7b468c5715786b",
+          "2d62a51cc76fa645ca0bcb8f982c002ffffffd259646578cd8816330e69c90f0",
+          "ec7552f113aefc0807f9b4b3b18294efbc1d09953f7e2ed918d6e88f0da20158",
+          "061d1e217420e1a8bcd944bf188b7c055f8b1f1f4a40efffdfd2e71bb937338b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:28.659196+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "4555d31356f77dad96ef98fc7ec14869f90be74d45df3b70c560ee8ebb340b67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1a78c370194f458f2fcf7b3ca2d0a220ea7be711674e08dcb73292424b3bd99f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица электрического сопротивления в СИ?",
+        "sample_hashes": [
+          "127ded2635f6ff6a60ee271cde8d44c1c84e515228e0c41db795228a7ede285d",
+          "d01fdc2a5522760645b0e59dd3121ccd9176e8df8b688c32ac7b468c5715786b",
+          "2d62a51cc76fa645ca0bcb8f982c002ffffffd259646578cd8816330e69c90f0",
+          "ec7552f113aefc0807f9b4b3b18294efbc1d09953f7e2ed918d6e88f0da20158",
+          "061d1e217420e1a8bcd944bf188b7c055f8b1f1f4a40efffdfd2e71bb937338b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:28.659196+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "4555d31356f77dad96ef98fc7ec14869f90be74d45df3b70c560ee8ebb340b67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1a78c370194f458f2fcf7b3ca2d0a220ea7be711674e08dcb73292424b3bd99f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица электрического сопротивления в СИ?",
+        "sample_hashes": [
+          "127ded2635f6ff6a60ee271cde8d44c1c84e515228e0c41db795228a7ede285d",
+          "d01fdc2a5522760645b0e59dd3121ccd9176e8df8b688c32ac7b468c5715786b",
+          "2d62a51cc76fa645ca0bcb8f982c002ffffffd259646578cd8816330e69c90f0",
+          "ec7552f113aefc0807f9b4b3b18294efbc1d09953f7e2ed918d6e88f0da20158",
+          "061d1e217420e1a8bcd944bf188b7c055f8b1f1f4a40efffdfd2e71bb937338b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:28.659196+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "4555d31356f77dad96ef98fc7ec14869f90be74d45df3b70c560ee8ebb340b67",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

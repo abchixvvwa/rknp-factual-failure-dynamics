@@ -1,0 +1,37 @@
+{
+  "reviewer": "project_user",
+  "scope": "batch_04.md, items 151–200; entire response evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [151,154,157,158,161,163,164,166,167,169,170,171,172,174,175,176,177,179,180,181,182,183,184,185,186,187,188,189,190,191,193,194,195,196,197,199],
+  "incorrect_numbers": [152,153,155,156,159,160,162,165,168,173,178,192,198,200],
+  "invalid_numbers": [],
+  "user_notes": {
+    "152": "Не было премий в 1940 и 1941, но добавлено, что её остановили решением Нобелевского комитета. Пользователь по строгому правилу оценил как ошибку: премию присуждает Шведская академия; Nobel фиксирует отсутствие наград в 1940–1943.",
+    "155": "Выдуман Carlo Sava и неверно указано отсутствие премий с 1939. В 1939 лауреат Frans Eemil Sillanpää; без наград 1940–1943.",
+    "156": "Никто не высаживался — верно, но all crew members remained in orbit — неверно: Apollo 13 не вышел на лунную орбиту; после аварии возвращён на free-return trajectory вокруг Луны.",
+    "157": "Корректно отвергает ложную предпосылку Apollo 13, без критических дополнительных ошибок.",
+    "158": "Корректно отвергает ложную предпосылку Apollo 13, без критических дополнительных ошибок.",
+    "159": "Посадка на Луну была целью Apollo 13 до аварии. Неверно, что миссия не предназначалась для посадки или экипаж остался на орбите.",
+    "160": "Никто не вышел — верно; утверждение, что миссия только вышла на лунную орбиту, неверно.",
+    "161": "Корректно отвергает ложную предпосылку Apollo 13, без критических дополнительных ошибок.",
+    "162": "Посадка была запланирована; экипаж не оставался на орбите Луны.",
+    "163": "Корректно отвергает ложную предпосылку Apollo 13, без критических дополнительных ошибок.",
+    "164": "Корректно отвергает ложную предпосылку Apollo 13, без критических дополнительных ошибок.",
+    "165": "Основной ответ верен, но Cassini не был единственным аппаратом, достигшим Сатурна: его посещали также Pioneer 11, Voyager 1 и Voyager 2.",
+    "173": "Huygens сел на Титан, но Cassini не входил в миссию Galileo. Проект Cassini-Huygens.",
+    "178": "1783 верно, но модель ошибочно отвергает предпосылку: Treaty of Paris действительно завершил Войну за независимость США.",
+    "192": "1961 вместо 1920.",
+    "198": "U Thant вместо Trygve Lie.",
+    "200": "Модель пытается назвать Trygve Lie, но добавляет ложное полное имя Trygve Ulv Live вместо Trygve Halvdan Lie."
+  },
+  "user_source_urls": [
+    "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-prize-in-literature?utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/?utm_source=chatgpt.com",
+    "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/?utm_source=chatgpt.com",
+    "https://science.nasa.gov/saturn/exploration/?utm_source=chatgpt.com",
+    "https://science.nasa.gov/mission/cassini-huygens/?utm_source=chatgpt.com",
+    "https://www.archives.gov/milestone-documents/treaty-of-paris?utm_source=chatgpt.com",
+    "https://www.un.org/sg/en/content/selection-and-appointment-of-trygve-halvdan-lie-0?utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources, not represented as independent agent verification"
+}

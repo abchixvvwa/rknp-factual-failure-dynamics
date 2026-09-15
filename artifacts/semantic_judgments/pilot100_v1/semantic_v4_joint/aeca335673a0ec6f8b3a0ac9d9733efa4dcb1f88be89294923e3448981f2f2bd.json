@@ -1,0 +1,159 @@
+{
+  "case_id": "aeca335673a0ec6f8b3a0ac9d9733efa4dcb1f88be89294923e3448981f2f2bd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aeca335673a0ec6f8b3a0ac9d9733efa4dcb1f88be89294923e3448981f2f2bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Марстың неше табиғи серігі бар?",
+        "sample_hashes": [
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "8bf0b71fdb3a95797afbcc022da52261240cf6fcabbc507ef9a6db42d392eb04",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.746400+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "7543938008c16b266439b4524910a2a1a88f46ec5a2c99863626b91b418645d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aeca335673a0ec6f8b3a0ac9d9733efa4dcb1f88be89294923e3448981f2f2bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Марстың неше табиғи серігі бар?",
+        "sample_hashes": [
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "8bf0b71fdb3a95797afbcc022da52261240cf6fcabbc507ef9a6db42d392eb04",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.746400+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "7543938008c16b266439b4524910a2a1a88f46ec5a2c99863626b91b418645d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aeca335673a0ec6f8b3a0ac9d9733efa4dcb1f88be89294923e3448981f2f2bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Марстың неше табиғи серігі бар?",
+        "sample_hashes": [
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "8bf0b71fdb3a95797afbcc022da52261240cf6fcabbc507ef9a6db42d392eb04",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.746400+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "7543938008c16b266439b4524910a2a1a88f46ec5a2c99863626b91b418645d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aeca335673a0ec6f8b3a0ac9d9733efa4dcb1f88be89294923e3448981f2f2bd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Марстың неше табиғи серігі бар?",
+        "sample_hashes": [
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "8bf0b71fdb3a95797afbcc022da52261240cf6fcabbc507ef9a6db42d392eb04",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.746400+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "7543938008c16b266439b4524910a2a1a88f46ec5a2c99863626b91b418645d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

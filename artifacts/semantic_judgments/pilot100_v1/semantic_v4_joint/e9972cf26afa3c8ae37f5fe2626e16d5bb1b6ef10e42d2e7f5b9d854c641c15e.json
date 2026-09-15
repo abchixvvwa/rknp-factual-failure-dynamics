@@ -1,0 +1,159 @@
+{
+  "case_id": "e9972cf26afa3c8ae37f5fe2626e16d5bb1b6ef10e42d2e7f5b9d854c641c15e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9972cf26afa3c8ae37f5fe2626e16d5bb1b6ef10e42d2e7f5b9d854c641c15e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Оттектің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "9f9dbd45c24682c66cbf67254a887015b3408221c710478d64c15b45ec599ab9",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:02.968918+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "5b1b297a31bea0a8e7bc3447403aae1b1abc1096acf8582f3bff0b529d325588",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9972cf26afa3c8ae37f5fe2626e16d5bb1b6ef10e42d2e7f5b9d854c641c15e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Оттектің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "9f9dbd45c24682c66cbf67254a887015b3408221c710478d64c15b45ec599ab9",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:02.968918+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "5b1b297a31bea0a8e7bc3447403aae1b1abc1096acf8582f3bff0b529d325588",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9972cf26afa3c8ae37f5fe2626e16d5bb1b6ef10e42d2e7f5b9d854c641c15e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Оттектің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "9f9dbd45c24682c66cbf67254a887015b3408221c710478d64c15b45ec599ab9",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:02.968918+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "5b1b297a31bea0a8e7bc3447403aae1b1abc1096acf8582f3bff0b529d325588",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e9972cf26afa3c8ae37f5fe2626e16d5bb1b6ef10e42d2e7f5b9d854c641c15e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Оттектің атомдық нөмірі қандай?",
+        "sample_hashes": [
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "9f9dbd45c24682c66cbf67254a887015b3408221c710478d64c15b45ec599ab9",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97",
+          "a4b3e7470a6c59cb4cca346722668e1c8190745bcc71f475adf4e25e57a3ff97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:02.968918+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "5b1b297a31bea0a8e7bc3447403aae1b1abc1096acf8582f3bff0b529d325588",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

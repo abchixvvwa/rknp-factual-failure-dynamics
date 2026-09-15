@@ -1,0 +1,155 @@
+{
+  "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the name of Venus's largest natural moon?",
+        "sample_hashes": [
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "d7c7ca187715f61580e8c052bd0a6d0857d7edeed84de14b7836980616dfe915"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:17:59.053696+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "01f55d150de933825595f10b4b58fa58b7ce27a832f011bf74d435f28592e142",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the name of Venus's largest natural moon?",
+        "sample_hashes": [
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "d7c7ca187715f61580e8c052bd0a6d0857d7edeed84de14b7836980616dfe915",
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:18:01.294365+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "c91f11b5dec950b41a0f394d7bfc11e26bedda4fbab6374f3837ad4d5a36dcdb",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the name of Venus's largest natural moon?",
+        "sample_hashes": [
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "d7c7ca187715f61580e8c052bd0a6d0857d7edeed84de14b7836980616dfe915",
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "602769eaad1bfeb3ac17eb505e207335ea6df332c07f5a1712b10fbf54b687f8"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:18:02.033462+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "695d4141688be15ba78e4b5cf7bd5fdd7a14a7b6c58aedc1c911606409f5641b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1ca366fd7e7716a3d4683ca665397494398b6522b8d5ec6f66cd4730cb6f21cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the name of Venus's largest natural moon?",
+        "sample_hashes": [
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "d7c7ca187715f61580e8c052bd0a6d0857d7edeed84de14b7836980616dfe915",
+          "577d77a12128b796081ff7cc8042ad8ddb96154a1a92f6b8d153a198f7047691",
+          "602769eaad1bfeb3ac17eb505e207335ea6df332c07f5a1712b10fbf54b687f8",
+          "602769eaad1bfeb3ac17eb505e207335ea6df332c07f5a1712b10fbf54b687f8"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:22:32.455558+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "a28572f4c84e37b63500fc0225acada5f7b20ecca5b8fa5f07e381428fa98bad",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": "c2673847251e08c197312d00c2c78f856beef5613d6772ac9770ceaefc850780",
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

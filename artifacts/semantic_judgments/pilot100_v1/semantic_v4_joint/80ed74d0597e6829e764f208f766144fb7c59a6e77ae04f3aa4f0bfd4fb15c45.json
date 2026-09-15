@@ -1,0 +1,161 @@
+{
+  "case_id": "80ed74d0597e6829e764f208f766144fb7c59a6e77ae04f3aa4f0bfd4fb15c45",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "80ed74d0597e6829e764f208f766144fb7c59a6e77ae04f3aa4f0bfd4fb15c45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many state nature reserves make up the UNESCO Saryarka - Steppe and Lakes of Northern Kazakhstan property?",
+        "sample_hashes": [
+          "87bfd18b718fa6cbb197bb3646171f2426b090bac017c3ab4ac226fc85f48e8c",
+          "2868c53b2a4ccdf329fce958374769d88629534123161606750186bbf794f7e6",
+          "464d8e549fdc391977e65c2f44cbbe14d0953a5202874bcfb13998b74669e96e",
+          "801652be8d46b9ae677e9795e1289b2b0c80a59098d5c5a8eb7696956b2dc779",
+          "3acff9aac037372d807431dd8f4564fa5b8cacce38059a8a4f04ca105817611b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 2],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:18.292136+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "2be9bc836d3c15fd9683de3b9d4388a44b7477f21c10cc3e7f55bdbcea0c8b03",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "80ed74d0597e6829e764f208f766144fb7c59a6e77ae04f3aa4f0bfd4fb15c45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many state nature reserves make up the UNESCO Saryarka - Steppe and Lakes of Northern Kazakhstan property?",
+        "sample_hashes": [
+          "87bfd18b718fa6cbb197bb3646171f2426b090bac017c3ab4ac226fc85f48e8c",
+          "2868c53b2a4ccdf329fce958374769d88629534123161606750186bbf794f7e6",
+          "464d8e549fdc391977e65c2f44cbbe14d0953a5202874bcfb13998b74669e96e",
+          "801652be8d46b9ae677e9795e1289b2b0c80a59098d5c5a8eb7696956b2dc779",
+          "3acff9aac037372d807431dd8f4564fa5b8cacce38059a8a4f04ca105817611b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 2],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:18.292136+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "2be9bc836d3c15fd9683de3b9d4388a44b7477f21c10cc3e7f55bdbcea0c8b03",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "80ed74d0597e6829e764f208f766144fb7c59a6e77ae04f3aa4f0bfd4fb15c45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many state nature reserves make up the UNESCO Saryarka - Steppe and Lakes of Northern Kazakhstan property?",
+        "sample_hashes": [
+          "87bfd18b718fa6cbb197bb3646171f2426b090bac017c3ab4ac226fc85f48e8c",
+          "2868c53b2a4ccdf329fce958374769d88629534123161606750186bbf794f7e6",
+          "464d8e549fdc391977e65c2f44cbbe14d0953a5202874bcfb13998b74669e96e",
+          "801652be8d46b9ae677e9795e1289b2b0c80a59098d5c5a8eb7696956b2dc779",
+          "3acff9aac037372d807431dd8f4564fa5b8cacce38059a8a4f04ca105817611b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 2],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:18.292136+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "2be9bc836d3c15fd9683de3b9d4388a44b7477f21c10cc3e7f55bdbcea0c8b03",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "80ed74d0597e6829e764f208f766144fb7c59a6e77ae04f3aa4f0bfd4fb15c45",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "How many state nature reserves make up the UNESCO Saryarka - Steppe and Lakes of Northern Kazakhstan property?",
+        "sample_hashes": [
+          "87bfd18b718fa6cbb197bb3646171f2426b090bac017c3ab4ac226fc85f48e8c",
+          "2868c53b2a4ccdf329fce958374769d88629534123161606750186bbf794f7e6",
+          "464d8e549fdc391977e65c2f44cbbe14d0953a5202874bcfb13998b74669e96e",
+          "801652be8d46b9ae677e9795e1289b2b0c80a59098d5c5a8eb7696956b2dc779",
+          "3acff9aac037372d807431dd8f4564fa5b8cacce38059a8a4f04ca105817611b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 2],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:18.292136+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "2be9bc836d3c15fd9683de3b9d4388a44b7477f21c10cc3e7f55bdbcea0c8b03",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

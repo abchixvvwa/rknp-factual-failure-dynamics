@@ -1,0 +1,87 @@
+{
+  "case_id": "a327a4dc8177ea82ee6abaa556bc4cbb91c91269e57588162b72a219fa107b17",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a327a4dc8177ea82ee6abaa556bc4cbb91c91269e57588162b72a219fa107b17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which Apollo mission was the first to carry a crew?",
+        "sample_hashes": [
+          "ad902d31ebabbcbd78c790cc8bd9be1d59fa590d2a14729db9d17dacc3b19238",
+          "ad902d31ebabbcbd78c790cc8bd9be1d59fa590d2a14729db9d17dacc3b19238",
+          "ad902d31ebabbcbd78c790cc8bd9be1d59fa590d2a14729db9d17dacc3b19238",
+          "ad902d31ebabbcbd78c790cc8bd9be1d59fa590d2a14729db9d17dacc3b19238",
+          "7bdd9ec52bd569a112ee429aa6c96e2b54dbc5c4885b388b83c9c504fffd22b0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:33:49.564893+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "39d0dfaa68a4ea41e366d4699223eb19b28e04ef19a3d54379a783488572055e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

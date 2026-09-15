@@ -1,0 +1,152 @@
+{
+  "case_id": "e99d3d8ea6457317e5c171452b6f68f6d297ded491d4e6fc23a90e001f7def52",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "e99d3d8ea6457317e5c171452b6f68f6d297ded491d4e6fc23a90e001f7def52",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У побережья какой страны расположен Большой Барьерный риф?",
+        "sample_hashes": [
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:02:18.731773+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0d5195815bfb2d0e5536309c5fdaa27cc9f0eb8410a1da270f539497025adb76",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e99d3d8ea6457317e5c171452b6f68f6d297ded491d4e6fc23a90e001f7def52",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У побережья какой страны расположен Большой Барьерный риф?",
+        "sample_hashes": [
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:20.715810+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0aba3b6664777dac345d9956a53328de37a170f8ddc71b409c7f9ad403d50ec1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e99d3d8ea6457317e5c171452b6f68f6d297ded491d4e6fc23a90e001f7def52",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У побережья какой страны расположен Большой Барьерный риф?",
+        "sample_hashes": [
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:21.327721+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "c2fe2e8b04dd067548e7e527cb1f59e6974fc7a27c259599daa7752964c58693",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e99d3d8ea6457317e5c171452b6f68f6d297ded491d4e6fc23a90e001f7def52",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У побережья какой страны расположен Большой Барьерный риф?",
+        "sample_hashes": [
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "dd611f913fa62aeae18fe26076521bcc9ef25a25643328ab0ee27bab6d663939",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c",
+          "893765c0819ef85a081790be982dc7a5c24aeb47c7e2cc85eddbe547e2c3928c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:22.537695+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "2ef558019225b455dc36745bc1aa192d0868ead20f765f95896a4c466f79190d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

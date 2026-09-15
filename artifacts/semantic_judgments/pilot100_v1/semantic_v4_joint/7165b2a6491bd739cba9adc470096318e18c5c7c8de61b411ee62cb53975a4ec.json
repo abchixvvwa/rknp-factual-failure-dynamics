@@ -1,0 +1,159 @@
+{
+  "case_id": "7165b2a6491bd739cba9adc470096318e18c5c7c8de61b411ee62cb53975a4ec",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7165b2a6491bd739cba9adc470096318e18c5c7c8de61b411ee62cb53975a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:02.763381+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "eff13bec71020f35c84cfee3d2809b9f65c419e1c4ebaa9fb734c85b3689917d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7165b2a6491bd739cba9adc470096318e18c5c7c8de61b411ee62cb53975a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:02.763381+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "eff13bec71020f35c84cfee3d2809b9f65c419e1c4ebaa9fb734c85b3689917d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7165b2a6491bd739cba9adc470096318e18c5c7c8de61b411ee62cb53975a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:02.763381+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "eff13bec71020f35c84cfee3d2809b9f65c419e1c4ebaa9fb734c85b3689917d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7165b2a6491bd739cba9adc470096318e18c5c7c8de61b411ee62cb53975a4ec",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051",
+          "d1d6332085114485c8a27776e8ed6a66c296f4179e4220a75f1b1fead1ec54f3",
+          "f3493740afd648749149c0d64426b4cb5dd14dde4eab0a996b5b3a020b759051"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:02.763381+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "eff13bec71020f35c84cfee3d2809b9f65c419e1c4ebaa9fb734c85b3689917d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

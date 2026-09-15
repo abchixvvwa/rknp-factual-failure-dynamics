@@ -1,0 +1,159 @@
+{
+  "case_id": "f9a9fd474d595f7493b027c0171e8069ac9d8cc094a62a73942f8da38fa808a7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9a9fd474d595f7493b027c0171e8069ac9d8cc094a62a73942f8da38fa808a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько стандартных типов азотистых оснований входит в состав ДНК?",
+        "sample_hashes": [
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "3c9c93e28d2b44a713b3822d1c0d815dcfc46f4d4bd49ac4ee40cfe313604a5c",
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "48d2d3ae300e4646cacd52b3fe2f8a674872df8386a294d536c15931d577677a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:38.726484+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "b352fb32f3f2a40177999bf5fa23a533129a81691ce8cbc7b03d85526d200662",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9a9fd474d595f7493b027c0171e8069ac9d8cc094a62a73942f8da38fa808a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько стандартных типов азотистых оснований входит в состав ДНК?",
+        "sample_hashes": [
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "3c9c93e28d2b44a713b3822d1c0d815dcfc46f4d4bd49ac4ee40cfe313604a5c",
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "48d2d3ae300e4646cacd52b3fe2f8a674872df8386a294d536c15931d577677a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:38.726484+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "b352fb32f3f2a40177999bf5fa23a533129a81691ce8cbc7b03d85526d200662",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9a9fd474d595f7493b027c0171e8069ac9d8cc094a62a73942f8da38fa808a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько стандартных типов азотистых оснований входит в состав ДНК?",
+        "sample_hashes": [
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "3c9c93e28d2b44a713b3822d1c0d815dcfc46f4d4bd49ac4ee40cfe313604a5c",
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "48d2d3ae300e4646cacd52b3fe2f8a674872df8386a294d536c15931d577677a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:38.726484+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "b352fb32f3f2a40177999bf5fa23a533129a81691ce8cbc7b03d85526d200662",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9a9fd474d595f7493b027c0171e8069ac9d8cc094a62a73942f8da38fa808a7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько стандартных типов азотистых оснований входит в состав ДНК?",
+        "sample_hashes": [
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "3c9c93e28d2b44a713b3822d1c0d815dcfc46f4d4bd49ac4ee40cfe313604a5c",
+          "1024af4997cfb4f9c21c67e7e8437a1bebcf458817431f631a390e0a873b80bf",
+          "48d2d3ae300e4646cacd52b3fe2f8a674872df8386a294d536c15931d577677a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:38.726484+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "b352fb32f3f2a40177999bf5fa23a533129a81691ce8cbc7b03d85526d200662",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "case_id": "63151ad1a1a8c0415ae68eb42fa1cdffd94ac1eeabca6079451ab14db38437da",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "63151ad1a1a8c0415ae68eb42fa1cdffd94ac1eeabca6079451ab14db38437da",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which planet in our Solar System is the smallest?",
+        "sample_hashes": [
+          "546bdb3eea3cb76b221d6d538cf95827d2fc5bcebca005ce1e79917e9928b9d0",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:05:49.975548+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "611f6e3c3fd68c955ecf37048236f6944028f597e93b4f22b71c597e7b8d8ab1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "63151ad1a1a8c0415ae68eb42fa1cdffd94ac1eeabca6079451ab14db38437da",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which planet in our Solar System is the smallest?",
+        "sample_hashes": [
+          "546bdb3eea3cb76b221d6d538cf95827d2fc5bcebca005ce1e79917e9928b9d0",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:05:50.440713+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "e06f28e6871b6c0522b135e1579531bae4d27549d92bf7c95111b9a337fc5648",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "63151ad1a1a8c0415ae68eb42fa1cdffd94ac1eeabca6079451ab14db38437da",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which planet in our Solar System is the smallest?",
+        "sample_hashes": [
+          "546bdb3eea3cb76b221d6d538cf95827d2fc5bcebca005ce1e79917e9928b9d0",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:05:52.098801+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "21fe5fd3b7e2b78444ae8a93f4eaaeed4b366f8aec3bcc423ddffdd9f4956bf4",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "63151ad1a1a8c0415ae68eb42fa1cdffd94ac1eeabca6079451ab14db38437da",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which planet in our Solar System is the smallest?",
+        "sample_hashes": [
+          "546bdb3eea3cb76b221d6d538cf95827d2fc5bcebca005ce1e79917e9928b9d0",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
+          "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:05:52.880184+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "198b0a01da8087f8d55aa7fefedf95afe840a406f5d96ef79bb7f4cd66193055",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

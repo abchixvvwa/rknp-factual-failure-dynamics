@@ -1,0 +1,251 @@
+{
+  "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:37.445644+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "5b894f12aae34518ae3d4096bd33ad5cb10cdba7e08e4c0d262830044444975a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:38.194905+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "46f903a5633171b7bdfd2fa68ed15a066c301a99bff86a50be1cdfa8b608270f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75",
+          "8f30fb1c2be7f7eb7cd78737c82052c4ac0e8da80c7b3005b86ee5d5febb1485"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:38.885354+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "439f4101ca66514ddc295beb60557a80093a6a80fe63712fd7a97640a4efa135",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:38.194905+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "46f903a5633171b7bdfd2fa68ed15a066c301a99bff86a50be1cdfa8b608270f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75",
+          "8f30fb1c2be7f7eb7cd78737c82052c4ac0e8da80c7b3005b86ee5d5febb1485",
+          "261c748448f328499cb7b8b67a870b451b8a86bcbfe67e2c81f231d3c785c0dc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:40.017572+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "d2c1fa94cc68caf0894a9a7d6f08edb6f396c024eab28c5a2b0fa54c57c1eecf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 3], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75",
+          "8f30fb1c2be7f7eb7cd78737c82052c4ac0e8da80c7b3005b86ee5d5febb1485"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:41.032697+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d18c8d679a31f6b1b4be720cd65594e378c98c9e7e48bd173221a340669d46ec",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75",
+          "8f30fb1c2be7f7eb7cd78737c82052c4ac0e8da80c7b3005b86ee5d5febb1485",
+          "261c748448f328499cb7b8b67a870b451b8a86bcbfe67e2c81f231d3c785c0dc",
+          "81e3ebe615b478e7836554dc0220486e5afc74f8e522d7a66bfde9b6bf86a80c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 1,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:11:41.987613+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "99e1cbbc8fc03d1b12baaf287b68d4f8a88d52058246a4b966aca7df0cff40f7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 3, 4], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "107935222c4b2c7659cc4bfafa4f0d34566b879d85ac525afa4169c78ed2e73a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which part of a yurt is the central element of Kazakhstan's national emblem?",
+        "sample_hashes": [
+          "7fc15ebb5127b66923dc46cdaa8befe34ee2ab6e6aaefbc6f09d917986bc911b",
+          "d5bb32133ba8c376d668d54ad3b6d50bfaad0d088150649c6fb848323c735b75",
+          "8f30fb1c2be7f7eb7cd78737c82052c4ac0e8da80c7b3005b86ee5d5febb1485"
+        ],
+        "raw_judge_response": "{\"matching_group\":1,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:11:41.032697+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d18c8d679a31f6b1b4be720cd65594e378c98c9e7e48bd173221a340669d46ec",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "1",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

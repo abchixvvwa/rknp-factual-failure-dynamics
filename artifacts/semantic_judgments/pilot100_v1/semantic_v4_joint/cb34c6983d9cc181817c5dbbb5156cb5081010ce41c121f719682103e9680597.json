@@ -1,0 +1,167 @@
+{
+  "case_id": "cb34c6983d9cc181817c5dbbb5156cb5081010ce41c121f719682103e9680597",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb34c6983d9cc181817c5dbbb5156cb5081010ce41c121f719682103e9680597",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1982 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "8a921a1c7dd7e7eddbf9051e8f560873c855763615c743d4ed134c226f989c61",
+          "0c8cbeb64827421f55315d0413855405a3fc20fa2d6bf22ebf68a6cd3d2590df",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:04.579944+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "6f69b6453ce7879901a80901d5aafd06588807f702efa0836e0b1259e27f029b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb34c6983d9cc181817c5dbbb5156cb5081010ce41c121f719682103e9680597",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1982 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "8a921a1c7dd7e7eddbf9051e8f560873c855763615c743d4ed134c226f989c61",
+          "0c8cbeb64827421f55315d0413855405a3fc20fa2d6bf22ebf68a6cd3d2590df",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:04.579944+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "6f69b6453ce7879901a80901d5aafd06588807f702efa0836e0b1259e27f029b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb34c6983d9cc181817c5dbbb5156cb5081010ce41c121f719682103e9680597",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1982 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "8a921a1c7dd7e7eddbf9051e8f560873c855763615c743d4ed134c226f989c61",
+          "0c8cbeb64827421f55315d0413855405a3fc20fa2d6bf22ebf68a6cd3d2590df",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:04.579944+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "6f69b6453ce7879901a80901d5aafd06588807f702efa0836e0b1259e27f029b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cb34c6983d9cc181817c5dbbb5156cb5081010ce41c121f719682103e9680597",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1982 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "8a921a1c7dd7e7eddbf9051e8f560873c855763615c743d4ed134c226f989c61",
+          "0c8cbeb64827421f55315d0413855405a3fc20fa2d6bf22ebf68a6cd3d2590df",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea",
+          "908f69c6033d93e885f5a76392bcace19036a5fdbd2a2d3516fbdd5e8cbedeea"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:04.579944+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "6f69b6453ce7879901a80901d5aafd06588807f702efa0836e0b1259e27f029b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

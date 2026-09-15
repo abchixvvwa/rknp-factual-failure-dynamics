@@ -1,0 +1,159 @@
+{
+  "case_id": "08285e1478f005c846e59fdd637d34ab62c3d76a1c010a50f6c3cda8c2d4ab91",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "08285e1478f005c846e59fdd637d34ab62c3d76a1c010a50f6c3cda8c2d4ab91",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туында күннің астында қандай құс бейнеленген?",
+        "sample_hashes": [
+          "3bb1aa285d42dd999e89d625aba90c8ca4fa2b2b03543c2820c1b497c57d4d47",
+          "77441228e644cb70e1b18cc29d0e56dfc2febdf982977c13f99e1d25e0276b5f",
+          "493dd90b0f4b95700c9ae9e331c51d9a11d7c144839bf7c40e6a963d6fa7f3c1",
+          "406b1015b7f0182603da82876e3a4d6fc289244c6133fc8f7e46d8967bee16d8",
+          "fd8c979fe5df6206594a719c035d09ff49b67e878ad619b9c8eae066fb934262"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:33.600876+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "873ebad3395fb1f2aaf4614929e219c843cd2cd27cefd9908fb647ed5500893d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "08285e1478f005c846e59fdd637d34ab62c3d76a1c010a50f6c3cda8c2d4ab91",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туында күннің астында қандай құс бейнеленген?",
+        "sample_hashes": [
+          "3bb1aa285d42dd999e89d625aba90c8ca4fa2b2b03543c2820c1b497c57d4d47",
+          "77441228e644cb70e1b18cc29d0e56dfc2febdf982977c13f99e1d25e0276b5f",
+          "493dd90b0f4b95700c9ae9e331c51d9a11d7c144839bf7c40e6a963d6fa7f3c1",
+          "406b1015b7f0182603da82876e3a4d6fc289244c6133fc8f7e46d8967bee16d8",
+          "fd8c979fe5df6206594a719c035d09ff49b67e878ad619b9c8eae066fb934262"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:33.600876+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "873ebad3395fb1f2aaf4614929e219c843cd2cd27cefd9908fb647ed5500893d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "08285e1478f005c846e59fdd637d34ab62c3d76a1c010a50f6c3cda8c2d4ab91",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туында күннің астында қандай құс бейнеленген?",
+        "sample_hashes": [
+          "3bb1aa285d42dd999e89d625aba90c8ca4fa2b2b03543c2820c1b497c57d4d47",
+          "77441228e644cb70e1b18cc29d0e56dfc2febdf982977c13f99e1d25e0276b5f",
+          "493dd90b0f4b95700c9ae9e331c51d9a11d7c144839bf7c40e6a963d6fa7f3c1",
+          "406b1015b7f0182603da82876e3a4d6fc289244c6133fc8f7e46d8967bee16d8",
+          "fd8c979fe5df6206594a719c035d09ff49b67e878ad619b9c8eae066fb934262"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:33.600876+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "873ebad3395fb1f2aaf4614929e219c843cd2cd27cefd9908fb647ed5500893d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "08285e1478f005c846e59fdd637d34ab62c3d76a1c010a50f6c3cda8c2d4ab91",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туында күннің астында қандай құс бейнеленген?",
+        "sample_hashes": [
+          "3bb1aa285d42dd999e89d625aba90c8ca4fa2b2b03543c2820c1b497c57d4d47",
+          "77441228e644cb70e1b18cc29d0e56dfc2febdf982977c13f99e1d25e0276b5f",
+          "493dd90b0f4b95700c9ae9e331c51d9a11d7c144839bf7c40e6a963d6fa7f3c1",
+          "406b1015b7f0182603da82876e3a4d6fc289244c6133fc8f7e46d8967bee16d8",
+          "fd8c979fe5df6206594a719c035d09ff49b67e878ad619b9c8eae066fb934262"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:33.600876+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "873ebad3395fb1f2aaf4614929e219c843cd2cd27cefd9908fb647ed5500893d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

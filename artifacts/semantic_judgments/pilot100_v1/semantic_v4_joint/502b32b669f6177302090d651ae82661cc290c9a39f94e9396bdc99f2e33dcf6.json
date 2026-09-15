@@ -1,0 +1,159 @@
+{
+  "case_id": "502b32b669f6177302090d651ae82661cc290c9a39f94e9396bdc99f2e33dcf6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "502b32b669f6177302090d651ae82661cc290c9a39f94e9396bdc99f2e33dcf6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "БҰҰ-ның алғашқы Бас хатшысы кім болды?",
+        "sample_hashes": [
+          "9acd4b0dded8ca02e78f3ec37a30ea5bfbf001fd7790074ff49121fb2369418f",
+          "5bb7dfecf08c136043ef43fd1e68cffcc3ef7439b27542628229a78ae73c2287",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.093067+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "9645ffec4bc9107cad5c11e450bd30256c66ccc27f56a4a49daba251135b62f8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "502b32b669f6177302090d651ae82661cc290c9a39f94e9396bdc99f2e33dcf6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "БҰҰ-ның алғашқы Бас хатшысы кім болды?",
+        "sample_hashes": [
+          "9acd4b0dded8ca02e78f3ec37a30ea5bfbf001fd7790074ff49121fb2369418f",
+          "5bb7dfecf08c136043ef43fd1e68cffcc3ef7439b27542628229a78ae73c2287",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.093067+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "9645ffec4bc9107cad5c11e450bd30256c66ccc27f56a4a49daba251135b62f8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "502b32b669f6177302090d651ae82661cc290c9a39f94e9396bdc99f2e33dcf6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "БҰҰ-ның алғашқы Бас хатшысы кім болды?",
+        "sample_hashes": [
+          "9acd4b0dded8ca02e78f3ec37a30ea5bfbf001fd7790074ff49121fb2369418f",
+          "5bb7dfecf08c136043ef43fd1e68cffcc3ef7439b27542628229a78ae73c2287",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.093067+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "9645ffec4bc9107cad5c11e450bd30256c66ccc27f56a4a49daba251135b62f8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "502b32b669f6177302090d651ae82661cc290c9a39f94e9396bdc99f2e33dcf6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "БҰҰ-ның алғашқы Бас хатшысы кім болды?",
+        "sample_hashes": [
+          "9acd4b0dded8ca02e78f3ec37a30ea5bfbf001fd7790074ff49121fb2369418f",
+          "5bb7dfecf08c136043ef43fd1e68cffcc3ef7439b27542628229a78ae73c2287",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd",
+          "67e03ac3ab5cecf78baa786b069b6b5dcc7ccc6762d751509e928d98730a28fd"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:04.093067+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "9645ffec4bc9107cad5c11e450bd30256c66ccc27f56a4a49daba251135b62f8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

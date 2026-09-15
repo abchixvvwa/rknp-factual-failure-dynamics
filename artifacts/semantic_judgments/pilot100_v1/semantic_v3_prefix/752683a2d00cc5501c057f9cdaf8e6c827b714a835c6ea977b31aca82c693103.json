@@ -1,0 +1,153 @@
+{
+  "case_id": "752683a2d00cc5501c057f9cdaf8e6c827b714a835c6ea977b31aca82c693103",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "752683a2d00cc5501c057f9cdaf8e6c827b714a835c6ea977b31aca82c693103",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Rapa Nui, also called Easter Island, belong?",
+        "sample_hashes": [
+          "f56aefeb59500084eec834942d2d5ba2b3677bd26552e7d4fa00171061eee8ad",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:35.127168+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "ee45df083a15eee83acb9421bdabb32ca778ac6421f48ff267e28a24310a84db",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "752683a2d00cc5501c057f9cdaf8e6c827b714a835c6ea977b31aca82c693103",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Rapa Nui, also called Easter Island, belong?",
+        "sample_hashes": [
+          "f56aefeb59500084eec834942d2d5ba2b3677bd26552e7d4fa00171061eee8ad",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:38.076348+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "7c5056dab9b69bc0b8b044109894c4e9a2e083fe91e14a64621fa1b301dc95e8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "752683a2d00cc5501c057f9cdaf8e6c827b714a835c6ea977b31aca82c693103",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Rapa Nui, also called Easter Island, belong?",
+        "sample_hashes": [
+          "f56aefeb59500084eec834942d2d5ba2b3677bd26552e7d4fa00171061eee8ad",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:41.060668+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "7bb3606d86edc0b096635762635e731aff9d56242495a4c7170ef10ef744e318",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "752683a2d00cc5501c057f9cdaf8e6c827b714a835c6ea977b31aca82c693103",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Rapa Nui, also called Easter Island, belong?",
+        "sample_hashes": [
+          "f56aefeb59500084eec834942d2d5ba2b3677bd26552e7d4fa00171061eee8ad",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59",
+          "e179d8821900546cb5e2e83595643187664aa53a080221779b723cd52d029f59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:44.152412+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "8dfdc71515def7b3a90139b65eaa9007ac71091632d7f6129dbfa85400adac8c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "case_id": "34bf91753da53c8a1a1af0f57736e4ed5390365e60618c0147f4934139944c17",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34bf91753da53c8a1a1af0f57736e4ed5390365e60618c0147f4934139944c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In what year was the Rosetta Stone discovered by French soldiers?",
+        "sample_hashes": [
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:15.794573+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "3ee0e3b0c0f9cde7487f2960fcba505a8c174222b44483c9bb80e820d466dd3f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34bf91753da53c8a1a1af0f57736e4ed5390365e60618c0147f4934139944c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In what year was the Rosetta Stone discovered by French soldiers?",
+        "sample_hashes": [
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:19.509597+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "0a49b4f9ba43a60a0285ae5ca32b5525aa9dc0891b7fe03e3b1ef049eee72b4d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34bf91753da53c8a1a1af0f57736e4ed5390365e60618c0147f4934139944c17",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In what year was the Rosetta Stone discovered by French soldiers?",
+        "sample_hashes": [
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "29f5581d4952e0a763bd9d781526df8f5862582484c4719499c779c3c1f242cc",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90",
+          "7032dc851014397c5458906c5f201531dfb599e7faad0c6bf9fcba5d592bcb90"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:22.599350+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "b28b18ef24605e28797912fdc05bbc24850aa7813d5efe4a49fcf83c15d6c4ad",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

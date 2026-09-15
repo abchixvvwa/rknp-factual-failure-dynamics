@@ -1,0 +1,179 @@
+{
+  "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік елтаңбасын қай екі сәулетші жасаған?",
+        "sample_hashes": [
+          "1ee9bf9ad34cdd1bc0852cff0e9597e5117e884ad4e79b9fce1a8520be76ade3",
+          "f5772653a1edac16da17fcc597570d75c4861716d7ede4af3c941538d06e6101",
+          "e277f979b57b492ec9351604e577e4238b03d3a92d37c7aa6f3112351014595f",
+          "6b95b8dd1ae3695679fcd221cfe8d0a380b39ed45fe2a2fb3f2e44b85717328b",
+          "24cd8bd65b7cd7337d7e57c8f9938904fdbbdbfb48f85124c933a54cdb994440"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.445299+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "686f53590ad812d0704892fc555af490f2c479390ec5bbc87cd09aa7eeafe5de",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік елтаңбасын қай екі сәулетші жасаған?",
+        "sample_hashes": [
+          "1ee9bf9ad34cdd1bc0852cff0e9597e5117e884ad4e79b9fce1a8520be76ade3",
+          "f5772653a1edac16da17fcc597570d75c4861716d7ede4af3c941538d06e6101",
+          "e277f979b57b492ec9351604e577e4238b03d3a92d37c7aa6f3112351014595f",
+          "6b95b8dd1ae3695679fcd221cfe8d0a380b39ed45fe2a2fb3f2e44b85717328b",
+          "24cd8bd65b7cd7337d7e57c8f9938904fdbbdbfb48f85124c933a54cdb994440"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.445299+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "686f53590ad812d0704892fc555af490f2c479390ec5bbc87cd09aa7eeafe5de",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік елтаңбасын қай екі сәулетші жасаған?",
+        "sample_hashes": [
+          "1ee9bf9ad34cdd1bc0852cff0e9597e5117e884ad4e79b9fce1a8520be76ade3",
+          "f5772653a1edac16da17fcc597570d75c4861716d7ede4af3c941538d06e6101",
+          "e277f979b57b492ec9351604e577e4238b03d3a92d37c7aa6f3112351014595f",
+          "6b95b8dd1ae3695679fcd221cfe8d0a380b39ed45fe2a2fb3f2e44b85717328b",
+          "24cd8bd65b7cd7337d7e57c8f9938904fdbbdbfb48f85124c933a54cdb994440"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.445299+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "686f53590ad812d0704892fc555af490f2c479390ec5bbc87cd09aa7eeafe5de",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6d9327bb4649bdc51c51b69cdcb97ac2180639551a8449bd7f431380a422f4c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік елтаңбасын қай екі сәулетші жасаған?",
+        "sample_hashes": [
+          "1ee9bf9ad34cdd1bc0852cff0e9597e5117e884ad4e79b9fce1a8520be76ade3",
+          "f5772653a1edac16da17fcc597570d75c4861716d7ede4af3c941538d06e6101",
+          "e277f979b57b492ec9351604e577e4238b03d3a92d37c7aa6f3112351014595f",
+          "6b95b8dd1ae3695679fcd221cfe8d0a380b39ed45fe2a2fb3f2e44b85717328b",
+          "24cd8bd65b7cd7337d7e57c8f9938904fdbbdbfb48f85124c933a54cdb994440"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2],\n    [2, 2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:08.445299+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "686f53590ad812d0704892fc555af490f2c479390ec5bbc87cd09aa7eeafe5de",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

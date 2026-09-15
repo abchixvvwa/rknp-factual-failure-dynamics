@@ -1,0 +1,153 @@
+{
+  "case_id": "ca08806949d71f0ab54f0f5d91d0584a6d6b4bf841d837544eeb3bb48a16447d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca08806949d71f0ab54f0f5d91d0584a6d6b4bf841d837544eeb3bb48a16447d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many natural moons does Mars have?",
+        "sample_hashes": [
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "6ad0a8996eccb18639d8c139e0a1827627da284e161bbf5d85d09a2524275dbf"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:18.622363+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "89850c093ac05c9774ab7e088e6fabc80b81cee7cb8b6b6267b53b91d556535d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca08806949d71f0ab54f0f5d91d0584a6d6b4bf841d837544eeb3bb48a16447d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many natural moons does Mars have?",
+        "sample_hashes": [
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "6ad0a8996eccb18639d8c139e0a1827627da284e161bbf5d85d09a2524275dbf",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:19.588890+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "1ff982d14386388810a2496c8633fa8af0bf481ace3fa3d6e2cc96d70252254b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca08806949d71f0ab54f0f5d91d0584a6d6b4bf841d837544eeb3bb48a16447d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many natural moons does Mars have?",
+        "sample_hashes": [
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "6ad0a8996eccb18639d8c139e0a1827627da284e161bbf5d85d09a2524275dbf",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:20.988895+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "adcdca82adf1c305ed8241808e429917d62f0a7dc3c3d2e51eb9f6e56a0700e2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ca08806949d71f0ab54f0f5d91d0584a6d6b4bf841d837544eeb3bb48a16447d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many natural moons does Mars have?",
+        "sample_hashes": [
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "6ad0a8996eccb18639d8c139e0a1827627da284e161bbf5d85d09a2524275dbf",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6",
+          "e2789308b675fc6bdfc151854a10350ff60ed3d911452586f7174a9ddee320d6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:24.370967+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "8a29fe24f04fbd31e8d9bb1a1d57e4763ae02fa7177082e509bb362ab68ef46e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

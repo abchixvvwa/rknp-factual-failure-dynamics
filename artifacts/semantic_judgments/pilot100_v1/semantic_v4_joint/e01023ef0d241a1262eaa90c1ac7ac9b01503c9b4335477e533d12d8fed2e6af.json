@@ -1,0 +1,159 @@
+{
+  "case_id": "e01023ef0d241a1262eaa90c1ac7ac9b01503c9b4335477e533d12d8fed2e6af",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01023ef0d241a1262eaa90c1ac7ac9b01503c9b4335477e533d12d8fed2e6af",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1918 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "dceb17f278e0a5a6154399ead70085a43cf78f940fc7de1120abf1feca37b87c",
+          "2ae83eb82f698134f3152e06860a6d06fb3114b43251fadedef73d21ca03db93",
+          "cd0abc129bcac89ccf5001cfee252afe08119e81cc98caa8515203f75bc24700",
+          "37d473e12eaadc12f62c6db5e841998a0d7256dc5b953cbb35592f1dc69bd38f",
+          "b6e6eee668d40a3d30ee51c4a9ad3886259b4da5811790039dc2bf6c88c2317e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:04.334681+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "7bd1ccb131b7c0b109b1a8be43bb31b41959dea84e5a67b43cfa9447cbfb6c43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01023ef0d241a1262eaa90c1ac7ac9b01503c9b4335477e533d12d8fed2e6af",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1918 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "dceb17f278e0a5a6154399ead70085a43cf78f940fc7de1120abf1feca37b87c",
+          "2ae83eb82f698134f3152e06860a6d06fb3114b43251fadedef73d21ca03db93",
+          "cd0abc129bcac89ccf5001cfee252afe08119e81cc98caa8515203f75bc24700",
+          "37d473e12eaadc12f62c6db5e841998a0d7256dc5b953cbb35592f1dc69bd38f",
+          "b6e6eee668d40a3d30ee51c4a9ad3886259b4da5811790039dc2bf6c88c2317e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:04.334681+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "7bd1ccb131b7c0b109b1a8be43bb31b41959dea84e5a67b43cfa9447cbfb6c43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01023ef0d241a1262eaa90c1ac7ac9b01503c9b4335477e533d12d8fed2e6af",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1918 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "dceb17f278e0a5a6154399ead70085a43cf78f940fc7de1120abf1feca37b87c",
+          "2ae83eb82f698134f3152e06860a6d06fb3114b43251fadedef73d21ca03db93",
+          "cd0abc129bcac89ccf5001cfee252afe08119e81cc98caa8515203f75bc24700",
+          "37d473e12eaadc12f62c6db5e841998a0d7256dc5b953cbb35592f1dc69bd38f",
+          "b6e6eee668d40a3d30ee51c4a9ad3886259b4da5811790039dc2bf6c88c2317e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:04.334681+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "7bd1ccb131b7c0b109b1a8be43bb31b41959dea84e5a67b43cfa9447cbfb6c43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e01023ef0d241a1262eaa90c1ac7ac9b01503c9b4335477e533d12d8fed2e6af",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1918 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "dceb17f278e0a5a6154399ead70085a43cf78f940fc7de1120abf1feca37b87c",
+          "2ae83eb82f698134f3152e06860a6d06fb3114b43251fadedef73d21ca03db93",
+          "cd0abc129bcac89ccf5001cfee252afe08119e81cc98caa8515203f75bc24700",
+          "37d473e12eaadc12f62c6db5e841998a0d7256dc5b953cbb35592f1dc69bd38f",
+          "b6e6eee668d40a3d30ee51c4a9ad3886259b4da5811790039dc2bf6c88c2317e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:04.334681+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "7bd1ccb131b7c0b109b1a8be43bb31b41959dea84e5a67b43cfa9447cbfb6c43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

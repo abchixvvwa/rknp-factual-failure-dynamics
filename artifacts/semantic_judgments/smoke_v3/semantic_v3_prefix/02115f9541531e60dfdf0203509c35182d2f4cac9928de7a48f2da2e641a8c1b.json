@@ -1,0 +1,194 @@
+{
+  "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:50.851029+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "72e795328b30036e38956cce1664c405e9ef21de6ea163e1a8903ee8099fadbc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "6a426f2143ba18e5dcb0af2f540afcb978140d60cfc483f6c68e374ed1d45fa0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:51.326160+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "b495cfa93ac4b1c2e0b6a040ac6464eec37409094e1ad80e856b98028cd53b49",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:50.851029+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "72e795328b30036e38956cce1664c405e9ef21de6ea163e1a8903ee8099fadbc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "6a426f2143ba18e5dcb0af2f540afcb978140d60cfc483f6c68e374ed1d45fa0",
+          "6a426f2143ba18e5dcb0af2f540afcb978140d60cfc483f6c68e374ed1d45fa0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:51.833357+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "c97f67b6d1358ef338e2ad7c6c0d875c0cc1106cc394ada4fc08478df10900fb",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:09:50.851029+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "72e795328b30036e38956cce1664c405e9ef21de6ea163e1a8903ee8099fadbc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "02115f9541531e60dfdf0203509c35182d2f4cac9928de7a48f2da2e641a8c1b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who received the Nobel Prize in Literature in 1901?",
+        "sample_hashes": [
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "2b09dcde151811ef07ffee8878967558bd3173d863d1c34b3c66fc223dfe340c",
+          "6a426f2143ba18e5dcb0af2f540afcb978140d60cfc483f6c68e374ed1d45fa0",
+          "6a426f2143ba18e5dcb0af2f540afcb978140d60cfc483f6c68e374ed1d45fa0",
+          "ab5a8d15fc154d61b6e4bdb8222cfe0c8b4a6918d917bf8cf9be833abad008d0"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:52.378196+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "065ba67de620d14a9b084a1cd58dd449e5a1ce9407197477ce5d3f37b7162f27",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

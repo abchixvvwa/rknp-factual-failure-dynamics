@@ -1,0 +1,159 @@
+{
+  "case_id": "f81c33fc69e68e9f1ef2a9c62efe85328ee1d6ca0293f51b6dcf6e2d79915d4f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f81c33fc69e68e9f1ef2a9c62efe85328ee1d6ca0293f51b6dcf6e2d79915d4f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "На какой планете находится Большое красное пятно?",
+        "sample_hashes": [
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "ac17299b8a9f158371c82e8de495db86f99d58031145e29e5c8c0ebe80bf39dc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:32.016850+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "ecff47fdc26ca2d201211b9fb74d457210376776e70f66f901bd504a1079c811",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f81c33fc69e68e9f1ef2a9c62efe85328ee1d6ca0293f51b6dcf6e2d79915d4f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "На какой планете находится Большое красное пятно?",
+        "sample_hashes": [
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "ac17299b8a9f158371c82e8de495db86f99d58031145e29e5c8c0ebe80bf39dc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:32.016850+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "ecff47fdc26ca2d201211b9fb74d457210376776e70f66f901bd504a1079c811",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f81c33fc69e68e9f1ef2a9c62efe85328ee1d6ca0293f51b6dcf6e2d79915d4f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "На какой планете находится Большое красное пятно?",
+        "sample_hashes": [
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "ac17299b8a9f158371c82e8de495db86f99d58031145e29e5c8c0ebe80bf39dc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:32.016850+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "ecff47fdc26ca2d201211b9fb74d457210376776e70f66f901bd504a1079c811",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f81c33fc69e68e9f1ef2a9c62efe85328ee1d6ca0293f51b6dcf6e2d79915d4f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "На какой планете находится Большое красное пятно?",
+        "sample_hashes": [
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "d2288c3a2099f4e722ddc526d5980827071c0a98e27a981f17a5b9208bd5f7cc",
+          "c1cb71ff9d6314184150bb70b39a611001c5f35bd0a335ed7a10955b62dcec05",
+          "ac17299b8a9f158371c82e8de495db86f99d58031145e29e5c8c0ebe80bf39dc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:32.016850+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "ecff47fdc26ca2d201211b9fb74d457210376776e70f66f901bd504a1079c811",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

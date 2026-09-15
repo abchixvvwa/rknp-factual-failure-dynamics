@@ -1,0 +1,165 @@
+{
+  "case_id": "3e4581916adbdecd60a9e53e339fb97373cd83bbb4a535d6ec11c71f94485809",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e4581916adbdecd60a9e53e339fb97373cd83bbb4a535d6ec11c71f94485809",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is Kazakhstan's world rank by territorial area according to Akorda?",
+        "sample_hashes": [
+          "6d5d228af9e87d6f87dab0dc3b74d51d72fc983547f2bb31895904a123e641aa",
+          "6420e29948bc5a043a1a9f550dc8b6128b52279409610131cb6d2dc4ef3b434b",
+          "ecc950a59c450995fe676d672cea1598e11782a820e73a4ebc017d8ba3c790a4",
+          "f42d8fdd753c9e00f3ac62039fb5b99803c835275ee4dcbbf09f6da14a2b94c2",
+          "8dc10cd700c571d3a376e83f1b165f630dc9f0ca1221c98751f14082f5c4eb47"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:46:23.527717+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "b67127fb6e610be576591e5430ddd121152b2250ff689575d9dbfee75ceee775",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e4581916adbdecd60a9e53e339fb97373cd83bbb4a535d6ec11c71f94485809",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is Kazakhstan's world rank by territorial area according to Akorda?",
+        "sample_hashes": [
+          "6d5d228af9e87d6f87dab0dc3b74d51d72fc983547f2bb31895904a123e641aa",
+          "6420e29948bc5a043a1a9f550dc8b6128b52279409610131cb6d2dc4ef3b434b",
+          "ecc950a59c450995fe676d672cea1598e11782a820e73a4ebc017d8ba3c790a4",
+          "f42d8fdd753c9e00f3ac62039fb5b99803c835275ee4dcbbf09f6da14a2b94c2",
+          "8dc10cd700c571d3a376e83f1b165f630dc9f0ca1221c98751f14082f5c4eb47"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:46:23.527717+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "b67127fb6e610be576591e5430ddd121152b2250ff689575d9dbfee75ceee775",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e4581916adbdecd60a9e53e339fb97373cd83bbb4a535d6ec11c71f94485809",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is Kazakhstan's world rank by territorial area according to Akorda?",
+        "sample_hashes": [
+          "6d5d228af9e87d6f87dab0dc3b74d51d72fc983547f2bb31895904a123e641aa",
+          "6420e29948bc5a043a1a9f550dc8b6128b52279409610131cb6d2dc4ef3b434b",
+          "ecc950a59c450995fe676d672cea1598e11782a820e73a4ebc017d8ba3c790a4",
+          "f42d8fdd753c9e00f3ac62039fb5b99803c835275ee4dcbbf09f6da14a2b94c2",
+          "8dc10cd700c571d3a376e83f1b165f630dc9f0ca1221c98751f14082f5c4eb47"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:46:23.527717+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "b67127fb6e610be576591e5430ddd121152b2250ff689575d9dbfee75ceee775",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 3], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e4581916adbdecd60a9e53e339fb97373cd83bbb4a535d6ec11c71f94485809",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is Kazakhstan's world rank by territorial area according to Akorda?",
+        "sample_hashes": [
+          "6d5d228af9e87d6f87dab0dc3b74d51d72fc983547f2bb31895904a123e641aa",
+          "6420e29948bc5a043a1a9f550dc8b6128b52279409610131cb6d2dc4ef3b434b",
+          "ecc950a59c450995fe676d672cea1598e11782a820e73a4ebc017d8ba3c790a4",
+          "f42d8fdd753c9e00f3ac62039fb5b99803c835275ee4dcbbf09f6da14a2b94c2",
+          "8dc10cd700c571d3a376e83f1b165f630dc9f0ca1221c98751f14082f5c4eb47"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:46:23.527717+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "b67127fb6e610be576591e5430ddd121152b2250ff689575d9dbfee75ceee775",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 3], [2, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

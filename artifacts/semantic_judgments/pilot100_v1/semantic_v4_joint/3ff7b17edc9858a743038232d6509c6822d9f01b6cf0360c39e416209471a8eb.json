@@ -1,0 +1,179 @@
+{
+  "case_id": "3ff7b17edc9858a743038232d6509c6822d9f01b6cf0360c39e416209471a8eb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3ff7b17edc9858a743038232d6509c6822d9f01b6cf0360c39e416209471a8eb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қожа Ахмет Ясауи кесенесі Қазақстанның қай қаласында орналасқан?",
+        "sample_hashes": [
+          "acee7f5dd1dc224bfb1cb88c40afd2e9cf864beb32fdd324d8ac5191484c4c82",
+          "bf912475c3827b92b65bd7a456f8e9f941c1c925850c0eabb19887db3b378582",
+          "741f16b99b964d4da9e23fe1ba0ee5a7329bf33622bc27cc0fcf0d43745db4f8",
+          "3df3792ca17911f810dc1e0170ece3c7e5dc4ccb6ecdde189948d0f56b540b17",
+          "a746c2e0d703e19a68bcfb4444a5b54748adb2cb6f39f070ed7edeed112768ae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:03.702233+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6b4000432f55660552c5e3d32749d833e2b78812265aeb84cd8c8cae99f189b8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3ff7b17edc9858a743038232d6509c6822d9f01b6cf0360c39e416209471a8eb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қожа Ахмет Ясауи кесенесі Қазақстанның қай қаласында орналасқан?",
+        "sample_hashes": [
+          "acee7f5dd1dc224bfb1cb88c40afd2e9cf864beb32fdd324d8ac5191484c4c82",
+          "bf912475c3827b92b65bd7a456f8e9f941c1c925850c0eabb19887db3b378582",
+          "741f16b99b964d4da9e23fe1ba0ee5a7329bf33622bc27cc0fcf0d43745db4f8",
+          "3df3792ca17911f810dc1e0170ece3c7e5dc4ccb6ecdde189948d0f56b540b17",
+          "a746c2e0d703e19a68bcfb4444a5b54748adb2cb6f39f070ed7edeed112768ae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:03.702233+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6b4000432f55660552c5e3d32749d833e2b78812265aeb84cd8c8cae99f189b8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3ff7b17edc9858a743038232d6509c6822d9f01b6cf0360c39e416209471a8eb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қожа Ахмет Ясауи кесенесі Қазақстанның қай қаласында орналасқан?",
+        "sample_hashes": [
+          "acee7f5dd1dc224bfb1cb88c40afd2e9cf864beb32fdd324d8ac5191484c4c82",
+          "bf912475c3827b92b65bd7a456f8e9f941c1c925850c0eabb19887db3b378582",
+          "741f16b99b964d4da9e23fe1ba0ee5a7329bf33622bc27cc0fcf0d43745db4f8",
+          "3df3792ca17911f810dc1e0170ece3c7e5dc4ccb6ecdde189948d0f56b540b17",
+          "a746c2e0d703e19a68bcfb4444a5b54748adb2cb6f39f070ed7edeed112768ae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:03.702233+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6b4000432f55660552c5e3d32749d833e2b78812265aeb84cd8c8cae99f189b8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3ff7b17edc9858a743038232d6509c6822d9f01b6cf0360c39e416209471a8eb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қожа Ахмет Ясауи кесенесі Қазақстанның қай қаласында орналасқан?",
+        "sample_hashes": [
+          "acee7f5dd1dc224bfb1cb88c40afd2e9cf864beb32fdd324d8ac5191484c4c82",
+          "bf912475c3827b92b65bd7a456f8e9f941c1c925850c0eabb19887db3b378582",
+          "741f16b99b964d4da9e23fe1ba0ee5a7329bf33622bc27cc0fcf0d43745db4f8",
+          "3df3792ca17911f810dc1e0170ece3c7e5dc4ccb6ecdde189948d0f56b540b17",
+          "a746c2e0d703e19a68bcfb4444a5b54748adb2cb6f39f070ed7edeed112768ae"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:03.702233+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "6b4000432f55660552c5e3d32749d833e2b78812265aeb84cd8c8cae99f189b8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

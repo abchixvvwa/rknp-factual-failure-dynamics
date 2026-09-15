@@ -1,0 +1,14 @@
+{
+  "scope": "Final unresolved reviewable target responses for pilot100_v1 after the first review series and automatic exact-match labels",
+  "reviewed": 388,
+  "human_correct": 282,
+  "human_incorrect": 106,
+  "human_invalid": 0,
+  "excluded_invalid_targets_outside_queue": 11,
+  "invalid_have_no_binary_label": true,
+  "all_numbered_review_items_handled": true,
+  "batches_imported": 8,
+  "final_total_targets": 900,
+  "final_resolved_targets": 889,
+  "final_unresolved_invalid_targets": 11
+}

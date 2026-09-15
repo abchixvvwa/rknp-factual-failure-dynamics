@@ -1,0 +1,159 @@
+{
+  "case_id": "9fa8659762f1738e4dadb1895cb39d567f6889023d60d700f5a2c2a7288876f7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fa8659762f1738e4dadb1895cb39d567f6889023d60d700f5a2c2a7288876f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the capital of Kazakhstan as of September 2026?",
+        "sample_hashes": [
+          "aefbc7821e9337529b41767a82dc23f9d14c30df992aad15bf2afc33ad5a6369",
+          "b4fceaa1329256b15045790725fb613c3df8f9acbee5abd3575b72422637bff4",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652",
+          "75189d60df981516396c6fcaaca456ece05070b5e79a1e89f1150211a7ed78e9",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:23.905585+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "e3ec0ef05ef1e74269f84a0e60fe891413c70e6115e0bd1975ab40cf825c4d47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fa8659762f1738e4dadb1895cb39d567f6889023d60d700f5a2c2a7288876f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the capital of Kazakhstan as of September 2026?",
+        "sample_hashes": [
+          "aefbc7821e9337529b41767a82dc23f9d14c30df992aad15bf2afc33ad5a6369",
+          "b4fceaa1329256b15045790725fb613c3df8f9acbee5abd3575b72422637bff4",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652",
+          "75189d60df981516396c6fcaaca456ece05070b5e79a1e89f1150211a7ed78e9",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:23.905585+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "e3ec0ef05ef1e74269f84a0e60fe891413c70e6115e0bd1975ab40cf825c4d47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fa8659762f1738e4dadb1895cb39d567f6889023d60d700f5a2c2a7288876f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the capital of Kazakhstan as of September 2026?",
+        "sample_hashes": [
+          "aefbc7821e9337529b41767a82dc23f9d14c30df992aad15bf2afc33ad5a6369",
+          "b4fceaa1329256b15045790725fb613c3df8f9acbee5abd3575b72422637bff4",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652",
+          "75189d60df981516396c6fcaaca456ece05070b5e79a1e89f1150211a7ed78e9",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:23.905585+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "e3ec0ef05ef1e74269f84a0e60fe891413c70e6115e0bd1975ab40cf825c4d47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9fa8659762f1738e4dadb1895cb39d567f6889023d60d700f5a2c2a7288876f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the capital of Kazakhstan as of September 2026?",
+        "sample_hashes": [
+          "aefbc7821e9337529b41767a82dc23f9d14c30df992aad15bf2afc33ad5a6369",
+          "b4fceaa1329256b15045790725fb613c3df8f9acbee5abd3575b72422637bff4",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652",
+          "75189d60df981516396c6fcaaca456ece05070b5e79a1e89f1150211a7ed78e9",
+          "e753733ba83b5fec70795209aae7b24cb4234937e94bf420e359b4403affa652"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:41:23.905585+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "e3ec0ef05ef1e74269f84a0e60fe891413c70e6115e0bd1975ab40cf825c4d47",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "f73486192ecbef87ea6eb8439aaae39f27b87583e966b4246f08a210b70ae1e4",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f73486192ecbef87ea6eb8439aaae39f27b87583e966b4246f08a210b70ae1e4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Серенгети ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "fbea3edaabe0f5c029e5a8486c9e18675e9b9a32ad5999ebc183dc864389daf0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:24.828655+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "a13401cf6ff4dbaed017b79d9df2350bd9f5e6d4bb464b026e934d8653ba810f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f73486192ecbef87ea6eb8439aaae39f27b87583e966b4246f08a210b70ae1e4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Серенгети ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "fbea3edaabe0f5c029e5a8486c9e18675e9b9a32ad5999ebc183dc864389daf0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:24.828655+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "a13401cf6ff4dbaed017b79d9df2350bd9f5e6d4bb464b026e934d8653ba810f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f73486192ecbef87ea6eb8439aaae39f27b87583e966b4246f08a210b70ae1e4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Серенгети ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "fbea3edaabe0f5c029e5a8486c9e18675e9b9a32ad5999ebc183dc864389daf0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:24.828655+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "a13401cf6ff4dbaed017b79d9df2350bd9f5e6d4bb464b026e934d8653ba810f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f73486192ecbef87ea6eb8439aaae39f27b87583e966b4246f08a210b70ae1e4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Серенгети ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "e9a7e0ad1fb11390ccbf139949aa74f9bd423543c125a3cdac9a255efd6e849a",
+          "fbea3edaabe0f5c029e5a8486c9e18675e9b9a32ad5999ebc183dc864389daf0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:24.828655+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "a13401cf6ff4dbaed017b79d9df2350bd9f5e6d4bb464b026e934d8653ba810f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

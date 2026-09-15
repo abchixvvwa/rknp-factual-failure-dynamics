@@ -1,0 +1,236 @@
+{
+  "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9",
+          "9239b440c1c60734e49f8575285f6b774cdd28c7fadba1d1b4a532ac89c0ae22"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T05:57:29.679953+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "a69256782440e29be1790ba70308b4a415523657b21f6e438f542f6aec2fb95d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:57:30.447850+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d21c377035c788c4819bf300acc5de50afff5827af39fe8bbf0af4118b1a4de8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9",
+          "9239b440c1c60734e49f8575285f6b774cdd28c7fadba1d1b4a532ac89c0ae22",
+          "382a23e2cfd58419a42f868729b3bb625ef8e33e6c6af56d7c325a600ed04e30"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:57:31.073465+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9d8ed5a3e67d083d8a7cba3aa8f61cd3e25b96fab8f403d8961739f7180a6860",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9",
+          "9239b440c1c60734e49f8575285f6b774cdd28c7fadba1d1b4a532ac89c0ae22"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:57:33.086781+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "8eae6dbc076dbe8f191dd0c1f14e551b6d29efaa9e5d42e73c6d23c07a75507c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9",
+          "9239b440c1c60734e49f8575285f6b774cdd28c7fadba1d1b4a532ac89c0ae22",
+          "382a23e2cfd58419a42f868729b3bb625ef8e33e6c6af56d7c325a600ed04e30",
+          "745df3443579ce0928169aa18c9d0dfa866007c01321ffdd2093850ec435dc47"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:57:34.122396+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "c1bac7c77d139755df9131b8d65b7fcc0e5921af04cd7ecd4646cc480ad94813",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:57:30.447850+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d21c377035c788c4819bf300acc5de50afff5827af39fe8bbf0af4118b1a4de8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9",
+          "9239b440c1c60734e49f8575285f6b774cdd28c7fadba1d1b4a532ac89c0ae22",
+          "382a23e2cfd58419a42f868729b3bb625ef8e33e6c6af56d7c325a600ed04e30",
+          "745df3443579ce0928169aa18c9d0dfa866007c01321ffdd2093850ec435dc47",
+          "3f87f0093ca5a231e22a8b7f95e5a8099006abd5dd895b42dcb0504c50fffa73"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:57:43.906116+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "10d5917c6ab49a62c152b54112309c24e52bba68d58e4f8cd8d49a78e939783d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "fe3f7b9548a442b2f8c94a6bc90da6c8f8532b1d19d998ec27367a644c06f8c5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая миссия «Аполлон» впервые доставила людей в окрестности Луны?",
+        "sample_hashes": [
+          "a40b4f4ed3373788311398c0d4640ea278f21156f9d8a53ad4f6803eb8becfe9"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T05:57:30.447850+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d21c377035c788c4819bf300acc5de50afff5827af39fe8bbf0af4118b1a4de8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

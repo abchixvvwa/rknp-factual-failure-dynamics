@@ -1,0 +1,114 @@
+{
+  "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:10.230817+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "6b855c9362328036f42eb120d712aa108bdb20e575af62080af7605cacbcd01e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00014e0a3a4455f215cfc438f02708579cb8a156aa8381ba32fd2ccbee2e4bed",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Serengeti National Park?",
+        "sample_hashes": [
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a",
+          "820e6fa84e094ef6accf42ab48120710043d4b6dc2ee85540fee6f9f2e8fea1e",
+          "e6227d11bfb2d38daf7d60d0b2d85e2a6056f383475b1e425e7db413e3bfee3a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 1,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:15:12.986641+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "2ad2dd6c9e183a6c1d9a980898dd7a488a02e4f9afe76083b4113a92faf99431",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

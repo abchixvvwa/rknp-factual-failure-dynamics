@@ -1,0 +1,152 @@
+{
+  "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:02:23.292719+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "fd9f22793d84960ff592f136f915ace1a363298ef4e2d399899ba4f0cd43fcf7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:26.514668+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "453106dbb51aedb7b3ccdf4c0cae85a6da8982f3fa7313a4d204650465359bd7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:27.831509+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "1af5aa74d2f6bd9cfac65defd2969bf2be153e17e8f339e00e9551a268e344a5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:02:30.715406+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "8d8518aca82f693c66ab34aec19597236613ee43de975ff3a22f355f0b56e36f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

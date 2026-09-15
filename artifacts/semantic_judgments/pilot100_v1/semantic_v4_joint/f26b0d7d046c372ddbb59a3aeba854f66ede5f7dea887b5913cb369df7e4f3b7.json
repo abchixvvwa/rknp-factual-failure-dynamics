@@ -1,0 +1,167 @@
+{
+  "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Сагарматха?",
+        "sample_hashes": [
+          "b05924fd4d584fd35bc5e7dc27b62d005fbd7a22c760e92dd34757d47f213847",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:39:41.328881+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "979ef97f9d5658515cdc8d32b6d42461faebb4e7584c03d3d16df8d050f026df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Сагарматха?",
+        "sample_hashes": [
+          "b05924fd4d584fd35bc5e7dc27b62d005fbd7a22c760e92dd34757d47f213847",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:39:41.328881+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "979ef97f9d5658515cdc8d32b6d42461faebb4e7584c03d3d16df8d050f026df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Сагарматха?",
+        "sample_hashes": [
+          "b05924fd4d584fd35bc5e7dc27b62d005fbd7a22c760e92dd34757d47f213847",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:39:41.328881+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "979ef97f9d5658515cdc8d32b6d42461faebb4e7584c03d3d16df8d050f026df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2], [1, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f26b0d7d046c372ddbb59a3aeba854f66ede5f7dea887b5913cb369df7e4f3b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Сагарматха?",
+        "sample_hashes": [
+          "b05924fd4d584fd35bc5e7dc27b62d005fbd7a22c760e92dd34757d47f213847",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424",
+          "e258da4916f836a3a8b489d4d611018e93586fbb8727e9ff62f03d118eba31bb",
+          "9d295e933fce8ffcf1d0d99aad190f64566bb9e4d2a817b20f854baaf81e9424"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0],\n    [0, 1, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T18:39:41.328881+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "979ef97f9d5658515cdc8d32b6d42461faebb4e7584c03d3d16df8d050f026df",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 4], [1, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "524fa1690beca47c1aba9e80c6ea6dfab7dddcc3bcf636239f05a3f4f27d50a6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "524fa1690beca47c1aba9e80c6ea6dfab7dddcc3bcf636239f05a3f4f27d50a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of electrical resistance?",
+        "sample_hashes": [
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "28f28bf65418253d9346aa06059fcad8ef3c0afba9c7bfcfd2b5f2729d39073a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:18.555864+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "9624d10b4b659e11695909f65c1a5fd2b123983b12072cd6219ffe1d4d3726d4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "524fa1690beca47c1aba9e80c6ea6dfab7dddcc3bcf636239f05a3f4f27d50a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of electrical resistance?",
+        "sample_hashes": [
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "28f28bf65418253d9346aa06059fcad8ef3c0afba9c7bfcfd2b5f2729d39073a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:18.555864+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "9624d10b4b659e11695909f65c1a5fd2b123983b12072cd6219ffe1d4d3726d4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "524fa1690beca47c1aba9e80c6ea6dfab7dddcc3bcf636239f05a3f4f27d50a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of electrical resistance?",
+        "sample_hashes": [
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "28f28bf65418253d9346aa06059fcad8ef3c0afba9c7bfcfd2b5f2729d39073a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:18.555864+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "9624d10b4b659e11695909f65c1a5fd2b123983b12072cd6219ffe1d4d3726d4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "524fa1690beca47c1aba9e80c6ea6dfab7dddcc3bcf636239f05a3f4f27d50a6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of electrical resistance?",
+        "sample_hashes": [
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "0d8a67a14e16e209a213be6a83f2a60d5deb44dfe1887bc44835b89aee077b1e",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "84e953822cd5e2f5036c64c64246cdfbe86dfd94dbf0c1f9d58c260953363624",
+          "28f28bf65418253d9346aa06059fcad8ef3c0afba9c7bfcfd2b5f2729d39073a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:18.555864+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "9624d10b4b659e11695909f65c1a5fd2b123983b12072cd6219ffe1d4d3726d4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1931 жылғы физика саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "075c101a1c1de21a8d0e3f7532157fc146d7c64a6e8a7ae934f3e4f1e669e542",
+          "71105d2cf5ad3d847cd0d1c4832778021d62bde6bacc2b5343ec557c78a274b5",
+          "276ee350e412ac3cbeb4acf11f4962e58bbc53167b6057362023c7cde7fb25ac",
+          "d4964ccd0811e6bbde7d551dc290633ccc89bfb4926da8b84a522ff364267ffb",
+          "2f029eec0696efd7dafcb3ec5288365c6c004e509283d5ddac3fe372a438cd3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 2, 0],\n    [0, 1, 0, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1],\n    [-1, -1, -1, -1],\n    [2, 2, 2, 2],\n    [2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:13.451411+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "8574696546ca46a6faea43af41579c9f4b3a1307dfd47726545f6f6eafc03165",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1931 жылғы физика саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "075c101a1c1de21a8d0e3f7532157fc146d7c64a6e8a7ae934f3e4f1e669e542",
+          "71105d2cf5ad3d847cd0d1c4832778021d62bde6bacc2b5343ec557c78a274b5",
+          "276ee350e412ac3cbeb4acf11f4962e58bbc53167b6057362023c7cde7fb25ac",
+          "d4964ccd0811e6bbde7d551dc290633ccc89bfb4926da8b84a522ff364267ffb",
+          "2f029eec0696efd7dafcb3ec5288365c6c004e509283d5ddac3fe372a438cd3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 2, 0],\n    [0, 1, 0, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1],\n    [-1, -1, -1, -1],\n    [2, 2, 2, 2],\n    [2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:13.451411+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "8574696546ca46a6faea43af41579c9f4b3a1307dfd47726545f6f6eafc03165",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1931 жылғы физика саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "075c101a1c1de21a8d0e3f7532157fc146d7c64a6e8a7ae934f3e4f1e669e542",
+          "71105d2cf5ad3d847cd0d1c4832778021d62bde6bacc2b5343ec557c78a274b5",
+          "276ee350e412ac3cbeb4acf11f4962e58bbc53167b6057362023c7cde7fb25ac",
+          "d4964ccd0811e6bbde7d551dc290633ccc89bfb4926da8b84a522ff364267ffb",
+          "2f029eec0696efd7dafcb3ec5288365c6c004e509283d5ddac3fe372a438cd3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 2, 0],\n    [0, 1, 0, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1],\n    [-1, -1, -1, -1],\n    [2, 2, 2, 2],\n    [2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:13.451411+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "8574696546ca46a6faea43af41579c9f4b3a1307dfd47726545f6f6eafc03165",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2], [1], [3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "36c406a6e9638e59ecf1bf3d7fa8ea6725130f3c2cb6936cd21a47263f006878",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1931 жылғы физика саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "075c101a1c1de21a8d0e3f7532157fc146d7c64a6e8a7ae934f3e4f1e669e542",
+          "71105d2cf5ad3d847cd0d1c4832778021d62bde6bacc2b5343ec557c78a274b5",
+          "276ee350e412ac3cbeb4acf11f4962e58bbc53167b6057362023c7cde7fb25ac",
+          "d4964ccd0811e6bbde7d551dc290633ccc89bfb4926da8b84a522ff364267ffb",
+          "2f029eec0696efd7dafcb3ec5288365c6c004e509283d5ddac3fe372a438cd3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 2, 0],\n    [0, 1, 0, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1],\n    [-1, -1, -1, -1],\n    [2, 2, 2, 2],\n    [2, 2, 2, 2]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:13.451411+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "8574696546ca46a6faea43af41579c9f4b3a1307dfd47726545f6f6eafc03165",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2], [1], [3], [4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "f97ea4cb64c7579771edd752d9a0292800863dd8027beecb7c268d9cc1ed10c6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:52.805025+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "7d331b78c143e51e7221680d79ba6fbde6fef38aad6ad8dcf432621fe3726760",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:02:53.288576+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "a18d53e021278eeabf85aca79cf972b74809fd55f45219ece89dcc22873fdff6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "f97ea4cb64c7579771edd752d9a0292800863dd8027beecb7c268d9cc1ed10c6",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:03:48.103847+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "5280d6c28a6d2a793f3567b4fd063e8148f8b2fcfbbdcc866ffdae4d3a4081b6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:03:49.192252+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "78e939ff244d3fe0c3831b2c3c9bc5279cc9ce4f7f96c471f4378227ca9c35b2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "f97ea4cb64c7579771edd752d9a0292800863dd8027beecb7c268d9cc1ed10c6",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29",
+          "bf9609a4a5a43a07d0b005d6584e8178b2ab86d955e436dbc1ee657f2f39ba54"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:03:49.690536+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "9e426c75a3bf1f8a078a1cc4c425db7e3b8daddd9217e657dbf18b868f1b21ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 3], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:03:49.192252+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "78e939ff244d3fe0c3831b2c3c9bc5279cc9ce4f7f96c471f4378227ca9c35b2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "f97ea4cb64c7579771edd752d9a0292800863dd8027beecb7c268d9cc1ed10c6",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29",
+          "bf9609a4a5a43a07d0b005d6584e8178b2ab86d955e436dbc1ee657f2f39ba54",
+          "ad635ebef51be30470fd89acc07c1dbf2c28c7db475535afc0ecbf44c732e614"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 2,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:03:51.888273+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "eeb271a875bb08f3d3d89da825c6f79299e89e023e19399cc237275de5ef0469",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 3], [2], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "558097977e8c49252a363129a433230fcf9e283baacee667f0f1220c5f00e2d2",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Дүниежүзіндегі ең терең көл қайсы?",
+        "sample_hashes": [
+          "d4e577558f7660836552740485dceff589d7fc0f348ca46e530f9b9c07f4efcb",
+          "32ad68871c5b358c976370ba85851c47daa048219fcb30e5f6eb0a2f111f4e29",
+          "ad635ebef51be30470fd89acc07c1dbf2c28c7db475535afc0ecbf44c732e614"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:03:52.683653+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "cfaffa289dc5551404db0567ee239747e587cb32f3053bc828ea472c3ed7c1bf",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

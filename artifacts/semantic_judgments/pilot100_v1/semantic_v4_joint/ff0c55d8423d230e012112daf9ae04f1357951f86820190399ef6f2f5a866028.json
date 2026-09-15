@@ -1,0 +1,159 @@
+{
+  "case_id": "ff0c55d8423d230e012112daf9ae04f1357951f86820190399ef6f2f5a866028",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff0c55d8423d230e012112daf9ae04f1357951f86820190399ef6f2f5a866028",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто командовал миссией «Аполлон-11»?",
+        "sample_hashes": [
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "946f90516da1a28e7fec48fe0cff91bf07878562e8938683f601888ddae515cd",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:16.470856+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2be25c467f0dca60f35d0de550a63c612fcf55733155e2dd5f52826fec940df3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff0c55d8423d230e012112daf9ae04f1357951f86820190399ef6f2f5a866028",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто командовал миссией «Аполлон-11»?",
+        "sample_hashes": [
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "946f90516da1a28e7fec48fe0cff91bf07878562e8938683f601888ddae515cd",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:16.470856+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2be25c467f0dca60f35d0de550a63c612fcf55733155e2dd5f52826fec940df3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff0c55d8423d230e012112daf9ae04f1357951f86820190399ef6f2f5a866028",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто командовал миссией «Аполлон-11»?",
+        "sample_hashes": [
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "946f90516da1a28e7fec48fe0cff91bf07878562e8938683f601888ddae515cd",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:16.470856+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2be25c467f0dca60f35d0de550a63c612fcf55733155e2dd5f52826fec940df3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ff0c55d8423d230e012112daf9ae04f1357951f86820190399ef6f2f5a866028",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто командовал миссией «Аполлон-11»?",
+        "sample_hashes": [
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "946f90516da1a28e7fec48fe0cff91bf07878562e8938683f601888ddae515cd",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e",
+          "5f89d009268381fe9d2aea5ae05603fdea5c69f8b8851a26bfeb27485f95fe4e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:16.470856+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "2be25c467f0dca60f35d0de550a63c612fcf55733155e2dd5f52826fec940df3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

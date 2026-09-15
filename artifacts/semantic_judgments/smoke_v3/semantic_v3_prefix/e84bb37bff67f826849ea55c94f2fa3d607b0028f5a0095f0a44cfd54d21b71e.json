@@ -1,0 +1,251 @@
+{
+  "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:11:58.576842+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "aa889df3d1658a98f2e24c0d36f04011a68bedcae09183b7c9d9d5c6ea873107",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:11:58.958340+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "70af65d3cec6e9085d6b5d61b16e54a64c718d3f0cf48fcd45719a9378ccbd4b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c",
+          "4ce7a517b8d6560bbcfd4b1e15a809c0e0d3a3444081da2eca414bc2121c9878"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:11:59.490414+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "21130a8f2c4a460bccf2852727e38b93c7b9f79fd0b968c561bdcadf9bacb2fc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:11:58.958340+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "70af65d3cec6e9085d6b5d61b16e54a64c718d3f0cf48fcd45719a9378ccbd4b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c",
+          "4ce7a517b8d6560bbcfd4b1e15a809c0e0d3a3444081da2eca414bc2121c9878",
+          "ae419c272a1fcb1c3f1439f1b90a3dafffe6e35e9394e541856a9f2e2f9cd911"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:12:49.821207+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "c1d15a869c391d9df020cd9b2a62d8d2e226ef42a81ff6bfa06d67da4a6956c5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c",
+          "ae419c272a1fcb1c3f1439f1b90a3dafffe6e35e9394e541856a9f2e2f9cd911"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:12:54.531754+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "477d22cb684e0f75b7bbaa2fe09c5cb2b9f498d74319a19c45a92b0143a7d6a0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c",
+          "4ce7a517b8d6560bbcfd4b1e15a809c0e0d3a3444081da2eca414bc2121c9878",
+          "ae419c272a1fcb1c3f1439f1b90a3dafffe6e35e9394e541856a9f2e2f9cd911",
+          "ae419c272a1fcb1c3f1439f1b90a3dafffe6e35e9394e541856a9f2e2f9cd911"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2,\n    \"E\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:12:55.638155+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "c97cae1ff9c2746bc2a595fc658003296f1621cb2c33ddacd0c22cd6516a8f86",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1], [3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "e84bb37bff67f826849ea55c94f2fa3d607b0028f5a0095f0a44cfd54d21b71e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "On what date was Kazakhstan admitted to the United Nations?",
+        "sample_hashes": [
+          "e35b0ed318edaa3c2258dfb66e3921e1c6184cbdae5b6d4ff8e4b134f7d44572",
+          "5ea486fd17a7f9e536e2c96f89f5cd874118a548b90c6bc375ff24efff1df94c",
+          "ae419c272a1fcb1c3f1439f1b90a3dafffe6e35e9394e541856a9f2e2f9cd911"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:12:54.531754+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "477d22cb684e0f75b7bbaa2fe09c5cb2b9f498d74319a19c45a92b0143a7d6a0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "case_id": "00e9ecd718b2b592cc2180490566ab810365a9bee73fccdbb62f2585b7e8eb64",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00e9ecd718b2b592cc2180490566ab810365a9bee73fccdbb62f2585b7e8eb64",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі ең кішкентай ғаламшар қайсы?",
+        "sample_hashes": [
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "dbd34b9f932273ae18ea9a66f568a5b94ba6d2f1527598556d3116c77a3b1950"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:06:49.898608+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "8047bf797aeb163256d124771bf35957dc39ed1af78642d08bbe648a69bf423f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00e9ecd718b2b592cc2180490566ab810365a9bee73fccdbb62f2585b7e8eb64",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі ең кішкентай ғаламшар қайсы?",
+        "sample_hashes": [
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "dbd34b9f932273ae18ea9a66f568a5b94ba6d2f1527598556d3116c77a3b1950",
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:06:50.958366+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "1fb0dcb70eee1b6d82a74f3409f6cba1ae5ab43238501d2c461fcadcb569638e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00e9ecd718b2b592cc2180490566ab810365a9bee73fccdbb62f2585b7e8eb64",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі ең кішкентай ғаламшар қайсы?",
+        "sample_hashes": [
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "dbd34b9f932273ae18ea9a66f568a5b94ba6d2f1527598556d3116c77a3b1950",
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "4241cda5b5b421c4d34869e18332aaac320979efdd21d5a3a1eb0fe3d622e062"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:06:52.963857+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "adee3715523ba5d5ba0a9ff0bcbe36b72912fc7be0d7d440afab9e2f8e5bef47",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "00e9ecd718b2b592cc2180490566ab810365a9bee73fccdbb62f2585b7e8eb64",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Күн жүйесіндегі ең кішкентай ғаламшар қайсы?",
+        "sample_hashes": [
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "dbd34b9f932273ae18ea9a66f568a5b94ba6d2f1527598556d3116c77a3b1950",
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a",
+          "4241cda5b5b421c4d34869e18332aaac320979efdd21d5a3a1eb0fe3d622e062",
+          "19571fc67e0c6937ba378d9cfdf9c327ff509060e317291d5c5f483f187ede1a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:06:53.534570+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "493b7d83d9eb87fac30e238a787a5358cf92ed12eea67ea36cec4bfe3f4bc1e8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "2046245779af290845a7e0b21c51ae32bc6c0a710cf85ef712a3938a7f86d4fb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2046245779af290845a7e0b21c51ae32bc6c0a710cf85ef712a3938a7f86d4fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица силы в СИ?",
+        "sample_hashes": [
+          "bde1380be6718f38138b1d7da86f34c7092fd68ec4ee9714e9b755cdd43cae21",
+          "51650e3d1062d5c5323ba9a35b275103fdb48599e1dedee6e2d500fe3c8e7ad1",
+          "ae8f28cad0edc53283b4a4ed0f52f74fc09134739e87f2d7631165a85fb27320",
+          "f61f6d9409255f7a7e5147e427f013985509bb0861f914032c3a01572bf95225",
+          "8b0fd69d053dd4c7d30a89e85f0a3d994f552de78920311a7c1b7c075f6b962b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:55:57.437975+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d391787cd7d9c1e8369fd9e8e0028f67abd75ed14a0ba3dce64afb5f519ec2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2046245779af290845a7e0b21c51ae32bc6c0a710cf85ef712a3938a7f86d4fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица силы в СИ?",
+        "sample_hashes": [
+          "bde1380be6718f38138b1d7da86f34c7092fd68ec4ee9714e9b755cdd43cae21",
+          "51650e3d1062d5c5323ba9a35b275103fdb48599e1dedee6e2d500fe3c8e7ad1",
+          "ae8f28cad0edc53283b4a4ed0f52f74fc09134739e87f2d7631165a85fb27320",
+          "f61f6d9409255f7a7e5147e427f013985509bb0861f914032c3a01572bf95225",
+          "8b0fd69d053dd4c7d30a89e85f0a3d994f552de78920311a7c1b7c075f6b962b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:55:57.437975+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d391787cd7d9c1e8369fd9e8e0028f67abd75ed14a0ba3dce64afb5f519ec2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2046245779af290845a7e0b21c51ae32bc6c0a710cf85ef712a3938a7f86d4fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица силы в СИ?",
+        "sample_hashes": [
+          "bde1380be6718f38138b1d7da86f34c7092fd68ec4ee9714e9b755cdd43cae21",
+          "51650e3d1062d5c5323ba9a35b275103fdb48599e1dedee6e2d500fe3c8e7ad1",
+          "ae8f28cad0edc53283b4a4ed0f52f74fc09134739e87f2d7631165a85fb27320",
+          "f61f6d9409255f7a7e5147e427f013985509bb0861f914032c3a01572bf95225",
+          "8b0fd69d053dd4c7d30a89e85f0a3d994f552de78920311a7c1b7c075f6b962b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:55:57.437975+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d391787cd7d9c1e8369fd9e8e0028f67abd75ed14a0ba3dce64afb5f519ec2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2046245779af290845a7e0b21c51ae32bc6c0a710cf85ef712a3938a7f86d4fb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица силы в СИ?",
+        "sample_hashes": [
+          "bde1380be6718f38138b1d7da86f34c7092fd68ec4ee9714e9b755cdd43cae21",
+          "51650e3d1062d5c5323ba9a35b275103fdb48599e1dedee6e2d500fe3c8e7ad1",
+          "ae8f28cad0edc53283b4a4ed0f52f74fc09134739e87f2d7631165a85fb27320",
+          "f61f6d9409255f7a7e5147e427f013985509bb0861f914032c3a01572bf95225",
+          "8b0fd69d053dd4c7d30a89e85f0a3d994f552de78920311a7c1b7c075f6b962b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:55:57.437975+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "d391787cd7d9c1e8369fd9e8e0028f67abd75ed14a0ba3dce64afb5f519ec2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

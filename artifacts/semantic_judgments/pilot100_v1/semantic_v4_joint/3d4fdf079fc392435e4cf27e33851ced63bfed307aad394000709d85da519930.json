@@ -1,0 +1,159 @@
+{
+  "case_id": "3d4fdf079fc392435e4cf27e33851ced63bfed307aad394000709d85da519930",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d4fdf079fc392435e4cf27e33851ced63bfed307aad394000709d85da519930",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Sagarmatha National Park?",
+        "sample_hashes": [
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "df21296024bc9f54c6098abcb3b8f6338ae729722fcc16e70751f7ec773924fd",
+          "47fd730662efe1ff2f93753d9d747c6a18ed06449f97dc170f1be4e37469f8d3",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:10:08.500478+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "eac22f921c7ef9a8e2a1db5605809ef4a75da994915d06d85ccdd4e8955145f6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d4fdf079fc392435e4cf27e33851ced63bfed307aad394000709d85da519930",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Sagarmatha National Park?",
+        "sample_hashes": [
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "df21296024bc9f54c6098abcb3b8f6338ae729722fcc16e70751f7ec773924fd",
+          "47fd730662efe1ff2f93753d9d747c6a18ed06449f97dc170f1be4e37469f8d3",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:10:08.500478+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "eac22f921c7ef9a8e2a1db5605809ef4a75da994915d06d85ccdd4e8955145f6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d4fdf079fc392435e4cf27e33851ced63bfed307aad394000709d85da519930",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Sagarmatha National Park?",
+        "sample_hashes": [
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "df21296024bc9f54c6098abcb3b8f6338ae729722fcc16e70751f7ec773924fd",
+          "47fd730662efe1ff2f93753d9d747c6a18ed06449f97dc170f1be4e37469f8d3",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:10:08.500478+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "eac22f921c7ef9a8e2a1db5605809ef4a75da994915d06d85ccdd4e8955145f6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d4fdf079fc392435e4cf27e33851ced63bfed307aad394000709d85da519930",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Sagarmatha National Park?",
+        "sample_hashes": [
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "df21296024bc9f54c6098abcb3b8f6338ae729722fcc16e70751f7ec773924fd",
+          "47fd730662efe1ff2f93753d9d747c6a18ed06449f97dc170f1be4e37469f8d3",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a",
+          "0e877b297586a4f9e02c385538ff72a502c8b2c1bfdb692638694eabe878a61a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:10:08.500478+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "eac22f921c7ef9a8e2a1db5605809ef4a75da994915d06d85ccdd4e8955145f6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

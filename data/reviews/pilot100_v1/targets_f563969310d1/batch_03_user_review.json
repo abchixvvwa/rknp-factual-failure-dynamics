@@ -1,0 +1,42 @@
+{
+  "reviewer": "project_user",
+  "scope": "batch_03.md, items 101–150; entire response evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [101,106,109,115,124,128,129,130,131,132,133,135,136,137,138,140,141,147,148,149,150],
+  "incorrect_numbers": [103,104,105,107,108,110,111,112,113,114,116,117,118,119,120,121,122,123,125,126,127,134,139,142,144,145],
+  "invalid_numbers": [102,143,146],
+  "invalid_policy": "No binary factual label for invalid/truncated targets, even when visible text contains errors",
+  "user_notes": {
+    "102": "Видимая часть неверна: в 1968 премию получил Ясунари Кавабата, но target Invalid/truncated; не присваивать 0/1.",
+    "103": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "104": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "105": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "107": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "108": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "110": "Автор флага Казахстана — Шакен Ниязбеков; Akorda подтверждает.",
+    "112": "Shanyrak назван правильно, но модель ошибочно объявляет ложной предпосылку корректного вопроса о части юрты.",
+    "113": "Ошибочная претензия к предпосылке и неверное описание отдельного golden sun with 32 rays. От шанырака расходятся уыки в форме солнечных лучей; по бокам крылатые мифические кони.",
+    "118": "Шанырак назван правильно, но модель ошибочно объявляет предпосылку вопроса ложной.",
+    "119": "Неправильный разбор предпосылки и утверждения о крыльях орла и солнце под шаныраком. По сторонам герба крылатые тулпары.",
+    "121": "Композитор назван верно, но музыка Шамши Калдаякова не была гимном 1992 года. Нынешний гимн утверждён в 2006 году.",
+    "122": "Финальный ответ верен, но модель приписывает соавторство музыки Ramazan Myrzakhmetov; официальный автор музыки — Шамши Калдаяков.",
+    "125": "Шамши назван правильно, но год принятия нынешнего гимна указан как 1992 вместо 2006.",
+    "134": "9-е место верно, но утверждение, что Akorda — американский White House, неверно.",
+    "139": "Премия за 1918 не присуждалась. Утверждение о её переносе и присуждении Спиттелеру в 1919 неверно: он получил премию за 1919, вручённую в 1920.",
+    "143": "Первая строка верна, затем фактически ошибочный список и обрыв. Без премии по литературе были 1914, 1918, 1935, 1940–1943.",
+    "145": "Сначала выдуман лауреат за 1918, потом сказано, что премия не присуждалась; весь ответ неверен.",
+    "146": "Начало правильное, затем ложный список и обрыв; не присваивать 0/1.",
+    "149": "В 1940 премию не вручали. Упомянутые 1940, 1941 и 1943 также верны; пропуск 1942 не делает эти утверждения ложными."
+  },
+  "user_source_urls": [
+    "https://mirror.akorda.kz/public/en/state_symbols/kazakhstan_flag?utm_source=chatgpt.com",
+    "https://mirror.akorda.kz/en/state_symbols/kazakhstan_emblem?utm_source=chatgpt.com",
+    "https://mirror.akorda.kz/public/en/state_symbols/kazakhstan_anthem?utm_source=chatgpt.com",
+    "https://mirror.akorda.kz/ru/o-gosudarstvennyh-simvolah-respubliki-kazahstan-164218?utm_source=chatgpt.com",
+    "https://mirror.akorda.kz/ru/state_symbols/kazakhstan_anthem?utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/literature/1919/summary/_?utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-prize-in-literature?utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/?utm_source=chatgpt.com"
+  ],
+  "source_note": "URLs and factual rationales supplied by the user; not represented as independent agent verification"
+}

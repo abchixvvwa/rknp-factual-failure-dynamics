@@ -1,0 +1,161 @@
+{
+  "case_id": "3e1051e16a54a988eb12d8064b9e3dbae9e8f2cb5ef1fab46f004f903fe7eb2e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e1051e16a54a988eb12d8064b9e3dbae9e8f2cb5ef1fab46f004f903fe7eb2e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Альдабра атоллы қай елге тиесілі?",
+        "sample_hashes": [
+          "2701394d4ea98bcb20b9c7643705e4bcd5bb503a54818aa6dabc9da7b724a5ab",
+          "264443efcec3d9b0b1483ffee4f508a1f77214505ac28b199aa8b59f82cb3208",
+          "e7b2fecfc1c87bab266af422835b7e0929ef988f6c88ff08b79dc6ecff739fc4",
+          "3a023e7c52f684095d2cdfa26e56354a6f5cc56b52ca6219662e9cf1dc6ec2fc",
+          "5340c2630b35da29cd9d98c701d93b569ab4b1442cd98c88ab5bdfd901df4a97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:28.040319+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "7bd9f0c02348946a655049e9c3f1c3b4c66dd0d4f5aeb2d2bbcc3d2598fd6473",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e1051e16a54a988eb12d8064b9e3dbae9e8f2cb5ef1fab46f004f903fe7eb2e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Альдабра атоллы қай елге тиесілі?",
+        "sample_hashes": [
+          "2701394d4ea98bcb20b9c7643705e4bcd5bb503a54818aa6dabc9da7b724a5ab",
+          "264443efcec3d9b0b1483ffee4f508a1f77214505ac28b199aa8b59f82cb3208",
+          "e7b2fecfc1c87bab266af422835b7e0929ef988f6c88ff08b79dc6ecff739fc4",
+          "3a023e7c52f684095d2cdfa26e56354a6f5cc56b52ca6219662e9cf1dc6ec2fc",
+          "5340c2630b35da29cd9d98c701d93b569ab4b1442cd98c88ab5bdfd901df4a97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:28.040319+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "7bd9f0c02348946a655049e9c3f1c3b4c66dd0d4f5aeb2d2bbcc3d2598fd6473",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e1051e16a54a988eb12d8064b9e3dbae9e8f2cb5ef1fab46f004f903fe7eb2e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Альдабра атоллы қай елге тиесілі?",
+        "sample_hashes": [
+          "2701394d4ea98bcb20b9c7643705e4bcd5bb503a54818aa6dabc9da7b724a5ab",
+          "264443efcec3d9b0b1483ffee4f508a1f77214505ac28b199aa8b59f82cb3208",
+          "e7b2fecfc1c87bab266af422835b7e0929ef988f6c88ff08b79dc6ecff739fc4",
+          "3a023e7c52f684095d2cdfa26e56354a6f5cc56b52ca6219662e9cf1dc6ec2fc",
+          "5340c2630b35da29cd9d98c701d93b569ab4b1442cd98c88ab5bdfd901df4a97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:28.040319+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "7bd9f0c02348946a655049e9c3f1c3b4c66dd0d4f5aeb2d2bbcc3d2598fd6473",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3e1051e16a54a988eb12d8064b9e3dbae9e8f2cb5ef1fab46f004f903fe7eb2e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Альдабра атоллы қай елге тиесілі?",
+        "sample_hashes": [
+          "2701394d4ea98bcb20b9c7643705e4bcd5bb503a54818aa6dabc9da7b724a5ab",
+          "264443efcec3d9b0b1483ffee4f508a1f77214505ac28b199aa8b59f82cb3208",
+          "e7b2fecfc1c87bab266af422835b7e0929ef988f6c88ff08b79dc6ecff739fc4",
+          "3a023e7c52f684095d2cdfa26e56354a6f5cc56b52ca6219662e9cf1dc6ec2fc",
+          "5340c2630b35da29cd9d98c701d93b569ab4b1442cd98c88ab5bdfd901df4a97"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:28.040319+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "7bd9f0c02348946a655049e9c3f1c3b4c66dd0d4f5aeb2d2bbcc3d2598fd6473",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

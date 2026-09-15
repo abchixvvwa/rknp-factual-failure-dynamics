@@ -1,0 +1,14 @@
+groq>=1.7,<2
+pandas>=2.2,<4
+numpy>=2,<3
+scipy>=1.14,<2
+scikit-learn>=1.5,<2
+pyarrow>=18,<24
+pydantic>=2.10,<3
+pyyaml>=6,<7
+tenacity>=9,<10
+tqdm>=4.67,<5
+rapidfuzz>=3.10,<4
+matplotlib>=3.9,<4
+joblib>=1.4,<2
+pytest>=8,<10

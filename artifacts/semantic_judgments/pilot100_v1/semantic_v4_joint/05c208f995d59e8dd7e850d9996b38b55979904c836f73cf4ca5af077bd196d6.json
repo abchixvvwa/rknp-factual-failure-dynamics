@@ -1,0 +1,159 @@
+{
+  "case_id": "05c208f995d59e8dd7e850d9996b38b55979904c836f73cf4ca5af077bd196d6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05c208f995d59e8dd7e850d9996b38b55979904c836f73cf4ca5af077bd196d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1918?",
+        "sample_hashes": [
+          "9002f5ff79d16a085911f5c9ecaf73f632987bd637f36afe44571663234e350e",
+          "47d4fe433707b07e817b9b9fc4a651ec7548516cc19a7bbbc3c7c68745dec67e",
+          "8a633d544bcc0dd6794cc96633ecf0181b3d9247904bfa2365ef1730622a41cb",
+          "8284408ee8c2d9b51f1764e9ad6e584bae68e1e5f72f509be4ecbfcee9181dd4",
+          "d063d96573889508d96444d417b92a688fcac9fbd67e97229ac63c263f21b6cf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:53.083280+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e1960af132cb88b94a2f607fe340147cda4d9df7715ddce49c6909173a2b7479",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05c208f995d59e8dd7e850d9996b38b55979904c836f73cf4ca5af077bd196d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1918?",
+        "sample_hashes": [
+          "9002f5ff79d16a085911f5c9ecaf73f632987bd637f36afe44571663234e350e",
+          "47d4fe433707b07e817b9b9fc4a651ec7548516cc19a7bbbc3c7c68745dec67e",
+          "8a633d544bcc0dd6794cc96633ecf0181b3d9247904bfa2365ef1730622a41cb",
+          "8284408ee8c2d9b51f1764e9ad6e584bae68e1e5f72f509be4ecbfcee9181dd4",
+          "d063d96573889508d96444d417b92a688fcac9fbd67e97229ac63c263f21b6cf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:53.083280+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e1960af132cb88b94a2f607fe340147cda4d9df7715ddce49c6909173a2b7479",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05c208f995d59e8dd7e850d9996b38b55979904c836f73cf4ca5af077bd196d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1918?",
+        "sample_hashes": [
+          "9002f5ff79d16a085911f5c9ecaf73f632987bd637f36afe44571663234e350e",
+          "47d4fe433707b07e817b9b9fc4a651ec7548516cc19a7bbbc3c7c68745dec67e",
+          "8a633d544bcc0dd6794cc96633ecf0181b3d9247904bfa2365ef1730622a41cb",
+          "8284408ee8c2d9b51f1764e9ad6e584bae68e1e5f72f509be4ecbfcee9181dd4",
+          "d063d96573889508d96444d417b92a688fcac9fbd67e97229ac63c263f21b6cf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:53.083280+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e1960af132cb88b94a2f607fe340147cda4d9df7715ddce49c6909173a2b7479",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "05c208f995d59e8dd7e850d9996b38b55979904c836f73cf4ca5af077bd196d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1918?",
+        "sample_hashes": [
+          "9002f5ff79d16a085911f5c9ecaf73f632987bd637f36afe44571663234e350e",
+          "47d4fe433707b07e817b9b9fc4a651ec7548516cc19a7bbbc3c7c68745dec67e",
+          "8a633d544bcc0dd6794cc96633ecf0181b3d9247904bfa2365ef1730622a41cb",
+          "8284408ee8c2d9b51f1764e9ad6e584bae68e1e5f72f509be4ecbfcee9181dd4",
+          "d063d96573889508d96444d417b92a688fcac9fbd67e97229ac63c263f21b6cf"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:13:53.083280+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "e1960af132cb88b94a2f607fe340147cda4d9df7715ddce49c6909173a2b7479",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

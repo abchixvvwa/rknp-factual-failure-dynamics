@@ -1,0 +1,19 @@
+base_url: https://api.groq.com/openai/v1
+# Confirm the organization plan in the Groq console before changing this.
+# A new key or GET /models cannot establish billing status.
+free_plan_confirmed: true
+# Confirmed by the user in this task on 2026-09-10.
+timeout_seconds: 60
+max_retries: 4
+backoff_base_seconds: 2
+backoff_cap_seconds: 60
+# Conservative LOCAL safety ceilings, not assertions about account quotas.
+daily_request_cap: 900
+# User authorized provider-only throughput on 2026-09-11; ceilings below are inactive.
+enforce_local_limits: false
+limits:
+  requests_per_minute: 20
+  tokens_per_minute: 6000
+  requests_per_day: 900
+  tokens_per_day: 180000
+model_limits: {}

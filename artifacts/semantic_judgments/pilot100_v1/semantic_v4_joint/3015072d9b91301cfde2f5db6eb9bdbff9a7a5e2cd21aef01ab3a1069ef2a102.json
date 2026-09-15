@@ -1,0 +1,159 @@
+{
+  "case_id": "3015072d9b91301cfde2f5db6eb9bdbff9a7a5e2cd21aef01ab3a1069ef2a102",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3015072d9b91301cfde2f5db6eb9bdbff9a7a5e2cd21aef01ab3a1069ef2a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1889 жылғы «Жұлдызды түн» картинасын кім салған?",
+        "sample_hashes": [
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "f4b51adad6376984faaa0778c48476143ca745d32a9f59417fdf8c1faee8f582",
+          "74030da601cd60c088ba044576f08cb8cac87b6fef4115e5ddce1044a7569264",
+          "ead2fff12a3414bcd50eb8a53bd1c09bf48c094d9332559505016bf63f0a3c75"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:13.967098+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fb8565bf6bc413c6969eda2e15af18e79ababf77f1b234dc5541a59d9ec427a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3015072d9b91301cfde2f5db6eb9bdbff9a7a5e2cd21aef01ab3a1069ef2a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1889 жылғы «Жұлдызды түн» картинасын кім салған?",
+        "sample_hashes": [
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "f4b51adad6376984faaa0778c48476143ca745d32a9f59417fdf8c1faee8f582",
+          "74030da601cd60c088ba044576f08cb8cac87b6fef4115e5ddce1044a7569264",
+          "ead2fff12a3414bcd50eb8a53bd1c09bf48c094d9332559505016bf63f0a3c75"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:13.967098+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fb8565bf6bc413c6969eda2e15af18e79ababf77f1b234dc5541a59d9ec427a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3015072d9b91301cfde2f5db6eb9bdbff9a7a5e2cd21aef01ab3a1069ef2a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1889 жылғы «Жұлдызды түн» картинасын кім салған?",
+        "sample_hashes": [
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "f4b51adad6376984faaa0778c48476143ca745d32a9f59417fdf8c1faee8f582",
+          "74030da601cd60c088ba044576f08cb8cac87b6fef4115e5ddce1044a7569264",
+          "ead2fff12a3414bcd50eb8a53bd1c09bf48c094d9332559505016bf63f0a3c75"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:13.967098+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fb8565bf6bc413c6969eda2e15af18e79ababf77f1b234dc5541a59d9ec427a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3015072d9b91301cfde2f5db6eb9bdbff9a7a5e2cd21aef01ab3a1069ef2a102",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1889 жылғы «Жұлдызды түн» картинасын кім салған?",
+        "sample_hashes": [
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "83e1635cf426e1de8ad97de3b5436dd66facf530dc8981a53e4a11348fd78dd2",
+          "f4b51adad6376984faaa0778c48476143ca745d32a9f59417fdf8c1faee8f582",
+          "74030da601cd60c088ba044576f08cb8cac87b6fef4115e5ddce1044a7569264",
+          "ead2fff12a3414bcd50eb8a53bd1c09bf48c094d9332559505016bf63f0a3c75"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:13.967098+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fb8565bf6bc413c6969eda2e15af18e79ababf77f1b234dc5541a59d9ec427a5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

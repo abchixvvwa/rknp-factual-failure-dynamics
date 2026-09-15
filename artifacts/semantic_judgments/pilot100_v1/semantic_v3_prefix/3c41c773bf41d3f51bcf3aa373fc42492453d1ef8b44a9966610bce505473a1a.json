@@ -1,0 +1,218 @@
+{
+  "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:01:36.592570+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "a232e318c7757d9cc39171f11704945e8b8251059d6774db553db670334aeb95",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "a2ab5e206b3f2083fe85ae18b48e6ad988c1dcbac0b48626b0e8f3ef7bd4f3be"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:39.608937+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "9b5fd19fa69f675ae9c9d406c864749371113813f444afab44773b2c0d4e3d78",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:01:36.592570+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "a232e318c7757d9cc39171f11704945e8b8251059d6774db553db670334aeb95",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "a2ab5e206b3f2083fe85ae18b48e6ad988c1dcbac0b48626b0e8f3ef7bd4f3be",
+          "882a33e6cf99c6892403bf4b4569af83c8ed09e3b5dfb606624a924aa54bb0cb"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:42.017581+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "c55251387a0a772ed9d58cf8c23a55f20223c818695afc8cbb6f5381a7d6998c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:01:36.592570+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "a232e318c7757d9cc39171f11704945e8b8251059d6774db553db670334aeb95",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "a2ab5e206b3f2083fe85ae18b48e6ad988c1dcbac0b48626b0e8f3ef7bd4f3be",
+          "882a33e6cf99c6892403bf4b4569af83c8ed09e3b5dfb606624a924aa54bb0cb",
+          "59bf575c216f7d9a9fb039be66910d05dd7f8614f71f5a56a1f13cfa37759023"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 1,\n    \"D\": 1,\n    \"E\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:47.187882+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "a33d8dafc95a1b8ffc2dc2dbd2b05511cac92a753f5296b76057c5729b1641b4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1], [2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "3c41c773bf41d3f51bcf3aa373fc42492453d1ef8b44a9966610bce505473a1a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Үлкен тосқауыл рифі қай елдің жағалауында орналасқан?",
+        "sample_hashes": [
+          "6cc660231ce3116580c37093163be5cafae76bd4ed8f29642b03e82d134a6e0a",
+          "a2ab5e206b3f2083fe85ae18b48e6ad988c1dcbac0b48626b0e8f3ef7bd4f3be",
+          "59bf575c216f7d9a9fb039be66910d05dd7f8614f71f5a56a1f13cfa37759023"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:01:49.868161+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "7a01880e03817bfd587658b9c64ab65fff4f5cc5bde9d00dee21647f2a933a1e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

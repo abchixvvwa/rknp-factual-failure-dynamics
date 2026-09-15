@@ -1,0 +1,159 @@
+{
+  "case_id": "219c69ac2b8e9580df0e48e44826c2813efcf34177c71926a8b3fc5f3be56aa5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "219c69ac2b8e9580df0e48e44826c2813efcf34177c71926a8b3fc5f3be56aa5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тәж-Махал қай қалада орналасқан?",
+        "sample_hashes": [
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:03:47.191602+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "66e5af20457c8471c58f00e7b55b617554a15246bf1accc51557448dec759e69",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "219c69ac2b8e9580df0e48e44826c2813efcf34177c71926a8b3fc5f3be56aa5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тәж-Махал қай қалада орналасқан?",
+        "sample_hashes": [
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:03:47.191602+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "66e5af20457c8471c58f00e7b55b617554a15246bf1accc51557448dec759e69",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "219c69ac2b8e9580df0e48e44826c2813efcf34177c71926a8b3fc5f3be56aa5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тәж-Махал қай қалада орналасқан?",
+        "sample_hashes": [
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:03:47.191602+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "66e5af20457c8471c58f00e7b55b617554a15246bf1accc51557448dec759e69",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "219c69ac2b8e9580df0e48e44826c2813efcf34177c71926a8b3fc5f3be56aa5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Тәж-Махал қай қалада орналасқан?",
+        "sample_hashes": [
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "9b04e2d53bfebd2ef475c60dd13ae8057e39ac72278420227556ee0b4cd31ca4",
+          "7dcabbb46927361a95b46595cc17f485a5fb0014c4d5cd7842ebb6fd74119cd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:03:47.191602+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "66e5af20457c8471c58f00e7b55b617554a15246bf1accc51557448dec759e69",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "reviewer": "project_user",
+  "scope": "targets_e86f561ffad1 batch_07.md, items 301–350; entire response and extra claims evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [301,302,303,305,306,307,308,309,310,312,314,315,316,319,321,322,323,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,349,350],
+  "incorrect_numbers": [304,311,313,317,318,320,324,325,347,348],
+  "invalid_numbers": [],
+  "user_notes": {
+    "304": "Игры 1944 года были отменены, но должны были пройти в Лондоне, а не Токио.",
+    "311": "Ганди никогда не получал Нобелевскую премию мира.",
+    "313": "Вывод верен, но ложно сказано, что премия 1948 года была предложена Ганди; он был номинирован.",
+    "316": "Принято как верное: пять номинаций и рассмотрение посмертного присуждения.",
+    "317": "Нет выхода к Мировому океану, но утверждение об отсутствии любой береговой линии ложно из-за Каспийского моря.",
+    "318": "Нет выхода к Мировому океану, но утверждение об отсутствии любой береговой линии ложно из-за Каспийского моря.",
+    "319": "Корректно уточнено отсутствие побережья, граничащего с океаном.",
+    "320": "Қара теңіз означает Чёрное море, а не Каспийское.",
+    "324": "Утверждение о полном отсутствии выхода к морю слишком сильное: есть побережье Каспийского моря.",
+    "325": "Утверждение о полном отсутствии выхода к морю слишком сильное: есть побережье Каспийского моря.",
+    "347": "Верно, что гор на Солнце нет, но фотосфера ошибочно названа твёрдой поверхностью.",
+    "348": "Выдумана гора Румели/Rhumae высотой 22 км на Солнце."
+  },
+  "user_source_urls": [
+    "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=208905&parentDocumentId=176545&skipCopyright=true&skipWatermark=true&utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/themes/mahatma-gandhi-the-missing-laureate/?iref=mpstoryview&utm_source=chatgpt.com",
+    "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-peace-prize/?utm_source=chatgpt.com",
+    "https://oq.gov.kz/en/abai/kaspiy-tenhizi?utm_source=chatgpt.com",
+    "https://www.gov.kz/memleket/entities/mfa-seoul/press/news/details/765875?lang=ru&utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources; not represented as independent agent verification"
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "b3cb38e870eb22b875707ecb7cd0f51c1efb2877841b1eab9d69ce8c1f75bccd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b3cb38e870eb22b875707ecb7cd0f51c1efb2877841b1eab9d69ce8c1f75bccd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самая высокая гора на твёрдой поверхности Солнца?",
+        "sample_hashes": [
+          "eea36b77e434eecc6950a64184ae472b119ecd5246b8aa405c50f578571a30af",
+          "7c94c374668c7ff88cfbe46f9a4d8c2e860a4ff398748659301450e714c25e87",
+          "acd415b08371adb786727ac0acef0fdc426a32cc563ba289b835d6c2fd4e04a0",
+          "94d97e7b2a6154c497d4531eef541008efe90e77896489822b808ea3d9e259be",
+          "238dc749c89d0fe5fdfadd45bac5f5bf220f4b8b1b817dd4be15463dc9f0df7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:48.389165+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0fc69ee997205f12120120e726d6486208d3c229e7c5f0c8d6407f5fb7fa8f43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b3cb38e870eb22b875707ecb7cd0f51c1efb2877841b1eab9d69ce8c1f75bccd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самая высокая гора на твёрдой поверхности Солнца?",
+        "sample_hashes": [
+          "eea36b77e434eecc6950a64184ae472b119ecd5246b8aa405c50f578571a30af",
+          "7c94c374668c7ff88cfbe46f9a4d8c2e860a4ff398748659301450e714c25e87",
+          "acd415b08371adb786727ac0acef0fdc426a32cc563ba289b835d6c2fd4e04a0",
+          "94d97e7b2a6154c497d4531eef541008efe90e77896489822b808ea3d9e259be",
+          "238dc749c89d0fe5fdfadd45bac5f5bf220f4b8b1b817dd4be15463dc9f0df7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:48.389165+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0fc69ee997205f12120120e726d6486208d3c229e7c5f0c8d6407f5fb7fa8f43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b3cb38e870eb22b875707ecb7cd0f51c1efb2877841b1eab9d69ce8c1f75bccd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самая высокая гора на твёрдой поверхности Солнца?",
+        "sample_hashes": [
+          "eea36b77e434eecc6950a64184ae472b119ecd5246b8aa405c50f578571a30af",
+          "7c94c374668c7ff88cfbe46f9a4d8c2e860a4ff398748659301450e714c25e87",
+          "acd415b08371adb786727ac0acef0fdc426a32cc563ba289b835d6c2fd4e04a0",
+          "94d97e7b2a6154c497d4531eef541008efe90e77896489822b808ea3d9e259be",
+          "238dc749c89d0fe5fdfadd45bac5f5bf220f4b8b1b817dd4be15463dc9f0df7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:48.389165+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0fc69ee997205f12120120e726d6486208d3c229e7c5f0c8d6407f5fb7fa8f43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b3cb38e870eb22b875707ecb7cd0f51c1efb2877841b1eab9d69ce8c1f75bccd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самая высокая гора на твёрдой поверхности Солнца?",
+        "sample_hashes": [
+          "eea36b77e434eecc6950a64184ae472b119ecd5246b8aa405c50f578571a30af",
+          "7c94c374668c7ff88cfbe46f9a4d8c2e860a4ff398748659301450e714c25e87",
+          "acd415b08371adb786727ac0acef0fdc426a32cc563ba289b835d6c2fd4e04a0",
+          "94d97e7b2a6154c497d4531eef541008efe90e77896489822b808ea3d9e259be",
+          "238dc749c89d0fe5fdfadd45bac5f5bf220f4b8b1b817dd4be15463dc9f0df7a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:01:48.389165+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "0fc69ee997205f12120120e726d6486208d3c229e7c5f0c8d6407f5fb7fa8f43",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

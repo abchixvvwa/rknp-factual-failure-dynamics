@@ -1,0 +1,159 @@
+{
+  "case_id": "2bae99bb7a7b43a45ca71e79f1b57e96f5f56bc4b592ef05ac81d26f98c69422",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2bae99bb7a7b43a45ca71e79f1b57e96f5f56bc4b592ef05ac81d26f98c69422",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер железа?",
+        "sample_hashes": [
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:04.605566+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "3668784d415fbca3c133f68a3a2d51c6f9162d2ff216be0ed38449c565819f58",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2bae99bb7a7b43a45ca71e79f1b57e96f5f56bc4b592ef05ac81d26f98c69422",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер железа?",
+        "sample_hashes": [
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:04.605566+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "3668784d415fbca3c133f68a3a2d51c6f9162d2ff216be0ed38449c565819f58",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2bae99bb7a7b43a45ca71e79f1b57e96f5f56bc4b592ef05ac81d26f98c69422",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер железа?",
+        "sample_hashes": [
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:04.605566+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "3668784d415fbca3c133f68a3a2d51c6f9162d2ff216be0ed38449c565819f58",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2bae99bb7a7b43a45ca71e79f1b57e96f5f56bc4b592ef05ac81d26f98c69422",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Каков атомный номер железа?",
+        "sample_hashes": [
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "32d40e088da34e8721813935d44d69ff5675f55a6c80b8f2727355dc1c321bbf",
+          "89552fb77ec98745e403d2f3826bfee52cb48455c796ca679f10aa6ba0ef2bb8"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:04.605566+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "3668784d415fbca3c133f68a3a2d51c6f9162d2ff216be0ed38449c565819f58",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

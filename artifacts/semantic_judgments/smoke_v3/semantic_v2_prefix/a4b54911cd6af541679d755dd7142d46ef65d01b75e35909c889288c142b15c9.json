@@ -1,0 +1,126 @@
+{
+  "case_id": "a4b54911cd6af541679d755dd7142d46ef65d01b75e35909c889288c142b15c9",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a4b54911cd6af541679d755dd7142d46ef65d01b75e35909c889288c142b15c9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "79e07ded1fbc0ac31bd06e29c352541faff184c79d0595fcbfd8e2d8a43d71df"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T09:53:18.814043+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "318c647770feb7612b2462e04c6e9fdc9989b18185db7873c555091cc8735e6b",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a4b54911cd6af541679d755dd7142d46ef65d01b75e35909c889288c142b15c9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "79e07ded1fbc0ac31bd06e29c352541faff184c79d0595fcbfd8e2d8a43d71df",
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0,\"D\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T09:53:19.659314+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "a71de5c6c43b3d0afbe7b9e2ad8e3959a7e0281252aff768682bed8d20cf246d",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a4b54911cd6af541679d755dd7142d46ef65d01b75e35909c889288c142b15c9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "79e07ded1fbc0ac31bd06e29c352541faff184c79d0595fcbfd8e2d8a43d71df",
+          "08a13162a1efaab9f54bc17253458595ddfe046e4721ee14dd52e473fc3c650d",
+          "486d7eef4c80ce001b17f86249fdd1c8364f299beaa740bcc456a6fc26b247f0"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"E\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T09:53:20.043151+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "afbe014dbfa74c7051cb0fe6c5050a872281387bd52b83a0be92578cfb29c036",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

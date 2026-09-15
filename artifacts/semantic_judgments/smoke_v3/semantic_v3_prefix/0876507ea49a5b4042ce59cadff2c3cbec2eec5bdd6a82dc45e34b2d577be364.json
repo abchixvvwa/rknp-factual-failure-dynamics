@@ -1,0 +1,153 @@
+{
+  "case_id": "0876507ea49a5b4042ce59cadff2c3cbec2eec5bdd6a82dc45e34b2d577be364",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0876507ea49a5b4042ce59cadff2c3cbec2eec5bdd6a82dc45e34b2d577be364",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жердің алғашқы жасанды серігі қалай аталды?",
+        "sample_hashes": [
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T09:59:47.741221+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "d0f03e8e09aed11904d6c5ffa84075389ddf8f5fd9d4d12de89f8921b2bcd81c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0876507ea49a5b4042ce59cadff2c3cbec2eec5bdd6a82dc45e34b2d577be364",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жердің алғашқы жасанды серігі қалай аталды?",
+        "sample_hashes": [
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411",
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:59:48.216304+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "97699b390a34b719c54d3aeb03d626d3be6202f2b44d6c1b7ef4e94ffbf8bd9d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0876507ea49a5b4042ce59cadff2c3cbec2eec5bdd6a82dc45e34b2d577be364",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жердің алғашқы жасанды серігі қалай аталды?",
+        "sample_hashes": [
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411",
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:59:48.804343+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "b19714dbd16822b02335050f5050fc76956a05759365194705ad8cbd8cfda96a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0876507ea49a5b4042ce59cadff2c3cbec2eec5bdd6a82dc45e34b2d577be364",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жердің алғашқы жасанды серігі қалай аталды?",
+        "sample_hashes": [
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411",
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa",
+          "11ada159373578bdb5dc75447283c0a5115f92a40cec97da064b4b5257b5c411",
+          "be7adf50f89fe1cafe765ef72b884c8213ec59fc7ccb662d80a7fbc8b5c7ffaa"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:59:49.669628+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "38498eee23dae3f9e7942e4b3cfe50804c2080a9d45a562a47b54318a70e5c47",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

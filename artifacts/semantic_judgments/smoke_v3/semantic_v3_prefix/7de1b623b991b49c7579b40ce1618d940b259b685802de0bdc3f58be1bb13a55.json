@@ -1,0 +1,110 @@
+{
+  "case_id": "7de1b623b991b49c7579b40ce1618d940b259b685802de0bdc3f58be1bb13a55",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7de1b623b991b49c7579b40ce1618d940b259b685802de0bdc3f58be1bb13a55",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько планет в Солнечной системе без учёта карликовых планет?",
+        "sample_hashes": [
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "ab6386f712fbfb4d5563291c50318a1bb78b63ea9b66fde46e9f739e9f7575ae"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:55.097029+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "26e481fab83330eb906c8b464414f194b7118c91c91f14f552bdb40860e0ffad",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7de1b623b991b49c7579b40ce1618d940b259b685802de0bdc3f58be1bb13a55",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Сколько планет в Солнечной системе без учёта карликовых планет?",
+        "sample_hashes": [
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "2b7b544b47c0aa06777c9d420b83555cecde56786b1beb7e6c6d359460907764",
+          "ab6386f712fbfb4d5563291c50318a1bb78b63ea9b66fde46e9f739e9f7575ae",
+          "ab6386f712fbfb4d5563291c50318a1bb78b63ea9b66fde46e9f739e9f7575ae"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:09:49.507141+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "a43de4e6cc1130da8b95bde344a4c0cb5133bf64e81e1a0d954eddcc37498a33",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

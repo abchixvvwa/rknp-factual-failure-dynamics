@@ -1,0 +1,177 @@
+{
+  "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ЮНЕСКО-ның «Сарыарқа — Солтүстік Қазақстанның далалары мен көлдері» нысанына неше мемлекеттік табиғи қорық кіреді?",
+        "sample_hashes": [
+          "43074f043efa6b764f10aa1c178d0329c90eb8ec9bc5e5110777af467d230888",
+          "c24f44f553ad0414a15204feb7c8b3bb1e798375c4f3e448a7d6afcec52e61d4",
+          "8c33c43df84fe477b1659141e29b2f0742e3f00c07c655b020f4fc330e7a17ad",
+          "98bf4d5ad083d491f058e27ffe43de95765e2d81a9ed5c16d96556df0b37d014",
+          "af64bfabf1a0b8003628dc00dd02244d62e8281985d6f26b55431ed704ba17e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:01.712093+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "fc0d5b0cb4a1d7ab6d5a439f99ce61b3cbb530f71843f5c1ded82a2ec53952b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ЮНЕСКО-ның «Сарыарқа — Солтүстік Қазақстанның далалары мен көлдері» нысанына неше мемлекеттік табиғи қорық кіреді?",
+        "sample_hashes": [
+          "43074f043efa6b764f10aa1c178d0329c90eb8ec9bc5e5110777af467d230888",
+          "c24f44f553ad0414a15204feb7c8b3bb1e798375c4f3e448a7d6afcec52e61d4",
+          "8c33c43df84fe477b1659141e29b2f0742e3f00c07c655b020f4fc330e7a17ad",
+          "98bf4d5ad083d491f058e27ffe43de95765e2d81a9ed5c16d96556df0b37d014",
+          "af64bfabf1a0b8003628dc00dd02244d62e8281985d6f26b55431ed704ba17e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:01.712093+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "fc0d5b0cb4a1d7ab6d5a439f99ce61b3cbb530f71843f5c1ded82a2ec53952b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ЮНЕСКО-ның «Сарыарқа — Солтүстік Қазақстанның далалары мен көлдері» нысанына неше мемлекеттік табиғи қорық кіреді?",
+        "sample_hashes": [
+          "43074f043efa6b764f10aa1c178d0329c90eb8ec9bc5e5110777af467d230888",
+          "c24f44f553ad0414a15204feb7c8b3bb1e798375c4f3e448a7d6afcec52e61d4",
+          "8c33c43df84fe477b1659141e29b2f0742e3f00c07c655b020f4fc330e7a17ad",
+          "98bf4d5ad083d491f058e27ffe43de95765e2d81a9ed5c16d96556df0b37d014",
+          "af64bfabf1a0b8003628dc00dd02244d62e8281985d6f26b55431ed704ba17e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:01.712093+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "fc0d5b0cb4a1d7ab6d5a439f99ce61b3cbb530f71843f5c1ded82a2ec53952b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "545d96b053f766cc351b1b8a6f1224051617782bb576285fe7d513b10af4025c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "ЮНЕСКО-ның «Сарыарқа — Солтүстік Қазақстанның далалары мен көлдері» нысанына неше мемлекеттік табиғи қорық кіреді?",
+        "sample_hashes": [
+          "43074f043efa6b764f10aa1c178d0329c90eb8ec9bc5e5110777af467d230888",
+          "c24f44f553ad0414a15204feb7c8b3bb1e798375c4f3e448a7d6afcec52e61d4",
+          "8c33c43df84fe477b1659141e29b2f0742e3f00c07c655b020f4fc330e7a17ad",
+          "98bf4d5ad083d491f058e27ffe43de95765e2d81a9ed5c16d96556df0b37d014",
+          "af64bfabf1a0b8003628dc00dd02244d62e8281985d6f26b55431ed704ba17e3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 0, 0],\n    [1, 2, 0, 3, 0],\n    [1, 2, 0, 3, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:01.712093+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "fc0d5b0cb4a1d7ab6d5a439f99ce61b3cbb530f71843f5c1ded82a2ec53952b5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

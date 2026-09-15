@@ -1,0 +1,159 @@
+{
+  "case_id": "7a409be21f15767c0e1463386e226be73f119793b7e95ceb91516f16eca89ffe",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7a409be21f15767c0e1463386e226be73f119793b7e95ceb91516f16eca89ffe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1916 жылғы Олимпиада ойындарында ерлер марафонын кім жеңді?",
+        "sample_hashes": [
+          "a509bfbde02e6326a353d5e524ef23600e13702f28a8e8305ff8776648b68b7c",
+          "847b0f292c31ed8b7adf4a14dd28651d0c0576f58841e972f012e8c59f8798aa",
+          "93b7dbe75ac550f2a6c3f4432951ecba2800d8f110406b1c3aa89f431c2c114c",
+          "000d6dbac7380fd21a98b01daea1bbc1cbfe48262cfe33c84c80b4baef0799a6",
+          "7adeed8591aed8015cdec9f3acf9fc17a1ad02219f6822fcdfdb29c0edf2234b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:43.428131+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "ad9dbff311cad87c11632a7f3cc1595ba496bb87c843eab5adf87c38fd01b8aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7a409be21f15767c0e1463386e226be73f119793b7e95ceb91516f16eca89ffe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1916 жылғы Олимпиада ойындарында ерлер марафонын кім жеңді?",
+        "sample_hashes": [
+          "a509bfbde02e6326a353d5e524ef23600e13702f28a8e8305ff8776648b68b7c",
+          "847b0f292c31ed8b7adf4a14dd28651d0c0576f58841e972f012e8c59f8798aa",
+          "93b7dbe75ac550f2a6c3f4432951ecba2800d8f110406b1c3aa89f431c2c114c",
+          "000d6dbac7380fd21a98b01daea1bbc1cbfe48262cfe33c84c80b4baef0799a6",
+          "7adeed8591aed8015cdec9f3acf9fc17a1ad02219f6822fcdfdb29c0edf2234b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:43.428131+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "ad9dbff311cad87c11632a7f3cc1595ba496bb87c843eab5adf87c38fd01b8aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7a409be21f15767c0e1463386e226be73f119793b7e95ceb91516f16eca89ffe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1916 жылғы Олимпиада ойындарында ерлер марафонын кім жеңді?",
+        "sample_hashes": [
+          "a509bfbde02e6326a353d5e524ef23600e13702f28a8e8305ff8776648b68b7c",
+          "847b0f292c31ed8b7adf4a14dd28651d0c0576f58841e972f012e8c59f8798aa",
+          "93b7dbe75ac550f2a6c3f4432951ecba2800d8f110406b1c3aa89f431c2c114c",
+          "000d6dbac7380fd21a98b01daea1bbc1cbfe48262cfe33c84c80b4baef0799a6",
+          "7adeed8591aed8015cdec9f3acf9fc17a1ad02219f6822fcdfdb29c0edf2234b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:43.428131+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "ad9dbff311cad87c11632a7f3cc1595ba496bb87c843eab5adf87c38fd01b8aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7a409be21f15767c0e1463386e226be73f119793b7e95ceb91516f16eca89ffe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1916 жылғы Олимпиада ойындарында ерлер марафонын кім жеңді?",
+        "sample_hashes": [
+          "a509bfbde02e6326a353d5e524ef23600e13702f28a8e8305ff8776648b68b7c",
+          "847b0f292c31ed8b7adf4a14dd28651d0c0576f58841e972f012e8c59f8798aa",
+          "93b7dbe75ac550f2a6c3f4432951ecba2800d8f110406b1c3aa89f431c2c114c",
+          "000d6dbac7380fd21a98b01daea1bbc1cbfe48262cfe33c84c80b4baef0799a6",
+          "7adeed8591aed8015cdec9f3acf9fc17a1ad02219f6822fcdfdb29c0edf2234b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:43.428131+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "ad9dbff311cad87c11632a7f3cc1595ba496bb87c843eab5adf87c38fd01b8aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

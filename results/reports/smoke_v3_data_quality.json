@@ -1,0 +1,12 @@
+{
+  "observed_cases": 60,
+  "feature_rows": 59,
+  "excluded": [
+    {
+      "case_id": "8ded53df5d2917d45dee834e81308551f576b00fbe07abe649970c13ec7d6f42",
+      "reason": "Incomplete generations or missing grouping"
+    }
+  ],
+  "unresolved_labels": 0,
+  "note": "No predictive metrics are computed from engineering smoke data"
+}

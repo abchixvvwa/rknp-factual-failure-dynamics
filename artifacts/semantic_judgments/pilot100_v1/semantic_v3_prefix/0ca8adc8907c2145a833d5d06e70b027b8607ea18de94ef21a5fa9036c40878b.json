@@ -1,0 +1,161 @@
+{
+  "case_id": "0ca8adc8907c2145a833d5d06e70b027b8607ea18de94ef21a5fa9036c40878b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ca8adc8907c2145a833d5d06e70b027b8607ea18de94ef21a5fa9036c40878b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the Gutenberg Bible printed?",
+        "sample_hashes": [
+          "a1aaf73d0ba67b6b4816a9c5033a09ee05d9bb2b044a4dc7b366af3671e08da0",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":1},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:14:25.959745+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "bc9df4a8d5a5d24994d3a06faa1a744f09fb68e3241b99f21976342a49d4e94f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ca8adc8907c2145a833d5d06e70b027b8607ea18de94ef21a5fa9036c40878b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the Gutenberg Bible printed?",
+        "sample_hashes": [
+          "a1aaf73d0ba67b6b4816a9c5033a09ee05d9bb2b044a4dc7b366af3671e08da0",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:29.146832+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "a18c6bffcb17df7672af668bb61f91a2363d2d8ca54ca3c4b1bf6fbc960ea5b7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ca8adc8907c2145a833d5d06e70b027b8607ea18de94ef21a5fa9036c40878b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the Gutenberg Bible printed?",
+        "sample_hashes": [
+          "a1aaf73d0ba67b6b4816a9c5033a09ee05d9bb2b044a4dc7b366af3671e08da0",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:32.310453+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "fc0c7da5459d80174767bda2e07b26078bdef3f59c695047677fbaec4c9530a5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ca8adc8907c2145a833d5d06e70b027b8607ea18de94ef21a5fa9036c40878b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "In which city was the Gutenberg Bible printed?",
+        "sample_hashes": [
+          "a1aaf73d0ba67b6b4816a9c5033a09ee05d9bb2b044a4dc7b366af3671e08da0",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251",
+          "1b61b705110e128978fec93d79eb3fba256ab574ea517188e6b09cd7db583251"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 1,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:14:35.436461+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "16e8166a0650c9224aa1b5efd02f80f0d5b5008ac58201978b759effc6df7f71",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

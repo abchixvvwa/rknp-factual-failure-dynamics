@@ -1,0 +1,159 @@
+{
+  "case_id": "0ef8c947c5542a35acb1922fea0b8a350cbec86ca1be8399da1de7bab1a0eb2b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ef8c947c5542a35acb1922fea0b8a350cbec86ca1be8399da1de7bab1a0eb2b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "053f09c2beee37ca6d829e5b77b7740f98c7a23f041b668a294f615ceb629488",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "27b591d66653f3df0b02611ade83098d7fb77814f4d503524fb0a53125654b3f",
+          "52bd94c8646c126b6af1e4649a9a743d5d928c357f52b609629cd3469ee3caec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:58.893476+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "1647daa47ebdf54c1cc7b7a5120639ba498de0609c9db4f8123df0ea564eb19c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ef8c947c5542a35acb1922fea0b8a350cbec86ca1be8399da1de7bab1a0eb2b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "053f09c2beee37ca6d829e5b77b7740f98c7a23f041b668a294f615ceb629488",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "27b591d66653f3df0b02611ade83098d7fb77814f4d503524fb0a53125654b3f",
+          "52bd94c8646c126b6af1e4649a9a743d5d928c357f52b609629cd3469ee3caec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:58.893476+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "1647daa47ebdf54c1cc7b7a5120639ba498de0609c9db4f8123df0ea564eb19c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ef8c947c5542a35acb1922fea0b8a350cbec86ca1be8399da1de7bab1a0eb2b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "053f09c2beee37ca6d829e5b77b7740f98c7a23f041b668a294f615ceb629488",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "27b591d66653f3df0b02611ade83098d7fb77814f4d503524fb0a53125654b3f",
+          "52bd94c8646c126b6af1e4649a9a743d5d928c357f52b609629cd3469ee3caec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:58.893476+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "1647daa47ebdf54c1cc7b7a5120639ba498de0609c9db4f8123df0ea564eb19c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ef8c947c5542a35acb1922fea0b8a350cbec86ca1be8399da1de7bab1a0eb2b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1940 жылғы әдебиет саласындағы Нобель сыйлығының лауреаты кім болды?",
+        "sample_hashes": [
+          "053f09c2beee37ca6d829e5b77b7740f98c7a23f041b668a294f615ceb629488",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "c38904164b1fb4dedd4990d1dbd8c076d555a9cd0f993bdf4eb8e1d2d562e7ee",
+          "27b591d66653f3df0b02611ade83098d7fb77814f4d503524fb0a53125654b3f",
+          "52bd94c8646c126b6af1e4649a9a743d5d928c357f52b609629cd3469ee3caec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:58.893476+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "1647daa47ebdf54c1cc7b7a5120639ba498de0609c9db4f8123df0ea564eb19c",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

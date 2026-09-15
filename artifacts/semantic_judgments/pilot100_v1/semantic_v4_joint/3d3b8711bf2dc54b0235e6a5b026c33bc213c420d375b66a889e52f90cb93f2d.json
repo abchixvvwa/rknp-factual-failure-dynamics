@@ -1,0 +1,159 @@
+{
+  "case_id": "3d3b8711bf2dc54b0235e6a5b026c33bc213c420d375b66a889e52f90cb93f2d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d3b8711bf2dc54b0235e6a5b026c33bc213c420d375b66a889e52f90cb93f2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Starry Night in 1889?",
+        "sample_hashes": [
+          "ce09ea497c51760bb1493d516e499e521cfa9d941d673f6e19d4dd24fe7738a7",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "063d3a0d1b33e577e192f85bddc81d0a27db1d7a71e2aa0589a47070cb023f89",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.583965+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "f3eb8e5e3c87632b2f4b6fcd8d1ce9a8cf7f37bd0cbbef3d4e9417e39c924f10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d3b8711bf2dc54b0235e6a5b026c33bc213c420d375b66a889e52f90cb93f2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Starry Night in 1889?",
+        "sample_hashes": [
+          "ce09ea497c51760bb1493d516e499e521cfa9d941d673f6e19d4dd24fe7738a7",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "063d3a0d1b33e577e192f85bddc81d0a27db1d7a71e2aa0589a47070cb023f89",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.583965+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "f3eb8e5e3c87632b2f4b6fcd8d1ce9a8cf7f37bd0cbbef3d4e9417e39c924f10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d3b8711bf2dc54b0235e6a5b026c33bc213c420d375b66a889e52f90cb93f2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Starry Night in 1889?",
+        "sample_hashes": [
+          "ce09ea497c51760bb1493d516e499e521cfa9d941d673f6e19d4dd24fe7738a7",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "063d3a0d1b33e577e192f85bddc81d0a27db1d7a71e2aa0589a47070cb023f89",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.583965+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "f3eb8e5e3c87632b2f4b6fcd8d1ce9a8cf7f37bd0cbbef3d4e9417e39c924f10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d3b8711bf2dc54b0235e6a5b026c33bc213c420d375b66a889e52f90cb93f2d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted The Starry Night in 1889?",
+        "sample_hashes": [
+          "ce09ea497c51760bb1493d516e499e521cfa9d941d673f6e19d4dd24fe7738a7",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67",
+          "063d3a0d1b33e577e192f85bddc81d0a27db1d7a71e2aa0589a47070cb023f89",
+          "d10a85d4547b21e722223c241d7271d0d5fa73ec1d0cba82f3b598fb4f832d67"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.583965+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "f3eb8e5e3c87632b2f4b6fcd8d1ce9a8cf7f37bd0cbbef3d4e9417e39c924f10",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

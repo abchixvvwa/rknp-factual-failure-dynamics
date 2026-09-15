@@ -1,0 +1,159 @@
+{
+  "case_id": "956acd818ada60d452577179fdb898e91c6f9d3f9dbddf9cf997d6e420ad8b0a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "956acd818ada60d452577179fdb898e91c6f9d3f9dbddf9cf997d6e420ad8b0a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе был подписан Устав ООН в июне 1945 года?",
+        "sample_hashes": [
+          "7315a705a108f7669d8345e9d9e6dc0550c7c64d6c8dc411067b0622320150b6",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "d63cfd8d8eb738dff0f5c1f473228f7fceec05ce7a192c1a051c85010f429d51",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "2da4bed1a0d4acd58acb52187d40c27e696ad2c6e37f77140d00fdbc1bcb0dd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:46.528858+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "4a45d96987dbb29a90bb84c3171e95adb063405a94a6d243e0595d7d8c99e2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "956acd818ada60d452577179fdb898e91c6f9d3f9dbddf9cf997d6e420ad8b0a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе был подписан Устав ООН в июне 1945 года?",
+        "sample_hashes": [
+          "7315a705a108f7669d8345e9d9e6dc0550c7c64d6c8dc411067b0622320150b6",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "d63cfd8d8eb738dff0f5c1f473228f7fceec05ce7a192c1a051c85010f429d51",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "2da4bed1a0d4acd58acb52187d40c27e696ad2c6e37f77140d00fdbc1bcb0dd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:46.528858+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "4a45d96987dbb29a90bb84c3171e95adb063405a94a6d243e0595d7d8c99e2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "956acd818ada60d452577179fdb898e91c6f9d3f9dbddf9cf997d6e420ad8b0a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе был подписан Устав ООН в июне 1945 года?",
+        "sample_hashes": [
+          "7315a705a108f7669d8345e9d9e6dc0550c7c64d6c8dc411067b0622320150b6",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "d63cfd8d8eb738dff0f5c1f473228f7fceec05ce7a192c1a051c85010f429d51",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "2da4bed1a0d4acd58acb52187d40c27e696ad2c6e37f77140d00fdbc1bcb0dd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:46.528858+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "4a45d96987dbb29a90bb84c3171e95adb063405a94a6d243e0595d7d8c99e2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "956acd818ada60d452577179fdb898e91c6f9d3f9dbddf9cf997d6e420ad8b0a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе был подписан Устав ООН в июне 1945 года?",
+        "sample_hashes": [
+          "7315a705a108f7669d8345e9d9e6dc0550c7c64d6c8dc411067b0622320150b6",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "d63cfd8d8eb738dff0f5c1f473228f7fceec05ce7a192c1a051c85010f429d51",
+          "127578a9d3bb5bfa6c93cf3fa34c1e903a4d25c1bca0f98d15c75164f7e3a9ab",
+          "2da4bed1a0d4acd58acb52187d40c27e696ad2c6e37f77140d00fdbc1bcb0dd3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:46.528858+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "4a45d96987dbb29a90bb84c3171e95adb063405a94a6d243e0595d7d8c99e2ca",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

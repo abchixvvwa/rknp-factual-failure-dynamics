@@ -1,0 +1,212 @@
+{
+  "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:01:52.346362+00:00",
+        "system_fingerprint": "fp_8a618bed98",
+        "request_id": "d4ded84d9e08623c64f0e0ff014a22a8d906f67eb7153228ad308e1ce866d26f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "0456b5db0c201c3356ac896900c737d9e9c637a4941e1fb96d1243d41d5d3e33"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:52.670226+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "e83b4dd850cf739e033e54e9bc67595216e50321c03559c178257aa2ce787d98",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:01:52.346362+00:00",
+        "system_fingerprint": "fp_8a618bed98",
+        "request_id": "d4ded84d9e08623c64f0e0ff014a22a8d906f67eb7153228ad308e1ce866d26f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "0456b5db0c201c3356ac896900c737d9e9c637a4941e1fb96d1243d41d5d3e33",
+          "2c6cf3bf5f8fad7447c234d5de129eaf4b84807a10e862290c6dc45349c90360"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:46.560545+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "703e18637fc758740ee60dd4a65215014bf3d33eccfc2b3c7b5c989c70b2d3db",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:01:52.346362+00:00",
+        "system_fingerprint": "fp_8a618bed98",
+        "request_id": "d4ded84d9e08623c64f0e0ff014a22a8d906f67eb7153228ad308e1ce866d26f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072",
+          "0456b5db0c201c3356ac896900c737d9e9c637a4941e1fb96d1243d41d5d3e33",
+          "2c6cf3bf5f8fad7447c234d5de129eaf4b84807a10e862290c6dc45349c90360",
+          "6bcbf78b2f4bd226076797b9b8bb69a299f10431842e878d5af09c18c2e2b3cc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:02:47.994275+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "011d0ee132e9a793dfe1807e306fc5883c6ce51c0c5d8900e1467684a9812f24",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "0ccb037d4fa41df18616d3e4e854d6330793bf4ac73b60ec42b43de9361fb265",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какой океан самый большой по площади поверхности?",
+        "sample_hashes": [
+          "4f206a001cfdc0d245261a0e8039c0e30729d51d2f2f858b0cab78e740ba0072"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:01:52.346362+00:00",
+        "system_fingerprint": "fp_8a618bed98",
+        "request_id": "d4ded84d9e08623c64f0e0ff014a22a8d906f67eb7153228ad308e1ce866d26f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:06:54.382107+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "a63705a5a65ba4f3d786f6463c685fcc419a6da6adde4c7e8ba871b71c625f6a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:07:48.517048+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "1de26e77b9c2f5a6052dd4a46cb39f3b97f21b46345f85797af77205b884d62f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770",
+          "8b99809fa3b72be86171bdea52450c8bef5ccb6004232ef6f68c631a4e4e2f0f"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:07:49.259548+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "cc207f4b9bc1ee4d88f9c9e8f6de9d6389646533f7f756f02bbea631861a2fe8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:07:48.517048+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "1de26e77b9c2f5a6052dd4a46cb39f3b97f21b46345f85797af77205b884d62f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770",
+          "8b99809fa3b72be86171bdea52450c8bef5ccb6004232ef6f68c631a4e4e2f0f",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:07:49.982956+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "932b9779dee51a6ec8026dba208813b6f8d6f5d5dfbe973d514d1f6313130936",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:07:48.517048+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "1de26e77b9c2f5a6052dd4a46cb39f3b97f21b46345f85797af77205b884d62f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770",
+          "8b99809fa3b72be86171bdea52450c8bef5ccb6004232ef6f68c631a4e4e2f0f",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770",
+          "906c615378ac835a272a68604e1b1f79bb204f93923018c423af5b878bdc7770"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:07:51.292482+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "b4349c8bafc1934eb210b1e07da06e0f9de3e3124edeef26291b35ea26f6d297",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "b414120399b233c73c3fe406123d977493af1f649b4ce111905a81c7b3c0e02d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какая планета Солнечной системы самая маленькая?",
+        "sample_hashes": [
+          "113e5b7869b47225103c3e8f3c33d766ab411e1d48f7685343453bab7dc7c471"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:07:48.517048+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "1de26e77b9c2f5a6052dd4a46cb39f3b97f21b46345f85797af77205b884d62f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

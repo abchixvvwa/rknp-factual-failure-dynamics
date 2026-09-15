@@ -1,0 +1,16 @@
+{
+  "reviewer": "project_user",
+  "scope": "targets_e86f561ffad1 batch_02.md, items 51–100; entire response including false-premise claims evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,86,88,90,92,93,94,95,96,97,98,99,100],
+  "incorrect_numbers": [85,87,89,91],
+  "invalid_numbers": [],
+  "user_notes": {
+    "85": "The Starry Night приписана Карлу Винсенту вместо Vincent van Gogh.",
+    "87": "Girl with a Pearl Earring приписана вымышленному художнику К. Т. Тұрсын вместо Johannes Vermeer.",
+    "89": "Johannes Vermeer назван верно, но модель ложно заявляет, что вопрос имеет ложную предпосылку.",
+    "91": "Jan Vermeer указан верно, но модель ложно заявляет, что предпосылка вопроса неверна.",
+    "88": "Ян Вермеер допускается в вариантах ответа.",
+    "90": "Ян Вермеер допускается в вариантах ответа."
+  }
+}

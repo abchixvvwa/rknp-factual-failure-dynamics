@@ -1,0 +1,171 @@
+{
+  "case_id": "9dd61d31dad174e0ff926a47bae95330c448daf5c9789542c42b0277f74f5e78",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9dd61d31dad174e0ff926a47bae95330c448daf5c9789542c42b0277f74f5e78",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1935?",
+        "sample_hashes": [
+          "4dfacd59ee7d1a7cdb0695a31982a4558dcfa0779cacab410b242f382dcf558f",
+          "4d510469e19a37c2bf0b27cbba4970a1d4fd0f440df0f3c8b74788a362b91f81",
+          "eb4f7747fd958e05274226b2467cd3fadf611d36173b2d458e2d47d63aa60805",
+          "df2699ae161efc87fd57f81c32c659e39248f560265c42c8bee9f62a8113f6e8",
+          "3eb01aa9d49d336e5e9c6460fec9a7f9e74168c2b498d3785c3cd957475547ef"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:18.500864+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9e044d5c4562cddc2d895033d9c74684ef9f3ac1f1d7286935023f539e96705f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9dd61d31dad174e0ff926a47bae95330c448daf5c9789542c42b0277f74f5e78",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1935?",
+        "sample_hashes": [
+          "4dfacd59ee7d1a7cdb0695a31982a4558dcfa0779cacab410b242f382dcf558f",
+          "4d510469e19a37c2bf0b27cbba4970a1d4fd0f440df0f3c8b74788a362b91f81",
+          "eb4f7747fd958e05274226b2467cd3fadf611d36173b2d458e2d47d63aa60805",
+          "df2699ae161efc87fd57f81c32c659e39248f560265c42c8bee9f62a8113f6e8",
+          "3eb01aa9d49d336e5e9c6460fec9a7f9e74168c2b498d3785c3cd957475547ef"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:18.500864+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9e044d5c4562cddc2d895033d9c74684ef9f3ac1f1d7286935023f539e96705f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9dd61d31dad174e0ff926a47bae95330c448daf5c9789542c42b0277f74f5e78",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1935?",
+        "sample_hashes": [
+          "4dfacd59ee7d1a7cdb0695a31982a4558dcfa0779cacab410b242f382dcf558f",
+          "4d510469e19a37c2bf0b27cbba4970a1d4fd0f440df0f3c8b74788a362b91f81",
+          "eb4f7747fd958e05274226b2467cd3fadf611d36173b2d458e2d47d63aa60805",
+          "df2699ae161efc87fd57f81c32c659e39248f560265c42c8bee9f62a8113f6e8",
+          "3eb01aa9d49d336e5e9c6460fec9a7f9e74168c2b498d3785c3cd957475547ef"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:18.500864+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9e044d5c4562cddc2d895033d9c74684ef9f3ac1f1d7286935023f539e96705f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9dd61d31dad174e0ff926a47bae95330c448daf5c9789542c42b0277f74f5e78",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1935?",
+        "sample_hashes": [
+          "4dfacd59ee7d1a7cdb0695a31982a4558dcfa0779cacab410b242f382dcf558f",
+          "4d510469e19a37c2bf0b27cbba4970a1d4fd0f440df0f3c8b74788a362b91f81",
+          "eb4f7747fd958e05274226b2467cd3fadf611d36173b2d458e2d47d63aa60805",
+          "df2699ae161efc87fd57f81c32c659e39248f560265c42c8bee9f62a8113f6e8",
+          "3eb01aa9d49d336e5e9c6460fec9a7f9e74168c2b498d3785c3cd957475547ef"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:18.500864+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "9e044d5c4562cddc2d895033d9c74684ef9f3ac1f1d7286935023f539e96705f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

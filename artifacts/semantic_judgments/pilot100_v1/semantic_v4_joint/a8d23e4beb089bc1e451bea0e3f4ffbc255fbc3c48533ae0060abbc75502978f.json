@@ -1,0 +1,159 @@
+{
+  "case_id": "a8d23e4beb089bc1e451bea0e3f4ffbc255fbc3c48533ae0060abbc75502978f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a8d23e4beb089bc1e451bea0e3f4ffbc255fbc3c48533ae0060abbc75502978f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which spacecraft landed on Saturn's solid surface?",
+        "sample_hashes": [
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "f081592d90a427e63ab8ab8a58f705a9796f969ac983ec40f91b4edd83d1956b",
+          "be68c1c81ca6f2e020784e0328a34162b6bac23c2cb787f79ecc413d8371c10a",
+          "86f3f2267421a1ee9c0fb79eb4fad1f1cc7a81194574498d0e8b82498aaf5a94"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:57:32.627765+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "4815bd3551e8128c21b8227b2405ce803895d35c1c980a09b080450833e63195",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a8d23e4beb089bc1e451bea0e3f4ffbc255fbc3c48533ae0060abbc75502978f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which spacecraft landed on Saturn's solid surface?",
+        "sample_hashes": [
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "f081592d90a427e63ab8ab8a58f705a9796f969ac983ec40f91b4edd83d1956b",
+          "be68c1c81ca6f2e020784e0328a34162b6bac23c2cb787f79ecc413d8371c10a",
+          "86f3f2267421a1ee9c0fb79eb4fad1f1cc7a81194574498d0e8b82498aaf5a94"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:57:32.627765+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "4815bd3551e8128c21b8227b2405ce803895d35c1c980a09b080450833e63195",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a8d23e4beb089bc1e451bea0e3f4ffbc255fbc3c48533ae0060abbc75502978f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which spacecraft landed on Saturn's solid surface?",
+        "sample_hashes": [
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "f081592d90a427e63ab8ab8a58f705a9796f969ac983ec40f91b4edd83d1956b",
+          "be68c1c81ca6f2e020784e0328a34162b6bac23c2cb787f79ecc413d8371c10a",
+          "86f3f2267421a1ee9c0fb79eb4fad1f1cc7a81194574498d0e8b82498aaf5a94"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:57:32.627765+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "4815bd3551e8128c21b8227b2405ce803895d35c1c980a09b080450833e63195",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a8d23e4beb089bc1e451bea0e3f4ffbc255fbc3c48533ae0060abbc75502978f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which spacecraft landed on Saturn's solid surface?",
+        "sample_hashes": [
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "691b505058e803e215e5fcb8c763efd7f6a8b6d166d45966c020d2894f47e6b8",
+          "f081592d90a427e63ab8ab8a58f705a9796f969ac983ec40f91b4edd83d1956b",
+          "be68c1c81ca6f2e020784e0328a34162b6bac23c2cb787f79ecc413d8371c10a",
+          "86f3f2267421a1ee9c0fb79eb4fad1f1cc7a81194574498d0e8b82498aaf5a94"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:57:32.627765+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "4815bd3551e8128c21b8227b2405ce803895d35c1c980a09b080450833e63195",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

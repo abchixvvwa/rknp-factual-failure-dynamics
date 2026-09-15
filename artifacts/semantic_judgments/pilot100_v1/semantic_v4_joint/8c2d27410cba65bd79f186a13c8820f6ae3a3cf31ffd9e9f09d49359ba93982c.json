@@ -1,0 +1,167 @@
+{
+  "case_id": "8c2d27410cba65bd79f186a13c8820f6ae3a3cf31ffd9e9f09d49359ba93982c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8c2d27410cba65bd79f186a13c8820f6ae3a3cf31ffd9e9f09d49359ba93982c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Water Lilies cycle displayed at the Musee de l'Orangerie?",
+        "sample_hashes": [
+          "372a4b9b7fefd93f4801713dcef0c9fe94a700cb8ab98317ab0796712d2a5449",
+          "73543981faf1514500701e913787a0a40f1127741c3c39855e473d8388f4309e",
+          "84a1563d900949c5f7616e4000bb10bfefbb55e8dfb10d281fb8fd7225f2073f",
+          "20e70aba1f609591dcbcdf8c033870cc890c19ce5611f9a83d18534262615cf6",
+          "3267015ebe020793fb2f2189988fbabaeb66d67b7bef2fe76f1a003a25fa72e7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:22.914545+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "f4b358123860b2367d76030da7dcee7992adcc5473a7b5d6b41c75978eb64bd3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8c2d27410cba65bd79f186a13c8820f6ae3a3cf31ffd9e9f09d49359ba93982c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Water Lilies cycle displayed at the Musee de l'Orangerie?",
+        "sample_hashes": [
+          "372a4b9b7fefd93f4801713dcef0c9fe94a700cb8ab98317ab0796712d2a5449",
+          "73543981faf1514500701e913787a0a40f1127741c3c39855e473d8388f4309e",
+          "84a1563d900949c5f7616e4000bb10bfefbb55e8dfb10d281fb8fd7225f2073f",
+          "20e70aba1f609591dcbcdf8c033870cc890c19ce5611f9a83d18534262615cf6",
+          "3267015ebe020793fb2f2189988fbabaeb66d67b7bef2fe76f1a003a25fa72e7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:22.914545+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "f4b358123860b2367d76030da7dcee7992adcc5473a7b5d6b41c75978eb64bd3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8c2d27410cba65bd79f186a13c8820f6ae3a3cf31ffd9e9f09d49359ba93982c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Water Lilies cycle displayed at the Musee de l'Orangerie?",
+        "sample_hashes": [
+          "372a4b9b7fefd93f4801713dcef0c9fe94a700cb8ab98317ab0796712d2a5449",
+          "73543981faf1514500701e913787a0a40f1127741c3c39855e473d8388f4309e",
+          "84a1563d900949c5f7616e4000bb10bfefbb55e8dfb10d281fb8fd7225f2073f",
+          "20e70aba1f609591dcbcdf8c033870cc890c19ce5611f9a83d18534262615cf6",
+          "3267015ebe020793fb2f2189988fbabaeb66d67b7bef2fe76f1a003a25fa72e7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:22.914545+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "f4b358123860b2367d76030da7dcee7992adcc5473a7b5d6b41c75978eb64bd3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8c2d27410cba65bd79f186a13c8820f6ae3a3cf31ffd9e9f09d49359ba93982c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Water Lilies cycle displayed at the Musee de l'Orangerie?",
+        "sample_hashes": [
+          "372a4b9b7fefd93f4801713dcef0c9fe94a700cb8ab98317ab0796712d2a5449",
+          "73543981faf1514500701e913787a0a40f1127741c3c39855e473d8388f4309e",
+          "84a1563d900949c5f7616e4000bb10bfefbb55e8dfb10d281fb8fd7225f2073f",
+          "20e70aba1f609591dcbcdf8c033870cc890c19ce5611f9a83d18534262615cf6",
+          "3267015ebe020793fb2f2189988fbabaeb66d67b7bef2fe76f1a003a25fa72e7"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:22.914545+00:00",
+        "system_fingerprint": "fp_4140daa9c2",
+        "request_id": "f4b358123860b2367d76030da7dcee7992adcc5473a7b5d6b41c75978eb64bd3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

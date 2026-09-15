@@ -1,0 +1,159 @@
+{
+  "case_id": "0b887018af56d9bcd0b139b9e415204e21a3a6b5d791029fabcf827e134e1548",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0b887018af56d9bcd0b139b9e415204e21a3a6b5d791029fabcf827e134e1548",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қай ғарыш аппараты Сатурнның қатты бетіне қонды?",
+        "sample_hashes": [
+          "3052703b55208db940118eba34f1f4181da9d82f029a6c61dcb5dfb07046ccda",
+          "1327c6e5622f88920bd28ce935b66e71978e872803ea074c532f217d0d292a48",
+          "242a08c9e64afbd5503e2329a01df188b8f98bac630346bf1a74b51ef74ab141",
+          "40974d2f36569c0e49ee57cd973d1537485723494146e64bd2fe52a295407c19",
+          "61fe309dea31f5a7f27dd0be8673bd74f98391da3cfbbd76680fc3799212a30e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:00.466724+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "bc41965fd2fb4f9d0cc21d621112980ec2d20f8e193ff3c35706a644aa69bda7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0b887018af56d9bcd0b139b9e415204e21a3a6b5d791029fabcf827e134e1548",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қай ғарыш аппараты Сатурнның қатты бетіне қонды?",
+        "sample_hashes": [
+          "3052703b55208db940118eba34f1f4181da9d82f029a6c61dcb5dfb07046ccda",
+          "1327c6e5622f88920bd28ce935b66e71978e872803ea074c532f217d0d292a48",
+          "242a08c9e64afbd5503e2329a01df188b8f98bac630346bf1a74b51ef74ab141",
+          "40974d2f36569c0e49ee57cd973d1537485723494146e64bd2fe52a295407c19",
+          "61fe309dea31f5a7f27dd0be8673bd74f98391da3cfbbd76680fc3799212a30e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:00.466724+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "bc41965fd2fb4f9d0cc21d621112980ec2d20f8e193ff3c35706a644aa69bda7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0b887018af56d9bcd0b139b9e415204e21a3a6b5d791029fabcf827e134e1548",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қай ғарыш аппараты Сатурнның қатты бетіне қонды?",
+        "sample_hashes": [
+          "3052703b55208db940118eba34f1f4181da9d82f029a6c61dcb5dfb07046ccda",
+          "1327c6e5622f88920bd28ce935b66e71978e872803ea074c532f217d0d292a48",
+          "242a08c9e64afbd5503e2329a01df188b8f98bac630346bf1a74b51ef74ab141",
+          "40974d2f36569c0e49ee57cd973d1537485723494146e64bd2fe52a295407c19",
+          "61fe309dea31f5a7f27dd0be8673bd74f98391da3cfbbd76680fc3799212a30e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:00.466724+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "bc41965fd2fb4f9d0cc21d621112980ec2d20f8e193ff3c35706a644aa69bda7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0b887018af56d9bcd0b139b9e415204e21a3a6b5d791029fabcf827e134e1548",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қай ғарыш аппараты Сатурнның қатты бетіне қонды?",
+        "sample_hashes": [
+          "3052703b55208db940118eba34f1f4181da9d82f029a6c61dcb5dfb07046ccda",
+          "1327c6e5622f88920bd28ce935b66e71978e872803ea074c532f217d0d292a48",
+          "242a08c9e64afbd5503e2329a01df188b8f98bac630346bf1a74b51ef74ab141",
+          "40974d2f36569c0e49ee57cd973d1537485723494146e64bd2fe52a295407c19",
+          "61fe309dea31f5a7f27dd0be8673bd74f98391da3cfbbd76680fc3799212a30e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:00.466724+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "bc41965fd2fb4f9d0cc21d621112980ec2d20f8e193ff3c35706a644aa69bda7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

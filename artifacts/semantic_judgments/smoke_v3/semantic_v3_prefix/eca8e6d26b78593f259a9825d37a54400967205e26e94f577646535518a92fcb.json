@@ -1,0 +1,233 @@
+{
+  "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+          "ee8f31dfc4a3f0aac741669000732c99f656da0dd29f30deb41091ac9ccc4670"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:51.403616+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "fbe6033812ed72d3e1cc25b2b746d4a7812ba4afbe1e6aea83623db82cecf4c9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:08:51.944962+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "916c1cfb09927b9d2a8e5ea4a9ce5609c50ad60377bcfd2e917051104c7e8024",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+          "ee8f31dfc4a3f0aac741669000732c99f656da0dd29f30deb41091ac9ccc4670",
+          "220d8e905934aacebc95a43d0eefacb5471a6e6ec9decc265c8d546508219d19"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:52.253660+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "db00185ef604e191c84cf65ad74635ecf6ecc3de3f6bfc71cb1099e65cc77251",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:08:51.944962+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "916c1cfb09927b9d2a8e5ea4a9ce5609c50ad60377bcfd2e917051104c7e8024",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+          "ee8f31dfc4a3f0aac741669000732c99f656da0dd29f30deb41091ac9ccc4670",
+          "220d8e905934aacebc95a43d0eefacb5471a6e6ec9decc265c8d546508219d19",
+          "8678f2e4a584ebf75482ff1b659d50d475b7ed058c161580a5d5f2a05e1cb8cc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:53.878159+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "5bbb20cdd8eea24f9bcb17de572dfe83c3ef34d35d8045fd4ed63605e173ed19",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:08:51.944962+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "916c1cfb09927b9d2a8e5ea4a9ce5609c50ad60377bcfd2e917051104c7e8024",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+          "ee8f31dfc4a3f0aac741669000732c99f656da0dd29f30deb41091ac9ccc4670",
+          "220d8e905934aacebc95a43d0eefacb5471a6e6ec9decc265c8d546508219d19",
+          "8678f2e4a584ebf75482ff1b659d50d475b7ed058c161580a5d5f2a05e1cb8cc",
+          "93e6d55a964029091de521f5a665fc8d69247ce98a20368492ee016ade154d13"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:54.567356+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "d6e53faa9742df73506b0f281f0cd81c322ca71b64537b19a5eafbb99620f663",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "eca8e6d26b78593f259a9825d37a54400967205e26e94f577646535518a92fcb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ергежейлі ғаламшарларды есептемегенде, Күн жүйесінде неше ғаламшар бар?",
+        "sample_hashes": [
+          "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:08:51.944962+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "916c1cfb09927b9d2a8e5ea4a9ce5609c50ad60377bcfd2e917051104c7e8024",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

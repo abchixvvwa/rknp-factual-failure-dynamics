@@ -1,0 +1,159 @@
+{
+  "case_id": "3202e071a1834f23c47225d2747a04c589dcaa9c8d8574c6308e851d838c86ba",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3202e071a1834f23c47225d2747a04c589dcaa9c8d8574c6308e851d838c86ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется крупнейшее естественное планетарное кольцо Земли в настоящее время?",
+        "sample_hashes": [
+          "6d0166f52deb1ab3116ba24893170cf956bd4ec1860c80ed79624a0b80f4daa5",
+          "d8583962973f49ea05daf2421167113a5cb98d6ee10977ad48e90d535e07b9e1",
+          "ed99252cce7a1885ae0d23b935690863a58667a37e5d283357c477ec64d30af0",
+          "31a31de56435dc48c2d34f89bc7ce24cc4f86642b1af8c5f801daf532bd245ce",
+          "81f9472fc9f0dd88754607e00f28b3d40c2e2f4ebca5354f25df026267ee2081"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:22.159065+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "7f48d5cbc3fd75646597eaeb61a145beaafb0d822773029968cc9c5226ef4a71",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3202e071a1834f23c47225d2747a04c589dcaa9c8d8574c6308e851d838c86ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется крупнейшее естественное планетарное кольцо Земли в настоящее время?",
+        "sample_hashes": [
+          "6d0166f52deb1ab3116ba24893170cf956bd4ec1860c80ed79624a0b80f4daa5",
+          "d8583962973f49ea05daf2421167113a5cb98d6ee10977ad48e90d535e07b9e1",
+          "ed99252cce7a1885ae0d23b935690863a58667a37e5d283357c477ec64d30af0",
+          "31a31de56435dc48c2d34f89bc7ce24cc4f86642b1af8c5f801daf532bd245ce",
+          "81f9472fc9f0dd88754607e00f28b3d40c2e2f4ebca5354f25df026267ee2081"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:22.159065+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "7f48d5cbc3fd75646597eaeb61a145beaafb0d822773029968cc9c5226ef4a71",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3202e071a1834f23c47225d2747a04c589dcaa9c8d8574c6308e851d838c86ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется крупнейшее естественное планетарное кольцо Земли в настоящее время?",
+        "sample_hashes": [
+          "6d0166f52deb1ab3116ba24893170cf956bd4ec1860c80ed79624a0b80f4daa5",
+          "d8583962973f49ea05daf2421167113a5cb98d6ee10977ad48e90d535e07b9e1",
+          "ed99252cce7a1885ae0d23b935690863a58667a37e5d283357c477ec64d30af0",
+          "31a31de56435dc48c2d34f89bc7ce24cc4f86642b1af8c5f801daf532bd245ce",
+          "81f9472fc9f0dd88754607e00f28b3d40c2e2f4ebca5354f25df026267ee2081"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:22.159065+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "7f48d5cbc3fd75646597eaeb61a145beaafb0d822773029968cc9c5226ef4a71",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3202e071a1834f23c47225d2747a04c589dcaa9c8d8574c6308e851d838c86ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется крупнейшее естественное планетарное кольцо Земли в настоящее время?",
+        "sample_hashes": [
+          "6d0166f52deb1ab3116ba24893170cf956bd4ec1860c80ed79624a0b80f4daa5",
+          "d8583962973f49ea05daf2421167113a5cb98d6ee10977ad48e90d535e07b9e1",
+          "ed99252cce7a1885ae0d23b935690863a58667a37e5d283357c477ec64d30af0",
+          "31a31de56435dc48c2d34f89bc7ce24cc4f86642b1af8c5f801daf532bd245ce",
+          "81f9472fc9f0dd88754607e00f28b3d40c2e2f4ebca5354f25df026267ee2081"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:35:22.159065+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "7f48d5cbc3fd75646597eaeb61a145beaafb0d822773029968cc9c5226ef4a71",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

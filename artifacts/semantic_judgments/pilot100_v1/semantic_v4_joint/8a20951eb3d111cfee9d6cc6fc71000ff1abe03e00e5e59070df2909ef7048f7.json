@@ -1,0 +1,159 @@
+{
+  "case_id": "8a20951eb3d111cfee9d6cc6fc71000ff1abe03e00e5e59070df2909ef7048f7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a20951eb3d111cfee9d6cc6fc71000ff1abe03e00e5e59070df2909ef7048f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой английский король согласился с условиями Великой хартии вольностей в Раннимиде в 1215 году?",
+        "sample_hashes": [
+          "3fec41a86bfa1e10d31d4e49a376e840bb795dbc0f7fb78aa3d68865a414160e",
+          "0eb72e94f756c3ede46e65658da02cc7a3bbd76716265b8f4f12035b6a058bb7",
+          "284a854f95b71c12c5e51af9c62eba547fae2530627d2f66f9619681f529e8a4",
+          "08d4f3730ff91d55a5acea03ccc841eea49125e92dc242ca4a3401e44d5b0331",
+          "3ae9ff3137b50b50f4952816abcc2e904ea69f8f0974af4cc8380d30e811b848"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:51.353278+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "6e50cc5d6ae42115e88bded9aed47d33911811a7d88e87e8908e619af355693d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a20951eb3d111cfee9d6cc6fc71000ff1abe03e00e5e59070df2909ef7048f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой английский король согласился с условиями Великой хартии вольностей в Раннимиде в 1215 году?",
+        "sample_hashes": [
+          "3fec41a86bfa1e10d31d4e49a376e840bb795dbc0f7fb78aa3d68865a414160e",
+          "0eb72e94f756c3ede46e65658da02cc7a3bbd76716265b8f4f12035b6a058bb7",
+          "284a854f95b71c12c5e51af9c62eba547fae2530627d2f66f9619681f529e8a4",
+          "08d4f3730ff91d55a5acea03ccc841eea49125e92dc242ca4a3401e44d5b0331",
+          "3ae9ff3137b50b50f4952816abcc2e904ea69f8f0974af4cc8380d30e811b848"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:51.353278+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "6e50cc5d6ae42115e88bded9aed47d33911811a7d88e87e8908e619af355693d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a20951eb3d111cfee9d6cc6fc71000ff1abe03e00e5e59070df2909ef7048f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой английский король согласился с условиями Великой хартии вольностей в Раннимиде в 1215 году?",
+        "sample_hashes": [
+          "3fec41a86bfa1e10d31d4e49a376e840bb795dbc0f7fb78aa3d68865a414160e",
+          "0eb72e94f756c3ede46e65658da02cc7a3bbd76716265b8f4f12035b6a058bb7",
+          "284a854f95b71c12c5e51af9c62eba547fae2530627d2f66f9619681f529e8a4",
+          "08d4f3730ff91d55a5acea03ccc841eea49125e92dc242ca4a3401e44d5b0331",
+          "3ae9ff3137b50b50f4952816abcc2e904ea69f8f0974af4cc8380d30e811b848"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:51.353278+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "6e50cc5d6ae42115e88bded9aed47d33911811a7d88e87e8908e619af355693d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a20951eb3d111cfee9d6cc6fc71000ff1abe03e00e5e59070df2909ef7048f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой английский король согласился с условиями Великой хартии вольностей в Раннимиде в 1215 году?",
+        "sample_hashes": [
+          "3fec41a86bfa1e10d31d4e49a376e840bb795dbc0f7fb78aa3d68865a414160e",
+          "0eb72e94f756c3ede46e65658da02cc7a3bbd76716265b8f4f12035b6a058bb7",
+          "284a854f95b71c12c5e51af9c62eba547fae2530627d2f66f9619681f529e8a4",
+          "08d4f3730ff91d55a5acea03ccc841eea49125e92dc242ca4a3401e44d5b0331",
+          "3ae9ff3137b50b50f4952816abcc2e904ea69f8f0974af4cc8380d30e811b848"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:51.353278+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "6e50cc5d6ae42115e88bded9aed47d33911811a7d88e87e8908e619af355693d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "cbbec7e7c9624eb1597b73f19abc03650d16502d109607e8fa483b6664e3393f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cbbec7e7c9624eb1597b73f19abc03650d16502d109607e8fa483b6664e3393f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік туының авторы кім?",
+        "sample_hashes": [
+          "6dae29aa56abddf1e02bf461072354f8794cbdf4cacafae524a02145530c8f67",
+          "76dce71d4f0c07495b6813af1c2f44b5ec49278f8e013e7d1f99431e8c464786",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547",
+          "1990c4937c7f19f50bf93729b64da505810f63d8a0cefe13f032b78895876fd5",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:43.706381+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "0963f9181a6473cdadcdad51c3a584aa84ab6416922566a3b4945f8fa7a6cdce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cbbec7e7c9624eb1597b73f19abc03650d16502d109607e8fa483b6664e3393f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік туының авторы кім?",
+        "sample_hashes": [
+          "6dae29aa56abddf1e02bf461072354f8794cbdf4cacafae524a02145530c8f67",
+          "76dce71d4f0c07495b6813af1c2f44b5ec49278f8e013e7d1f99431e8c464786",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547",
+          "1990c4937c7f19f50bf93729b64da505810f63d8a0cefe13f032b78895876fd5",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:43.706381+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "0963f9181a6473cdadcdad51c3a584aa84ab6416922566a3b4945f8fa7a6cdce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cbbec7e7c9624eb1597b73f19abc03650d16502d109607e8fa483b6664e3393f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік туының авторы кім?",
+        "sample_hashes": [
+          "6dae29aa56abddf1e02bf461072354f8794cbdf4cacafae524a02145530c8f67",
+          "76dce71d4f0c07495b6813af1c2f44b5ec49278f8e013e7d1f99431e8c464786",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547",
+          "1990c4937c7f19f50bf93729b64da505810f63d8a0cefe13f032b78895876fd5",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:43.706381+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "0963f9181a6473cdadcdad51c3a584aa84ab6416922566a3b4945f8fa7a6cdce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "cbbec7e7c9624eb1597b73f19abc03650d16502d109607e8fa483b6664e3393f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1992 жылы қабылданған Қазақстанның мемлекеттік туының авторы кім?",
+        "sample_hashes": [
+          "6dae29aa56abddf1e02bf461072354f8794cbdf4cacafae524a02145530c8f67",
+          "76dce71d4f0c07495b6813af1c2f44b5ec49278f8e013e7d1f99431e8c464786",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547",
+          "1990c4937c7f19f50bf93729b64da505810f63d8a0cefe13f032b78895876fd5",
+          "5116b04b5bd3044551d57ac0ec441e7877d1601f986bc2c4cdc2577c37967547"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:43.706381+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "0963f9181a6473cdadcdad51c3a584aa84ab6416922566a3b4945f8fa7a6cdce",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

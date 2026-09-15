@@ -1,0 +1,171 @@
+{
+  "case_id": "1c8352ddd3c4148e86e715f229a31d6e2ea3261f5071da4913fbd5a830268ef4",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1c8352ddd3c4148e86e715f229a31d6e2ea3261f5071da4913fbd5a830268ef4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Махатма Ганди Нобель бейбітшілік сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "d26c1a50d5384a7b0c7cdbac243d9b087212439237098e1a1a277388baa8cfb1",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "12e413e253cd5e145ff2ad8edd517b8343ad96e87dfa7bf7d0a97d349fb98e62",
+          "c617b013f19f7fd793f8b4e74fd9a43f1d5b7d9db12de9e111ddb423960a477a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:33.485317+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "09bea25cff3312b46f722db46846bbf6440301da318773c9e71d3f924059d657",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1c8352ddd3c4148e86e715f229a31d6e2ea3261f5071da4913fbd5a830268ef4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Махатма Ганди Нобель бейбітшілік сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "d26c1a50d5384a7b0c7cdbac243d9b087212439237098e1a1a277388baa8cfb1",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "12e413e253cd5e145ff2ad8edd517b8343ad96e87dfa7bf7d0a97d349fb98e62",
+          "c617b013f19f7fd793f8b4e74fd9a43f1d5b7d9db12de9e111ddb423960a477a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:33.485317+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "09bea25cff3312b46f722db46846bbf6440301da318773c9e71d3f924059d657",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1c8352ddd3c4148e86e715f229a31d6e2ea3261f5071da4913fbd5a830268ef4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Махатма Ганди Нобель бейбітшілік сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "d26c1a50d5384a7b0c7cdbac243d9b087212439237098e1a1a277388baa8cfb1",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "12e413e253cd5e145ff2ad8edd517b8343ad96e87dfa7bf7d0a97d349fb98e62",
+          "c617b013f19f7fd793f8b4e74fd9a43f1d5b7d9db12de9e111ddb423960a477a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:33.485317+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "09bea25cff3312b46f722db46846bbf6440301da318773c9e71d3f924059d657",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "1c8352ddd3c4148e86e715f229a31d6e2ea3261f5071da4913fbd5a830268ef4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Махатма Ганди Нобель бейбітшілік сыйлығын қай жылы алды?",
+        "sample_hashes": [
+          "d26c1a50d5384a7b0c7cdbac243d9b087212439237098e1a1a277388baa8cfb1",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "3b67a36c3eb4c05f32e25ccba31a04d4db7199a9f0688f2257686fbae729e192",
+          "12e413e253cd5e145ff2ad8edd517b8343ad96e87dfa7bf7d0a97d349fb98e62",
+          "c617b013f19f7fd793f8b4e74fd9a43f1d5b7d9db12de9e111ddb423960a477a"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:33.485317+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "09bea25cff3312b46f722db46846bbf6440301da318773c9e71d3f924059d657",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2], [3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "case_id": "f856db75801eb76adcccd68376869e2298190f8a228363222a64a63a80dc5d8e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f856db75801eb76adcccd68376869e2298190f8a228363222a64a63a80dc5d8e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күн жүйесіндегі қай планетаның орташа тығыздығы судың тығыздығынан төмен?",
+        "sample_hashes": [
+          "a92765fbb8d4e2275104b2ec705de673a0da1d0745457bf51eb32dc30798235f",
+          "ce9ead5fad1bbfb494476c83905906f40867e54093885d4fb419d10f59071ce5",
+          "c751e0f44bfddf8a471d0d3a9efc3c5500b41e740714eb9d7b5291b585ac4910",
+          "5a225fa9251a3a728d89916d65c47fc7aecde0f2ea8ff0365e415b0e2768eee4",
+          "61000a8cf6bd2ebebb232683d0e2faa937c5d6e502041618015cb800faaf86d3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:46.101529+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "92e49cf61ae410704d5ab3d22c1e798d1bf1ce2e0b64c1e2228f9b39f46a37f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f856db75801eb76adcccd68376869e2298190f8a228363222a64a63a80dc5d8e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күн жүйесіндегі қай планетаның орташа тығыздығы судың тығыздығынан төмен?",
+        "sample_hashes": [
+          "a92765fbb8d4e2275104b2ec705de673a0da1d0745457bf51eb32dc30798235f",
+          "ce9ead5fad1bbfb494476c83905906f40867e54093885d4fb419d10f59071ce5",
+          "c751e0f44bfddf8a471d0d3a9efc3c5500b41e740714eb9d7b5291b585ac4910",
+          "5a225fa9251a3a728d89916d65c47fc7aecde0f2ea8ff0365e415b0e2768eee4",
+          "61000a8cf6bd2ebebb232683d0e2faa937c5d6e502041618015cb800faaf86d3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:46.101529+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "92e49cf61ae410704d5ab3d22c1e798d1bf1ce2e0b64c1e2228f9b39f46a37f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f856db75801eb76adcccd68376869e2298190f8a228363222a64a63a80dc5d8e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күн жүйесіндегі қай планетаның орташа тығыздығы судың тығыздығынан төмен?",
+        "sample_hashes": [
+          "a92765fbb8d4e2275104b2ec705de673a0da1d0745457bf51eb32dc30798235f",
+          "ce9ead5fad1bbfb494476c83905906f40867e54093885d4fb419d10f59071ce5",
+          "c751e0f44bfddf8a471d0d3a9efc3c5500b41e740714eb9d7b5291b585ac4910",
+          "5a225fa9251a3a728d89916d65c47fc7aecde0f2ea8ff0365e415b0e2768eee4",
+          "61000a8cf6bd2ebebb232683d0e2faa937c5d6e502041618015cb800faaf86d3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:46.101529+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "92e49cf61ae410704d5ab3d22c1e798d1bf1ce2e0b64c1e2228f9b39f46a37f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f856db75801eb76adcccd68376869e2298190f8a228363222a64a63a80dc5d8e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күн жүйесіндегі қай планетаның орташа тығыздығы судың тығыздығынан төмен?",
+        "sample_hashes": [
+          "a92765fbb8d4e2275104b2ec705de673a0da1d0745457bf51eb32dc30798235f",
+          "ce9ead5fad1bbfb494476c83905906f40867e54093885d4fb419d10f59071ce5",
+          "c751e0f44bfddf8a471d0d3a9efc3c5500b41e740714eb9d7b5291b585ac4910",
+          "5a225fa9251a3a728d89916d65c47fc7aecde0f2ea8ff0365e415b0e2768eee4",
+          "61000a8cf6bd2ebebb232683d0e2faa937c5d6e502041618015cb800faaf86d3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 2]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:46:46.101529+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "92e49cf61ae410704d5ab3d22c1e798d1bf1ce2e0b64c1e2228f9b39f46a37f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3], [1], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

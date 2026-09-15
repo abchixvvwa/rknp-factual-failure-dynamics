@@ -1,0 +1,159 @@
+{
+  "case_id": "44a759738bba8ecb19c6001f5a658fe706935aba5498c1a2afaf9070c7ce802f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "44a759738bba8ecb19c6001f5a658fe706935aba5498c1a2afaf9070c7ce802f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі қысым бірлігі қалай аталады?",
+        "sample_hashes": [
+          "4c0b9459aa5784282649e356f42ddd94198e3870e8edc9d3c1f577330ec768b6",
+          "aa5e2bc8085f79ed54892cc15f37e10eaf4d81c4b1a6428652b1f9ebdcbcebdc",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe",
+          "b34e5bb91f854092692fb6eb13c104c6e53a548a8ad63bd70e3acd9b7b06fd57",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:32.892171+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "adf71a4e7627b9c2420715d79eb5de7d80ada3a30ba23889304569881d44a681",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "44a759738bba8ecb19c6001f5a658fe706935aba5498c1a2afaf9070c7ce802f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі қысым бірлігі қалай аталады?",
+        "sample_hashes": [
+          "4c0b9459aa5784282649e356f42ddd94198e3870e8edc9d3c1f577330ec768b6",
+          "aa5e2bc8085f79ed54892cc15f37e10eaf4d81c4b1a6428652b1f9ebdcbcebdc",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe",
+          "b34e5bb91f854092692fb6eb13c104c6e53a548a8ad63bd70e3acd9b7b06fd57",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:32.892171+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "adf71a4e7627b9c2420715d79eb5de7d80ada3a30ba23889304569881d44a681",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "44a759738bba8ecb19c6001f5a658fe706935aba5498c1a2afaf9070c7ce802f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі қысым бірлігі қалай аталады?",
+        "sample_hashes": [
+          "4c0b9459aa5784282649e356f42ddd94198e3870e8edc9d3c1f577330ec768b6",
+          "aa5e2bc8085f79ed54892cc15f37e10eaf4d81c4b1a6428652b1f9ebdcbcebdc",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe",
+          "b34e5bb91f854092692fb6eb13c104c6e53a548a8ad63bd70e3acd9b7b06fd57",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:32.892171+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "adf71a4e7627b9c2420715d79eb5de7d80ada3a30ba23889304569881d44a681",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "44a759738bba8ecb19c6001f5a658fe706935aba5498c1a2afaf9070c7ce802f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі қысым бірлігі қалай аталады?",
+        "sample_hashes": [
+          "4c0b9459aa5784282649e356f42ddd94198e3870e8edc9d3c1f577330ec768b6",
+          "aa5e2bc8085f79ed54892cc15f37e10eaf4d81c4b1a6428652b1f9ebdcbcebdc",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe",
+          "b34e5bb91f854092692fb6eb13c104c6e53a548a8ad63bd70e3acd9b7b06fd57",
+          "a4d9277913e5f5a0d2028fa5b43651159c79eab1ed47178e6c1adf165e8cbfbe"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:23:32.892171+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "adf71a4e7627b9c2420715d79eb5de7d80ada3a30ba23889304569881d44a681",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "case_id": "0b4235be2e97fe98edba1d6d6ad142705c1258ee20ef9d1037cc21258a359970",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0b4235be2e97fe98edba1d6d6ad142705c1258ee20ef9d1037cc21258a359970",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "«Аполлон-11» миссиясының командирі кім болды?",
+        "sample_hashes": [
+          "4942474e5ce751c12ae304168dc5d1f89ca05a98fd40781a999dfce04964e35c",
+          "4942474e5ce751c12ae304168dc5d1f89ca05a98fd40781a999dfce04964e35c",
+          "4942474e5ce751c12ae304168dc5d1f89ca05a98fd40781a999dfce04964e35c",
+          "4942474e5ce751c12ae304168dc5d1f89ca05a98fd40781a999dfce04964e35c",
+          "f9daf965fec695bf25dbc3c281eefbbc8353421ba55a071d94f3c5aecbb8dcc5"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T05:32:49.961567+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "e83052517a525dc873607ca2e7a9720fbef6e8a9b97213cdda6f917a7f0964f0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

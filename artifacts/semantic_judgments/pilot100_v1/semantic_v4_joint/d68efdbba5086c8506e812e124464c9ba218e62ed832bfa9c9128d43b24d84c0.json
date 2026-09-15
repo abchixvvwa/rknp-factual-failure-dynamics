@@ -1,0 +1,159 @@
+{
+  "case_id": "d68efdbba5086c8506e812e124464c9ba218e62ed832bfa9c9128d43b24d84c0",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d68efdbba5086c8506e812e124464c9ba218e62ed832bfa9c9128d43b24d84c0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ай бетінде Ай көлігі (Lunar Roving Vehicle) алғаш рет «Аполлон» бағдарламасының қай миссиясында қолданылды?",
+        "sample_hashes": [
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "9ea46315b26ecaffbf2e1ce39349629835696bf044869cdeedd9e8594ff327a3",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "10945f907bd3a7ade731a204deab648b7c9b1f48741cdc68dd37773e41b1636a",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:22.586116+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b9125fc1855a36012a75c73dac7ab6cab15cab6f8d0f7698b218cb248f6b9138",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d68efdbba5086c8506e812e124464c9ba218e62ed832bfa9c9128d43b24d84c0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ай бетінде Ай көлігі (Lunar Roving Vehicle) алғаш рет «Аполлон» бағдарламасының қай миссиясында қолданылды?",
+        "sample_hashes": [
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "9ea46315b26ecaffbf2e1ce39349629835696bf044869cdeedd9e8594ff327a3",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "10945f907bd3a7ade731a204deab648b7c9b1f48741cdc68dd37773e41b1636a",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:22.586116+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b9125fc1855a36012a75c73dac7ab6cab15cab6f8d0f7698b218cb248f6b9138",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d68efdbba5086c8506e812e124464c9ba218e62ed832bfa9c9128d43b24d84c0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ай бетінде Ай көлігі (Lunar Roving Vehicle) алғаш рет «Аполлон» бағдарламасының қай миссиясында қолданылды?",
+        "sample_hashes": [
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "9ea46315b26ecaffbf2e1ce39349629835696bf044869cdeedd9e8594ff327a3",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "10945f907bd3a7ade731a204deab648b7c9b1f48741cdc68dd37773e41b1636a",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:22.586116+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b9125fc1855a36012a75c73dac7ab6cab15cab6f8d0f7698b218cb248f6b9138",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d68efdbba5086c8506e812e124464c9ba218e62ed832bfa9c9128d43b24d84c0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ай бетінде Ай көлігі (Lunar Roving Vehicle) алғаш рет «Аполлон» бағдарламасының қай миссиясында қолданылды?",
+        "sample_hashes": [
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "9ea46315b26ecaffbf2e1ce39349629835696bf044869cdeedd9e8594ff327a3",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f",
+          "10945f907bd3a7ade731a204deab648b7c9b1f48741cdc68dd37773e41b1636a",
+          "a9b60957d5c4f3fb11c32ca852a50dfd4ec3f381b3bebd791c3a84ba8614f17f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:22.586116+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b9125fc1855a36012a75c73dac7ab6cab15cab6f8d0f7698b218cb248f6b9138",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

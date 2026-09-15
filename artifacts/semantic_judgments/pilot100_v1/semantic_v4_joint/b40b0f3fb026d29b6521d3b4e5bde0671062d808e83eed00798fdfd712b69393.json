@@ -1,0 +1,167 @@
+{
+  "case_id": "b40b0f3fb026d29b6521d3b4e5bde0671062d808e83eed00798fdfd712b69393",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b40b0f3fb026d29b6521d3b4e5bde0671062d808e83eed00798fdfd712b69393",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Solar System planet has an average density lower than water?",
+        "sample_hashes": [
+          "530a23c5470233442d2422d49237d93d163c46f5ebf2ec938271f65dac7c5489",
+          "c2288d1bdd3e41558d7f595895cb676fa0af4f87ca39afa62f4ec385bb7f7fd9",
+          "f516d4b846c6d43b3234182a888e544dca4412f6e888f4d69a591e7de1f1a803",
+          "e65fabe631be2246eb65f38944a23f2c3c43adc1df67ac5e836f55ebe993d1be",
+          "31e176cb4dedc9ba7f4e66f972c8162d60d44a44f73638de119d45389bb474c3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:01.411777+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "1c8ecb81f2c0ea3dda9dabf1557f0517659c3c217963073090d48aae71bc1827",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b40b0f3fb026d29b6521d3b4e5bde0671062d808e83eed00798fdfd712b69393",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Solar System planet has an average density lower than water?",
+        "sample_hashes": [
+          "530a23c5470233442d2422d49237d93d163c46f5ebf2ec938271f65dac7c5489",
+          "c2288d1bdd3e41558d7f595895cb676fa0af4f87ca39afa62f4ec385bb7f7fd9",
+          "f516d4b846c6d43b3234182a888e544dca4412f6e888f4d69a591e7de1f1a803",
+          "e65fabe631be2246eb65f38944a23f2c3c43adc1df67ac5e836f55ebe993d1be",
+          "31e176cb4dedc9ba7f4e66f972c8162d60d44a44f73638de119d45389bb474c3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:01.411777+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "1c8ecb81f2c0ea3dda9dabf1557f0517659c3c217963073090d48aae71bc1827",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b40b0f3fb026d29b6521d3b4e5bde0671062d808e83eed00798fdfd712b69393",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Solar System planet has an average density lower than water?",
+        "sample_hashes": [
+          "530a23c5470233442d2422d49237d93d163c46f5ebf2ec938271f65dac7c5489",
+          "c2288d1bdd3e41558d7f595895cb676fa0af4f87ca39afa62f4ec385bb7f7fd9",
+          "f516d4b846c6d43b3234182a888e544dca4412f6e888f4d69a591e7de1f1a803",
+          "e65fabe631be2246eb65f38944a23f2c3c43adc1df67ac5e836f55ebe993d1be",
+          "31e176cb4dedc9ba7f4e66f972c8162d60d44a44f73638de119d45389bb474c3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:01.411777+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "1c8ecb81f2c0ea3dda9dabf1557f0517659c3c217963073090d48aae71bc1827",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b40b0f3fb026d29b6521d3b4e5bde0671062d808e83eed00798fdfd712b69393",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which Solar System planet has an average density lower than water?",
+        "sample_hashes": [
+          "530a23c5470233442d2422d49237d93d163c46f5ebf2ec938271f65dac7c5489",
+          "c2288d1bdd3e41558d7f595895cb676fa0af4f87ca39afa62f4ec385bb7f7fd9",
+          "f516d4b846c6d43b3234182a888e544dca4412f6e888f4d69a591e7de1f1a803",
+          "e65fabe631be2246eb65f38944a23f2c3c43adc1df67ac5e836f55ebe993d1be",
+          "31e176cb4dedc9ba7f4e66f972c8162d60d44a44f73638de119d45389bb474c3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:01.411777+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "1c8ecb81f2c0ea3dda9dabf1557f0517659c3c217963073090d48aae71bc1827",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

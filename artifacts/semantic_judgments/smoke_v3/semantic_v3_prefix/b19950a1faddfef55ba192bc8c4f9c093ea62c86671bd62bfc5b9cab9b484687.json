@@ -1,0 +1,245 @@
+{
+  "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":1},\"uncertain\":false}",
+        "created_at": "2026-09-10T09:55:46.832938+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "6403f70020f015f5fd4c8124b32f77d9ddbee1be5dbce71f90ec2c928585779e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T09:55:47.392480+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "dd456eddceee428bd721ce7c08ef321376f57d5e2846dd9f3d8488e330f7fbd1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e",
+          "14b0ce20b89a0806f2a304a9a232dbd14b81313c28992152eebfeeb9fc42f51b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:55:48.050734+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "69b25f0dee0e3e98e3487787d3fa03647178e1c8e9728554b26cc85439621342",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T09:55:47.392480+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "dd456eddceee428bd721ce7c08ef321376f57d5e2846dd9f3d8488e330f7fbd1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e",
+          "14b0ce20b89a0806f2a304a9a232dbd14b81313c28992152eebfeeb9fc42f51b",
+          "33575043644f403580d504840fd59543c937ab2eb0920ee2ca2209abf355100a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:55:48.836883+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "991141337f3193610e43da23e21df8076bff6dee68fa90967a46342d20ccb79f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T09:55:47.392480+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "dd456eddceee428bd721ce7c08ef321376f57d5e2846dd9f3d8488e330f7fbd1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e",
+          "14b0ce20b89a0806f2a304a9a232dbd14b81313c28992152eebfeeb9fc42f51b",
+          "33575043644f403580d504840fd59543c937ab2eb0920ee2ca2209abf355100a",
+          "d6d04bc94701a1da4b129bad7539d57deaecc2174843fb254b4104a54240912c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:56:45.126051+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "fbc045899adedfe0205f26b3088eca8146e7a5734ce01f5883214d55d156b225",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "b19950a1faddfef55ba192bc8c4f9c093ea62c86671bd62bfc5b9cab9b484687",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Құрлықтық конгресс АҚШ Тәуелсіздік декларациясын қай күні қабылдады?",
+        "sample_hashes": [
+          "8e72d42047fbfea348ede98e639e5cff7d40ee44b0ef2ef044ba8647c586762f",
+          "6b7639dab0906f785891313871d937e29121958e01682cc95c8675245333011e"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T09:55:47.392480+00:00",
+        "system_fingerprint": "fp_84bf0227ec",
+        "request_id": "dd456eddceee428bd721ce7c08ef321376f57d5e2846dd9f3d8488e330f7fbd1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

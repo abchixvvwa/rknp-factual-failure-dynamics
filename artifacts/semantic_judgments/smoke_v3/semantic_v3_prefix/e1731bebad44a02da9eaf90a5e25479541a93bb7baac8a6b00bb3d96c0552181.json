@@ -1,0 +1,153 @@
+{
+  "case_id": "e1731bebad44a02da9eaf90a5e25479541a93bb7baac8a6b00bb3d96c0552181",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e1731bebad44a02da9eaf90a5e25479541a93bb7baac8a6b00bb3d96c0552181",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Меркурийдің ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6",
+          "e9d36d8a93fcc0980b5b3f4bd6d425562fd66ad59aea1187fafeff739018e016"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:16:03.183338+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "39547a813e5373bc81d7063ed1d7e2a3148eb322295e9201525c141c6575a9c6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e1731bebad44a02da9eaf90a5e25479541a93bb7baac8a6b00bb3d96c0552181",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Меркурийдің ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6",
+          "e9d36d8a93fcc0980b5b3f4bd6d425562fd66ad59aea1187fafeff739018e016",
+          "1d1154bd2eda38b7086d658bb31674536fd753ded422d380e7eff2a9bceb1b62"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:16:50.249275+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "10f32c1baa61e8d6f093bb08796b2b33b21bdc74c5f0e87e651546a6699f0619",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e1731bebad44a02da9eaf90a5e25479541a93bb7baac8a6b00bb3d96c0552181",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Меркурийдің ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6",
+          "e9d36d8a93fcc0980b5b3f4bd6d425562fd66ad59aea1187fafeff739018e016",
+          "1d1154bd2eda38b7086d658bb31674536fd753ded422d380e7eff2a9bceb1b62",
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:16:54.959570+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "2cd73621acc7c673ae93ae798144f7595f10f4995eb2cd281639930eb98d35ef",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e1731bebad44a02da9eaf90a5e25479541a93bb7baac8a6b00bb3d96c0552181",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Меркурийдің ең үлкен табиғи серігі қалай аталады?",
+        "sample_hashes": [
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6",
+          "e9d36d8a93fcc0980b5b3f4bd6d425562fd66ad59aea1187fafeff739018e016",
+          "1d1154bd2eda38b7086d658bb31674536fd753ded422d380e7eff2a9bceb1b62",
+          "09933f2ca4615b68e4d724d7de3caaf664a85f8fd7941a859e59c3f0fe1355d6",
+          "28391e322abcf07902117ed6085b10c7363f98f8e325fec1f6690e030ba41f95"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:16:56.336000+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "ee6236a16757c1c64591cf1b3418221b324453fb9f6d04077a945e907699d00a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

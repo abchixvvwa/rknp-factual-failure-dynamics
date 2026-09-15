@@ -1,0 +1,159 @@
+{
+  "case_id": "a68624e76b8eae3581326a7e56a110a5d01d917590dd8df8807d7dfb9bc7aec1",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a68624e76b8eae3581326a7e56a110a5d01d917590dd8df8807d7dfb9bc7aec1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Mahatma Gandhi receive the Nobel Peace Prize?",
+        "sample_hashes": [
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "062027fde66bfaf908ef1799a49ea40d89179709a352bd1d3e8116bf6057632c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:24.199970+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4b17092b418bf783828f7c7df204cdb06bc4938d5e5bfa88b72871104976d4d7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a68624e76b8eae3581326a7e56a110a5d01d917590dd8df8807d7dfb9bc7aec1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Mahatma Gandhi receive the Nobel Peace Prize?",
+        "sample_hashes": [
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "062027fde66bfaf908ef1799a49ea40d89179709a352bd1d3e8116bf6057632c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:24.199970+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4b17092b418bf783828f7c7df204cdb06bc4938d5e5bfa88b72871104976d4d7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a68624e76b8eae3581326a7e56a110a5d01d917590dd8df8807d7dfb9bc7aec1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Mahatma Gandhi receive the Nobel Peace Prize?",
+        "sample_hashes": [
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "062027fde66bfaf908ef1799a49ea40d89179709a352bd1d3e8116bf6057632c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:24.199970+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4b17092b418bf783828f7c7df204cdb06bc4938d5e5bfa88b72871104976d4d7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a68624e76b8eae3581326a7e56a110a5d01d917590dd8df8807d7dfb9bc7aec1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year did Mahatma Gandhi receive the Nobel Peace Prize?",
+        "sample_hashes": [
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "4b10a038a9fed3add094ad58f466be4ecf045ad5b3b862b64aaa82a388b26b25",
+          "062027fde66bfaf908ef1799a49ea40d89179709a352bd1d3e8116bf6057632c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:43:24.199970+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4b17092b418bf783828f7c7df204cdb06bc4938d5e5bfa88b72871104976d4d7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

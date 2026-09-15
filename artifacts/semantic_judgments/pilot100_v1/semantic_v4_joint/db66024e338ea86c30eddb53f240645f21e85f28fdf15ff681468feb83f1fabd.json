@@ -1,0 +1,167 @@
+{
+  "case_id": "db66024e338ea86c30eddb53f240645f21e85f28fdf15ff681468feb83f1fabd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db66024e338ea86c30eddb53f240645f21e85f28fdf15ff681468feb83f1fabd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая часть юрты находится в центре государственного герба Казахстана?",
+        "sample_hashes": [
+          "ba8fa8e6abfea27b494143a1599b035ed78995f0a26b11e51943170bafff9596",
+          "8cdae6c6d3dcc9ebc71861f72aa0897b191e8fc762b517c453e38b0ed62fcf57",
+          "011704f5d017fc0cbc477cfece853c4be91d2dc2b01bd82e5f74e16a536cf42e",
+          "00535cc9a85902c14210f3ce8e0dbfbc4dc39a0eee584ce9a4dfa5f0d141c43f",
+          "8df7c821fdc5350afcb5687909f97b1355ba512e3d3634643499a9bda1ea4ab2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:59.957097+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "e48c0bb193c5059247c5123cc0449030d2d87134fd0141158d7de2b1b842a822",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db66024e338ea86c30eddb53f240645f21e85f28fdf15ff681468feb83f1fabd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая часть юрты находится в центре государственного герба Казахстана?",
+        "sample_hashes": [
+          "ba8fa8e6abfea27b494143a1599b035ed78995f0a26b11e51943170bafff9596",
+          "8cdae6c6d3dcc9ebc71861f72aa0897b191e8fc762b517c453e38b0ed62fcf57",
+          "011704f5d017fc0cbc477cfece853c4be91d2dc2b01bd82e5f74e16a536cf42e",
+          "00535cc9a85902c14210f3ce8e0dbfbc4dc39a0eee584ce9a4dfa5f0d141c43f",
+          "8df7c821fdc5350afcb5687909f97b1355ba512e3d3634643499a9bda1ea4ab2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:59.957097+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "e48c0bb193c5059247c5123cc0449030d2d87134fd0141158d7de2b1b842a822",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db66024e338ea86c30eddb53f240645f21e85f28fdf15ff681468feb83f1fabd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая часть юрты находится в центре государственного герба Казахстана?",
+        "sample_hashes": [
+          "ba8fa8e6abfea27b494143a1599b035ed78995f0a26b11e51943170bafff9596",
+          "8cdae6c6d3dcc9ebc71861f72aa0897b191e8fc762b517c453e38b0ed62fcf57",
+          "011704f5d017fc0cbc477cfece853c4be91d2dc2b01bd82e5f74e16a536cf42e",
+          "00535cc9a85902c14210f3ce8e0dbfbc4dc39a0eee584ce9a4dfa5f0d141c43f",
+          "8df7c821fdc5350afcb5687909f97b1355ba512e3d3634643499a9bda1ea4ab2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:59.957097+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "e48c0bb193c5059247c5123cc0449030d2d87134fd0141158d7de2b1b842a822",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "db66024e338ea86c30eddb53f240645f21e85f28fdf15ff681468feb83f1fabd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая часть юрты находится в центре государственного герба Казахстана?",
+        "sample_hashes": [
+          "ba8fa8e6abfea27b494143a1599b035ed78995f0a26b11e51943170bafff9596",
+          "8cdae6c6d3dcc9ebc71861f72aa0897b191e8fc762b517c453e38b0ed62fcf57",
+          "011704f5d017fc0cbc477cfece853c4be91d2dc2b01bd82e5f74e16a536cf42e",
+          "00535cc9a85902c14210f3ce8e0dbfbc4dc39a0eee584ce9a4dfa5f0d141c43f",
+          "8df7c821fdc5350afcb5687909f97b1355ba512e3d3634643499a9bda1ea4ab2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1],\n    [1, 0, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:59.957097+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "e48c0bb193c5059247c5123cc0449030d2d87134fd0141158d7de2b1b842a822",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

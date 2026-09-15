@@ -1,0 +1,159 @@
+{
+  "case_id": "ccf28cf4b591f2b162e6f1061c993021690a8ae70530834fb05a3a7b36acd75f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ccf28cf4b591f2b162e6f1061c993021690a8ae70530834fb05a3a7b36acd75f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first astronaut aboard Voyager 1?",
+        "sample_hashes": [
+          "2119c83ec57007eff991cb5112463bcbfcffa30de885a6e65019beb11fedde25",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "e896dcc0558b2f7d261a2792a332f98c9cf94bf3b39f4683ea7486eccead43b3",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:04.434173+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "a635505c0f6f491beca31fb58fcc468da2e9650bcdca235682ea0233b41dbdaa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ccf28cf4b591f2b162e6f1061c993021690a8ae70530834fb05a3a7b36acd75f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first astronaut aboard Voyager 1?",
+        "sample_hashes": [
+          "2119c83ec57007eff991cb5112463bcbfcffa30de885a6e65019beb11fedde25",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "e896dcc0558b2f7d261a2792a332f98c9cf94bf3b39f4683ea7486eccead43b3",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:04.434173+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "a635505c0f6f491beca31fb58fcc468da2e9650bcdca235682ea0233b41dbdaa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ccf28cf4b591f2b162e6f1061c993021690a8ae70530834fb05a3a7b36acd75f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first astronaut aboard Voyager 1?",
+        "sample_hashes": [
+          "2119c83ec57007eff991cb5112463bcbfcffa30de885a6e65019beb11fedde25",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "e896dcc0558b2f7d261a2792a332f98c9cf94bf3b39f4683ea7486eccead43b3",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:04.434173+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "a635505c0f6f491beca31fb58fcc468da2e9650bcdca235682ea0233b41dbdaa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ccf28cf4b591f2b162e6f1061c993021690a8ae70530834fb05a3a7b36acd75f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first astronaut aboard Voyager 1?",
+        "sample_hashes": [
+          "2119c83ec57007eff991cb5112463bcbfcffa30de885a6e65019beb11fedde25",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "e896dcc0558b2f7d261a2792a332f98c9cf94bf3b39f4683ea7486eccead43b3",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc",
+          "121bcc371832af63804399fd93b8952918d54e397613c630a12bbe3667926fbc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:17:04.434173+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "a635505c0f6f491beca31fb58fcc468da2e9650bcdca235682ea0233b41dbdaa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "5659d98f3d116584b6a04671c47ec483ce6f225505a1b3d3dbef4258320d8b31",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5659d98f3d116584b6a04671c47ec483ce6f225505a1b3d3dbef4258320d8b31",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ 1803 жылы Луизиананы қай елден сатып алды?",
+        "sample_hashes": [
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "529d8e82682eee27f4540f45ce8726fc9423ccde88a36beb4104b421d254e940",
+          "e9610761a451f7e1c2c8ee03c9178d5f15ef5059c5f9993d9aff3f194eef7251",
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.366983+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "06558fffbfc54f2f504ce24861e2ed97ee7b4c50b8d0242f73752972ba0d4919",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5659d98f3d116584b6a04671c47ec483ce6f225505a1b3d3dbef4258320d8b31",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ 1803 жылы Луизиананы қай елден сатып алды?",
+        "sample_hashes": [
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "529d8e82682eee27f4540f45ce8726fc9423ccde88a36beb4104b421d254e940",
+          "e9610761a451f7e1c2c8ee03c9178d5f15ef5059c5f9993d9aff3f194eef7251",
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.366983+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "06558fffbfc54f2f504ce24861e2ed97ee7b4c50b8d0242f73752972ba0d4919",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5659d98f3d116584b6a04671c47ec483ce6f225505a1b3d3dbef4258320d8b31",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ 1803 жылы Луизиананы қай елден сатып алды?",
+        "sample_hashes": [
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "529d8e82682eee27f4540f45ce8726fc9423ccde88a36beb4104b421d254e940",
+          "e9610761a451f7e1c2c8ee03c9178d5f15ef5059c5f9993d9aff3f194eef7251",
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.366983+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "06558fffbfc54f2f504ce24861e2ed97ee7b4c50b8d0242f73752972ba0d4919",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5659d98f3d116584b6a04671c47ec483ce6f225505a1b3d3dbef4258320d8b31",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ 1803 жылы Луизиананы қай елден сатып алды?",
+        "sample_hashes": [
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "529d8e82682eee27f4540f45ce8726fc9423ccde88a36beb4104b421d254e940",
+          "e9610761a451f7e1c2c8ee03c9178d5f15ef5059c5f9993d9aff3f194eef7251",
+          "706281e59a8fbeb4a2b41797d4c80ca8845acd61f8513f9cfae0971d0016370b",
+          "08de27b516e9afcf4da826f61c7813b90386cc3739f3a537f89a244815809695"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.366983+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "06558fffbfc54f2f504ce24861e2ed97ee7b4c50b8d0242f73752972ba0d4919",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

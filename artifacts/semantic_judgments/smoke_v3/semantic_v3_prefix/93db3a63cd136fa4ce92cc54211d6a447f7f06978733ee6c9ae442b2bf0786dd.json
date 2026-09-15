@@ -1,0 +1,260 @@
+{
+  "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":1},\"uncertain\":false}",
+        "created_at": "2026-09-10T10:14:54.748036+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "ce0cc65f776a4e60314baa9161a156171bca93e07d628891cebd8c3ff7f7f273",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:14:55.481344+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "262c401e059ac867609b5435b020215295d47befa1ca6c80c55c672d446ce553",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:14:56.091435+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "3f7dc0af6f1392ffc7c9b0f02e6d25df32db9cb25269733928e98736ec686866",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:14:56.923832+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "787d409b7402db953a3cbc5fe8f0317553a816ff463a1c86d4d70a90dfad431d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d",
+          "45e65c3aba9d8b398eed3fd01cdf1384d4b05f9e7623fd7fd7bb548de43e166a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 3\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:14:58.225002+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "3e8aa0e440fc8eb1609a6ff9c5a7a1196f643eaf7704040a25545956747a5934",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d",
+          "45e65c3aba9d8b398eed3fd01cdf1384d4b05f9e7623fd7fd7bb548de43e166a"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:15:00.977384+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "1f4ba231c4ab0be1fef155e6ebd36e8e5c30ca0bc9d78e9b42a5e587d87a337d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d",
+          "45e65c3aba9d8b398eed3fd01cdf1384d4b05f9e7623fd7fd7bb548de43e166a",
+          "1b6e20297d8ae2bcd045de0be7de46bf78ee191eed201a2971d38f145ce2de10"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2,\n    \"D\": 3,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:15:01.422306+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "354fe9cfd7f45623b0c2da44ea7f5b6a8b834c9ccc584041d1b25203efbb40a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 4], [2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "93db3a63cd136fa4ce92cc54211d6a447f7f06978733ee6c9ae442b2bf0786dd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Какого числа Казахстан был принят в Организацию Объединённых Наций?",
+        "sample_hashes": [
+          "dd6741e8e3b1655172b72b184c2523bde1dbb9c650b082d13218d47e385db341",
+          "900fbdd0d69c6a36aba7e988255e1b456252cd6d53e171eb0ed7ae570fb57c3d",
+          "30b01633ce8c9bea5c1d836580fa9b6662d7cbab1dda5aa2ae3d575700d7688d",
+          "45e65c3aba9d8b398eed3fd01cdf1384d4b05f9e7623fd7fd7bb548de43e166a"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:15:00.977384+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "1f4ba231c4ab0be1fef155e6ebd36e8e5c30ca0bc9d78e9b42a5e587d87a337d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

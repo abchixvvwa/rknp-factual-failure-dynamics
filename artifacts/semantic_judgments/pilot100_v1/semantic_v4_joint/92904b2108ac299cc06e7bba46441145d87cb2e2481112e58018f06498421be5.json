@@ -1,0 +1,159 @@
+{
+  "case_id": "92904b2108ac299cc06e7bba46441145d87cb2e2481112e58018f06498421be5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "92904b2108ac299cc06e7bba46441145d87cb2e2481112e58018f06498421be5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted Girl with a Pearl Earring?",
+        "sample_hashes": [
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5",
+          "9ba7c9699262cd42c9dee7b0a8c7c43c5e7a765635466f1a0346dc080bc3fb12",
+          "b3a41b204fc98517e1b14d193953c331ec6fa07fbb6f8c971383a4803292eab5",
+          "60e38bb46b4b22aa7da5eb652300284a27f928aee616975ec8138ee5753bb86f",
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:15.519051+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "53854d4780a80bf657cb28ade59eb51434a56bf589178a5571cec9faff45152d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "92904b2108ac299cc06e7bba46441145d87cb2e2481112e58018f06498421be5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted Girl with a Pearl Earring?",
+        "sample_hashes": [
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5",
+          "9ba7c9699262cd42c9dee7b0a8c7c43c5e7a765635466f1a0346dc080bc3fb12",
+          "b3a41b204fc98517e1b14d193953c331ec6fa07fbb6f8c971383a4803292eab5",
+          "60e38bb46b4b22aa7da5eb652300284a27f928aee616975ec8138ee5753bb86f",
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:15.519051+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "53854d4780a80bf657cb28ade59eb51434a56bf589178a5571cec9faff45152d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "92904b2108ac299cc06e7bba46441145d87cb2e2481112e58018f06498421be5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted Girl with a Pearl Earring?",
+        "sample_hashes": [
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5",
+          "9ba7c9699262cd42c9dee7b0a8c7c43c5e7a765635466f1a0346dc080bc3fb12",
+          "b3a41b204fc98517e1b14d193953c331ec6fa07fbb6f8c971383a4803292eab5",
+          "60e38bb46b4b22aa7da5eb652300284a27f928aee616975ec8138ee5753bb86f",
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:15.519051+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "53854d4780a80bf657cb28ade59eb51434a56bf589178a5571cec9faff45152d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "92904b2108ac299cc06e7bba46441145d87cb2e2481112e58018f06498421be5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted Girl with a Pearl Earring?",
+        "sample_hashes": [
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5",
+          "9ba7c9699262cd42c9dee7b0a8c7c43c5e7a765635466f1a0346dc080bc3fb12",
+          "b3a41b204fc98517e1b14d193953c331ec6fa07fbb6f8c971383a4803292eab5",
+          "60e38bb46b4b22aa7da5eb652300284a27f928aee616975ec8138ee5753bb86f",
+          "00f3a475c59a52b1af42c7052520d82dec0ed4e6e0b1946aa748912d3244f5e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:40:15.519051+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "53854d4780a80bf657cb28ade59eb51434a56bf589178a5571cec9faff45152d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "benchmark_sha256": "5f8ad57f85de65ffb1b143dd0fe0f4b4345fb1353ef100abe9c0ad77509e243e",
+  "split_sha256": "e8040e9788dc2a8684544d24c101dc0586aba4e50bfb76d4d260dfecc401bd89",
+  "seed": 42,
+  "proportions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  }
+}

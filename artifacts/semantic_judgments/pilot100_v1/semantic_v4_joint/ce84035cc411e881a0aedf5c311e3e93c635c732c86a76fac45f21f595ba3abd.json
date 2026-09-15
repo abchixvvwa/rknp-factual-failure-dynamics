@@ -1,0 +1,159 @@
+{
+  "case_id": "ce84035cc411e881a0aedf5c311e3e93c635c732c86a76fac45f21f595ba3abd",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ce84035cc411e881a0aedf5c311e3e93c635c732c86a76fac45f21f595ba3abd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой океан непосредственно омывает побережье Казахстана?",
+        "sample_hashes": [
+          "97414f37593b230db1a4b9027a54693b1d3a3c13a4c8c96524a894f72cb541cf",
+          "2e936bc9a3b81765fe9dd8e654dd4099204f5a05a3038ab3df0e68472db41a83",
+          "ced6bc08fd1e12ed2c28d40beafda965e03f6478bb220dfa5474f0b0abb1d8e7",
+          "bae7ec330564c4624d647aa1ca924091401cd3ffcdfa8f9e0acbcef0f276a02f",
+          "65b552fd2973483723c22fddf024d812d3e2f3fe3ce549d076e712cac2a0cf2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:11.395265+00:00",
+        "system_fingerprint": "fp_ce855234b5",
+        "request_id": "3032dcb17c149cf1d3ad1f3dec1700e5e670baee8e72017750d1812284205c5d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ce84035cc411e881a0aedf5c311e3e93c635c732c86a76fac45f21f595ba3abd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой океан непосредственно омывает побережье Казахстана?",
+        "sample_hashes": [
+          "97414f37593b230db1a4b9027a54693b1d3a3c13a4c8c96524a894f72cb541cf",
+          "2e936bc9a3b81765fe9dd8e654dd4099204f5a05a3038ab3df0e68472db41a83",
+          "ced6bc08fd1e12ed2c28d40beafda965e03f6478bb220dfa5474f0b0abb1d8e7",
+          "bae7ec330564c4624d647aa1ca924091401cd3ffcdfa8f9e0acbcef0f276a02f",
+          "65b552fd2973483723c22fddf024d812d3e2f3fe3ce549d076e712cac2a0cf2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:11.395265+00:00",
+        "system_fingerprint": "fp_ce855234b5",
+        "request_id": "3032dcb17c149cf1d3ad1f3dec1700e5e670baee8e72017750d1812284205c5d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ce84035cc411e881a0aedf5c311e3e93c635c732c86a76fac45f21f595ba3abd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой океан непосредственно омывает побережье Казахстана?",
+        "sample_hashes": [
+          "97414f37593b230db1a4b9027a54693b1d3a3c13a4c8c96524a894f72cb541cf",
+          "2e936bc9a3b81765fe9dd8e654dd4099204f5a05a3038ab3df0e68472db41a83",
+          "ced6bc08fd1e12ed2c28d40beafda965e03f6478bb220dfa5474f0b0abb1d8e7",
+          "bae7ec330564c4624d647aa1ca924091401cd3ffcdfa8f9e0acbcef0f276a02f",
+          "65b552fd2973483723c22fddf024d812d3e2f3fe3ce549d076e712cac2a0cf2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:11.395265+00:00",
+        "system_fingerprint": "fp_ce855234b5",
+        "request_id": "3032dcb17c149cf1d3ad1f3dec1700e5e670baee8e72017750d1812284205c5d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ce84035cc411e881a0aedf5c311e3e93c635c732c86a76fac45f21f595ba3abd",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какой океан непосредственно омывает побережье Казахстана?",
+        "sample_hashes": [
+          "97414f37593b230db1a4b9027a54693b1d3a3c13a4c8c96524a894f72cb541cf",
+          "2e936bc9a3b81765fe9dd8e654dd4099204f5a05a3038ab3df0e68472db41a83",
+          "ced6bc08fd1e12ed2c28d40beafda965e03f6478bb220dfa5474f0b0abb1d8e7",
+          "bae7ec330564c4624d647aa1ca924091401cd3ffcdfa8f9e0acbcef0f276a02f",
+          "65b552fd2973483723c22fddf024d812d3e2f3fe3ce549d076e712cac2a0cf2c"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:11.395265+00:00",
+        "system_fingerprint": "fp_ce855234b5",
+        "request_id": "3032dcb17c149cf1d3ad1f3dec1700e5e670baee8e72017750d1812284205c5d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

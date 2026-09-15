@@ -1,0 +1,21 @@
+{
+  "reviewer": "project_user",
+  "confirmed_at_date": "2026-09-10",
+  "scope": "All 10 factual answers, sources and EN/RU/KK question equivalence",
+  "source_sha256": "5f8ad57f85de65ffb1b143dd0fe0f4b4345fb1353ef100abe9c0ad77509e243e",
+  "verified_sha256": "163ac1112124bf062de7a3f87ee20fb2c377fb9bbfc1f71eeaf826ade461b6a3",
+  "verified_file": "data\\benchmark\\facts_verified_v1.csv",
+  "fact_ids": [
+    "smoke_001",
+    "smoke_002",
+    "smoke_003",
+    "smoke_004",
+    "smoke_005",
+    "smoke_006",
+    "smoke_007",
+    "smoke_008",
+    "smoke_009",
+    "smoke_010"
+  ],
+  "kazakh_prompt_verified": false
+}

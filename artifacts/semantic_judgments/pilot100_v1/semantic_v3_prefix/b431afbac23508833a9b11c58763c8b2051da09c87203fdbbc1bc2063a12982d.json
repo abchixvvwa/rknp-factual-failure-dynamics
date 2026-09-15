@@ -1,0 +1,207 @@
+{
+  "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:00.444627+00:00",
+        "system_fingerprint": "fp_4b2f03d631",
+        "request_id": "ddf67d21bc610b79bcb81bb4f991d0209e732893f7ae6bb13fb19440c6d154a3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:03:03.892532+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "514f6d3c7505cd746a361b0a47b10db2f1c5edcc8af4ce25fb86b52d80ec24a1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:07.736466+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "1a6fe1e7f92377a2ee8a4c83a87931e59d023d4e0557f55010961c5970c4a66f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:03:03.892532+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "514f6d3c7505cd746a361b0a47b10db2f1c5edcc8af4ce25fb86b52d80ec24a1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d",
+          "4b73a85e18bbe70ece66761b658bcd381a6b19ce602d947e4f772c143b902a81"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":1,\"C\":1,\"D\":2},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:03:11.757136+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "000d9f0e3aef5a9ada6ebab68de09dd0193dcf0967568b51477f77d656a4b4f2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b431afbac23508833a9b11c58763c8b2051da09c87203fdbbc1bc2063a12982d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Ангкор қай елде орналасқан?",
+        "sample_hashes": [
+          "d57c6a298b1e6235cb18ade6eeab0220ad5195d64e66081914d39bbfadfa80a2",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d",
+          "3df451a2678deb43b18860cf609ee4edb7f40f2148067b34d105eb3909a7461d",
+          "4b73a85e18bbe70ece66761b658bcd381a6b19ce602d947e4f772c143b902a81",
+          "4b73a85e18bbe70ece66761b658bcd381a6b19ce602d947e4f772c143b902a81"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 1,\n    \"D\": 2,\n    \"E\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:03:13.856431+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "b93cd3fa9a78ec8cf19830f09833502aa7215e86ba80b03ebbff0684788928f2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1, 2], [3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

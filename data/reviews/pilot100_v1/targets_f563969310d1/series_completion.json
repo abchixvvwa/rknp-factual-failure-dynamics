@@ -1,0 +1,10 @@
+{
+  "scope": "First 50 pilot facts only; not all pilot targets or semantic validation",
+  "reviewed": 352,
+  "human_correct": 275,
+  "human_incorrect": 69,
+  "human_invalid": 8,
+  "automatic_correct_outside_queue": 98,
+  "invalid_have_no_binary_label": true,
+  "all_numbered_review_items_handled": true
+}

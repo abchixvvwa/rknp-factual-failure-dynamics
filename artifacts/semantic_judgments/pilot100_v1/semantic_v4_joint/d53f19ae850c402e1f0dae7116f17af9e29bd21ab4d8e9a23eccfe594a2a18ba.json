@@ -1,0 +1,159 @@
+{
+  "case_id": "d53f19ae850c402e1f0dae7116f17af9e29bd21ab4d8e9a23eccfe594a2a18ba",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d53f19ae850c402e1f0dae7116f17af9e29bd21ab4d8e9a23eccfe594a2a18ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Mona Lisa?",
+        "sample_hashes": [
+          "62d42777b386371e037d4d0366df1e87f93afaea34558f27d61bc06363312d4d",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "22c29c00b3b679f7f51b8b23f891778710396f2da1e5a3d54a5a421c87bcf728",
+          "1840e58ecfc3cdd37ed67feb3439e1a82ea5ae3850cac1c62f5c7a19fa206e48"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.573356+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "c72b04550caadce1d931e9b4a898f1b131b6ea2fd3167b7246478355eb13b593",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d53f19ae850c402e1f0dae7116f17af9e29bd21ab4d8e9a23eccfe594a2a18ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Mona Lisa?",
+        "sample_hashes": [
+          "62d42777b386371e037d4d0366df1e87f93afaea34558f27d61bc06363312d4d",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "22c29c00b3b679f7f51b8b23f891778710396f2da1e5a3d54a5a421c87bcf728",
+          "1840e58ecfc3cdd37ed67feb3439e1a82ea5ae3850cac1c62f5c7a19fa206e48"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.573356+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "c72b04550caadce1d931e9b4a898f1b131b6ea2fd3167b7246478355eb13b593",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d53f19ae850c402e1f0dae7116f17af9e29bd21ab4d8e9a23eccfe594a2a18ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Mona Lisa?",
+        "sample_hashes": [
+          "62d42777b386371e037d4d0366df1e87f93afaea34558f27d61bc06363312d4d",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "22c29c00b3b679f7f51b8b23f891778710396f2da1e5a3d54a5a421c87bcf728",
+          "1840e58ecfc3cdd37ed67feb3439e1a82ea5ae3850cac1c62f5c7a19fa206e48"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.573356+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "c72b04550caadce1d931e9b4a898f1b131b6ea2fd3167b7246478355eb13b593",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d53f19ae850c402e1f0dae7116f17af9e29bd21ab4d8e9a23eccfe594a2a18ba",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who painted the Mona Lisa?",
+        "sample_hashes": [
+          "62d42777b386371e037d4d0366df1e87f93afaea34558f27d61bc06363312d4d",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "0be11a4ecbeabd9cb9fa6a38f50327618eee78139805c82ddcd8682c8a723b4c",
+          "22c29c00b3b679f7f51b8b23f891778710396f2da1e5a3d54a5a421c87bcf728",
+          "1840e58ecfc3cdd37ed67feb3439e1a82ea5ae3850cac1c62f5c7a19fa206e48"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:39:18.573356+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "c72b04550caadce1d931e9b4a898f1b131b6ea2fd3167b7246478355eb13b593",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

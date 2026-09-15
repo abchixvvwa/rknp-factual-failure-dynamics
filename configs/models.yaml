@@ -1,0 +1,13 @@
+target_models:
+  - id: openai/gpt-oss-20b
+    enabled: true
+  - id: qwen/qwen3.6-27b
+    enabled: true
+  - id: qwen/qwen3.8-27b
+    enabled: true
+semantic_judge:
+  id: openai/gpt-oss-120b
+availability_policy:
+  verify_with_models_endpoint: true
+  require_free_tier_access: true
+  allow_silent_substitution: false

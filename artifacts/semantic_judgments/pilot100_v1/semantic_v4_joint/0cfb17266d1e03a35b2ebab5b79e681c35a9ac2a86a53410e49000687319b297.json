@@ -1,0 +1,159 @@
+{
+  "case_id": "0cfb17266d1e03a35b2ebab5b79e681c35a9ac2a86a53410e49000687319b297",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0cfb17266d1e03a35b2ebab5b79e681c35a9ac2a86a53410e49000687319b297",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Герника»?",
+        "sample_hashes": [
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "37164678520cd9663b5e3706e81a392001be451d00fc97604f45f746725b1266",
+          "c731f94103f0632fa4ab5ca81bedb6731cbe41e888c142ea7d66227bf383698b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:25.651592+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "fbd08d482eef3af839477ce5f4da88404454062d4a661f99acf43edf3903d92a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0cfb17266d1e03a35b2ebab5b79e681c35a9ac2a86a53410e49000687319b297",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Герника»?",
+        "sample_hashes": [
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "37164678520cd9663b5e3706e81a392001be451d00fc97604f45f746725b1266",
+          "c731f94103f0632fa4ab5ca81bedb6731cbe41e888c142ea7d66227bf383698b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:25.651592+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "fbd08d482eef3af839477ce5f4da88404454062d4a661f99acf43edf3903d92a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0cfb17266d1e03a35b2ebab5b79e681c35a9ac2a86a53410e49000687319b297",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Герника»?",
+        "sample_hashes": [
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "37164678520cd9663b5e3706e81a392001be451d00fc97604f45f746725b1266",
+          "c731f94103f0632fa4ab5ca81bedb6731cbe41e888c142ea7d66227bf383698b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:25.651592+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "fbd08d482eef3af839477ce5f4da88404454062d4a661f99acf43edf3903d92a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "0cfb17266d1e03a35b2ebab5b79e681c35a9ac2a86a53410e49000687319b297",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Герника»?",
+        "sample_hashes": [
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "2f39e8747de32961b5daaeaf9fd3ab98a3c5d9c28762711dfd744318988b4fae",
+          "37164678520cd9663b5e3706e81a392001be451d00fc97604f45f746725b1266",
+          "c731f94103f0632fa4ab5ca81bedb6731cbe41e888c142ea7d66227bf383698b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:25.651592+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "fbd08d482eef3af839477ce5f4da88404454062d4a661f99acf43edf3903d92a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "4db0dd54660eeef4bcc341542bf4338030c524154cc089565b0fceee5c9fb583",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4db0dd54660eeef4bcc341542bf4338030c524154cc089565b0fceee5c9fb583",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской бег на 100 метров на летних Олимпийских играх 1940 года?",
+        "sample_hashes": [
+          "8f8f327d6429714bfcfc6b9a227383ed774ac78ad8219159f4afffafaf4ba863",
+          "eef5a51bb6862e97dbbb100974d698eae8ff4fb23d421f7c4d2f7099458cef38",
+          "6385001e5deecbf0adc5f4c0372e453876b911512d79fddd893cde1b658f7811",
+          "39f7befc5867a7148674bb570c55062886d2b19fbecbf34b3769128bd1326285",
+          "756965c48eea7149a6e650cc53ad9f0d4f4217316f038835baf336aed9662d6b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:18.927915+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "6f8a4ce96a6da0a8df1a074c1af99d6486a3e45318fa651bd6d711aaeaf4b761",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4db0dd54660eeef4bcc341542bf4338030c524154cc089565b0fceee5c9fb583",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской бег на 100 метров на летних Олимпийских играх 1940 года?",
+        "sample_hashes": [
+          "8f8f327d6429714bfcfc6b9a227383ed774ac78ad8219159f4afffafaf4ba863",
+          "eef5a51bb6862e97dbbb100974d698eae8ff4fb23d421f7c4d2f7099458cef38",
+          "6385001e5deecbf0adc5f4c0372e453876b911512d79fddd893cde1b658f7811",
+          "39f7befc5867a7148674bb570c55062886d2b19fbecbf34b3769128bd1326285",
+          "756965c48eea7149a6e650cc53ad9f0d4f4217316f038835baf336aed9662d6b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:18.927915+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "6f8a4ce96a6da0a8df1a074c1af99d6486a3e45318fa651bd6d711aaeaf4b761",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4db0dd54660eeef4bcc341542bf4338030c524154cc089565b0fceee5c9fb583",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской бег на 100 метров на летних Олимпийских играх 1940 года?",
+        "sample_hashes": [
+          "8f8f327d6429714bfcfc6b9a227383ed774ac78ad8219159f4afffafaf4ba863",
+          "eef5a51bb6862e97dbbb100974d698eae8ff4fb23d421f7c4d2f7099458cef38",
+          "6385001e5deecbf0adc5f4c0372e453876b911512d79fddd893cde1b658f7811",
+          "39f7befc5867a7148674bb570c55062886d2b19fbecbf34b3769128bd1326285",
+          "756965c48eea7149a6e650cc53ad9f0d4f4217316f038835baf336aed9662d6b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:18.927915+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "6f8a4ce96a6da0a8df1a074c1af99d6486a3e45318fa651bd6d711aaeaf4b761",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4db0dd54660eeef4bcc341542bf4338030c524154cc089565b0fceee5c9fb583",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто выиграл мужской бег на 100 метров на летних Олимпийских играх 1940 года?",
+        "sample_hashes": [
+          "8f8f327d6429714bfcfc6b9a227383ed774ac78ad8219159f4afffafaf4ba863",
+          "eef5a51bb6862e97dbbb100974d698eae8ff4fb23d421f7c4d2f7099458cef38",
+          "6385001e5deecbf0adc5f4c0372e453876b911512d79fddd893cde1b658f7811",
+          "39f7befc5867a7148674bb570c55062886d2b19fbecbf34b3769128bd1326285",
+          "756965c48eea7149a6e650cc53ad9f0d4f4217316f038835baf336aed9662d6b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:18.927915+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "6f8a4ce96a6da0a8df1a074c1af99d6486a3e45318fa651bd6d711aaeaf4b761",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

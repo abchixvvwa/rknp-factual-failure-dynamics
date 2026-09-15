@@ -1,0 +1,159 @@
+{
+  "case_id": "69bdcdf53663467ada95eaadf431602dac42bf03b518f5105e3ec6b5b3eac104",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "69bdcdf53663467ada95eaadf431602dac42bf03b518f5105e3ec6b5b3eac104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Інжу сырғалы қыз» картинасын кім салған?",
+        "sample_hashes": [
+          "0ef17816d6397650a1554354b0cbb088769e184057d3d9a5fa7d48d06a14d226",
+          "47a202b4cdabeeee5266a499c028153b00437c71fcd71ca89c87b3b95d38b961",
+          "17ebc9fd649d6e1d591cc31432fe629da5cc85c37b231ef22468dc2cdafc6f21",
+          "f300f3de7b81d15ee31b3aa9b79ed406d2da610686095428c8b4c4f459b0af12",
+          "c06168c3c640da7d0d702cb4b21eb4ccda58e8be6309ee50d4f8cf5f8311db52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:28.566400+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "0b73ca6db2fb34fb498c20483884f2e5453f490fb49c8ec36073b0767ad8dfd1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "69bdcdf53663467ada95eaadf431602dac42bf03b518f5105e3ec6b5b3eac104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Інжу сырғалы қыз» картинасын кім салған?",
+        "sample_hashes": [
+          "0ef17816d6397650a1554354b0cbb088769e184057d3d9a5fa7d48d06a14d226",
+          "47a202b4cdabeeee5266a499c028153b00437c71fcd71ca89c87b3b95d38b961",
+          "17ebc9fd649d6e1d591cc31432fe629da5cc85c37b231ef22468dc2cdafc6f21",
+          "f300f3de7b81d15ee31b3aa9b79ed406d2da610686095428c8b4c4f459b0af12",
+          "c06168c3c640da7d0d702cb4b21eb4ccda58e8be6309ee50d4f8cf5f8311db52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:28.566400+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "0b73ca6db2fb34fb498c20483884f2e5453f490fb49c8ec36073b0767ad8dfd1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "69bdcdf53663467ada95eaadf431602dac42bf03b518f5105e3ec6b5b3eac104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Інжу сырғалы қыз» картинасын кім салған?",
+        "sample_hashes": [
+          "0ef17816d6397650a1554354b0cbb088769e184057d3d9a5fa7d48d06a14d226",
+          "47a202b4cdabeeee5266a499c028153b00437c71fcd71ca89c87b3b95d38b961",
+          "17ebc9fd649d6e1d591cc31432fe629da5cc85c37b231ef22468dc2cdafc6f21",
+          "f300f3de7b81d15ee31b3aa9b79ed406d2da610686095428c8b4c4f459b0af12",
+          "c06168c3c640da7d0d702cb4b21eb4ccda58e8be6309ee50d4f8cf5f8311db52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:28.566400+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "0b73ca6db2fb34fb498c20483884f2e5453f490fb49c8ec36073b0767ad8dfd1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "69bdcdf53663467ada95eaadf431602dac42bf03b518f5105e3ec6b5b3eac104",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Інжу сырғалы қыз» картинасын кім салған?",
+        "sample_hashes": [
+          "0ef17816d6397650a1554354b0cbb088769e184057d3d9a5fa7d48d06a14d226",
+          "47a202b4cdabeeee5266a499c028153b00437c71fcd71ca89c87b3b95d38b961",
+          "17ebc9fd649d6e1d591cc31432fe629da5cc85c37b231ef22468dc2cdafc6f21",
+          "f300f3de7b81d15ee31b3aa9b79ed406d2da610686095428c8b4c4f459b0af12",
+          "c06168c3c640da7d0d702cb4b21eb4ccda58e8be6309ee50d4f8cf5f8311db52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:49:28.566400+00:00",
+        "system_fingerprint": "fp_87b3c396db",
+        "request_id": "0b73ca6db2fb34fb498c20483884f2e5453f490fb49c8ec36073b0767ad8dfd1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

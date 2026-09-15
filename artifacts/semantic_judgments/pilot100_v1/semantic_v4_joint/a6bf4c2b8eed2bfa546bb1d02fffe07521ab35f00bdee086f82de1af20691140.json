@@ -1,0 +1,159 @@
+{
+  "case_id": "a6bf4c2b8eed2bfa546bb1d02fffe07521ab35f00bdee086f82de1af20691140",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a6bf4c2b8eed2bfa546bb1d02fffe07521ab35f00bdee086f82de1af20691140",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1940?",
+        "sample_hashes": [
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "cd2d36f710066d43eb7ea231880ce0e1fb74913c440a58dcc619dc0ed48a7140",
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "9b5c59fc3c634844773332de2894a53523652e64ee2bb7a0ac1fe16b80912430",
+          "70b59c9182c2f0497d8843c5a3d4794027723d7d46616f5a2e22a889ac95de08"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:03:57.715920+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4e2e9b7c0d932f5bd43ec639b500e209926ae38012bdb26be461e93808bb9c10",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a6bf4c2b8eed2bfa546bb1d02fffe07521ab35f00bdee086f82de1af20691140",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1940?",
+        "sample_hashes": [
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "cd2d36f710066d43eb7ea231880ce0e1fb74913c440a58dcc619dc0ed48a7140",
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "9b5c59fc3c634844773332de2894a53523652e64ee2bb7a0ac1fe16b80912430",
+          "70b59c9182c2f0497d8843c5a3d4794027723d7d46616f5a2e22a889ac95de08"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:03:57.715920+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4e2e9b7c0d932f5bd43ec639b500e209926ae38012bdb26be461e93808bb9c10",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a6bf4c2b8eed2bfa546bb1d02fffe07521ab35f00bdee086f82de1af20691140",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1940?",
+        "sample_hashes": [
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "cd2d36f710066d43eb7ea231880ce0e1fb74913c440a58dcc619dc0ed48a7140",
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "9b5c59fc3c634844773332de2894a53523652e64ee2bb7a0ac1fe16b80912430",
+          "70b59c9182c2f0497d8843c5a3d4794027723d7d46616f5a2e22a889ac95de08"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:03:57.715920+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4e2e9b7c0d932f5bd43ec639b500e209926ae38012bdb26be461e93808bb9c10",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a6bf4c2b8eed2bfa546bb1d02fffe07521ab35f00bdee086f82de1af20691140",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who won the Nobel Prize in Literature for 1940?",
+        "sample_hashes": [
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "cd2d36f710066d43eb7ea231880ce0e1fb74913c440a58dcc619dc0ed48a7140",
+          "dd3caa0e7a89a3fac5e94d1df0d21ebcf67b6fef8cc06660eaec5a9628c58015",
+          "9b5c59fc3c634844773332de2894a53523652e64ee2bb7a0ac1fe16b80912430",
+          "70b59c9182c2f0497d8843c5a3d4794027723d7d46616f5a2e22a889ac95de08"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:03:57.715920+00:00",
+        "system_fingerprint": "fp_c15aa9c1b7",
+        "request_id": "4e2e9b7c0d932f5bd43ec639b500e209926ae38012bdb26be461e93808bb9c10",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

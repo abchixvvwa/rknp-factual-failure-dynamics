@@ -1,0 +1,153 @@
+{
+  "case_id": "fc5f9485f6e64fa9b339e27c2dfafcae210c5bf854499d995ddae56c630de589",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fc5f9485f6e64fa9b339e27c2dfafcae210c5bf854499d995ddae56c630de589",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many planets are in our Solar System, excluding dwarf planets?",
+        "sample_hashes": [
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:07:55.048958+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "d5ccd700a439622005147df84a4cf2195594c9fd1569f0c531a3be14d9c54f6c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fc5f9485f6e64fa9b339e27c2dfafcae210c5bf854499d995ddae56c630de589",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many planets are in our Solar System, excluding dwarf planets?",
+        "sample_hashes": [
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:48.628499+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "f1088301919e6b624ffcb944606338881ff308159e6f0ddeecec05ee1c43a6e2",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fc5f9485f6e64fa9b339e27c2dfafcae210c5bf854499d995ddae56c630de589",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many planets are in our Solar System, excluding dwarf planets?",
+        "sample_hashes": [
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:49.401246+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "31371e2f1930c39cfa9b740346beb71ebd24d5f19f2ccd3468e5359adf0b2c40",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "fc5f9485f6e64fa9b339e27c2dfafcae210c5bf854499d995ddae56c630de589",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "How many planets are in our Solar System, excluding dwarf planets?",
+        "sample_hashes": [
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "c3c204a022da4e83375ff3ade463f2d04c0fb169d02bf1c826392222f496f53c",
+          "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "c51ad2180bf2241b5eb9da539d5f5382a187bbfc5e8e0d9859d7f455f1a6011b"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:08:50.381762+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "581e6f1640742e2c34c7e08f21e447bce0990a90dbe853b6d0a39e71e821e7af",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

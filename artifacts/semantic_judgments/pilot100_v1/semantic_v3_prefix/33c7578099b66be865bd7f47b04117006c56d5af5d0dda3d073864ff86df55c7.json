@@ -1,0 +1,193 @@
+{
+  "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8",
+          "c6943b47c9b5e152ebb5329f10bfefc0b543d52b516adfea4b3e3a9e63660b30"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:05:01.879407+00:00",
+        "system_fingerprint": "fp_6c36ac20de",
+        "request_id": "1bc9b53fb2fade0704255d8fb86674a2446653784567f5bbd8ca4a04e4e810bf",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:05:04.903990+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "345a8beeff9f08adcad74989026481b53af4bd3c66714eae043c64e973696fe1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8",
+          "c6943b47c9b5e152ebb5329f10bfefc0b543d52b516adfea4b3e3a9e63660b30",
+          "e07c4f85a95405fb5dbc43bd71bd83c41a19b159af8cb6c93a83274bd9edbebe"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:09.757619+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "3a8519e8306e00c57a79c3377d2f3c553dd3ff8c99af6b32ee215327bd198f03",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:05:04.903990+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "345a8beeff9f08adcad74989026481b53af4bd3c66714eae043c64e973696fe1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8",
+          "c6943b47c9b5e152ebb5329f10bfefc0b543d52b516adfea4b3e3a9e63660b30",
+          "e07c4f85a95405fb5dbc43bd71bd83c41a19b159af8cb6c93a83274bd9edbebe",
+          "7f0621da675730c9ba2c9aa743b2b03575be33f9110164b4d884c519dfe8bb79"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:13.466756+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "557e646e5ff21574e46ad06e6b9bfa3bf29e52881186586b664a50de536126ee",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "33c7578099b66be865bd7f47b04117006c56d5af5d0dda3d073864ff86df55c7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "У какой планеты Солнечной системы самая высокая температура поверхности?",
+        "sample_hashes": [
+          "f0125a78fc2c730264297ab704657a4fd1bac976e0ea05c70a19a2be2d14ccc8",
+          "c6943b47c9b5e152ebb5329f10bfefc0b543d52b516adfea4b3e3a9e63660b30",
+          "e07c4f85a95405fb5dbc43bd71bd83c41a19b159af8cb6c93a83274bd9edbebe",
+          "7f0621da675730c9ba2c9aa743b2b03575be33f9110164b4d884c519dfe8bb79",
+          "fb9462a94cabd1a32a77c55774b2fd076da65936e302b8e12e6dd6fe3802391c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:05:17.330717+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "8ed7de5e8285b8736bf52829d70b4ee52c72adf511afe1ff333dc717e274916a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

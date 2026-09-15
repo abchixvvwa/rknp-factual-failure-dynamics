@@ -1,0 +1,128 @@
+{
+  "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:52:18.703474+00:00",
+        "system_fingerprint": "fp_ce855234b5",
+        "request_id": "3b1d7d9a3a52137f1edf0cf1880d8633cd8cd8b2d2ec758029d0d4be5999d7ca",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:52:19.560285+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "34650eaefc0e46302e1173a63eddbdbc5add83b2186a7ac6f0b44e7f7af7189e",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "9cb7a4d551f838b16af89664d81028efc56eeb2f35e6342d20db8d2d9129d2ea",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v2_prefix",
+        "question": "On what date did the Continental Congress adopt the US Declaration of Independence?",
+        "sample_hashes": [
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "27d71c64970b587fa813843ab9339b899cb6a318bb688a503cb448bb152ae73c",
+          "dbca1c010aca4b6408c7684a3dd17e7ac7b9d3720b770c09b7a9bcee04715983",
+          "0230b3d6a68f6a595202ea16e8cb4cd880efc70b08efdca3a7cedd0073591b33"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T09:52:20.006288+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "371691bd34137f71fc5be80732f69148ce6eff24529e906aaed5d985702ea8f3",
+        "new_request": true,
+        "valid_response": true,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

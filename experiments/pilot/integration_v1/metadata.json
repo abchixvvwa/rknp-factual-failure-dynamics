@@ -1,0 +1,19 @@
+{
+  "experiment_id": "integration_v1",
+  "git_commit": null,
+  "python_version": "3.12.14",
+  "package_versions": {
+    "groq": "1.7.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.0",
+    "pyarrow": "23.0.1",
+    "pydantic": "2.13.5",
+    "pyyaml": "6.0.3"
+  },
+  "config_hash": "a642631df79c061bc78ac4a677b3e62b911a0f3d0bfa4abf458b2668b82667cf",
+  "benchmark_hash": null,
+  "split_hash": null,
+  "model_snapshot_hash": "95c4779047bc83732d95864d33f2030886996c104ef3cc69ea3c6aab7ea46a9a",
+  "timestamp": "2026-09-10T04:52:06.718537+00:00"
+}

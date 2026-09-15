@@ -1,0 +1,159 @@
+{
+  "case_id": "34b1b23337a953574e5fa2cbeaaccdaa2ab14cd72cfbe9e1ab0a47aadbee77b5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34b1b23337a953574e5fa2cbeaaccdaa2ab14cd72cfbe9e1ab0a47aadbee77b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of force?",
+        "sample_hashes": [
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "afd279c1ef20d98d08d6874f456da254d54000e55579df74c9d029c2b85b920d",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:17.426106+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "8545a9d4e0a8fc783b18d27e70bc19ed71961f7273489333a6bf3ffc22d8cc3d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34b1b23337a953574e5fa2cbeaaccdaa2ab14cd72cfbe9e1ab0a47aadbee77b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of force?",
+        "sample_hashes": [
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "afd279c1ef20d98d08d6874f456da254d54000e55579df74c9d029c2b85b920d",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:17.426106+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "8545a9d4e0a8fc783b18d27e70bc19ed71961f7273489333a6bf3ffc22d8cc3d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34b1b23337a953574e5fa2cbeaaccdaa2ab14cd72cfbe9e1ab0a47aadbee77b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of force?",
+        "sample_hashes": [
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "afd279c1ef20d98d08d6874f456da254d54000e55579df74c9d029c2b85b920d",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:17.426106+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "8545a9d4e0a8fc783b18d27e70bc19ed71961f7273489333a6bf3ffc22d8cc3d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "34b1b23337a953574e5fa2cbeaaccdaa2ab14cd72cfbe9e1ab0a47aadbee77b5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of force?",
+        "sample_hashes": [
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "52c781ab28165025605e0396efb7deefbefa55e8848cfa6d19d2365b454071e7",
+          "afd279c1ef20d98d08d6874f456da254d54000e55579df74c9d029c2b85b920d",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24",
+          "6a7cc4a3e31aff991a3d05218f223b547b59dc9dcbc5e37bacc7e19836973c24"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:17.426106+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "8545a9d4e0a8fc783b18d27e70bc19ed71961f7273489333a6bf3ffc22d8cc3d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

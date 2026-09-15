@@ -1,0 +1,397 @@
+{
+  "experiment_id": "pilot100_v1",
+  "engineering_only": true,
+  "benchmark_sha256": "df2c36a8ac136194e654ba11d018d851cadcb9e48dc28578eaceb40143560ce6",
+  "requests": 5400,
+  "duplicate_request_keys": 0,
+  "expected_requests": 5400,
+  "expected_cases": 900,
+  "empty_responses": 12,
+  "refusal_marker_responses": 36,
+  "repeated_sample_texts": 1494,
+  "fingerprints_by_model": {
+    "openai/gpt-oss-20b": [
+      "fp_1074f9ce08",
+      "fp_1c0f5282a2",
+      "fp_228717f27c",
+      "fp_24bfb4a850",
+      "fp_2b688e7cc3",
+      "fp_3023a70d60",
+      "fp_334cc21c60",
+      "fp_34cb00738d",
+      "fp_37c9245f64",
+      "fp_3cdd24b83b",
+      "fp_4a35f7bd1b",
+      "fp_4f7e7dc26e",
+      "fp_565badff47",
+      "fp_587d0d67cc",
+      "fp_5979a0e1b7",
+      "fp_63473661d7",
+      "fp_639a5351c8",
+      "fp_66891002f6",
+      "fp_66f3850a1a",
+      "fp_75c733514d",
+      "fp_7d448090ba",
+      "fp_80501ff3a1",
+      "fp_84bb35977d",
+      "fp_851252edc2",
+      "fp_8b41efc9a3",
+      "fp_8d13edce1d",
+      "fp_8e23cedc90",
+      "fp_92d51d08e5",
+      "fp_9340e7d14d",
+      "fp_976a85d17a",
+      "fp_996f667773",
+      "fp_99996fee8e",
+      "fp_9b8528b477",
+      "fp_a12402de73",
+      "fp_a4315eb300",
+      "fp_a8c584dda7",
+      "fp_c5a89987dc",
+      "fp_c9afb2bdb4",
+      "fp_d23c14756c",
+      "fp_d3e146e1a5",
+      "fp_d6de37e6be",
+      "fp_e189667b30",
+      "fp_e23fc997ca",
+      "fp_e2cb7a84ec",
+      "fp_e594c51153",
+      "fp_e99e93f2ac",
+      "fp_ef00694abe",
+      "fp_feb9b278f1"
+    ],
+    "qwen/qwen3.6-27b": [
+      "fp_2f860a3fc2",
+      "fp_49d6b1859d",
+      "fp_56957dc726",
+      "fp_56b71ffadd",
+      "fp_60e0d2f248",
+      "fp_7633f36f03",
+      "fp_a2fc476ff0",
+      "fp_fff3b79855"
+    ],
+    "qwen/qwen3.8-27b": [
+      "fp_2708ed9bd4",
+      "fp_43dd1ea4ee",
+      "fp_57c7e760a9",
+      "fp_5e14805ce3",
+      "fp_8da23ae6c7",
+      "fp_91b5e87adf",
+      "fp_b930cafd52",
+      "fp_c7e30c203c",
+      "fp_fea14bdc83"
+    ]
+  },
+  "observed_cases": 900,
+  "complete_cases": 866,
+  "invalid_responses": 48,
+  "exclusions": [
+    {
+      "case_id": "b7724e65b3ed704d44e60c427e685ff842c48a00b95d99452b8eaff4eba615fb",
+      "fact_id": "pilot_013",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "47832c8a194cb9631e69eb57fa1f5e0a9dacaf690bfcb314588d2260a547db58",
+      "fact_id": "pilot_013",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "5988bca59e03847620d907e80af8b628d1319e54a87387a2637bfabc53591e0c",
+      "fact_id": "pilot_014",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 2
+    },
+    {
+      "case_id": "23fbae5534c853f99f1f22cbbb4e1001686fd45b60c045b50c4768d63c9e4019",
+      "fact_id": "pilot_016",
+      "language": "en",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "7e65ae9f7ab086940ec36c1bb8ce1ce4c101464abeb8df362265a964b3a6c7ae",
+      "fact_id": "pilot_016",
+      "language": "kk",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "f72a51aa80fe2c84ad978dd88c15115225879f6613a6101e68fb6f09313a880a",
+      "fact_id": "pilot_016",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "9e3b340994071b50d14e6557a96179e3f5368b73c2de8f471cb442a62034d570",
+      "fact_id": "pilot_016",
+      "language": "ru",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "66e065af69a65ae8a3cd5ef329b2f9081d0ef0a85e5550e3ec3a375fd95c5439",
+      "fact_id": "pilot_016",
+      "language": "ru",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "f3252ce1c6c013935b21ed2b039a98a5c6b425af5484f36792e163550b53662c",
+      "fact_id": "pilot_016",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 5
+    },
+    {
+      "case_id": "ce851550b91c66f00d3e4001f4f2d4e5bd253fdd6c537e9443ebd7ef118cddc1",
+      "fact_id": "pilot_019",
+      "language": "en",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "34a49cc762f1c8a57e7f5b6429e6ac6c2ee72bacdf1a169759df2af8826c3828",
+      "fact_id": "pilot_019",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "21f93ddc6b6a21cb59b1d6461cc8064fa3b6325e0057a1ae90d908786663a1d9",
+      "fact_id": "pilot_021",
+      "language": "en",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "c54f91612db85196914057485c6e85e6faf96b66705badb5c17693fd2f92ba9a",
+      "fact_id": "pilot_021",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 5
+    },
+    {
+      "case_id": "1e5081c69cef942f720d7b1d19a534c14a5eb08cc692346beac33bb44e64c68a",
+      "fact_id": "pilot_021",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 5
+    },
+    {
+      "case_id": "39f227251990e36a5189da4d8c647088dd075ba4f4fbc6ab7cfa5abc55841fc3",
+      "fact_id": "pilot_022",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "9107a155222a6316734296b6bd3edea52b18f18630904d016aa1c29d26d1086c",
+      "fact_id": "pilot_046",
+      "language": "kk",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "be87d15a1fe1ad1ce5a75cb1b24f29e4baab998b21340cdb747ad50a8f325cb9",
+      "fact_id": "pilot_062",
+      "language": "kk",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "2c5e3fbaf3a3d3faa1411239264d98ea37891ab65429a568760c122edb620014",
+      "fact_id": "pilot_070",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "1a191e814457f831d2d3be19863244cf016e39e81d56a29dc5b64d76c3513d38",
+      "fact_id": "pilot_076",
+      "language": "kk",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "3f2a33b08693b1ab828947c1e810216552f8168adbf7b2e8af58948cf03beec0",
+      "fact_id": "pilot_076",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "dbe497744ddc736d299de9efe1f94ec0785ca8f4d692f295eb6bebb27f47839d",
+      "fact_id": "pilot_082",
+      "language": "kk",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "c8a0b52f67181c4a4269f68eb15e6b621c3525118d0450ebbdac4c32b5f0c651",
+      "fact_id": "pilot_083",
+      "language": "en",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 5
+    },
+    {
+      "case_id": "90f5273637eb5286e3572e128cace94c46f3dcf2ce43fd438d7a85493dac74dd",
+      "fact_id": "pilot_084",
+      "language": "kk",
+      "model_id": "qwen/qwen3.6-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "93a0db4b2682c42ed6ddb91df794d6f03a861ccd08523508f1ddcfbdb075534c",
+      "fact_id": "pilot_084",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "5327ba467cfbb63b965f5d35509c8413e0c7f269d07f23626d600f3c294dbf18",
+      "fact_id": "pilot_085",
+      "language": "kk",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "a4bdc24ad5a9882be2f149ee7b91a674e804bf715cca75e290508c9eaeff3cbc",
+      "fact_id": "pilot_085",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "270706cf7d365ffee93beca56d6a5f7fdf423394572fcb082ac3a56a3e5714c9",
+      "fact_id": "pilot_085",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "c64d241f007890e6a00f216289a7fe04a9c6ca33a45d97c112de310f0fca5f09",
+      "fact_id": "pilot_086",
+      "language": "kk",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 3
+    },
+    {
+      "case_id": "09cfae5c873d994a3bf8e3910370f05fd6afb102477f48932663b9826526c2cb",
+      "fact_id": "pilot_086",
+      "language": "ru",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "b3e81097883c00fae7071503cc064af0c39acbe2b28b89881797c2e80dc86b69",
+      "fact_id": "pilot_086",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "99ef4d99a490d40b7dfbdc6d4b8e077fd7264b96809f9e2839a2dbd5def2f435",
+      "fact_id": "pilot_087",
+      "language": "en",
+      "model_id": "openai/gpt-oss-20b",
+      "missing_target": false,
+      "valid_samples": 5
+    },
+    {
+      "case_id": "3a90128418d5b43b36d6aa79611a170758a47516402c91b667fee528a0cc675a",
+      "fact_id": "pilot_087",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "82ad73369ecd431989ff7a3b4fdaf65663de79bbd2389833ef00d2bfe67cf21c",
+      "fact_id": "pilot_088",
+      "language": "kk",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    },
+    {
+      "case_id": "023c53fad91699ced05fe119d567b553ebe8175b53c2dac5ec4b06094e1138f1",
+      "fact_id": "pilot_088",
+      "language": "ru",
+      "model_id": "qwen/qwen3.8-27b",
+      "missing_target": false,
+      "valid_samples": 4
+    }
+  ],
+  "by_model": [
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "requests": 1800,
+      "input_tokens": 257706,
+      "output_tokens": 124550
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "requests": 1800,
+      "input_tokens": 183060,
+      "output_tokens": 55076
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "requests": 1800,
+      "input_tokens": 183060,
+      "output_tokens": 89220
+    }
+  ],
+  "invalid_by_language": {
+    "ru": 12,
+    "kk": 31,
+    "en": 5
+  },
+  "invalid_by_model": {
+    "qwen/qwen3.8-27b": 26,
+    "openai/gpt-oss-20b": 12,
+    "qwen/qwen3.6-27b": 10
+  },
+  "finish_reasons": {
+    "stop": 5352,
+    "length": 48
+  },
+  "interpretation": "Engineering feasibility evidence, not a scientific pilot and not evidence for predictive hypotheses"
+}

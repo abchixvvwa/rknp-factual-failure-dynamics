@@ -1,0 +1,159 @@
+{
+  "case_id": "b55ebf18ee0f60b70592573070b131f07e8c26996ffe2af1e3557e32e741bf28",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b55ebf18ee0f60b70592573070b131f07e8c26996ffe2af1e3557e32e741bf28",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Галапагос аралдары қай елге тиесілі?",
+        "sample_hashes": [
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:27.798902+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "ce27c7d980e416fdbf6e64457957ed64e272419db30764ba8ea23fcf4481069b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b55ebf18ee0f60b70592573070b131f07e8c26996ffe2af1e3557e32e741bf28",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Галапагос аралдары қай елге тиесілі?",
+        "sample_hashes": [
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:27.798902+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "ce27c7d980e416fdbf6e64457957ed64e272419db30764ba8ea23fcf4481069b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b55ebf18ee0f60b70592573070b131f07e8c26996ffe2af1e3557e32e741bf28",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Галапагос аралдары қай елге тиесілі?",
+        "sample_hashes": [
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:27.798902+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "ce27c7d980e416fdbf6e64457957ed64e272419db30764ba8ea23fcf4481069b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b55ebf18ee0f60b70592573070b131f07e8c26996ffe2af1e3557e32e741bf28",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Галапагос аралдары қай елге тиесілі?",
+        "sample_hashes": [
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb",
+          "6f3559cd02a44c8908bcda6f9e6548dc2f7067dba762355e5f87d366c677b652",
+          "8b378f60bf1e002cd206804cf16bbb30391f6c3f0bb27624edc0562dcc4d62fb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:27.798902+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "ce27c7d980e416fdbf6e64457957ed64e272419db30764ba8ea23fcf4481069b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

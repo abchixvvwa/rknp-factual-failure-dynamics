@@ -1,0 +1,153 @@
+{
+  "case_id": "216b17186a0b43faf39d474a27b88d573cb7e54935dd4ea8ddf6a34601ca06cb",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "216b17186a0b43faf39d474a27b88d573cb7e54935dd4ea8ddf6a34601ca06cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Night Watch?",
+        "sample_hashes": [
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "7a44e9485678597734a0c0628c4291421524775f76930b2786915489f20f1b66"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:08.765511+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "f188f1b2af784bf30da00d0bff80382586bfa00da817a296ae274e92be3ec2dc",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "216b17186a0b43faf39d474a27b88d573cb7e54935dd4ea8ddf6a34601ca06cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Night Watch?",
+        "sample_hashes": [
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "7a44e9485678597734a0c0628c4291421524775f76930b2786915489f20f1b66",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:12.898836+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "8460add8165bccb35035ad8001205191c0de4adf11ad4d906c418aa09af8852b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "216b17186a0b43faf39d474a27b88d573cb7e54935dd4ea8ddf6a34601ca06cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Night Watch?",
+        "sample_hashes": [
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "7a44e9485678597734a0c0628c4291421524775f76930b2786915489f20f1b66",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:14.718590+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "fe3aca3ad76cb72400d3d1a1f0e29fb94501b44fb1dd609612abf7b3f78345a4",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "216b17186a0b43faf39d474a27b88d573cb7e54935dd4ea8ddf6a34601ca06cb",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Night Watch?",
+        "sample_hashes": [
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "7a44e9485678597734a0c0628c4291421524775f76930b2786915489f20f1b66",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935",
+          "b6862b7f37c63945a050952ec9f00fa0ee6a1c8c4e806e84b040c34b7953f935"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:17.981663+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "3f3d24d0b97831f19b7d5ad705e9bc7e21a27304e580d8eed24f95a123ddaed7",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

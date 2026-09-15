@@ -1,0 +1,159 @@
+{
+  "case_id": "8fd77f290e11b70c40a6de5b13533dd0f9afe2ce00e4289816bdddb1ec0d4ec0",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8fd77f290e11b70c40a6de5b13533dd0f9afe2ce00e4289816bdddb1ec0d4ec0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі электр кедергісінің бірлігі қалай аталады?",
+        "sample_hashes": [
+          "08da6eca0827f2616f2f12cc75ca06c0ab46e240e22abb38508c578ebff19255",
+          "5c37020aee1cd795a83a30078950fc59ac19393a72b830fdd7e995d917a1bdd3",
+          "c7889df77afea97150d9d636919e018c97dce4f23c4c669c6a8b4cc779b32c0c",
+          "184f3a93af85089ede934940fd6696831343953a691dd23d8686ee6fa21948b7",
+          "0f6bccdab1965b994d18392a1c92a7ef3bb33c88b74cf44e581427a3415bd468"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:20.623359+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "38d3f9e30cc89de39d7779a82c7a084aa8777aa640be49323af7b976388cfd92",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8fd77f290e11b70c40a6de5b13533dd0f9afe2ce00e4289816bdddb1ec0d4ec0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі электр кедергісінің бірлігі қалай аталады?",
+        "sample_hashes": [
+          "08da6eca0827f2616f2f12cc75ca06c0ab46e240e22abb38508c578ebff19255",
+          "5c37020aee1cd795a83a30078950fc59ac19393a72b830fdd7e995d917a1bdd3",
+          "c7889df77afea97150d9d636919e018c97dce4f23c4c669c6a8b4cc779b32c0c",
+          "184f3a93af85089ede934940fd6696831343953a691dd23d8686ee6fa21948b7",
+          "0f6bccdab1965b994d18392a1c92a7ef3bb33c88b74cf44e581427a3415bd468"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:20.623359+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "38d3f9e30cc89de39d7779a82c7a084aa8777aa640be49323af7b976388cfd92",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8fd77f290e11b70c40a6de5b13533dd0f9afe2ce00e4289816bdddb1ec0d4ec0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі электр кедергісінің бірлігі қалай аталады?",
+        "sample_hashes": [
+          "08da6eca0827f2616f2f12cc75ca06c0ab46e240e22abb38508c578ebff19255",
+          "5c37020aee1cd795a83a30078950fc59ac19393a72b830fdd7e995d917a1bdd3",
+          "c7889df77afea97150d9d636919e018c97dce4f23c4c669c6a8b4cc779b32c0c",
+          "184f3a93af85089ede934940fd6696831343953a691dd23d8686ee6fa21948b7",
+          "0f6bccdab1965b994d18392a1c92a7ef3bb33c88b74cf44e581427a3415bd468"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:20.623359+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "38d3f9e30cc89de39d7779a82c7a084aa8777aa640be49323af7b976388cfd92",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8fd77f290e11b70c40a6de5b13533dd0f9afe2ce00e4289816bdddb1ec0d4ec0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі электр кедергісінің бірлігі қалай аталады?",
+        "sample_hashes": [
+          "08da6eca0827f2616f2f12cc75ca06c0ab46e240e22abb38508c578ebff19255",
+          "5c37020aee1cd795a83a30078950fc59ac19393a72b830fdd7e995d917a1bdd3",
+          "c7889df77afea97150d9d636919e018c97dce4f23c4c669c6a8b4cc779b32c0c",
+          "184f3a93af85089ede934940fd6696831343953a691dd23d8686ee6fa21948b7",
+          "0f6bccdab1965b994d18392a1c92a7ef3bb33c88b74cf44e581427a3415bd468"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:20.623359+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "38d3f9e30cc89de39d7779a82c7a084aa8777aa640be49323af7b976388cfd92",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

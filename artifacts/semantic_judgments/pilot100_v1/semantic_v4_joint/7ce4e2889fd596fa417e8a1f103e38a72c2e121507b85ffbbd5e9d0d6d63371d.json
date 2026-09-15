@@ -1,0 +1,179 @@
+{
+  "case_id": "7ce4e2889fd596fa417e8a1f103e38a72c2e121507b85ffbbd5e9d0d6d63371d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7ce4e2889fd596fa417e8a1f103e38a72c2e121507b85ffbbd5e9d0d6d63371d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какие два архитектора создали государственный герб Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "78afaa1918ce972c4f0735aa2758035ff9d2eabcdec491f9a16ab16729c7c677",
+          "7f6eba166d3403dd9a377b7fab0a71935a7e67c431d6c7cafe9d6090a736e8be",
+          "a1a92770525a2b732d7db7c8098be3b97f9a7559cc8f2f63d29093a14e904979",
+          "854e67fd0a25dea7a40164dac55c75d4a034fa281b5659436c1da804353f77c6",
+          "b14b645eb3376bab4a0534e7084ef131c4354f2eb60d6379c81c0ad225a626b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:10.866889+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b5551f827e589d01113d4fa7bc5ba2b5da63a720c27b57e5a152df69bc6a1848",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7ce4e2889fd596fa417e8a1f103e38a72c2e121507b85ffbbd5e9d0d6d63371d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какие два архитектора создали государственный герб Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "78afaa1918ce972c4f0735aa2758035ff9d2eabcdec491f9a16ab16729c7c677",
+          "7f6eba166d3403dd9a377b7fab0a71935a7e67c431d6c7cafe9d6090a736e8be",
+          "a1a92770525a2b732d7db7c8098be3b97f9a7559cc8f2f63d29093a14e904979",
+          "854e67fd0a25dea7a40164dac55c75d4a034fa281b5659436c1da804353f77c6",
+          "b14b645eb3376bab4a0534e7084ef131c4354f2eb60d6379c81c0ad225a626b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:10.866889+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b5551f827e589d01113d4fa7bc5ba2b5da63a720c27b57e5a152df69bc6a1848",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7ce4e2889fd596fa417e8a1f103e38a72c2e121507b85ffbbd5e9d0d6d63371d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какие два архитектора создали государственный герб Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "78afaa1918ce972c4f0735aa2758035ff9d2eabcdec491f9a16ab16729c7c677",
+          "7f6eba166d3403dd9a377b7fab0a71935a7e67c431d6c7cafe9d6090a736e8be",
+          "a1a92770525a2b732d7db7c8098be3b97f9a7559cc8f2f63d29093a14e904979",
+          "854e67fd0a25dea7a40164dac55c75d4a034fa281b5659436c1da804353f77c6",
+          "b14b645eb3376bab4a0534e7084ef131c4354f2eb60d6379c81c0ad225a626b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:10.866889+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b5551f827e589d01113d4fa7bc5ba2b5da63a720c27b57e5a152df69bc6a1848",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7ce4e2889fd596fa417e8a1f103e38a72c2e121507b85ffbbd5e9d0d6d63371d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какие два архитектора создали государственный герб Казахстана, принятый в 1992 году?",
+        "sample_hashes": [
+          "78afaa1918ce972c4f0735aa2758035ff9d2eabcdec491f9a16ab16729c7c677",
+          "7f6eba166d3403dd9a377b7fab0a71935a7e67c431d6c7cafe9d6090a736e8be",
+          "a1a92770525a2b732d7db7c8098be3b97f9a7559cc8f2f63d29093a14e904979",
+          "854e67fd0a25dea7a40164dac55c75d4a034fa281b5659436c1da804353f77c6",
+          "b14b645eb3376bab4a0534e7084ef131c4354f2eb60d6379c81c0ad225a626b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:32:10.866889+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b5551f827e589d01113d4fa7bc5ba2b5da63a720c27b57e5a152df69bc6a1848",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

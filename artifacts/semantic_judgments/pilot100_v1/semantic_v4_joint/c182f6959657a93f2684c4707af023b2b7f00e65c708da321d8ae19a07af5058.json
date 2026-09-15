@@ -1,0 +1,159 @@
+{
+  "case_id": "c182f6959657a93f2684c4707af023b2b7f00e65c708da321d8ae19a07af5058",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c182f6959657a93f2684c4707af023b2b7f00e65c708da321d8ae19a07af5058",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая миссия программы «Аполлон» первой полетела с экипажем?",
+        "sample_hashes": [
+          "bafb00a412295db5626715e5a5a2d7512b0b28de9ce3a28e89e18547f4d6f521",
+          "f7de02c51bac553713e4dfa5eed832d2dffd5d095afa20a79c5227572deb18d8",
+          "328dc9d63db858bd24016a2e5c4e417cf6c61d00e555e26d459e30f6ac533151",
+          "1bbf4ea5e2c45015517e0f45aa28c0f54b572802e1b52a1cb382716bddc5764c",
+          "7aefba765c175af5320211525f22578278fb40d94f291327ed1a43b902e0f111"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:56.014653+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "c27d2ea805460d3316193b6c3eb6c815f99cc621fcef660ee817d4eee6998205",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c182f6959657a93f2684c4707af023b2b7f00e65c708da321d8ae19a07af5058",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая миссия программы «Аполлон» первой полетела с экипажем?",
+        "sample_hashes": [
+          "bafb00a412295db5626715e5a5a2d7512b0b28de9ce3a28e89e18547f4d6f521",
+          "f7de02c51bac553713e4dfa5eed832d2dffd5d095afa20a79c5227572deb18d8",
+          "328dc9d63db858bd24016a2e5c4e417cf6c61d00e555e26d459e30f6ac533151",
+          "1bbf4ea5e2c45015517e0f45aa28c0f54b572802e1b52a1cb382716bddc5764c",
+          "7aefba765c175af5320211525f22578278fb40d94f291327ed1a43b902e0f111"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:56.014653+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "c27d2ea805460d3316193b6c3eb6c815f99cc621fcef660ee817d4eee6998205",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c182f6959657a93f2684c4707af023b2b7f00e65c708da321d8ae19a07af5058",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая миссия программы «Аполлон» первой полетела с экипажем?",
+        "sample_hashes": [
+          "bafb00a412295db5626715e5a5a2d7512b0b28de9ce3a28e89e18547f4d6f521",
+          "f7de02c51bac553713e4dfa5eed832d2dffd5d095afa20a79c5227572deb18d8",
+          "328dc9d63db858bd24016a2e5c4e417cf6c61d00e555e26d459e30f6ac533151",
+          "1bbf4ea5e2c45015517e0f45aa28c0f54b572802e1b52a1cb382716bddc5764c",
+          "7aefba765c175af5320211525f22578278fb40d94f291327ed1a43b902e0f111"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:56.014653+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "c27d2ea805460d3316193b6c3eb6c815f99cc621fcef660ee817d4eee6998205",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c182f6959657a93f2684c4707af023b2b7f00e65c708da321d8ae19a07af5058",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая миссия программы «Аполлон» первой полетела с экипажем?",
+        "sample_hashes": [
+          "bafb00a412295db5626715e5a5a2d7512b0b28de9ce3a28e89e18547f4d6f521",
+          "f7de02c51bac553713e4dfa5eed832d2dffd5d095afa20a79c5227572deb18d8",
+          "328dc9d63db858bd24016a2e5c4e417cf6c61d00e555e26d459e30f6ac533151",
+          "1bbf4ea5e2c45015517e0f45aa28c0f54b572802e1b52a1cb382716bddc5764c",
+          "7aefba765c175af5320211525f22578278fb40d94f291327ed1a43b902e0f111"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:14:56.014653+00:00",
+        "system_fingerprint": "fp_d1bc601726",
+        "request_id": "c27d2ea805460d3316193b6c3eb6c815f99cc621fcef660ee817d4eee6998205",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

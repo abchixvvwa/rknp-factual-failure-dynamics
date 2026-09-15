@@ -1,0 +1,153 @@
+{
+  "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:18:56.729970+00:00",
+        "system_fingerprint": "fp_bb691ea66b",
+        "request_id": "cfc861df7970a1589a748a43085f030cbad1f28ddf766b041a9c39075a42bec5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:18:59.579375+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "d7435e4307fed34d0fcfad4c6ee33699a8a9d1421aeccfd9d9b85ea72256de08",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:02.734379+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "14d1461f9d2fa42e3fbf9f4b5a3b145b304c11fad8c306aaa1b7e0599a5186d5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c45c112b85304e22b3a4e81dbb8bfbafa4b66ed806e2b15d0d8806e06987c394",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted The Persistence of Memory?",
+        "sample_hashes": [
+          "a8f43402fd58e6940c9f5f7801588f2cb8ed01f0ed8ef9eff260691498abc107",
+          "596673e3b9dd9da759b15fefd6d4c36bcb4bfa11b6b1922b1df1018f125c811c",
+          "ce406e4ad420e349a4b0f7490ed83f25f37a8872c4f00c290105b193d958d658",
+          "14fe268e813a7a39e1ac8cc563593f0d1fb74fb83eca19af5b61ec3e15d7925e",
+          "11131468918e8086b521d00a3ff5eee6c53487250f20555a838d8172dfe5b875"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:05.809019+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "2a9a6acb6d94961372b4d14a7369151893fe7ea0679cfb0c93d147397cae2c13",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

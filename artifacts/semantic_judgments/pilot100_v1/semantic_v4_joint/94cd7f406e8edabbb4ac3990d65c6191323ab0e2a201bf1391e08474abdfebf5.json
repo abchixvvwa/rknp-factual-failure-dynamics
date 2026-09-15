@@ -1,0 +1,167 @@
+{
+  "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі жиілік бірлігі қалай аталады?",
+        "sample_hashes": [
+          "744ca252d40c00eeeffcae2d1ed6bd6f6035687fe88451f510f2bf6d8bbf9fd1",
+          "cbc4a15622fefddd9bf020161f46b014a87e889834870665ddd55a1f73fd3e7f",
+          "1f8d2f0df7d590c2aa334fb9d4558f5ce0240582066c314db3a9c2dbc5dae83e",
+          "d3b59641e484ecfc4d0d374a7578ab5adb3b9056f03fa459051a03e04c51f336",
+          "e08020e92f4101a540ef8843ff73fb174d380d47c02006532ed8fc3e51097d65"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:23:43.035639+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "2e798d9dc65157f8fd9e037df1eececc906d169492e5c65cf7e3017c5855c0aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі жиілік бірлігі қалай аталады?",
+        "sample_hashes": [
+          "744ca252d40c00eeeffcae2d1ed6bd6f6035687fe88451f510f2bf6d8bbf9fd1",
+          "cbc4a15622fefddd9bf020161f46b014a87e889834870665ddd55a1f73fd3e7f",
+          "1f8d2f0df7d590c2aa334fb9d4558f5ce0240582066c314db3a9c2dbc5dae83e",
+          "d3b59641e484ecfc4d0d374a7578ab5adb3b9056f03fa459051a03e04c51f336",
+          "e08020e92f4101a540ef8843ff73fb174d380d47c02006532ed8fc3e51097d65"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:23:43.035639+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "2e798d9dc65157f8fd9e037df1eececc906d169492e5c65cf7e3017c5855c0aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі жиілік бірлігі қалай аталады?",
+        "sample_hashes": [
+          "744ca252d40c00eeeffcae2d1ed6bd6f6035687fe88451f510f2bf6d8bbf9fd1",
+          "cbc4a15622fefddd9bf020161f46b014a87e889834870665ddd55a1f73fd3e7f",
+          "1f8d2f0df7d590c2aa334fb9d4558f5ce0240582066c314db3a9c2dbc5dae83e",
+          "d3b59641e484ecfc4d0d374a7578ab5adb3b9056f03fa459051a03e04c51f336",
+          "e08020e92f4101a540ef8843ff73fb174d380d47c02006532ed8fc3e51097d65"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:23:43.035639+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "2e798d9dc65157f8fd9e037df1eececc906d169492e5c65cf7e3017c5855c0aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "94cd7f406e8edabbb4ac3990d65c6191323ab0e2a201bf1391e08474abdfebf5",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі жиілік бірлігі қалай аталады?",
+        "sample_hashes": [
+          "744ca252d40c00eeeffcae2d1ed6bd6f6035687fe88451f510f2bf6d8bbf9fd1",
+          "cbc4a15622fefddd9bf020161f46b014a87e889834870665ddd55a1f73fd3e7f",
+          "1f8d2f0df7d590c2aa334fb9d4558f5ce0240582066c314db3a9c2dbc5dae83e",
+          "d3b59641e484ecfc4d0d374a7578ab5adb3b9056f03fa459051a03e04c51f336",
+          "e08020e92f4101a540ef8843ff73fb174d380d47c02006532ed8fc3e51097d65"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, true, true, true]\n}",
+        "created_at": "2026-09-14T17:23:43.035639+00:00",
+        "system_fingerprint": "fp_45f51928b5",
+        "request_id": "2e798d9dc65157f8fd9e037df1eececc906d169492e5c65cf7e3017c5855c0aa",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

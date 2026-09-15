@@ -1,0 +1,171 @@
+{
+  "case_id": "e919f8a20f3f650b1cdc9ce709126476f0c432883d0e0a860ca192b29d5a143c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e919f8a20f3f650b1cdc9ce709126476f0c432883d0e0a860ca192b29d5a143c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "8aa4b64bc48cf4bd6124b3460b668488f21cdfb129124bd490fedb5ece733b97",
+          "93fc877f639299feac58bfc3d4576689b2830195eee0a1cefa336bcf0ae5c170",
+          "9e902b927992380ad84086318108b73753a2e9f83b377656853298e703b3e495",
+          "8909b8a34371da5e52479a5fd21b0e8adabb4d157424fd838c3f57a2f60ef6b6",
+          "857342ffe1c23ae481f93b1212add2f4aa198b19f00e937980908ff7be585e5b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:56.088372+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "00be74bb3e0d25bf4f927343718be3db49f79233671c085f28f26b7b62c1d1d2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e919f8a20f3f650b1cdc9ce709126476f0c432883d0e0a860ca192b29d5a143c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "8aa4b64bc48cf4bd6124b3460b668488f21cdfb129124bd490fedb5ece733b97",
+          "93fc877f639299feac58bfc3d4576689b2830195eee0a1cefa336bcf0ae5c170",
+          "9e902b927992380ad84086318108b73753a2e9f83b377656853298e703b3e495",
+          "8909b8a34371da5e52479a5fd21b0e8adabb4d157424fd838c3f57a2f60ef6b6",
+          "857342ffe1c23ae481f93b1212add2f4aa198b19f00e937980908ff7be585e5b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:56.088372+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "00be74bb3e0d25bf4f927343718be3db49f79233671c085f28f26b7b62c1d1d2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e919f8a20f3f650b1cdc9ce709126476f0c432883d0e0a860ca192b29d5a143c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "8aa4b64bc48cf4bd6124b3460b668488f21cdfb129124bd490fedb5ece733b97",
+          "93fc877f639299feac58bfc3d4576689b2830195eee0a1cefa336bcf0ae5c170",
+          "9e902b927992380ad84086318108b73753a2e9f83b377656853298e703b3e495",
+          "8909b8a34371da5e52479a5fd21b0e8adabb4d157424fd838c3f57a2f60ef6b6",
+          "857342ffe1c23ae481f93b1212add2f4aa198b19f00e937980908ff7be585e5b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:56.088372+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "00be74bb3e0d25bf4f927343718be3db49f79233671c085f28f26b7b62c1d1d2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e919f8a20f3f650b1cdc9ce709126476f0c432883d0e0a860ca192b29d5a143c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сколько государственных природных заповедников входит в объект ЮНЕСКО «Сарыарка — Степи и озёра Северного Казахстана»?",
+        "sample_hashes": [
+          "8aa4b64bc48cf4bd6124b3460b668488f21cdfb129124bd490fedb5ece733b97",
+          "93fc877f639299feac58bfc3d4576689b2830195eee0a1cefa336bcf0ae5c170",
+          "9e902b927992380ad84086318108b73753a2e9f83b377656853298e703b3e495",
+          "8909b8a34371da5e52479a5fd21b0e8adabb4d157424fd838c3f57a2f60ef6b6",
+          "857342ffe1c23ae481f93b1212add2f4aa198b19f00e937980908ff7be585e5b"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 2, 0],\n    [0, 0, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:56.088372+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "00be74bb3e0d25bf4f927343718be3db49f79233671c085f28f26b7b62c1d1d2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

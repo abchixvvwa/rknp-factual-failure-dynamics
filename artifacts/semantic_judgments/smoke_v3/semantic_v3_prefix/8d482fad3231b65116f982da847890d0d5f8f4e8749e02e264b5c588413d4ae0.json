@@ -1,0 +1,87 @@
+{
+  "case_id": "8d482fad3231b65116f982da847890d0d5f8f4e8749e02e264b5c588413d4ae0",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8d482fad3231b65116f982da847890d0d5f8f4e8749e02e264b5c588413d4ae0",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жер бетінің ауданы бойынша ең үлкен мұхит қайсы?",
+        "sample_hashes": [
+          "6404128454a32d9a18a14ded52ee761e9fb6dc83a4f72ef95021a175a6db0ffb",
+          "585dfe3ca9982cc09dfcfc4a625657f9d8a6ba7ae0a2aa7239202904acd08b8e",
+          "6404128454a32d9a18a14ded52ee761e9fb6dc83a4f72ef95021a175a6db0ffb",
+          "585dfe3ca9982cc09dfcfc4a625657f9d8a6ba7ae0a2aa7239202904acd08b8e",
+          "4623215e365322dfef3ebc54da5ad1bc210b0d353162ac881a1920ae5b18bb20"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:48.974172+00:00",
+        "system_fingerprint": "fp_6b677c2caf",
+        "request_id": "d8a0f0f670b0b2bc94c39d4ef038b6c9557b8471cf20de101fb2f3c3f6c315a3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

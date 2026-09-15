@@ -1,0 +1,159 @@
+{
+  "case_id": "6c641cbe695b646ca6a7f9f92b7984e6b7f524739d15c36eadca81c7d873eaf9",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c641cbe695b646ca6a7f9f92b7984e6b7f524739d15c36eadca81c7d873eaf9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?",
+        "sample_hashes": [
+          "05ac6e094511e646d1a96f6194930871b9da87d4836c5e23f6ba283b9fce8e55",
+          "746b03bb56636a9bc9d9fdebb07a98e77baeba9c34b31252036a5190bab0d5aa",
+          "8370a4e35706c115c1649e4b4fe1e35c71fa8e37ced21e5b9d991520566c6e93",
+          "0b5543fb38b357c8f90344554e2df267f79128fad0cead0dc80cf688d51ce50c",
+          "ab2521c3f2e1037477a783d8236e32248b5ffdc22b1602a3e697696793d07f70"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.470389+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "8dbeab7f25c0ce4e850da7f7b411cea619732101dbc4729505dafb42519ea4bd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c641cbe695b646ca6a7f9f92b7984e6b7f524739d15c36eadca81c7d873eaf9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?",
+        "sample_hashes": [
+          "05ac6e094511e646d1a96f6194930871b9da87d4836c5e23f6ba283b9fce8e55",
+          "746b03bb56636a9bc9d9fdebb07a98e77baeba9c34b31252036a5190bab0d5aa",
+          "8370a4e35706c115c1649e4b4fe1e35c71fa8e37ced21e5b9d991520566c6e93",
+          "0b5543fb38b357c8f90344554e2df267f79128fad0cead0dc80cf688d51ce50c",
+          "ab2521c3f2e1037477a783d8236e32248b5ffdc22b1602a3e697696793d07f70"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.470389+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "8dbeab7f25c0ce4e850da7f7b411cea619732101dbc4729505dafb42519ea4bd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c641cbe695b646ca6a7f9f92b7984e6b7f524739d15c36eadca81c7d873eaf9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?",
+        "sample_hashes": [
+          "05ac6e094511e646d1a96f6194930871b9da87d4836c5e23f6ba283b9fce8e55",
+          "746b03bb56636a9bc9d9fdebb07a98e77baeba9c34b31252036a5190bab0d5aa",
+          "8370a4e35706c115c1649e4b4fe1e35c71fa8e37ced21e5b9d991520566c6e93",
+          "0b5543fb38b357c8f90344554e2df267f79128fad0cead0dc80cf688d51ce50c",
+          "ab2521c3f2e1037477a783d8236e32248b5ffdc22b1602a3e697696793d07f70"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.470389+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "8dbeab7f25c0ce4e850da7f7b411cea619732101dbc4729505dafb42519ea4bd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c641cbe695b646ca6a7f9f92b7984e6b7f524739d15c36eadca81c7d873eaf9",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "АҚШ-тың тәуелсіздік соғысын аяқтаған Париж бітім шартына қай жылы қол қойылды?",
+        "sample_hashes": [
+          "05ac6e094511e646d1a96f6194930871b9da87d4836c5e23f6ba283b9fce8e55",
+          "746b03bb56636a9bc9d9fdebb07a98e77baeba9c34b31252036a5190bab0d5aa",
+          "8370a4e35706c115c1649e4b4fe1e35c71fa8e37ced21e5b9d991520566c6e93",
+          "0b5543fb38b357c8f90344554e2df267f79128fad0cead0dc80cf688d51ce50c",
+          "ab2521c3f2e1037477a783d8236e32248b5ffdc22b1602a3e697696793d07f70"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:47:32.470389+00:00",
+        "system_fingerprint": "fp_8ea50c0161",
+        "request_id": "8dbeab7f25c0ce4e850da7f7b411cea619732101dbc4729505dafb42519ea4bd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "ae1cebe7df490de36841f9f2ac9361ffee641b57f6ab575bbd3e33e2368fa161",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ae1cebe7df490de36841f9f2ac9361ffee641b57f6ab575bbd3e33e2368fa161",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самое широкое естественное планетарное кольцо Венеры?",
+        "sample_hashes": [
+          "d7215ae9d7cc02a288702305a372ac9d6289e2bd1ae4c2a0b3e28cec3e832665",
+          "f1a08e06c3cb92e414578879ac62329c7f95b22133215115cd1e3e369aa04ea3",
+          "cfabbb1d9e889a12d3e6e0a571f9143227fe76dd65a10d4ca48ed06903c7a77a",
+          "39adcc7a25ea8faa762d3c7ea7482a0b9a88910cace3e2889936dea6ea5bd4c6",
+          "61ee6437581f8ed098b9c95fa213315ba8877ea7f969e327e2188818cc4e31c0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:10.559034+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "3eb3b584fbd46ee2e25a2a3ec1baace7d9833b8db2c8adb9a4b7bc20589708f5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ae1cebe7df490de36841f9f2ac9361ffee641b57f6ab575bbd3e33e2368fa161",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самое широкое естественное планетарное кольцо Венеры?",
+        "sample_hashes": [
+          "d7215ae9d7cc02a288702305a372ac9d6289e2bd1ae4c2a0b3e28cec3e832665",
+          "f1a08e06c3cb92e414578879ac62329c7f95b22133215115cd1e3e369aa04ea3",
+          "cfabbb1d9e889a12d3e6e0a571f9143227fe76dd65a10d4ca48ed06903c7a77a",
+          "39adcc7a25ea8faa762d3c7ea7482a0b9a88910cace3e2889936dea6ea5bd4c6",
+          "61ee6437581f8ed098b9c95fa213315ba8877ea7f969e327e2188818cc4e31c0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:10.559034+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "3eb3b584fbd46ee2e25a2a3ec1baace7d9833b8db2c8adb9a4b7bc20589708f5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ae1cebe7df490de36841f9f2ac9361ffee641b57f6ab575bbd3e33e2368fa161",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самое широкое естественное планетарное кольцо Венеры?",
+        "sample_hashes": [
+          "d7215ae9d7cc02a288702305a372ac9d6289e2bd1ae4c2a0b3e28cec3e832665",
+          "f1a08e06c3cb92e414578879ac62329c7f95b22133215115cd1e3e369aa04ea3",
+          "cfabbb1d9e889a12d3e6e0a571f9143227fe76dd65a10d4ca48ed06903c7a77a",
+          "39adcc7a25ea8faa762d3c7ea7482a0b9a88910cace3e2889936dea6ea5bd4c6",
+          "61ee6437581f8ed098b9c95fa213315ba8877ea7f969e327e2188818cc4e31c0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:10.559034+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "3eb3b584fbd46ee2e25a2a3ec1baace7d9833b8db2c8adb9a4b7bc20589708f5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "ae1cebe7df490de36841f9f2ac9361ffee641b57f6ab575bbd3e33e2368fa161",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется самое широкое естественное планетарное кольцо Венеры?",
+        "sample_hashes": [
+          "d7215ae9d7cc02a288702305a372ac9d6289e2bd1ae4c2a0b3e28cec3e832665",
+          "f1a08e06c3cb92e414578879ac62329c7f95b22133215115cd1e3e369aa04ea3",
+          "cfabbb1d9e889a12d3e6e0a571f9143227fe76dd65a10d4ca48ed06903c7a77a",
+          "39adcc7a25ea8faa762d3c7ea7482a0b9a88910cace3e2889936dea6ea5bd4c6",
+          "61ee6437581f8ed098b9c95fa213315ba8877ea7f969e327e2188818cc4e31c0"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:10.559034+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "3eb3b584fbd46ee2e25a2a3ec1baace7d9833b8db2c8adb9a4b7bc20589708f5",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

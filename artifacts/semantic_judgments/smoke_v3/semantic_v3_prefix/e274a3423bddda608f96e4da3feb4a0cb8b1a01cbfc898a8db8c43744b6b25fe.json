@@ -1,0 +1,180 @@
+{
+  "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Кто получил Нобелевскую премию по литературе в 1901 году?",
+        "sample_hashes": [
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14",
+          "cadf604787d197e3b8c063a81e8fb6722bf45d53c252a67aec321e9d69bef1dc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:10:55.424432+00:00",
+        "system_fingerprint": "fp_dc4ca88fa4",
+        "request_id": "0df35aca36b6cdb9ed9d9edcbd4cea25d3aa45c02577cb743e7eba3160d3911b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Кто получил Нобелевскую премию по литературе в 1901 году?",
+        "sample_hashes": [
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14",
+          "cadf604787d197e3b8c063a81e8fb6722bf45d53c252a67aec321e9d69bef1dc"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-10T10:10:56.009887+00:00",
+        "system_fingerprint": "fp_626f3fc5e0",
+        "request_id": "a063bbf24280f4c39d31baac1dc4abd387994e00d5126f77e896b3a2f40d40e8",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Кто получил Нобелевскую премию по литературе в 1901 году?",
+        "sample_hashes": [
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14",
+          "cadf604787d197e3b8c063a81e8fb6722bf45d53c252a67aec321e9d69bef1dc",
+          "437f9894cd5997ba3678ccfd3e8fa7ce0036047701809bd15eccd01d31d02741"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:10:56.729334+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "7e2a9c7033266a07ca01965c9beec42284d65a13a320d1e16d166711be2bbdd0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Кто получил Нобелевскую премию по литературе в 1901 году?",
+        "sample_hashes": [
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14",
+          "cadf604787d197e3b8c063a81e8fb6722bf45d53c252a67aec321e9d69bef1dc",
+          "437f9894cd5997ba3678ccfd3e8fa7ce0036047701809bd15eccd01d31d02741",
+          "c16ba3a3a06b6f42841e2202dd2422ee6679b904be28d5f749261af1265fc388"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:10:57.329507+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "dc37a7b7fc753f8196f9ec30199247e7a06294612cdd69fdcb13629b69b36a95",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e274a3423bddda608f96e4da3feb4a0cb8b1a01cbfc898a8db8c43744b6b25fe",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Кто получил Нобелевскую премию по литературе в 1901 году?",
+        "sample_hashes": [
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14",
+          "cadf604787d197e3b8c063a81e8fb6722bf45d53c252a67aec321e9d69bef1dc",
+          "437f9894cd5997ba3678ccfd3e8fa7ce0036047701809bd15eccd01d31d02741",
+          "c16ba3a3a06b6f42841e2202dd2422ee6679b904be28d5f749261af1265fc388",
+          "2979feca44468a4c990992c0a4a8f96e4877783c4a7b914c5e7c90d9f635eb14"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:10:58.027368+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "2c81a8614dfdfbae15c43ad3267c2e831941c465de69cb60541dc2c736b9dd02",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

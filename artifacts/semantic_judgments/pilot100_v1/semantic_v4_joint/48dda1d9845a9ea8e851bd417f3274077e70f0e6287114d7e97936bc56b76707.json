@@ -1,0 +1,159 @@
+{
+  "case_id": "48dda1d9845a9ea8e851bd417f3274077e70f0e6287114d7e97936bc56b76707",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48dda1d9845a9ea8e851bd417f3274077e70f0e6287114d7e97936bc56b76707",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой страны США купили Луизиану в 1803 году?",
+        "sample_hashes": [
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "5245640e91352490375ab988907da35291c95109737b3d8751579cbfeb7e2503"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:55.415053+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "c8cddbb33b82afef204b327192e3b476115690e3e0b38027e3ec70cbc186af5a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48dda1d9845a9ea8e851bd417f3274077e70f0e6287114d7e97936bc56b76707",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой страны США купили Луизиану в 1803 году?",
+        "sample_hashes": [
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "5245640e91352490375ab988907da35291c95109737b3d8751579cbfeb7e2503"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:55.415053+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "c8cddbb33b82afef204b327192e3b476115690e3e0b38027e3ec70cbc186af5a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48dda1d9845a9ea8e851bd417f3274077e70f0e6287114d7e97936bc56b76707",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой страны США купили Луизиану в 1803 году?",
+        "sample_hashes": [
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "5245640e91352490375ab988907da35291c95109737b3d8751579cbfeb7e2503"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:55.415053+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "c8cddbb33b82afef204b327192e3b476115690e3e0b38027e3ec70cbc186af5a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "48dda1d9845a9ea8e851bd417f3274077e70f0e6287114d7e97936bc56b76707",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой страны США купили Луизиану в 1803 году?",
+        "sample_hashes": [
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "87d634557d91a8ff56d2b5f5c4a0f1b9cc8091209eeb8338ec46492c3ab1dd7f",
+          "1df3f1bf7b90317a5a64d57c8fd7496770e157ae3fc5e14d7cb7a604628de979",
+          "5245640e91352490375ab988907da35291c95109737b3d8751579cbfeb7e2503"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:57:55.415053+00:00",
+        "system_fingerprint": "fp_dee443f41b",
+        "request_id": "c8cddbb33b82afef204b327192e3b476115690e3e0b38027e3ec70cbc186af5a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

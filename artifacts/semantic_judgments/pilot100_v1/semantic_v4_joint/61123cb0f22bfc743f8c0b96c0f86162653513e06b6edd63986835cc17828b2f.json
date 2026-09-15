@@ -1,0 +1,173 @@
+{
+  "case_id": "61123cb0f22bfc743f8c0b96c0f86162653513e06b6edd63986835cc17828b2f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "61123cb0f22bfc743f8c0b96c0f86162653513e06b6edd63986835cc17828b2f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which bird is depicted below the sun on Kazakhstan's national flag?",
+        "sample_hashes": [
+          "25d2e73d511b51f1a8f7cd7e588702e62211a398f64b735b59ff081fcfc07c04",
+          "f91861a0113f175e6ad9dcba9ce23093436e11906ea4f92d87f2a26686803d30",
+          "949e765142ef63804c9cbcfd2c2f2d5430c046a2e48bc284d5ecc6dff424d423",
+          "1a8f05b9afb135307d90251b35559472d9d35588e6821653632c0318215a8046",
+          "c9b6f3d99179e6b1b1aea3b766a6e2f30bd8f5994b2ac9051204678bfb0dcd2e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 2, 0, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:39.232418+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fdecb7458f67752416dd478faefb8a09f282ab696b4d3f7c33ff4fa67344d153",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "61123cb0f22bfc743f8c0b96c0f86162653513e06b6edd63986835cc17828b2f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which bird is depicted below the sun on Kazakhstan's national flag?",
+        "sample_hashes": [
+          "25d2e73d511b51f1a8f7cd7e588702e62211a398f64b735b59ff081fcfc07c04",
+          "f91861a0113f175e6ad9dcba9ce23093436e11906ea4f92d87f2a26686803d30",
+          "949e765142ef63804c9cbcfd2c2f2d5430c046a2e48bc284d5ecc6dff424d423",
+          "1a8f05b9afb135307d90251b35559472d9d35588e6821653632c0318215a8046",
+          "c9b6f3d99179e6b1b1aea3b766a6e2f30bd8f5994b2ac9051204678bfb0dcd2e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 2, 0, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:39.232418+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fdecb7458f67752416dd478faefb8a09f282ab696b4d3f7c33ff4fa67344d153",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "61123cb0f22bfc743f8c0b96c0f86162653513e06b6edd63986835cc17828b2f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which bird is depicted below the sun on Kazakhstan's national flag?",
+        "sample_hashes": [
+          "25d2e73d511b51f1a8f7cd7e588702e62211a398f64b735b59ff081fcfc07c04",
+          "f91861a0113f175e6ad9dcba9ce23093436e11906ea4f92d87f2a26686803d30",
+          "949e765142ef63804c9cbcfd2c2f2d5430c046a2e48bc284d5ecc6dff424d423",
+          "1a8f05b9afb135307d90251b35559472d9d35588e6821653632c0318215a8046",
+          "c9b6f3d99179e6b1b1aea3b766a6e2f30bd8f5994b2ac9051204678bfb0dcd2e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 2, 0, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:39.232418+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fdecb7458f67752416dd478faefb8a09f282ab696b4d3f7c33ff4fa67344d153",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 3], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "61123cb0f22bfc743f8c0b96c0f86162653513e06b6edd63986835cc17828b2f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which bird is depicted below the sun on Kazakhstan's national flag?",
+        "sample_hashes": [
+          "25d2e73d511b51f1a8f7cd7e588702e62211a398f64b735b59ff081fcfc07c04",
+          "f91861a0113f175e6ad9dcba9ce23093436e11906ea4f92d87f2a26686803d30",
+          "949e765142ef63804c9cbcfd2c2f2d5430c046a2e48bc284d5ecc6dff424d423",
+          "1a8f05b9afb135307d90251b35559472d9d35588e6821653632c0318215a8046",
+          "c9b6f3d99179e6b1b1aea3b766a6e2f30bd8f5994b2ac9051204678bfb0dcd2e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 2, 0, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0],\n    [0, 2, 1, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:39.232418+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "fdecb7458f67752416dd478faefb8a09f282ab696b4d3f7c33ff4fa67344d153",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 3, 4], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

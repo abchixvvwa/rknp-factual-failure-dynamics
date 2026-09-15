@@ -1,0 +1,159 @@
+{
+  "case_id": "b2a142856c14570a1a5338050f4aa23310624898bb34a4b21b0e21f1d6a5ed1c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b2a142856c14570a1a5338050f4aa23310624898bb34a4b21b0e21f1d6a5ed1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Мона Лиза» картинасын кім салған?",
+        "sample_hashes": [
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "2803b708325db7e5f5bd8a8b9d145bb924a571b76ad6d5c0f85c9eb26febca7e",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:25.108324+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "3ca7501f30518629d679ba24621c533198681aa323321b5e22a429301b32c54f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b2a142856c14570a1a5338050f4aa23310624898bb34a4b21b0e21f1d6a5ed1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Мона Лиза» картинасын кім салған?",
+        "sample_hashes": [
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "2803b708325db7e5f5bd8a8b9d145bb924a571b76ad6d5c0f85c9eb26febca7e",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:25.108324+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "3ca7501f30518629d679ba24621c533198681aa323321b5e22a429301b32c54f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b2a142856c14570a1a5338050f4aa23310624898bb34a4b21b0e21f1d6a5ed1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Мона Лиза» картинасын кім салған?",
+        "sample_hashes": [
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "2803b708325db7e5f5bd8a8b9d145bb924a571b76ad6d5c0f85c9eb26febca7e",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:25.108324+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "3ca7501f30518629d679ba24621c533198681aa323321b5e22a429301b32c54f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b2a142856c14570a1a5338050f4aa23310624898bb34a4b21b0e21f1d6a5ed1c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Мона Лиза» картинасын кім салған?",
+        "sample_hashes": [
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107",
+          "2803b708325db7e5f5bd8a8b9d145bb924a571b76ad6d5c0f85c9eb26febca7e",
+          "bcbea7dfa000d9688416397faad193472328ea61d2cbeb972756e8ad3b709107"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:25.108324+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "3ca7501f30518629d679ba24621c533198681aa323321b5e22a429301b32c54f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

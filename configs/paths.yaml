@@ -1,0 +1,6 @@
+benchmark: data/benchmark/facts.csv
+splits: data/processed/splits.csv
+ledger: artifacts/groq/private/requests.sqlite3
+generations: artifacts/generations/generations.parquet
+snapshots: artifacts/groq
+logs: logs

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "pilot100_v1",
+  "selected_model": "dynamic_logistic",
+  "calibration": "raw",
+  "threshold": 0.4015699460878933,
+  "primary_metric": "auroc",
+  "features_sha256": "04d8703debef2e7a5fafb4edede046bd6d496ed1fd64539eb81407008375fdce",
+  "model_sha256": "c275def6c917505e0cc278547f8ecfa5547f02fe324890001ca895229bd25c99",
+  "selection_data": "validation only",
+  "test_evaluated": false,
+  "validation_reports": {
+    "baselines": "76c83473fd001f2f6d171150b1e68c492bbb51d731dc9b31ddafef78b462e629",
+    "dynamic": "24c6913792019532d512799e82df84d7070c35167a63eee5d62d071da23b7c2c"
+  }
+}

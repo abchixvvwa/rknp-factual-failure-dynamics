@@ -1,0 +1,159 @@
+{
+  "case_id": "6c7a5458950b60a0d908dbab701f5b5ca0074cf4d3d19f106f4ed453ed0a4e5f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c7a5458950b60a0d908dbab701f5b5ca0074cf4d3d19f106f4ed453ed0a4e5f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица частоты в СИ?",
+        "sample_hashes": [
+          "ea349a99faf0cbee32c29626bc6ce83f964d8e4ceba98151ab646e37315e4f5e",
+          "13287f74681840a48ff4d8c3e30733d7d7dae2bd656ef2c97558a77619504fb9",
+          "fb27b51720195384ae851bd8304ce15b89685ad9bc451150befcf33a05cd6266",
+          "003e0da88a144f77d9f8e2701458507a05469b320009c958332374f38d21e564",
+          "c6561e36b5791ee4eea0e6c60c9dffa7fe82692d0cf8f9b9b50e74ab6d7492a5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:02.670399+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "bc7b5af0311d06badccac39b381e6530277a35d727ab079c3f20feac89ba4f06",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c7a5458950b60a0d908dbab701f5b5ca0074cf4d3d19f106f4ed453ed0a4e5f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица частоты в СИ?",
+        "sample_hashes": [
+          "ea349a99faf0cbee32c29626bc6ce83f964d8e4ceba98151ab646e37315e4f5e",
+          "13287f74681840a48ff4d8c3e30733d7d7dae2bd656ef2c97558a77619504fb9",
+          "fb27b51720195384ae851bd8304ce15b89685ad9bc451150befcf33a05cd6266",
+          "003e0da88a144f77d9f8e2701458507a05469b320009c958332374f38d21e564",
+          "c6561e36b5791ee4eea0e6c60c9dffa7fe82692d0cf8f9b9b50e74ab6d7492a5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:02.670399+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "bc7b5af0311d06badccac39b381e6530277a35d727ab079c3f20feac89ba4f06",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c7a5458950b60a0d908dbab701f5b5ca0074cf4d3d19f106f4ed453ed0a4e5f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица частоты в СИ?",
+        "sample_hashes": [
+          "ea349a99faf0cbee32c29626bc6ce83f964d8e4ceba98151ab646e37315e4f5e",
+          "13287f74681840a48ff4d8c3e30733d7d7dae2bd656ef2c97558a77619504fb9",
+          "fb27b51720195384ae851bd8304ce15b89685ad9bc451150befcf33a05cd6266",
+          "003e0da88a144f77d9f8e2701458507a05469b320009c958332374f38d21e564",
+          "c6561e36b5791ee4eea0e6c60c9dffa7fe82692d0cf8f9b9b50e74ab6d7492a5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:02.670399+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "bc7b5af0311d06badccac39b381e6530277a35d727ab079c3f20feac89ba4f06",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6c7a5458950b60a0d908dbab701f5b5ca0074cf4d3d19f106f4ed453ed0a4e5f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица частоты в СИ?",
+        "sample_hashes": [
+          "ea349a99faf0cbee32c29626bc6ce83f964d8e4ceba98151ab646e37315e4f5e",
+          "13287f74681840a48ff4d8c3e30733d7d7dae2bd656ef2c97558a77619504fb9",
+          "fb27b51720195384ae851bd8304ce15b89685ad9bc451150befcf33a05cd6266",
+          "003e0da88a144f77d9f8e2701458507a05469b320009c958332374f38d21e564",
+          "c6561e36b5791ee4eea0e6c60c9dffa7fe82692d0cf8f9b9b50e74ab6d7492a5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:02.670399+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "bc7b5af0311d06badccac39b381e6530277a35d727ab079c3f20feac89ba4f06",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

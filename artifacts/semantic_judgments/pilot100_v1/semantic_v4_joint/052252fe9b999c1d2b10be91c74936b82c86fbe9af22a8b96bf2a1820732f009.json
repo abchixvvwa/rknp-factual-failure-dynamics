@@ -1,0 +1,159 @@
+{
+  "case_id": "052252fe9b999c1d2b10be91c74936b82c86fbe9af22a8b96bf2a1820732f009",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "052252fe9b999c1d2b10be91c74936b82c86fbe9af22a8b96bf2a1820732f009",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ежелгі Петра қаласы қай елде орналасқан?",
+        "sample_hashes": [
+          "538df98af09cd9c93f4839881c9048765dd5fd83c73992fd0d64bea577a9e44c",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "2c48982a17bc652fc01531c8c2346f0eaeaed61770be1f19ed32949292e4dda6",
+          "978412c990fe1fe0c013a085b80a1d46c687b30fc4e8a72eb9afd197877b441e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:18.861000+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "c35e7d80954d1ebc1e515b8a0900f2113cab64857b100ccf1a97d2c3ec4ed5d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "052252fe9b999c1d2b10be91c74936b82c86fbe9af22a8b96bf2a1820732f009",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ежелгі Петра қаласы қай елде орналасқан?",
+        "sample_hashes": [
+          "538df98af09cd9c93f4839881c9048765dd5fd83c73992fd0d64bea577a9e44c",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "2c48982a17bc652fc01531c8c2346f0eaeaed61770be1f19ed32949292e4dda6",
+          "978412c990fe1fe0c013a085b80a1d46c687b30fc4e8a72eb9afd197877b441e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:18.861000+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "c35e7d80954d1ebc1e515b8a0900f2113cab64857b100ccf1a97d2c3ec4ed5d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "052252fe9b999c1d2b10be91c74936b82c86fbe9af22a8b96bf2a1820732f009",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ежелгі Петра қаласы қай елде орналасқан?",
+        "sample_hashes": [
+          "538df98af09cd9c93f4839881c9048765dd5fd83c73992fd0d64bea577a9e44c",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "2c48982a17bc652fc01531c8c2346f0eaeaed61770be1f19ed32949292e4dda6",
+          "978412c990fe1fe0c013a085b80a1d46c687b30fc4e8a72eb9afd197877b441e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:18.861000+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "c35e7d80954d1ebc1e515b8a0900f2113cab64857b100ccf1a97d2c3ec4ed5d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "052252fe9b999c1d2b10be91c74936b82c86fbe9af22a8b96bf2a1820732f009",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Ежелгі Петра қаласы қай елде орналасқан?",
+        "sample_hashes": [
+          "538df98af09cd9c93f4839881c9048765dd5fd83c73992fd0d64bea577a9e44c",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "4895a34f1c014a7aa90e396afa0fabce95ded63314aa6d4ceace84730a831b99",
+          "2c48982a17bc652fc01531c8c2346f0eaeaed61770be1f19ed32949292e4dda6",
+          "978412c990fe1fe0c013a085b80a1d46c687b30fc4e8a72eb9afd197877b441e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:48:18.861000+00:00",
+        "system_fingerprint": "fp_0adba2bb92",
+        "request_id": "c35e7d80954d1ebc1e515b8a0900f2113cab64857b100ccf1a97d2c3ec4ed5d9",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

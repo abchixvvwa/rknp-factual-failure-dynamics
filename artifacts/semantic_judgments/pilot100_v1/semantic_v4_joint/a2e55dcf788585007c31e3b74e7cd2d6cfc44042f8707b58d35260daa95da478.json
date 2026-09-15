@@ -1,0 +1,159 @@
+{
+  "case_id": "a2e55dcf788585007c31e3b74e7cd2d6cfc44042f8707b58d35260daa95da478",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a2e55dcf788585007c31e3b74e7cd2d6cfc44042f8707b58d35260daa95da478",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which season do bats lay their eggs?",
+        "sample_hashes": [
+          "649c0563728233d39743d366ceb3bc76a8dbd0de0494edff7a71a608a30be03f",
+          "59143159795e8f6aab2214f3b30b1904566a07f59e740aa751b5b37bdf220d64",
+          "7f26f02d27a966a660bd313197f32bd8dc577191cf1a07c8e67edf4c483ae526",
+          "430887ad6181d26301ff61e29857ddfa7ac6e8247d59b14f86b23d43d7adc8b7",
+          "237feb8e6cb0bdca58264caba1725c10b692d5ffb0764f575988d80608ce1475"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:12.369230+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "7afadc7472f033a77c02e354dd9691700d400d6001d1a8185839d4753103bdc7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a2e55dcf788585007c31e3b74e7cd2d6cfc44042f8707b58d35260daa95da478",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which season do bats lay their eggs?",
+        "sample_hashes": [
+          "649c0563728233d39743d366ceb3bc76a8dbd0de0494edff7a71a608a30be03f",
+          "59143159795e8f6aab2214f3b30b1904566a07f59e740aa751b5b37bdf220d64",
+          "7f26f02d27a966a660bd313197f32bd8dc577191cf1a07c8e67edf4c483ae526",
+          "430887ad6181d26301ff61e29857ddfa7ac6e8247d59b14f86b23d43d7adc8b7",
+          "237feb8e6cb0bdca58264caba1725c10b692d5ffb0764f575988d80608ce1475"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:12.369230+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "7afadc7472f033a77c02e354dd9691700d400d6001d1a8185839d4753103bdc7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a2e55dcf788585007c31e3b74e7cd2d6cfc44042f8707b58d35260daa95da478",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which season do bats lay their eggs?",
+        "sample_hashes": [
+          "649c0563728233d39743d366ceb3bc76a8dbd0de0494edff7a71a608a30be03f",
+          "59143159795e8f6aab2214f3b30b1904566a07f59e740aa751b5b37bdf220d64",
+          "7f26f02d27a966a660bd313197f32bd8dc577191cf1a07c8e67edf4c483ae526",
+          "430887ad6181d26301ff61e29857ddfa7ac6e8247d59b14f86b23d43d7adc8b7",
+          "237feb8e6cb0bdca58264caba1725c10b692d5ffb0764f575988d80608ce1475"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:12.369230+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "7afadc7472f033a77c02e354dd9691700d400d6001d1a8185839d4753103bdc7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "a2e55dcf788585007c31e3b74e7cd2d6cfc44042f8707b58d35260daa95da478",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which season do bats lay their eggs?",
+        "sample_hashes": [
+          "649c0563728233d39743d366ceb3bc76a8dbd0de0494edff7a71a608a30be03f",
+          "59143159795e8f6aab2214f3b30b1904566a07f59e740aa751b5b37bdf220d64",
+          "7f26f02d27a966a660bd313197f32bd8dc577191cf1a07c8e67edf4c483ae526",
+          "430887ad6181d26301ff61e29857ddfa7ac6e8247d59b14f86b23d43d7adc8b7",
+          "237feb8e6cb0bdca58264caba1725c10b692d5ffb0764f575988d80608ce1475"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:12.369230+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "7afadc7472f033a77c02e354dd9691700d400d6001d1a8185839d4753103bdc7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

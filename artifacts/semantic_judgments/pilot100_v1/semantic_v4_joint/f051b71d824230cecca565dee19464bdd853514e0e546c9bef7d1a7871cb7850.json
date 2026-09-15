@@ -1,0 +1,163 @@
+{
+  "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сагарматха ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 1, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:43.944384+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "03d34a45fa2bd8d3b14217a6b6d432d26b25216d84ce178341b8db954c183b31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сагарматха ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 1, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:43.944384+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "03d34a45fa2bd8d3b14217a6b6d432d26b25216d84ce178341b8db954c183b31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сагарматха ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 1, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:43.944384+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "03d34a45fa2bd8d3b14217a6b6d432d26b25216d84ce178341b8db954c183b31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f051b71d824230cecca565dee19464bdd853514e0e546c9bef7d1a7871cb7850",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Сагарматха ұлттық паркі қай елде орналасқан?",
+        "sample_hashes": [
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "c0ef3b2fb39f84a55f97a8132e784f0d91c5d2afe9641f8eb670681fb774912a",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f",
+          "f7cf77a5560b98c0c8276828fcdfa782ecb2abfccaae0bd0686f4f43e7da311f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 1, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 1, 1]\n  ],\n  \"target_labels\": [\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1],\n    [1, 1, 1, 1, 1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:22:43.944384+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "03d34a45fa2bd8d3b14217a6b6d432d26b25216d84ce178341b8db954c183b31",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2], [3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

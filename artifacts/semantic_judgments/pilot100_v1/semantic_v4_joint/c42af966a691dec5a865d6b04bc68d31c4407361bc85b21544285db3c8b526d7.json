@@ -1,0 +1,167 @@
+{
+  "case_id": "c42af966a691dec5a865d6b04bc68d31c4407361bc85b21544285db3c8b526d7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c42af966a691dec5a865d6b04bc68d31c4407361bc85b21544285db3c8b526d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1954 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "b21fa7552e0519838e0b48f8a57489f72d97da689f23e64169dd0151fe9ad9d3",
+          "02e6fdcaa64c09651aa756695d469b206cddab4c6444838dad5f86042cdeb2c6",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:19.777968+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0437d93c862a91d48b437cf27ccf66fe0b50b2c2672cb203ffc84068ebc6076d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c42af966a691dec5a865d6b04bc68d31c4407361bc85b21544285db3c8b526d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1954 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "b21fa7552e0519838e0b48f8a57489f72d97da689f23e64169dd0151fe9ad9d3",
+          "02e6fdcaa64c09651aa756695d469b206cddab4c6444838dad5f86042cdeb2c6",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:19.777968+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0437d93c862a91d48b437cf27ccf66fe0b50b2c2672cb203ffc84068ebc6076d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c42af966a691dec5a865d6b04bc68d31c4407361bc85b21544285db3c8b526d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1954 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "b21fa7552e0519838e0b48f8a57489f72d97da689f23e64169dd0151fe9ad9d3",
+          "02e6fdcaa64c09651aa756695d469b206cddab4c6444838dad5f86042cdeb2c6",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:19.777968+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0437d93c862a91d48b437cf27ccf66fe0b50b2c2672cb203ffc84068ebc6076d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c42af966a691dec5a865d6b04bc68d31c4407361bc85b21544285db3c8b526d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1954 жылғы әдебиет саласындағы Нобель сыйлығын кім алды?",
+        "sample_hashes": [
+          "b21fa7552e0519838e0b48f8a57489f72d97da689f23e64169dd0151fe9ad9d3",
+          "02e6fdcaa64c09651aa756695d469b206cddab4c6444838dad5f86042cdeb2c6",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f",
+          "e0d30487e07f29f0af6ad4b76970f89f5d4fe044f4708d00507b7dcef7a90c0f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:19:19.777968+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "0437d93c862a91d48b437cf27ccf66fe0b50b2c2672cb203ffc84068ebc6076d",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3, 4], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

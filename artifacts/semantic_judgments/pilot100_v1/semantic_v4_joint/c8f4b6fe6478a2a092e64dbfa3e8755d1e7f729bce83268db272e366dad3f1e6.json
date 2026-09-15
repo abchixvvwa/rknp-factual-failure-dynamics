@@ -1,0 +1,169 @@
+{
+  "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Жарқанаттар жылдың қай мезгілінде жұмыртқа салады?",
+        "sample_hashes": [
+          "074b9f103959ad957ac633e0184d45b8c13c5799cdd7ffdbcc1b9a6903ad4f40",
+          "6fa0f58d84114acf705e623b06064e60d7f7b2a0250de55efcabfad96f425999",
+          "4265bcd80de3ef36a2ebfb7f75efdbcc2ed6c6c2e3142c58f2652f7731ee4171",
+          "1493bdaa938227332fc98d0aa86e5a1792c482e2809b0d5528e0db664389091e",
+          "760038859e60a3ff643e5aeadd9e2d9f8a4443e429b8830cdcf88677ec9bc863"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, false, false, true]\n}",
+        "created_at": "2026-09-14T17:51:28.602161+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "5851419ae3cbe8363a8cd8d6b132f776c732f7a7bfa4bc47ffe629c665690ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Жарқанаттар жылдың қай мезгілінде жұмыртқа салады?",
+        "sample_hashes": [
+          "074b9f103959ad957ac633e0184d45b8c13c5799cdd7ffdbcc1b9a6903ad4f40",
+          "6fa0f58d84114acf705e623b06064e60d7f7b2a0250de55efcabfad96f425999",
+          "4265bcd80de3ef36a2ebfb7f75efdbcc2ed6c6c2e3142c58f2652f7731ee4171",
+          "1493bdaa938227332fc98d0aa86e5a1792c482e2809b0d5528e0db664389091e",
+          "760038859e60a3ff643e5aeadd9e2d9f8a4443e429b8830cdcf88677ec9bc863"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, false, false, true]\n}",
+        "created_at": "2026-09-14T17:51:28.602161+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "5851419ae3cbe8363a8cd8d6b132f776c732f7a7bfa4bc47ffe629c665690ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Жарқанаттар жылдың қай мезгілінде жұмыртқа салады?",
+        "sample_hashes": [
+          "074b9f103959ad957ac633e0184d45b8c13c5799cdd7ffdbcc1b9a6903ad4f40",
+          "6fa0f58d84114acf705e623b06064e60d7f7b2a0250de55efcabfad96f425999",
+          "4265bcd80de3ef36a2ebfb7f75efdbcc2ed6c6c2e3142c58f2652f7731ee4171",
+          "1493bdaa938227332fc98d0aa86e5a1792c482e2809b0d5528e0db664389091e",
+          "760038859e60a3ff643e5aeadd9e2d9f8a4443e429b8830cdcf88677ec9bc863"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, false, false, true]\n}",
+        "created_at": "2026-09-14T17:51:28.602161+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "5851419ae3cbe8363a8cd8d6b132f776c732f7a7bfa4bc47ffe629c665690ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": true,
+      "audit": {
+        "case_id": "c8f4b6fe6478a2a092e64dbfa3e8755d1e7f729bce83268db272e366dad3f1e6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Жарқанаттар жылдың қай мезгілінде жұмыртқа салады?",
+        "sample_hashes": [
+          "074b9f103959ad957ac633e0184d45b8c13c5799cdd7ffdbcc1b9a6903ad4f40",
+          "6fa0f58d84114acf705e623b06064e60d7f7b2a0250de55efcabfad96f425999",
+          "4265bcd80de3ef36a2ebfb7f75efdbcc2ed6c6c2e3142c58f2652f7731ee4171",
+          "1493bdaa938227332fc98d0aa86e5a1792c482e2809b0d5528e0db664389091e",
+          "760038859e60a3ff643e5aeadd9e2d9f8a4443e429b8830cdcf88677ec9bc863"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 1, 2]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [true, false, false, true]\n}",
+        "created_at": "2026-09-14T17:51:28.602161+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "5851419ae3cbe8363a8cd8d6b132f776c732f7a7bfa4bc47ffe629c665690ef4",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2], [1, 3], [4]]",
+        "judge_uncertain": true
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "experiment_id": "smoke_v1",
+  "git_commit": null,
+  "python_version": "3.12.14",
+  "package_versions": {
+    "groq": "1.7.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.0",
+    "pyarrow": "23.0.1",
+    "pydantic": "2.13.5",
+    "pyyaml": "6.0.3"
+  },
+  "config_hash": "f0d09f8e3e5b2eeaa3794b4927e51e424064d466448ccf1bfae0504e6e375dc8",
+  "benchmark_hash": "5f8ad57f85de65ffb1b143dd0fe0f4b4345fb1353ef100abe9c0ad77509e243e",
+  "split_hash": "e8040e9788dc2a8684544d24c101dc0586aba4e50bfb76d4d260dfecc401bd89",
+  "model_snapshot_hash": "79dbaad94e12f5602c1e6767959d03d127b2100257141efbfe705f309ad690bc",
+  "timestamp": "2026-09-10T04:56:33.149437+00:00"
+}

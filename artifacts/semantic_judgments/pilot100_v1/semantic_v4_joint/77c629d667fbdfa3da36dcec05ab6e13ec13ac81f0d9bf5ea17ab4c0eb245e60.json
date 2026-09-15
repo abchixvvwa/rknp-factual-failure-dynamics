@@ -1,0 +1,167 @@
+{
+  "case_id": "77c629d667fbdfa3da36dcec05ab6e13ec13ac81f0d9bf5ea17ab4c0eb245e60",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77c629d667fbdfa3da36dcec05ab6e13ec13ac81f0d9bf5ea17ab4c0eb245e60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туының енінің ұзындығына қатынасы қандай?",
+        "sample_hashes": [
+          "27fac8e015f0108c1d95dfb5227f8e547be6dd58463ba74de2e6f0902d053d9c",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:13:50.798582+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "8eb0dcb527c8581be0e427cab81d9b93b287fd9fb1fa1265f18bb05589bbd480",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77c629d667fbdfa3da36dcec05ab6e13ec13ac81f0d9bf5ea17ab4c0eb245e60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туының енінің ұзындығына қатынасы қандай?",
+        "sample_hashes": [
+          "27fac8e015f0108c1d95dfb5227f8e547be6dd58463ba74de2e6f0902d053d9c",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:13:50.798582+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "8eb0dcb527c8581be0e427cab81d9b93b287fd9fb1fa1265f18bb05589bbd480",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77c629d667fbdfa3da36dcec05ab6e13ec13ac81f0d9bf5ea17ab4c0eb245e60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туының енінің ұзындығына қатынасы қандай?",
+        "sample_hashes": [
+          "27fac8e015f0108c1d95dfb5227f8e547be6dd58463ba74de2e6f0902d053d9c",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:13:50.798582+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "8eb0dcb527c8581be0e427cab81d9b93b287fd9fb1fa1265f18bb05589bbd480",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 1,
+      "uncertain": false,
+      "audit": {
+        "case_id": "77c629d667fbdfa3da36dcec05ab6e13ec13ac81f0d9bf5ea17ab4c0eb245e60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Қазақстанның мемлекеттік туының енінің ұзындығына қатынасы қандай?",
+        "sample_hashes": [
+          "27fac8e015f0108c1d95dfb5227f8e547be6dd58463ba74de2e6f0902d053d9c",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc",
+          "f86260b94adbc563958f1ddd52e86df489b2acb7f55856b3159b05e6e8e11cfc"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0],\n    [1, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:13:50.798582+00:00",
+        "system_fingerprint": "fp_bc9a6c9b5f",
+        "request_id": "8eb0dcb527c8581be0e427cab81d9b93b287fd9fb1fa1265f18bb05589bbd480",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

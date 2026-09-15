@@ -1,0 +1,179 @@
+{
+  "case_id": "06b24fae5de71202cfadef93766be83afa51674abd8bad8d2438248c8f4609d6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "06b24fae5de71202cfadef93766be83afa51674abd8bad8d2438248c8f4609d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күннің қатты бетіндегі ең биік тау қалай аталады?",
+        "sample_hashes": [
+          "3570667f4ca45b16714032780819c1e3c63852ebd9f6f8a32083ddfc3dfbb3cf",
+          "6ab07528927d1c1ed7cfe16d2e57d5d807771206973bb168e5d991576f8ba9b5",
+          "2e61eae931b26fbeb3f8ab2b03d05a30d60acdb56ddebca4329d2be1956dea00",
+          "281c1f855e299185b629a51ca9f71a914e62f9081e64d7f5392d454323751877",
+          "dfdea8a1d22c4ea8d4874b4ef4d23786384fbcefc70722775b3586f5f0b18cba"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:45:57.032117+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "70aeddc60b15b4a1e1de5e7a243b312d373bfd730f295c6cb9b3b8bf5b10467a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "06b24fae5de71202cfadef93766be83afa51674abd8bad8d2438248c8f4609d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күннің қатты бетіндегі ең биік тау қалай аталады?",
+        "sample_hashes": [
+          "3570667f4ca45b16714032780819c1e3c63852ebd9f6f8a32083ddfc3dfbb3cf",
+          "6ab07528927d1c1ed7cfe16d2e57d5d807771206973bb168e5d991576f8ba9b5",
+          "2e61eae931b26fbeb3f8ab2b03d05a30d60acdb56ddebca4329d2be1956dea00",
+          "281c1f855e299185b629a51ca9f71a914e62f9081e64d7f5392d454323751877",
+          "dfdea8a1d22c4ea8d4874b4ef4d23786384fbcefc70722775b3586f5f0b18cba"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:45:57.032117+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "70aeddc60b15b4a1e1de5e7a243b312d373bfd730f295c6cb9b3b8bf5b10467a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "06b24fae5de71202cfadef93766be83afa51674abd8bad8d2438248c8f4609d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күннің қатты бетіндегі ең биік тау қалай аталады?",
+        "sample_hashes": [
+          "3570667f4ca45b16714032780819c1e3c63852ebd9f6f8a32083ddfc3dfbb3cf",
+          "6ab07528927d1c1ed7cfe16d2e57d5d807771206973bb168e5d991576f8ba9b5",
+          "2e61eae931b26fbeb3f8ab2b03d05a30d60acdb56ddebca4329d2be1956dea00",
+          "281c1f855e299185b629a51ca9f71a914e62f9081e64d7f5392d454323751877",
+          "dfdea8a1d22c4ea8d4874b4ef4d23786384fbcefc70722775b3586f5f0b18cba"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:45:57.032117+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "70aeddc60b15b4a1e1de5e7a243b312d373bfd730f295c6cb9b3b8bf5b10467a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1], [2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "06b24fae5de71202cfadef93766be83afa51674abd8bad8d2438248c8f4609d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Күннің қатты бетіндегі ең биік тау қалай аталады?",
+        "sample_hashes": [
+          "3570667f4ca45b16714032780819c1e3c63852ebd9f6f8a32083ddfc3dfbb3cf",
+          "6ab07528927d1c1ed7cfe16d2e57d5d807771206973bb168e5d991576f8ba9b5",
+          "2e61eae931b26fbeb3f8ab2b03d05a30d60acdb56ddebca4329d2be1956dea00",
+          "281c1f855e299185b629a51ca9f71a914e62f9081e64d7f5392d454323751877",
+          "dfdea8a1d22c4ea8d4874b4ef4d23786384fbcefc70722775b3586f5f0b18cba"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4],\n    [0, 1, 2, 3, 4]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:45:57.032117+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "70aeddc60b15b4a1e1de5e7a243b312d373bfd730f295c6cb9b3b8bf5b10467a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1], [2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

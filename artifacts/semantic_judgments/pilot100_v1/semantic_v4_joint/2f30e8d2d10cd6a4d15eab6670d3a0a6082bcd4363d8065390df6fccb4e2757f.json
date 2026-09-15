@@ -1,0 +1,159 @@
+{
+  "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:24.169501+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "ce4a5f5d7743e9864642f5c92fb15881f76fb3726cdf095f9bb3580f42ec1373",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:24.169501+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "ce4a5f5d7743e9864642f5c92fb15881f76fb3726cdf095f9bb3580f42ec1373",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:24.169501+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "ce4a5f5d7743e9864642f5c92fb15881f76fb3726cdf095f9bb3580f42ec1373",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2f30e8d2d10cd6a4d15eab6670d3a0a6082bcd4363d8065390df6fccb4e2757f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе расположен Тадж-Махал?",
+        "sample_hashes": [
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "e3208ff57b0f5217324c175a63ed35842e81e4c864ae9b89fa514a8f1f08b9d9",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1",
+          "de518882c719803daa491cdcc3e18b76b54f558cb2db6f848ad23c1c26292a6d",
+          "14cf0219b5d252926141da6632616495104ccfe27fe57ce789b93fab8562e0b1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:24.169501+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "ce4a5f5d7743e9864642f5c92fb15881f76fb3726cdf095f9bb3580f42ec1373",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

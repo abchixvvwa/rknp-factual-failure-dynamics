@@ -1,0 +1,251 @@
+{
+  "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:56.639697+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "7a0170f04520825be96b742fe26c8ba01c6e4fea5a8ba65d7c5fede07b252b79",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T09:13:01.411439+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "3d36fe08c472dbbdc289795c694a88d15a1b2983cd09ddd70cba4f61778280a1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049",
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:13:05.294738+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "8b47386ed212dc0c6e9aceb51bfcd819bcbfd6463eec811b296bc283467f15c5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T09:13:01.411439+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "3d36fe08c472dbbdc289795c694a88d15a1b2983cd09ddd70cba4f61778280a1",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049",
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "419edd7efd9c7de74d1042a14b9a97cdd8229f2b9265a21425f42a4fdd873ab6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:13:09.446099+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "98913d489206e5d5a4b4ba576e9d4b626e3f2f47378fdabeff42cc3610b8ed3f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049",
+          "419edd7efd9c7de74d1042a14b9a97cdd8229f2b9265a21425f42a4fdd873ab6"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 2,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:13:14.239761+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "8be9703b42caa3bfb85795f50029fa9001be6c0e396d14f2bc7b9d2e78838fc3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "2",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 2,
+      "uncertain": false,
+      "audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049",
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "419edd7efd9c7de74d1042a14b9a97cdd8229f2b9265a21425f42a4fdd873ab6",
+          "1bc2c6cbb5721d856ddef6cd0d1d2d0d336c0042dfb94ac8f8cf1c6f1fb9ff0a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:13:18.343786+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "b5549210a0fee2c381db184c8c4df95c6a56694104c93ece2cc06962bae29973",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2, 4], [1], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "c893a2a86b17807bbccdb5e875a73db1687fe3d678274d0514522716672c3b69",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Which two architects designed Kazakhstan's national emblem adopted in 1992?",
+        "sample_hashes": [
+          "5b7230efe47a40a13da7bf917f209f28b009d97e08e32e54030da5aeb4f7e58d",
+          "fdbfa63afd3bb06ac8714f0a03e240da1edc2f04e20a15858f33dd3ba43c5049",
+          "419edd7efd9c7de74d1042a14b9a97cdd8229f2b9265a21425f42a4fdd873ab6"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 2,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:13:14.239761+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "8be9703b42caa3bfb85795f50029fa9001be6c0e396d14f2bc7b9d2e78838fc3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "2",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

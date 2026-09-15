@@ -1,0 +1,161 @@
+{
+  "case_id": "e25b2fcba260edb28a6f80e2482ba59ce5179b868e10b4791fd09262ea678857",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e25b2fcba260edb28a6f80e2482ba59ce5179b868e10b4791fd09262ea678857",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year were the Tanbaly petroglyphs inscribed on the UNESCO World Heritage List?",
+        "sample_hashes": [
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8e521502700af69cca9efb42669d3cb24d8d576dca458c9327674670f5b56509"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:15.832715+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "787d1563e9038dccffc76533da33cc73672a03ab7a63a2267bd4b13498ea9855",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e25b2fcba260edb28a6f80e2482ba59ce5179b868e10b4791fd09262ea678857",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year were the Tanbaly petroglyphs inscribed on the UNESCO World Heritage List?",
+        "sample_hashes": [
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8e521502700af69cca9efb42669d3cb24d8d576dca458c9327674670f5b56509"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:15.832715+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "787d1563e9038dccffc76533da33cc73672a03ab7a63a2267bd4b13498ea9855",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e25b2fcba260edb28a6f80e2482ba59ce5179b868e10b4791fd09262ea678857",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year were the Tanbaly petroglyphs inscribed on the UNESCO World Heritage List?",
+        "sample_hashes": [
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8e521502700af69cca9efb42669d3cb24d8d576dca458c9327674670f5b56509"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:15.832715+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "787d1563e9038dccffc76533da33cc73672a03ab7a63a2267bd4b13498ea9855",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e25b2fcba260edb28a6f80e2482ba59ce5179b868e10b4791fd09262ea678857",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In what year were the Tanbaly petroglyphs inscribed on the UNESCO World Heritage List?",
+        "sample_hashes": [
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8b5241d4ee3d8ce03ad1025fd750776f4c2f06f0159fad1514054767694c2282",
+          "8e521502700af69cca9efb42669d3cb24d8d576dca458c9327674670f5b56509"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:14:15.832715+00:00",
+        "system_fingerprint": "fp_64b2f1c926",
+        "request_id": "787d1563e9038dccffc76533da33cc73672a03ab7a63a2267bd4b13498ea9855",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

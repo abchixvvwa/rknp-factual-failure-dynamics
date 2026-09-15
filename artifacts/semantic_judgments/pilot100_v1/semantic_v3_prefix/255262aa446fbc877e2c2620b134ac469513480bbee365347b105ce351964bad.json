@@ -1,0 +1,233 @@
+{
+  "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3",
+          "b0d7b22dfa35d1348ecd6a1327174d4d74173485c69bc47664ad1176f55969df"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:53.159709+00:00",
+        "system_fingerprint": "fp_47082602e2",
+        "request_id": "71cff1e40115b2fe0278d3e1ebf08617e578c1534f70dcce4ec0c36247b00620",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:53.832653+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ff18bcd2877086734d268cd90f71557a6f1241c4888a93994b5f1ac3a9df7e9a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3",
+          "b0d7b22dfa35d1348ecd6a1327174d4d74173485c69bc47664ad1176f55969df",
+          "5f4dcaaa8e47c8236e83d4e919b71e41ebbbb837d92a05332cbaf8e9100e3e6c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:55.193923+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "129dffba5509c632909e8402bf1bd8803494f0878749f0e42cd6413361fe50c8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:53.832653+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ff18bcd2877086734d268cd90f71557a6f1241c4888a93994b5f1ac3a9df7e9a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3",
+          "b0d7b22dfa35d1348ecd6a1327174d4d74173485c69bc47664ad1176f55969df",
+          "5f4dcaaa8e47c8236e83d4e919b71e41ebbbb837d92a05332cbaf8e9100e3e6c",
+          "67ca807229a05b34511baafb08a9b3d6d8d8c96fed8f8ba2a1f2e8c38469d483"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:02:55.716653+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "d95e08916c5d768cbe9fab35a8cf5732b3aeac6f53378da8737bdacaec3511d1",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:53.832653+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ff18bcd2877086734d268cd90f71557a6f1241c4888a93994b5f1ac3a9df7e9a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3",
+          "b0d7b22dfa35d1348ecd6a1327174d4d74173485c69bc47664ad1176f55969df",
+          "5f4dcaaa8e47c8236e83d4e919b71e41ebbbb837d92a05332cbaf8e9100e3e6c",
+          "67ca807229a05b34511baafb08a9b3d6d8d8c96fed8f8ba2a1f2e8c38469d483",
+          "b05b1f6992792e70f6dd839e8606e4b1441e074818c1180fa5be9740b86c57c4"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T12:03:14.572722+00:00",
+        "system_fingerprint": "fp_1d982b31b2",
+        "request_id": "cc55ad37c78f15dbc7661212ad420faf5e57c485b4cb82dcc5c89da92a3a10f8",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "255262aa446fbc877e2c2620b134ac469513480bbee365347b105ce351964bad",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the men's 100 metres at the 1940 Summer Olympics?",
+        "sample_hashes": [
+          "8f5d4fe3f8c48784c3ffae8a9c30fa6f6a7f8cab7c9cd2374d528bd45af75cb3"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T12:02:53.832653+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "ff18bcd2877086734d268cd90f71557a6f1241c4888a93994b5f1ac3a9df7e9a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

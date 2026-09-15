@@ -1,0 +1,159 @@
+{
+  "case_id": "f3ff876dc5fc88fcf4980f5178803c727ab2e61bea89d176d625617bfa86d42f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f3ff876dc5fc88fcf4980f5178803c727ab2e61bea89d176d625617bfa86d42f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Мона Лиза»?",
+        "sample_hashes": [
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "0ed4b39159f394d6621fb0f49cb835f86cfb2a473289d0f78908d4d3dac99b64",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:03.927364+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "614c2f1e5303d22d3ea4ef7f671da63eeb5339135ab92f088ad3ce23ab33057b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f3ff876dc5fc88fcf4980f5178803c727ab2e61bea89d176d625617bfa86d42f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Мона Лиза»?",
+        "sample_hashes": [
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "0ed4b39159f394d6621fb0f49cb835f86cfb2a473289d0f78908d4d3dac99b64",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:03.927364+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "614c2f1e5303d22d3ea4ef7f671da63eeb5339135ab92f088ad3ce23ab33057b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f3ff876dc5fc88fcf4980f5178803c727ab2e61bea89d176d625617bfa86d42f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Мона Лиза»?",
+        "sample_hashes": [
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "0ed4b39159f394d6621fb0f49cb835f86cfb2a473289d0f78908d4d3dac99b64",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:03.927364+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "614c2f1e5303d22d3ea4ef7f671da63eeb5339135ab92f088ad3ce23ab33057b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f3ff876dc5fc88fcf4980f5178803c727ab2e61bea89d176d625617bfa86d42f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Мона Лиза»?",
+        "sample_hashes": [
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52",
+          "0ed4b39159f394d6621fb0f49cb835f86cfb2a473289d0f78908d4d3dac99b64",
+          "3c1d5b6e5b38e154d374909fd4ae957996f762269a01aab746f9dd75877f5d52"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:03.927364+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "614c2f1e5303d22d3ea4ef7f671da63eeb5339135ab92f088ad3ce23ab33057b",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

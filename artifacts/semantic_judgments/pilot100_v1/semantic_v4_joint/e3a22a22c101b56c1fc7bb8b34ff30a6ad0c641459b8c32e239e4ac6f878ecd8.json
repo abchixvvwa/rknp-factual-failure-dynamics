@@ -1,0 +1,159 @@
+{
+  "case_id": "e3a22a22c101b56c1fc7bb8b34ff30a6ad0c641459b8c32e239e4ac6f878ecd8",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3a22a22c101b56c1fc7bb8b34ff30a6ad0c641459b8c32e239e4ac6f878ecd8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі күш бірлігі қалай аталады?",
+        "sample_hashes": [
+          "a92c59e086d8a307e11765553b570588a1efd5696ad39f2b642a1978570937b9",
+          "5340777939d8e49553c60dab85bd9fbfefc173f782e055f5953f2727b6940a1b",
+          "09e476bab7c7224dc64952b3c59b39af02dea339c4962dd5dbd9da3a5fc23d93",
+          "4c1102b61cb7465c26d5913d40a312b1d183ed91eb99be6c58fe9ad28f13b02f",
+          "7e9361696bd21da6500e14e77e2b83c3beb460d23698ab14179c519e42778b5f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:15.436442+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "aa4f3cc7c6853d9e56c4bf41df98aef396ecf89083fefefb469488c3a6e74245",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3a22a22c101b56c1fc7bb8b34ff30a6ad0c641459b8c32e239e4ac6f878ecd8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі күш бірлігі қалай аталады?",
+        "sample_hashes": [
+          "a92c59e086d8a307e11765553b570588a1efd5696ad39f2b642a1978570937b9",
+          "5340777939d8e49553c60dab85bd9fbfefc173f782e055f5953f2727b6940a1b",
+          "09e476bab7c7224dc64952b3c59b39af02dea339c4962dd5dbd9da3a5fc23d93",
+          "4c1102b61cb7465c26d5913d40a312b1d183ed91eb99be6c58fe9ad28f13b02f",
+          "7e9361696bd21da6500e14e77e2b83c3beb460d23698ab14179c519e42778b5f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:15.436442+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "aa4f3cc7c6853d9e56c4bf41df98aef396ecf89083fefefb469488c3a6e74245",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3a22a22c101b56c1fc7bb8b34ff30a6ad0c641459b8c32e239e4ac6f878ecd8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі күш бірлігі қалай аталады?",
+        "sample_hashes": [
+          "a92c59e086d8a307e11765553b570588a1efd5696ad39f2b642a1978570937b9",
+          "5340777939d8e49553c60dab85bd9fbfefc173f782e055f5953f2727b6940a1b",
+          "09e476bab7c7224dc64952b3c59b39af02dea339c4962dd5dbd9da3a5fc23d93",
+          "4c1102b61cb7465c26d5913d40a312b1d183ed91eb99be6c58fe9ad28f13b02f",
+          "7e9361696bd21da6500e14e77e2b83c3beb460d23698ab14179c519e42778b5f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:15.436442+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "aa4f3cc7c6853d9e56c4bf41df98aef396ecf89083fefefb469488c3a6e74245",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "e3a22a22c101b56c1fc7bb8b34ff30a6ad0c641459b8c32e239e4ac6f878ecd8",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "SI жүйесіндегі күш бірлігі қалай аталады?",
+        "sample_hashes": [
+          "a92c59e086d8a307e11765553b570588a1efd5696ad39f2b642a1978570937b9",
+          "5340777939d8e49553c60dab85bd9fbfefc173f782e055f5953f2727b6940a1b",
+          "09e476bab7c7224dc64952b3c59b39af02dea339c4962dd5dbd9da3a5fc23d93",
+          "4c1102b61cb7465c26d5913d40a312b1d183ed91eb99be6c58fe9ad28f13b02f",
+          "7e9361696bd21da6500e14e77e2b83c3beb460d23698ab14179c519e42778b5f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:16:15.436442+00:00",
+        "system_fingerprint": "fp_9d1f936695",
+        "request_id": "aa4f3cc7c6853d9e56c4bf41df98aef396ecf89083fefefb469488c3a6e74245",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

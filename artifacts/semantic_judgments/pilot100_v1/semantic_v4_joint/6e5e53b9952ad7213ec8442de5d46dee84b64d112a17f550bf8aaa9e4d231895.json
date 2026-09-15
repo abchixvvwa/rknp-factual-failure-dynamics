@@ -1,0 +1,159 @@
+{
+  "case_id": "6e5e53b9952ad7213ec8442de5d46dee84b64d112a17f550bf8aaa9e4d231895",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e5e53b9952ad7213ec8442de5d46dee84b64d112a17f550bf8aaa9e4d231895",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Постоянство памяти»?",
+        "sample_hashes": [
+          "61db27afcceb02844d53a460dc8573b44cbfc956ef973f5cc5a00e421e4f47a8",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "f9f71d091d6eb2173cdd57cc4fa2dd24e36e1f4bbfb0104b070c6cec3c91a2e9",
+          "ff3cc72ca9b167eec70b60bcb9dd15a234ac6e605855dd39cc8418f5f9ae8b17"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:46.034134+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9c63f9f2c513245e7d596bf43dacaf2ae5f7bd40e1406d07f33d9c862c637ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e5e53b9952ad7213ec8442de5d46dee84b64d112a17f550bf8aaa9e4d231895",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Постоянство памяти»?",
+        "sample_hashes": [
+          "61db27afcceb02844d53a460dc8573b44cbfc956ef973f5cc5a00e421e4f47a8",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "f9f71d091d6eb2173cdd57cc4fa2dd24e36e1f4bbfb0104b070c6cec3c91a2e9",
+          "ff3cc72ca9b167eec70b60bcb9dd15a234ac6e605855dd39cc8418f5f9ae8b17"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:46.034134+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9c63f9f2c513245e7d596bf43dacaf2ae5f7bd40e1406d07f33d9c862c637ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e5e53b9952ad7213ec8442de5d46dee84b64d112a17f550bf8aaa9e4d231895",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Постоянство памяти»?",
+        "sample_hashes": [
+          "61db27afcceb02844d53a460dc8573b44cbfc956ef973f5cc5a00e421e4f47a8",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "f9f71d091d6eb2173cdd57cc4fa2dd24e36e1f4bbfb0104b070c6cec3c91a2e9",
+          "ff3cc72ca9b167eec70b60bcb9dd15a234ac6e605855dd39cc8418f5f9ae8b17"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:46.034134+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9c63f9f2c513245e7d596bf43dacaf2ae5f7bd40e1406d07f33d9c862c637ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "6e5e53b9952ad7213ec8442de5d46dee84b64d112a17f550bf8aaa9e4d231895",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Постоянство памяти»?",
+        "sample_hashes": [
+          "61db27afcceb02844d53a460dc8573b44cbfc956ef973f5cc5a00e421e4f47a8",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "a7c4a53936efd91edf794a87fcb2cf3a52bb0c5273aa97bee300511a75e6758d",
+          "f9f71d091d6eb2173cdd57cc4fa2dd24e36e1f4bbfb0104b070c6cec3c91a2e9",
+          "ff3cc72ca9b167eec70b60bcb9dd15a234ac6e605855dd39cc8418f5f9ae8b17"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:33:46.034134+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9c63f9f2c513245e7d596bf43dacaf2ae5f7bd40e1406d07f33d9c862c637ed2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

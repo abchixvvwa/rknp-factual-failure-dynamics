@@ -1,0 +1,159 @@
+{
+  "case_id": "5734b3d023faf1e30f682012877a83083de7bf7133558dcf68c0bd8c77a1a19e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5734b3d023faf1e30f682012877a83083de7bf7133558dcf68c0bd8c77a1a19e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Уффици галереясындағы «Венераның тууы» картинасын кім салған?",
+        "sample_hashes": [
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "b40e78f3ca41b68cfaf01a85679c23d0d61d91c689702f1f4728f3bea7dbbf0e",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "26cd68bd880808d43fe38a17ac8696529e185b5129f3443b5c4ebee183fc2ea1",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:53:18.800097+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "c18f08dbe573c06ae51bf1595f41f3551b4321750eb7ecbc4d5d711903c89a38",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5734b3d023faf1e30f682012877a83083de7bf7133558dcf68c0bd8c77a1a19e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Уффици галереясындағы «Венераның тууы» картинасын кім салған?",
+        "sample_hashes": [
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "b40e78f3ca41b68cfaf01a85679c23d0d61d91c689702f1f4728f3bea7dbbf0e",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "26cd68bd880808d43fe38a17ac8696529e185b5129f3443b5c4ebee183fc2ea1",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:53:18.800097+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "c18f08dbe573c06ae51bf1595f41f3551b4321750eb7ecbc4d5d711903c89a38",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5734b3d023faf1e30f682012877a83083de7bf7133558dcf68c0bd8c77a1a19e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Уффици галереясындағы «Венераның тууы» картинасын кім салған?",
+        "sample_hashes": [
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "b40e78f3ca41b68cfaf01a85679c23d0d61d91c689702f1f4728f3bea7dbbf0e",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "26cd68bd880808d43fe38a17ac8696529e185b5129f3443b5c4ebee183fc2ea1",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:53:18.800097+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "c18f08dbe573c06ae51bf1595f41f3551b4321750eb7ecbc4d5d711903c89a38",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5734b3d023faf1e30f682012877a83083de7bf7133558dcf68c0bd8c77a1a19e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Уффици галереясындағы «Венераның тууы» картинасын кім салған?",
+        "sample_hashes": [
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "b40e78f3ca41b68cfaf01a85679c23d0d61d91c689702f1f4728f3bea7dbbf0e",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec",
+          "26cd68bd880808d43fe38a17ac8696529e185b5129f3443b5c4ebee183fc2ea1",
+          "f83b4cdfbce6fed7a15e54b173f7c258b4087120a0ec21082d062175ef672dec"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:53:18.800097+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "c18f08dbe573c06ae51bf1595f41f3551b4321750eb7ecbc4d5d711903c89a38",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

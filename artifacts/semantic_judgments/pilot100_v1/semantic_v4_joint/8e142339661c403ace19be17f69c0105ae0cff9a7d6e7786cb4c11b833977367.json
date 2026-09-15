@@ -1,0 +1,159 @@
+{
+  "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:03:03.312667+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "de90f73a67713c83dc5bb510d7f280d1400a972ce3e418007bf66356f0db8dc3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:03:03.312667+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "de90f73a67713c83dc5bb510d7f280d1400a972ce3e418007bf66356f0db8dc3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:03:03.312667+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "de90f73a67713c83dc5bb510d7f280d1400a972ce3e418007bf66356f0db8dc3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8e142339661c403ace19be17f69c0105ae0cff9a7d6e7786cb4c11b833977367",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "In which country is Angkor?",
+        "sample_hashes": [
+          "5c931777e4d767260c315fe0a011135404a0ebd6a1444311a0f525b6af0dd71a",
+          "6c27b65b5e9eebbe177c1acedb2480643c347180d258ca939d90b7e3078979c7",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243",
+          "1df62e861c8ada7018c4371762f152f6be0527d79f8c795c165a0cfcb90c0243"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:03:03.312667+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "de90f73a67713c83dc5bb510d7f280d1400a972ce3e418007bf66356f0db8dc3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

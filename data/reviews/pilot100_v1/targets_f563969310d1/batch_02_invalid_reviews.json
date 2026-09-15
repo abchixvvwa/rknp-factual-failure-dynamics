@@ -1,0 +1,57 @@
+[
+  {
+    "number": 79,
+    "request_id": "2d163897b3939cbe70d0f3045129566ac6a9b9e4415549b6591aec20d7707491",
+    "response_sha256": "50dd5d6462d643d28a7cb5ae3f4e5a03fd084b7fe6b7b4e69be3519b81151689",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review 2026-09-12; targets_f563969310d1 batch 2 item 79; entire response evaluated. Ответ сломан и обрезан; имя Хемингуэя не появляется как ответ. Не присваивать 0/1.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 86,
+    "request_id": "4b78cf47b880af2203ef18258fbadd547d7f745425f2959220afb7e03444a426",
+    "response_sha256": "f06b502f68b24c61e64ce2c3e6abe1c8ca1afff92586ae90953c5b989341c415",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review 2026-09-12; targets_f563969310d1 batch 2 item 86; entire response evaluated. Зацикленный, обрезанный ответ без правильного лауреата.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 98,
+    "request_id": "e660029702796e17ca5704f6ced1557ed6d3c5e43f65443d80c5d74ee6c6c503",
+    "response_sha256": "ea294659d3bb46796243d497e6eded7648a467d0c7bc267435fda3250ba2e299",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review 2026-09-12; targets_f563969310d1 batch 2 item 98; entire response evaluated. Ответ зациклен, не называет Кавабату и физически обрезан.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 99,
+    "request_id": "e8fdd28046cbbb2b60f6c3c766ca39e808e606cda1c8425392b7442f7d292132",
+    "response_sha256": "a2f24cb722e9993d7acdb66214835c3ef438b9fca211cfe6e45014a270313190",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review 2026-09-12; targets_f563969310d1 batch 2 item 99; entire response evaluated. Ответ зациклен, не называет Кавабату и физически обрезан.",
+    "finish_reason": "length",
+    "valid_response": false
+  },
+  {
+    "number": 100,
+    "request_id": "a7027668976df6ebb6c49c2d16cca4dac00fc120bf6bc3b4459d222e414f2ce2",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "review_label": null,
+    "review_status": "human_confirmed_invalid",
+    "reviewer": "project_user",
+    "review_notes": "User review 2026-09-12; targets_f563969310d1 batch 2 item 100; entire response evaluated. Ответ модели пустой.",
+    "finish_reason": "length",
+    "valid_response": false
+  }
+]

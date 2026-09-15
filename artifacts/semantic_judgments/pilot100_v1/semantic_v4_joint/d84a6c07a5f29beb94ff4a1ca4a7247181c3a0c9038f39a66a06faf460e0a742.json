@@ -1,0 +1,159 @@
+{
+  "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On which planet is the Great Red Spot?",
+        "sample_hashes": [
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "e9f7b5fd2fd28eef3d480f2359009c0d28af15c4324dba33b750b4bf98cc9e51"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:18.163133+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "014b7c9acdc49f021822ab95406e11c1dde2971c05500994177ee2de809317d6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On which planet is the Great Red Spot?",
+        "sample_hashes": [
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "e9f7b5fd2fd28eef3d480f2359009c0d28af15c4324dba33b750b4bf98cc9e51"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:18.163133+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "014b7c9acdc49f021822ab95406e11c1dde2971c05500994177ee2de809317d6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On which planet is the Great Red Spot?",
+        "sample_hashes": [
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "e9f7b5fd2fd28eef3d480f2359009c0d28af15c4324dba33b750b4bf98cc9e51"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:18.163133+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "014b7c9acdc49f021822ab95406e11c1dde2971c05500994177ee2de809317d6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "d84a6c07a5f29beb94ff4a1ca4a7247181c3a0c9038f39a66a06faf460e0a742",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "On which planet is the Great Red Spot?",
+        "sample_hashes": [
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "27ce2df06855179bad66a316f0d9b933febc11d734f81ee89121885a7aa0c1b7",
+          "e9f7b5fd2fd28eef3d480f2359009c0d28af15c4324dba33b750b4bf98cc9e51"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T15:45:18.163133+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "014b7c9acdc49f021822ab95406e11c1dde2971c05500994177ee2de809317d6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

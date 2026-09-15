@@ -1,0 +1,159 @@
+{
+  "case_id": "09c649d465fdbad799fb70db97e13604481ebca9d3f55e2b0ea28f81a6123b8d",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "09c649d465fdbad799fb70db97e13604481ebca9d3f55e2b0ea28f81a6123b8d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе была напечатана Библия Гутенберга?",
+        "sample_hashes": [
+          "2664ce8c118b77094630fc121efec0e6d821e900fcd30fa4ae0c00cb8676cc40",
+          "cf2ff2292993693bdc1463c058f159733e74c88925dd1a35d4bf6f00ece1fbfc",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "ed8909a4be9b97dfbeda54f9dc6a51bd08e63bd5ec4b80fa0d2eba499df24368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:25:03.225710+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "3b4a0efe241c14159b89abd0e1ca7b6304376e77d755222a57b617702d1d32e6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "09c649d465fdbad799fb70db97e13604481ebca9d3f55e2b0ea28f81a6123b8d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе была напечатана Библия Гутенберга?",
+        "sample_hashes": [
+          "2664ce8c118b77094630fc121efec0e6d821e900fcd30fa4ae0c00cb8676cc40",
+          "cf2ff2292993693bdc1463c058f159733e74c88925dd1a35d4bf6f00ece1fbfc",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "ed8909a4be9b97dfbeda54f9dc6a51bd08e63bd5ec4b80fa0d2eba499df24368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:25:03.225710+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "3b4a0efe241c14159b89abd0e1ca7b6304376e77d755222a57b617702d1d32e6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "09c649d465fdbad799fb70db97e13604481ebca9d3f55e2b0ea28f81a6123b8d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе была напечатана Библия Гутенберга?",
+        "sample_hashes": [
+          "2664ce8c118b77094630fc121efec0e6d821e900fcd30fa4ae0c00cb8676cc40",
+          "cf2ff2292993693bdc1463c058f159733e74c88925dd1a35d4bf6f00ece1fbfc",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "ed8909a4be9b97dfbeda54f9dc6a51bd08e63bd5ec4b80fa0d2eba499df24368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:25:03.225710+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "3b4a0efe241c14159b89abd0e1ca7b6304376e77d755222a57b617702d1d32e6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "09c649d465fdbad799fb70db97e13604481ebca9d3f55e2b0ea28f81a6123b8d",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком городе была напечатана Библия Гутенберга?",
+        "sample_hashes": [
+          "2664ce8c118b77094630fc121efec0e6d821e900fcd30fa4ae0c00cb8676cc40",
+          "cf2ff2292993693bdc1463c058f159733e74c88925dd1a35d4bf6f00ece1fbfc",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "a07d47a98cfc95236806b01d92e99ecf8f1afe79a96a13b8d7f4142ca963decd",
+          "ed8909a4be9b97dfbeda54f9dc6a51bd08e63bd5ec4b80fa0d2eba499df24368"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:25:03.225710+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "3b4a0efe241c14159b89abd0e1ca7b6304376e77d755222a57b617702d1d32e6",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

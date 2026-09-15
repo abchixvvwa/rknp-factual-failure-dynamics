@@ -1,0 +1,163 @@
+{
+  "case_id": "5cf03b462cb6222001560f9b8b8bdad689aa6320efa776f599f1fb0955d779c6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5cf03b462cb6222001560f9b8b8bdad689aa6320efa776f599f1fb0955d779c6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1945 жылғы маусымда БҰҰ Жарғысына қай қалада қол қойылды?",
+        "sample_hashes": [
+          "ab10ca4e7339745acb6020e2273fb422ea19b3f17aa7d59be969ec5a64fabab7",
+          "b7e38c7b2e4687539ffd6c32bb5886c593833b8eeeaaf3e727433631991a7790",
+          "0c4de120354cf67d783cc52c827300432917729c7a90bb246be5f2b3e57a036e",
+          "95b2fc7aa316b4b07ae825781300513c24cc2b95d8ac4e8a8d8fb411c3a80179",
+          "0d358a1baf7c2518b290060ff3427d9140a75305ed096254b2c001186e8198f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:11.309052+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e17736f96b023672a5b914da371dbdcb5514e8bc60502fa5615aa9ec2dfc565f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5cf03b462cb6222001560f9b8b8bdad689aa6320efa776f599f1fb0955d779c6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1945 жылғы маусымда БҰҰ Жарғысына қай қалада қол қойылды?",
+        "sample_hashes": [
+          "ab10ca4e7339745acb6020e2273fb422ea19b3f17aa7d59be969ec5a64fabab7",
+          "b7e38c7b2e4687539ffd6c32bb5886c593833b8eeeaaf3e727433631991a7790",
+          "0c4de120354cf67d783cc52c827300432917729c7a90bb246be5f2b3e57a036e",
+          "95b2fc7aa316b4b07ae825781300513c24cc2b95d8ac4e8a8d8fb411c3a80179",
+          "0d358a1baf7c2518b290060ff3427d9140a75305ed096254b2c001186e8198f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:11.309052+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e17736f96b023672a5b914da371dbdcb5514e8bc60502fa5615aa9ec2dfc565f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5cf03b462cb6222001560f9b8b8bdad689aa6320efa776f599f1fb0955d779c6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1945 жылғы маусымда БҰҰ Жарғысына қай қалада қол қойылды?",
+        "sample_hashes": [
+          "ab10ca4e7339745acb6020e2273fb422ea19b3f17aa7d59be969ec5a64fabab7",
+          "b7e38c7b2e4687539ffd6c32bb5886c593833b8eeeaaf3e727433631991a7790",
+          "0c4de120354cf67d783cc52c827300432917729c7a90bb246be5f2b3e57a036e",
+          "95b2fc7aa316b4b07ae825781300513c24cc2b95d8ac4e8a8d8fb411c3a80179",
+          "0d358a1baf7c2518b290060ff3427d9140a75305ed096254b2c001186e8198f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:11.309052+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e17736f96b023672a5b914da371dbdcb5514e8bc60502fa5615aa9ec2dfc565f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5cf03b462cb6222001560f9b8b8bdad689aa6320efa776f599f1fb0955d779c6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1945 жылғы маусымда БҰҰ Жарғысына қай қалада қол қойылды?",
+        "sample_hashes": [
+          "ab10ca4e7339745acb6020e2273fb422ea19b3f17aa7d59be969ec5a64fabab7",
+          "b7e38c7b2e4687539ffd6c32bb5886c593833b8eeeaaf3e727433631991a7790",
+          "0c4de120354cf67d783cc52c827300432917729c7a90bb246be5f2b3e57a036e",
+          "95b2fc7aa316b4b07ae825781300513c24cc2b95d8ac4e8a8d8fb411c3a80179",
+          "0d358a1baf7c2518b290060ff3427d9140a75305ed096254b2c001186e8198f1"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:11.309052+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "e17736f96b023672a5b914da371dbdcb5514e8bc60502fa5615aa9ec2dfc565f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

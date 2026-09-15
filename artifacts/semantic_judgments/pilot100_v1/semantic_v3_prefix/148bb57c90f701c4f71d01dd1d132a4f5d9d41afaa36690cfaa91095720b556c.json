@@ -1,0 +1,153 @@
+{
+  "case_id": "148bb57c90f701c4f71d01dd1d132a4f5d9d41afaa36690cfaa91095720b556c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "148bb57c90f701c4f71d01dd1d132a4f5d9d41afaa36690cfaa91095720b556c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Off the coast of which country is the Great Barrier Reef?",
+        "sample_hashes": [
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd",
+          "379e264ad5ba3cb94e02946aaea616cc2f29dcf50aad95c664d7e1a344b1ba59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:23.674864+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "4e0fea89e05b361a5c4caf60f8e76376c4905150a3353aea30e039fef52d7d04",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "148bb57c90f701c4f71d01dd1d132a4f5d9d41afaa36690cfaa91095720b556c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Off the coast of which country is the Great Barrier Reef?",
+        "sample_hashes": [
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd",
+          "379e264ad5ba3cb94e02946aaea616cc2f29dcf50aad95c664d7e1a344b1ba59",
+          "542fdb8117974d7207ec15df4cf1336eda3d237963a6a88e65f9e0cde41d9cd3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:27.684105+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "64b3d2fa4e22f277b5890a0a074060843418d0244f3e1d899cb25ddf91ff6cc0",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "148bb57c90f701c4f71d01dd1d132a4f5d9d41afaa36690cfaa91095720b556c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Off the coast of which country is the Great Barrier Reef?",
+        "sample_hashes": [
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd",
+          "379e264ad5ba3cb94e02946aaea616cc2f29dcf50aad95c664d7e1a344b1ba59",
+          "542fdb8117974d7207ec15df4cf1336eda3d237963a6a88e65f9e0cde41d9cd3",
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:31.512221+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "d9ed4b45f5ef78a05992c34a7436487125836ecd5c926c12bebc8ef4a0e52858",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "148bb57c90f701c4f71d01dd1d132a4f5d9d41afaa36690cfaa91095720b556c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Off the coast of which country is the Great Barrier Reef?",
+        "sample_hashes": [
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd",
+          "379e264ad5ba3cb94e02946aaea616cc2f29dcf50aad95c664d7e1a344b1ba59",
+          "542fdb8117974d7207ec15df4cf1336eda3d237963a6a88e65f9e0cde41d9cd3",
+          "ea23fcc8efe063cb08a24f357170dbfe21f90d3c8549b8c23d7aa3bd0c40e7cd",
+          "899bf71b39fdcd5b8343f3cbe75051404c3e86a089a011f55dd4b5911b44b2e8"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:01:33.559244+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "b54f3182bdb7e1d20b1ab06b6a192efe01d1e26b16f3434c51a02fc11173a718",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

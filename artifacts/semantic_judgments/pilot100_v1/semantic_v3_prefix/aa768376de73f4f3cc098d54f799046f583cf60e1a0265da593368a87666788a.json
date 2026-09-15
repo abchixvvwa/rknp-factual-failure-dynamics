@@ -1,0 +1,254 @@
+{
+  "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:15:17.430043+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "ef0a39c2500c67b06726c61f0d97d4a7098624d0842d72a1760efc3708a217fd",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:15:18.175579+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "13c71851d92febee160f905374bbfb7f3ce64dece38c0e3f78a40091d78b082d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8",
+          "fa4883f3fe80ee56676bd0a87db7536a7687cffc9c07a1a444045c26f5e90e30"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:15:18.971857+00:00",
+        "system_fingerprint": "fp_df9620fe21",
+        "request_id": "e54bb0b1d4f3a5a04cec33ca1924cde22f97b62fa827dfbc44fe7147a0ae5ef3",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:15:18.175579+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "13c71851d92febee160f905374bbfb7f3ce64dece38c0e3f78a40091d78b082d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8",
+          "fa4883f3fe80ee56676bd0a87db7536a7687cffc9c07a1a444045c26f5e90e30",
+          "f8c062a129232a3cb2e5c5c852b1810a57381f94ce4f590a08c134a42e59ea85"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:15:19.700715+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "e4f407f37a055f8b68aed7c743c044c8b2d19164da8f94a6d01541fff80e7db4",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1], [3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8",
+          "f8c062a129232a3cb2e5c5c852b1810a57381f94ce4f590a08c134a42e59ea85"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:15:20.267706+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "1b505b089f8f3df10f1eea104c0eef58960781603ecff510c606c13916ab4aed",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8",
+          "fa4883f3fe80ee56676bd0a87db7536a7687cffc9c07a1a444045c26f5e90e30",
+          "f8c062a129232a3cb2e5c5c852b1810a57381f94ce4f590a08c134a42e59ea85",
+          "20c2333d6ce9cc7c59763b00648d0719f4f15ce714b53a96a544d07ff05870f6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 1,\n    \"C\": 0,\n    \"D\": 2,\n    \"E\": 3\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T11:15:21.033139+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "9dae93b0814a77af458f5abd4f0534970d3fcc1aa263d2aec899b5bb0c4ae97d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 2], [1], [3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "aa768376de73f4f3cc098d54f799046f583cf60e1a0265da593368a87666788a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who won the Nobel Prize in Physics for 1931?",
+        "sample_hashes": [
+          "4fc7285696eb0696402181bcee3ad5cda6eb0cd18ab56dcf53f98e29cf5cb338",
+          "7bc6e2a46b4c7bcb9ce92407839ff21846073bc31dcdcdebf8505d612e60cfa8",
+          "f8c062a129232a3cb2e5c5c852b1810a57381f94ce4f590a08c134a42e59ea85",
+          "20c2333d6ce9cc7c59763b00648d0719f4f15ce714b53a96a544d07ff05870f6"
+        ],
+        "raw_judge_response": "{\"matching_group\":null,\"uncertain\":false}",
+        "created_at": "2026-09-13T11:15:21.840374+00:00",
+        "system_fingerprint": "fp_77b12279f9",
+        "request_id": "9107e5c101b24d06fe085e59750765ae60873517dd9836f54aef658a71d5a809",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "null",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

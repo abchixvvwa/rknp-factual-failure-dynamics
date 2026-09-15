@@ -1,0 +1,173 @@
+{
+  "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "05c015deb3c52ea65ee55643aaf4fbb76d5947f0bda8a7d7492d21e0e3ae4511",
+          "0ab2d6e09aba301f51baea3842462d0e7fa3111a0aada86cffa71c692003b6b4"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:18.696808+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "05348d5cc1049968d055a46352b474cc80e1890ce4826e9a2f4f97b06c428af6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "05c015deb3c52ea65ee55643aaf4fbb76d5947f0bda8a7d7492d21e0e3ae4511"
+        ],
+        "raw_judge_response": "{\n  \"matching_group\": 0,\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:21.486501+00:00",
+        "system_fingerprint": "fp_854fa9be4c",
+        "request_id": "d06e30f2eecc50304db930a0ce4b6a8f24981641b8cad0d2ce54575626611d91",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "05c015deb3c52ea65ee55643aaf4fbb76d5947f0bda8a7d7492d21e0e3ae4511",
+          "0ab2d6e09aba301f51baea3842462d0e7fa3111a0aada86cffa71c692003b6b4",
+          "6af8157639879c319399ddbc7852f19b8f4ad258d68a7ef1ecffb48a277360bb"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:24.540158+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "ec6f0ac43c983d88dc1fe5f8f4b3777f9bd10d41b2da973b7c8f6bd63a27f7b6",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "05c015deb3c52ea65ee55643aaf4fbb76d5947f0bda8a7d7492d21e0e3ae4511",
+          "0ab2d6e09aba301f51baea3842462d0e7fa3111a0aada86cffa71c692003b6b4",
+          "6af8157639879c319399ddbc7852f19b8f4ad258d68a7ef1ecffb48a277360bb",
+          "282a6c6cb6289aab3e87878ce34d8c0076d533b776c4f208fceb6c477e01f2e6"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:27.241757+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "0c003d0fc7a2d6805c3ef4f97d078f79f703417b766cb1e17f5118af366bd88b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "16b453188a6b6df538a6df3278a06bcb7d309c8488b9afb02c6db2c506895c4a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "To which country does Aldabra Atoll belong?",
+        "sample_hashes": [
+          "05c015deb3c52ea65ee55643aaf4fbb76d5947f0bda8a7d7492d21e0e3ae4511",
+          "0ab2d6e09aba301f51baea3842462d0e7fa3111a0aada86cffa71c692003b6b4",
+          "6af8157639879c319399ddbc7852f19b8f4ad258d68a7ef1ecffb48a277360bb",
+          "282a6c6cb6289aab3e87878ce34d8c0076d533b776c4f208fceb6c477e01f2e6",
+          "6af8157639879c319399ddbc7852f19b8f4ad258d68a7ef1ecffb48a277360bb"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:16:31.170200+00:00",
+        "system_fingerprint": "fp_60e4b492db",
+        "request_id": "c796f0e5ec241bbe9546cf96682741a5b0a9e58997d95f589c0307efe8458c40",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "case_id": "2462b87872f6fb14424d447e142cca60fa66523a32d2ac5c73d88cbff0b555b7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2462b87872f6fb14424d447e142cca60fa66523a32d2ac5c73d88cbff0b555b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "8b3b19d5095437e5e68249a8d3d1c587f61cdb52071be8caee46450f0b0e5cd5",
+          "e1666412d6652dcce1687b6995f32865da76c37cf8b1cf7acd81ac62e912869e",
+          "30d087c0d7020ec7208f2585683a2d84306bcedb859dbc693ec565ecf4fe3a51",
+          "a1d76b0e523bb2da1da2ef25b981919717289465381b424cb30d0fae3d948db8",
+          "3eb8cd1f21076c8361a09c7e006b65664ccf4a0ab96d6fc7a98dec176488a5de"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:03.213187+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a029e02e94dae69fb2a92d4934e3c63212000f65d55ea5353077bc79c882dcf3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2462b87872f6fb14424d447e142cca60fa66523a32d2ac5c73d88cbff0b555b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "8b3b19d5095437e5e68249a8d3d1c587f61cdb52071be8caee46450f0b0e5cd5",
+          "e1666412d6652dcce1687b6995f32865da76c37cf8b1cf7acd81ac62e912869e",
+          "30d087c0d7020ec7208f2585683a2d84306bcedb859dbc693ec565ecf4fe3a51",
+          "a1d76b0e523bb2da1da2ef25b981919717289465381b424cb30d0fae3d948db8",
+          "3eb8cd1f21076c8361a09c7e006b65664ccf4a0ab96d6fc7a98dec176488a5de"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:03.213187+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a029e02e94dae69fb2a92d4934e3c63212000f65d55ea5353077bc79c882dcf3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2462b87872f6fb14424d447e142cca60fa66523a32d2ac5c73d88cbff0b555b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "8b3b19d5095437e5e68249a8d3d1c587f61cdb52071be8caee46450f0b0e5cd5",
+          "e1666412d6652dcce1687b6995f32865da76c37cf8b1cf7acd81ac62e912869e",
+          "30d087c0d7020ec7208f2585683a2d84306bcedb859dbc693ec565ecf4fe3a51",
+          "a1d76b0e523bb2da1da2ef25b981919717289465381b424cb30d0fae3d948db8",
+          "3eb8cd1f21076c8361a09c7e006b65664ccf4a0ab96d6fc7a98dec176488a5de"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:03.213187+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a029e02e94dae69fb2a92d4934e3c63212000f65d55ea5353077bc79c882dcf3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2462b87872f6fb14424d447e142cca60fa66523a32d2ac5c73d88cbff0b555b7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "XIV ғасырдың соңында қазіргі Қожа Ахмет Ясауи кесенесін салуға қай билеуші бұйрық берді?",
+        "sample_hashes": [
+          "8b3b19d5095437e5e68249a8d3d1c587f61cdb52071be8caee46450f0b0e5cd5",
+          "e1666412d6652dcce1687b6995f32865da76c37cf8b1cf7acd81ac62e912869e",
+          "30d087c0d7020ec7208f2585683a2d84306bcedb859dbc693ec565ecf4fe3a51",
+          "a1d76b0e523bb2da1da2ef25b981919717289465381b424cb30d0fae3d948db8",
+          "3eb8cd1f21076c8361a09c7e006b65664ccf4a0ab96d6fc7a98dec176488a5de"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:54:03.213187+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "a029e02e94dae69fb2a92d4934e3c63212000f65d55ea5353077bc79c882dcf3",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 4], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

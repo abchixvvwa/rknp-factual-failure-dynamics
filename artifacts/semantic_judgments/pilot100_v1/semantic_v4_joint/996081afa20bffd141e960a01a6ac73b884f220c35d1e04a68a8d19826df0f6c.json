@@ -1,0 +1,159 @@
+{
+  "case_id": "996081afa20bffd141e960a01a6ac73b884f220c35d1e04a68a8d19826df0f6c",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "996081afa20bffd141e960a01a6ac73b884f220c35d1e04a68a8d19826df0f6c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Комодо?",
+        "sample_hashes": [
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:25.636910+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "dfc330890d35c5b1708be5b2d98eaa76d5932051cebf32bb69d8c45850f1e43f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "996081afa20bffd141e960a01a6ac73b884f220c35d1e04a68a8d19826df0f6c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Комодо?",
+        "sample_hashes": [
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:25.636910+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "dfc330890d35c5b1708be5b2d98eaa76d5932051cebf32bb69d8c45850f1e43f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "996081afa20bffd141e960a01a6ac73b884f220c35d1e04a68a8d19826df0f6c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Комодо?",
+        "sample_hashes": [
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:25.636910+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "dfc330890d35c5b1708be5b2d98eaa76d5932051cebf32bb69d8c45850f1e43f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "996081afa20bffd141e960a01a6ac73b884f220c35d1e04a68a8d19826df0f6c",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В какой стране находится национальный парк Комодо?",
+        "sample_hashes": [
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143",
+          "c8cc4cd1d1839a1231cedffc89ef4d8011841a9e59bbb0a16f90e8752a534f68",
+          "c8cca5a0882fe0d1897a3d5762d69401398d0f5d2eaf4695ed874bd0d35fe143"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T19:00:25.636910+00:00",
+        "system_fingerprint": "fp_6dedd2be22",
+        "request_id": "dfc330890d35c5b1708be5b2d98eaa76d5932051cebf32bb69d8c45850f1e43f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

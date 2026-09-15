@@ -1,0 +1,159 @@
+{
+  "case_id": "f9ad9453f0912809f22e97b5077b097d4489dd12527aa2727155dec1f6f3a9f7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9ad9453f0912809f22e97b5077b097d4489dd12527aa2727155dec1f6f3a9f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Аризонадағы Үлкен каньонды қай өзен қалыптастырды?",
+        "sample_hashes": [
+          "9c5f7d8394d745f8de8bfdb44875d05cd961b9e2399e8a254d539154331ab9c6",
+          "1b31f59c0a790986fbe558e6ee31a46c4192b53f7101dc945b508e14a291d126",
+          "117d79dbe374b1052a16b4bc29f60a495be85d631707a8e261ea38c46f07871a",
+          "f2275959c909cbc3b2d935c47b563b91d5465e9353e829045f41d94a0f302235",
+          "c2c1d73a7ffa5dec57eb52bdf9c4245ddf130065ef0e1b43eedd17faf0802e3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:23.113377+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "ccef449e813829fda766a40c882b8f86e5a02b61dbdb7589c7d6076f18987035",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9ad9453f0912809f22e97b5077b097d4489dd12527aa2727155dec1f6f3a9f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Аризонадағы Үлкен каньонды қай өзен қалыптастырды?",
+        "sample_hashes": [
+          "9c5f7d8394d745f8de8bfdb44875d05cd961b9e2399e8a254d539154331ab9c6",
+          "1b31f59c0a790986fbe558e6ee31a46c4192b53f7101dc945b508e14a291d126",
+          "117d79dbe374b1052a16b4bc29f60a495be85d631707a8e261ea38c46f07871a",
+          "f2275959c909cbc3b2d935c47b563b91d5465e9353e829045f41d94a0f302235",
+          "c2c1d73a7ffa5dec57eb52bdf9c4245ddf130065ef0e1b43eedd17faf0802e3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:23.113377+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "ccef449e813829fda766a40c882b8f86e5a02b61dbdb7589c7d6076f18987035",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9ad9453f0912809f22e97b5077b097d4489dd12527aa2727155dec1f6f3a9f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Аризонадағы Үлкен каньонды қай өзен қалыптастырды?",
+        "sample_hashes": [
+          "9c5f7d8394d745f8de8bfdb44875d05cd961b9e2399e8a254d539154331ab9c6",
+          "1b31f59c0a790986fbe558e6ee31a46c4192b53f7101dc945b508e14a291d126",
+          "117d79dbe374b1052a16b4bc29f60a495be85d631707a8e261ea38c46f07871a",
+          "f2275959c909cbc3b2d935c47b563b91d5465e9353e829045f41d94a0f302235",
+          "c2c1d73a7ffa5dec57eb52bdf9c4245ddf130065ef0e1b43eedd17faf0802e3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:23.113377+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "ccef449e813829fda766a40c882b8f86e5a02b61dbdb7589c7d6076f18987035",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "f9ad9453f0912809f22e97b5077b097d4489dd12527aa2727155dec1f6f3a9f7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Аризонадағы Үлкен каньонды қай өзен қалыптастырды?",
+        "sample_hashes": [
+          "9c5f7d8394d745f8de8bfdb44875d05cd961b9e2399e8a254d539154331ab9c6",
+          "1b31f59c0a790986fbe558e6ee31a46c4192b53f7101dc945b508e14a291d126",
+          "117d79dbe374b1052a16b4bc29f60a495be85d631707a8e261ea38c46f07871a",
+          "f2275959c909cbc3b2d935c47b563b91d5465e9353e829045f41d94a0f302235",
+          "c2c1d73a7ffa5dec57eb52bdf9c4245ddf130065ef0e1b43eedd17faf0802e3f"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:15:23.113377+00:00",
+        "system_fingerprint": "fp_4200b3f836",
+        "request_id": "ccef449e813829fda766a40c882b8f86e5a02b61dbdb7589c7d6076f18987035",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

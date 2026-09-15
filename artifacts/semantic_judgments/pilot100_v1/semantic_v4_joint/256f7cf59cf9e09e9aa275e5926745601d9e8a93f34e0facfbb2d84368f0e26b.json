@@ -1,0 +1,159 @@
+{
+  "case_id": "256f7cf59cf9e09e9aa275e5926745601d9e8a93f34e0facfbb2d84368f0e26b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "256f7cf59cf9e09e9aa275e5926745601d9e8a93f34e0facfbb2d84368f0e26b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Герника» картинасын кім салған?",
+        "sample_hashes": [
+          "3ccc6c12fda1dd09fcae69e33e485efc049db05cf15995d122a2c1b7b66ca685",
+          "6eab315dd68b171656f606536e926e80a2ff9fdf7c7d900d402418a5a80863f2",
+          "840379cde8e19762f801eefffeedb02565a57156bc763b9f1df267f675b52607",
+          "f3a72598ec7efbe742635e88e3a0472dec75c997f6576e7731e2182cd0a01354",
+          "37dc9170723bef4290f696134b69979cadaabff11ea8d5ff0af782544b45c460"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:16.899769+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "34f754cab7ada89820970615c975eacfb65bdf85b0e61af02fbfee8c48d0081f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "256f7cf59cf9e09e9aa275e5926745601d9e8a93f34e0facfbb2d84368f0e26b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Герника» картинасын кім салған?",
+        "sample_hashes": [
+          "3ccc6c12fda1dd09fcae69e33e485efc049db05cf15995d122a2c1b7b66ca685",
+          "6eab315dd68b171656f606536e926e80a2ff9fdf7c7d900d402418a5a80863f2",
+          "840379cde8e19762f801eefffeedb02565a57156bc763b9f1df267f675b52607",
+          "f3a72598ec7efbe742635e88e3a0472dec75c997f6576e7731e2182cd0a01354",
+          "37dc9170723bef4290f696134b69979cadaabff11ea8d5ff0af782544b45c460"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:16.899769+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "34f754cab7ada89820970615c975eacfb65bdf85b0e61af02fbfee8c48d0081f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "256f7cf59cf9e09e9aa275e5926745601d9e8a93f34e0facfbb2d84368f0e26b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Герника» картинасын кім салған?",
+        "sample_hashes": [
+          "3ccc6c12fda1dd09fcae69e33e485efc049db05cf15995d122a2c1b7b66ca685",
+          "6eab315dd68b171656f606536e926e80a2ff9fdf7c7d900d402418a5a80863f2",
+          "840379cde8e19762f801eefffeedb02565a57156bc763b9f1df267f675b52607",
+          "f3a72598ec7efbe742635e88e3a0472dec75c997f6576e7731e2182cd0a01354",
+          "37dc9170723bef4290f696134b69979cadaabff11ea8d5ff0af782544b45c460"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:16.899769+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "34f754cab7ada89820970615c975eacfb65bdf85b0e61af02fbfee8c48d0081f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "256f7cf59cf9e09e9aa275e5926745601d9e8a93f34e0facfbb2d84368f0e26b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Герника» картинасын кім салған?",
+        "sample_hashes": [
+          "3ccc6c12fda1dd09fcae69e33e485efc049db05cf15995d122a2c1b7b66ca685",
+          "6eab315dd68b171656f606536e926e80a2ff9fdf7c7d900d402418a5a80863f2",
+          "840379cde8e19762f801eefffeedb02565a57156bc763b9f1df267f675b52607",
+          "f3a72598ec7efbe742635e88e3a0472dec75c997f6576e7731e2182cd0a01354",
+          "37dc9170723bef4290f696134b69979cadaabff11ea8d5ff0af782544b45c460"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:21:16.899769+00:00",
+        "system_fingerprint": "fp_5d041d5b40",
+        "request_id": "34f754cab7ada89820970615c975eacfb65bdf85b0e61af02fbfee8c48d0081f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

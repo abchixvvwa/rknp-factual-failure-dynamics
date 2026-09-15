@@ -1,0 +1,21 @@
+{
+  "reviewer": "project_user",
+  "scope": "targets_e86f561ffad1 batch_08.md, items 351–388; entire response and extra claims evaluated",
+  "source": "Explicit user submission in this conversation",
+  "correct_numbers": [351,352,353,354,355,357,359,360,361,362,363,364,366,367,368,369,370,371,372,373,375,377,378,379,380,381,382,383,384,385,386,387,388],
+  "incorrect_numbers": [356,358,365,374,376],
+  "invalid_numbers": [],
+  "user_notes": {
+    "355": "Принято как верное: конкретное утверждение о летучих мышах корректно и не обобщено на всех млекопитающих.",
+    "356": "Летучие мыши ошибочно названы птицами, откладывающими яйца.",
+    "358": "Жарқанат не распознан как летучая мышь; дан неверный ответ об откладывании яиц.",
+    "365": "Итог об отсутствии колец верен, но ложно сказано, что Венера не является планетой.",
+    "374": "Нет белых медведей в Антарктиде, но полярному медведю ошибочно дано название Ursus arctos вместо Ursus maritimus.",
+    "376": "Основной вывод верен, но белый медведь ошибочно назван белугой.",
+    "384": "Принято как верное: Marie Curie получила Physics 1903 и Chemistry 1911."
+  },
+  "user_source_urls": [
+    "https://www.nobelprize.org/womenwhochangedscience?utm_source=chatgpt.com"
+  ],
+  "source_note": "User-supplied judgments and sources; not represented as independent agent verification"
+}

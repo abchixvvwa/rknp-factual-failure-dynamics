@@ -1,0 +1,155 @@
+{
+  "case_id": "4eb7be4d3d2d8b1a521f2c6a7861a6ca716b06fe10f5c2b3476554588c3a08d6",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4eb7be4d3d2d8b1a521f2c6a7861a6ca716b06fe10f5c2b3476554588c3a08d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the state language of Kazakhstan?",
+        "sample_hashes": [
+          "409de76a02648d11c56ac1cb6144d4feed8db86cf3245f9d8193908f2f72517d",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:27.640391+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "c13b7526ca903ba2a4a4234d6129bd6a860a2f96fa96700643b058f553ed4216",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4eb7be4d3d2d8b1a521f2c6a7861a6ca716b06fe10f5c2b3476554588c3a08d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the state language of Kazakhstan?",
+        "sample_hashes": [
+          "409de76a02648d11c56ac1cb6144d4feed8db86cf3245f9d8193908f2f72517d",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:28.404370+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "3cee5f608adf8dbf8fdfed7fa87ca5aa520835578aa3bcff71370f38ab94793a",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4eb7be4d3d2d8b1a521f2c6a7861a6ca716b06fe10f5c2b3476554588c3a08d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the state language of Kazakhstan?",
+        "sample_hashes": [
+          "409de76a02648d11c56ac1cb6144d4feed8db86cf3245f9d8193908f2f72517d",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:29.133397+00:00",
+        "system_fingerprint": "fp_5082008e34",
+        "request_id": "d7ae95cd3e576476a6a4953f3d9b0c8d6867e7fd8f86583ac5fe965f28d42206",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4eb7be4d3d2d8b1a521f2c6a7861a6ca716b06fe10f5c2b3476554588c3a08d6",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the state language of Kazakhstan?",
+        "sample_hashes": [
+          "409de76a02648d11c56ac1cb6144d4feed8db86cf3245f9d8193908f2f72517d",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "31cabd747aa5559af2da075929d2a4b0ac1170c80588d8123fc017dfcb9ba6a3",
+          "68acad41dc43e1a83ed45dbb181c3de6ce75beabdf1916e49d937b2ff922060c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 1\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T09:12:30.019080+00:00",
+        "system_fingerprint": "fp_5a93aea882",
+        "request_id": "b06ceb648b5ba2b1fe8a4b4a399eb1f9a1dfd816fd76e50acaac453fddb829ae",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

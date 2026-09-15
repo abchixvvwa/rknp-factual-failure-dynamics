@@ -1,0 +1,153 @@
+{
+  "case_id": "3d9e8adedf117ecfdc37db6a9114c96f861128c2e96a8501aefe3f66014af516",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d9e8adedf117ecfdc37db6a9114c96f861128c2e96a8501aefe3f66014af516",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted Guernica?",
+        "sample_hashes": [
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "47ec01823efa09af0351f38d5a689cd9a3aa6febddb217bb615bb8bc53d2a290"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:18:45.126237+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "1a0d548abfcd48596bcb982f3278210c39c0bfd6d03982ff0539c8f62b06af3b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d9e8adedf117ecfdc37db6a9114c96f861128c2e96a8501aefe3f66014af516",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted Guernica?",
+        "sample_hashes": [
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "47ec01823efa09af0351f38d5a689cd9a3aa6febddb217bb615bb8bc53d2a290",
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:18:48.050050+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "78e3c5b81c5da024f2708424cd05928de45d5142a8b4ec0217a8141e0083e7a5",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d9e8adedf117ecfdc37db6a9114c96f861128c2e96a8501aefe3f66014af516",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted Guernica?",
+        "sample_hashes": [
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "47ec01823efa09af0351f38d5a689cd9a3aa6febddb217bb615bb8bc53d2a290",
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "89f0199c740c52f832db8a351550613dcf0ab42a199eabab4fbf18b064862bd5"
+        ],
+        "raw_judge_response": "{\"assignments\":{\"A\":0,\"B\":0,\"C\":0,\"D\":0},\"uncertain\":false}",
+        "created_at": "2026-09-13T06:18:50.912072+00:00",
+        "system_fingerprint": "fp_90620edd96",
+        "request_id": "8b9c89a0e6dc952fa74242050891f6e8ff4be1c054b993e6394d089a3911873c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3d9e8adedf117ecfdc37db6a9114c96f861128c2e96a8501aefe3f66014af516",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted Guernica?",
+        "sample_hashes": [
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "47ec01823efa09af0351f38d5a689cd9a3aa6febddb217bb615bb8bc53d2a290",
+          "fd95fb618c050524d19760df1669b13bd08c4c618751a404e9d262698015e9cc",
+          "89f0199c740c52f832db8a351550613dcf0ab42a199eabab4fbf18b064862bd5",
+          "6f0b98edfd11e460c03d259859aa50029a00b844d7e61cfd8b5b419d5f47c29c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:18:53.955769+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "88dc931721022bf733ac43f9594cdaac77bdb2ab9c4d926632b8805aaec360ee",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

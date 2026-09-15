@@ -1,0 +1,167 @@
+{
+  "case_id": "b7b5f3372b45b8484b3b6e70b9fc7db67181a982c2621687bd8550cb73b2bb60",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b7b5f3372b45b8484b3b6e70b9fc7db67181a982c2621687bd8550cb73b2bb60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1948 жылғы Нобель бейбітшілік сыйлығын кім алды?",
+        "sample_hashes": [
+          "07f1bdb16df689e7ed9623600618848e53ff7d7dfe7928bd5118c963f5cee783",
+          "6670ef685bdfeedd4b2a3985b0da71fcfddba7558969a6aab637639da5c79cc7",
+          "987b46fe59c39af19f2659b72945b9b7ca8df3c7b87b9c94b7a745db4f3258cf",
+          "ddadd57dcce128192100553779849901b7d7c99e999573b29e09c7ba04638571",
+          "511df179f76f00fbf54e13876ae6ad485f41e7d000feee1297c17706ea3b2f69"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.606481+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "3f377c477bd1aad21b1d247a023a5c6df78a105814785450e39cfdbbe461c4f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b7b5f3372b45b8484b3b6e70b9fc7db67181a982c2621687bd8550cb73b2bb60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1948 жылғы Нобель бейбітшілік сыйлығын кім алды?",
+        "sample_hashes": [
+          "07f1bdb16df689e7ed9623600618848e53ff7d7dfe7928bd5118c963f5cee783",
+          "6670ef685bdfeedd4b2a3985b0da71fcfddba7558969a6aab637639da5c79cc7",
+          "987b46fe59c39af19f2659b72945b9b7ca8df3c7b87b9c94b7a745db4f3258cf",
+          "ddadd57dcce128192100553779849901b7d7c99e999573b29e09c7ba04638571",
+          "511df179f76f00fbf54e13876ae6ad485f41e7d000feee1297c17706ea3b2f69"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.606481+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "3f377c477bd1aad21b1d247a023a5c6df78a105814785450e39cfdbbe461c4f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 2], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b7b5f3372b45b8484b3b6e70b9fc7db67181a982c2621687bd8550cb73b2bb60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1948 жылғы Нобель бейбітшілік сыйлығын кім алды?",
+        "sample_hashes": [
+          "07f1bdb16df689e7ed9623600618848e53ff7d7dfe7928bd5118c963f5cee783",
+          "6670ef685bdfeedd4b2a3985b0da71fcfddba7558969a6aab637639da5c79cc7",
+          "987b46fe59c39af19f2659b72945b9b7ca8df3c7b87b9c94b7a745db4f3258cf",
+          "ddadd57dcce128192100553779849901b7d7c99e999573b29e09c7ba04638571",
+          "511df179f76f00fbf54e13876ae6ad485f41e7d000feee1297c17706ea3b2f69"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.606481+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "3f377c477bd1aad21b1d247a023a5c6df78a105814785450e39cfdbbe461c4f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 2, 3], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b7b5f3372b45b8484b3b6e70b9fc7db67181a982c2621687bd8550cb73b2bb60",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "1948 жылғы Нобель бейбітшілік сыйлығын кім алды?",
+        "sample_hashes": [
+          "07f1bdb16df689e7ed9623600618848e53ff7d7dfe7928bd5118c963f5cee783",
+          "6670ef685bdfeedd4b2a3985b0da71fcfddba7558969a6aab637639da5c79cc7",
+          "987b46fe59c39af19f2659b72945b9b7ca8df3c7b87b9c94b7a745db4f3258cf",
+          "ddadd57dcce128192100553779849901b7d7c99e999573b29e09c7ba04638571",
+          "511df179f76f00fbf54e13876ae6ad485f41e7d000feee1297c17706ea3b2f69"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 1, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:20:02.606481+00:00",
+        "system_fingerprint": "fp_c800245357",
+        "request_id": "3f377c477bd1aad21b1d247a023a5c6df78a105814785450e39cfdbbe461c4f7",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 2, 3], [1, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

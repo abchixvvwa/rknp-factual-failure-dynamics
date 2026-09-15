@@ -1,0 +1,153 @@
+{
+  "case_id": "3a4efc749334443d6d50091113c4bbf48ab22d2b88e3e63b34f0d2effac85f3b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3a4efc749334443d6d50091113c4bbf48ab22d2b88e3e63b34f0d2effac85f3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жер бетінің ауданы бойынша ең үлкен мұхит қайсы?",
+        "sample_hashes": [
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "d36a4ac83167731cdcbad4b698b776d6663ec710077fb2cbae222746a3154e11"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:49.490052+00:00",
+        "system_fingerprint": "fp_068241849b",
+        "request_id": "82d72310c0798394831be4228147dfb49838329018e8cac2719da4d5df0e848b",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3a4efc749334443d6d50091113c4bbf48ab22d2b88e3e63b34f0d2effac85f3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жер бетінің ауданы бойынша ең үлкен мұхит қайсы?",
+        "sample_hashes": [
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "d36a4ac83167731cdcbad4b698b776d6663ec710077fb2cbae222746a3154e11",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:49.964783+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "955eeb9b7210b94cf38317f85dba067f63ddad965fecf64af346e8120591c072",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3a4efc749334443d6d50091113c4bbf48ab22d2b88e3e63b34f0d2effac85f3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жер бетінің ауданы бойынша ең үлкен мұхит қайсы?",
+        "sample_hashes": [
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "d36a4ac83167731cdcbad4b698b776d6663ec710077fb2cbae222746a3154e11",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:50.543021+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "696dec2b3878336ebf6ecebc340572619478bb718d94564a9dee1d1ea84b5d5c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3a4efc749334443d6d50091113c4bbf48ab22d2b88e3e63b34f0d2effac85f3b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Жер бетінің ауданы бойынша ең үлкен мұхит қайсы?",
+        "sample_hashes": [
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "d36a4ac83167731cdcbad4b698b776d6663ec710077fb2cbae222746a3154e11",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd",
+          "b2a38d570ac5527dddccb37635bfa67a01f69ee2d57e3fcd597603872ec890dd"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-10T10:01:51.857673+00:00",
+        "system_fingerprint": "fp_e10890e4b9",
+        "request_id": "b1d7a75d5541073b2e0b50baff89a723b49d321793f496d01c8cfd5081b7d73c",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

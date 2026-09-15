@@ -1,0 +1,233 @@
+{
+  "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:17:35.638805+00:00",
+        "system_fingerprint": "fp_3166198c1d",
+        "request_id": "d16e561d6e002f7b6a3a5bd0070d48fb509eff3c98728839cbee6de30c126c59",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:17:36.726398+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "8379ba55db6cf5d94db821ecaf4e4dd8bc239b534a7ec1423b4d1304411770ff",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59",
+          "835d257650853ee44cff2b712fce0d62d251872ae0f9248d666511690e83129c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:17:37.284031+00:00",
+        "system_fingerprint": "fp_93703442d9",
+        "request_id": "afd1fb82df23cfd11c133e08ba7eaf86b8344c571c4eca272376ab7df53d9268",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:17:36.726398+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "8379ba55db6cf5d94db821ecaf4e4dd8bc239b534a7ec1423b4d1304411770ff",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59",
+          "835d257650853ee44cff2b712fce0d62d251872ae0f9248d666511690e83129c",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:17:37.943959+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "3f10ae91d81ee184110a3f85238d4104ca049c1a3e94ccbe601eb90f59ee5799",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:17:36.726398+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "8379ba55db6cf5d94db821ecaf4e4dd8bc239b534a7ec1423b4d1304411770ff",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 4
+      }
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59",
+          "835d257650853ee44cff2b712fce0d62d251872ae0f9248d666511690e83129c",
+          "58d26f78522e96db71b72f42e947d0eb43b7941b56faff155184777a51aa7a59",
+          "71d1b0edf3b3cbf4e754641542233dc0f3f3a51c1d341b97ecdd13272a5d8398"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:17:40.617638+00:00",
+        "system_fingerprint": "fp_0708ac49a5",
+        "request_id": "eb4e07c32a73d50853e04d87334941e17b9ad7ead47ac408f201c8326091915e",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": {
+        "case_id": "31b976ee78e70006b12bef4fab219ca172f00e6512b21a02a00c7613cf58fcc1",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "What is the named SI unit of pressure?",
+        "sample_hashes": [
+          "e4d9792168bf316f7a7bb5c3bf5f8824eec5eb34b22d2e5530dedf1919a2c779"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:17:36.726398+00:00",
+        "system_fingerprint": "fp_49bfac06f1",
+        "request_id": "8379ba55db6cf5d94db821ecaf4e4dd8bc239b534a7ec1423b4d1304411770ff",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 5
+      }
+    }
+  ]
+}

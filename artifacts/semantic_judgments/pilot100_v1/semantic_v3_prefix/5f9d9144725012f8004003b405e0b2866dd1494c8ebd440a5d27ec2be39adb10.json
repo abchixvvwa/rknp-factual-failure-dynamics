@@ -1,0 +1,87 @@
+{
+  "case_id": "5f9d9144725012f8004003b405e0b2866dd1494c8ebd440a5d27ec2be39adb10",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": null,
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "5f9d9144725012f8004003b405e0b2866dd1494c8ebd440a5d27ec2be39adb10",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Марстың неше табиғи серігі бар?",
+        "sample_hashes": [
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "6dd4b741060a596bc98eb6e993f61b1a89e80879181aa2c27dac0789dcfcf12c",
+          "5470ff9f0d82d05559bdb0339e364cf2c008ff8a38eab160c16c17b9734cb84a"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:06:11.308194+00:00",
+        "system_fingerprint": "fp_9241e9962b",
+        "request_id": "aa8935a16e95c8bfd9fb1435a1996fb14a50de4683bbd2e9de588a0ccee45330",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

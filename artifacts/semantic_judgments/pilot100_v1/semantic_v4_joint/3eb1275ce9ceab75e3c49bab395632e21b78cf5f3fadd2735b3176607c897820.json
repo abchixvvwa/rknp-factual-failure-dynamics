@@ -1,0 +1,159 @@
+{
+  "case_id": "3eb1275ce9ceab75e3c49bab395632e21b78cf5f3fadd2735b3176607c897820",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3eb1275ce9ceab75e3c49bab395632e21b78cf5f3fadd2735b3176607c897820",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first Secretary-General of the United Nations?",
+        "sample_hashes": [
+          "270bd2d720541d2f7f9d61bab0c02bc650f450393585068acf0020a2520bdd9c",
+          "72f99df98b48c6f58731e2704f1897d7fbc62bf91f141ab4aacdea0c6ea8afb3",
+          "b14b2ec7cb0e03cf82e6682ab28496e5f19a2e54d20af010bac9bad9830454a0",
+          "2faeb603713d73b78f1f806ba38dcaa02e40a1721095d74df4402116556f67fc",
+          "919d83eebad64373a65c1b0cff360e5847ec8b9a8298dd020025a578034f54b3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:05:02.563401+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "3888f94ee92f84c97df1f2cfacb95c61a9342d3f475f1fb2b1b9f07810c2a276",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3eb1275ce9ceab75e3c49bab395632e21b78cf5f3fadd2735b3176607c897820",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first Secretary-General of the United Nations?",
+        "sample_hashes": [
+          "270bd2d720541d2f7f9d61bab0c02bc650f450393585068acf0020a2520bdd9c",
+          "72f99df98b48c6f58731e2704f1897d7fbc62bf91f141ab4aacdea0c6ea8afb3",
+          "b14b2ec7cb0e03cf82e6682ab28496e5f19a2e54d20af010bac9bad9830454a0",
+          "2faeb603713d73b78f1f806ba38dcaa02e40a1721095d74df4402116556f67fc",
+          "919d83eebad64373a65c1b0cff360e5847ec8b9a8298dd020025a578034f54b3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:05:02.563401+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "3888f94ee92f84c97df1f2cfacb95c61a9342d3f475f1fb2b1b9f07810c2a276",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3eb1275ce9ceab75e3c49bab395632e21b78cf5f3fadd2735b3176607c897820",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first Secretary-General of the United Nations?",
+        "sample_hashes": [
+          "270bd2d720541d2f7f9d61bab0c02bc650f450393585068acf0020a2520bdd9c",
+          "72f99df98b48c6f58731e2704f1897d7fbc62bf91f141ab4aacdea0c6ea8afb3",
+          "b14b2ec7cb0e03cf82e6682ab28496e5f19a2e54d20af010bac9bad9830454a0",
+          "2faeb603713d73b78f1f806ba38dcaa02e40a1721095d74df4402116556f67fc",
+          "919d83eebad64373a65c1b0cff360e5847ec8b9a8298dd020025a578034f54b3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:05:02.563401+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "3888f94ee92f84c97df1f2cfacb95c61a9342d3f475f1fb2b1b9f07810c2a276",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "3eb1275ce9ceab75e3c49bab395632e21b78cf5f3fadd2735b3176607c897820",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who was the first Secretary-General of the United Nations?",
+        "sample_hashes": [
+          "270bd2d720541d2f7f9d61bab0c02bc650f450393585068acf0020a2520bdd9c",
+          "72f99df98b48c6f58731e2704f1897d7fbc62bf91f141ab4aacdea0c6ea8afb3",
+          "b14b2ec7cb0e03cf82e6682ab28496e5f19a2e54d20af010bac9bad9830454a0",
+          "2faeb603713d73b78f1f806ba38dcaa02e40a1721095d74df4402116556f67fc",
+          "919d83eebad64373a65c1b0cff360e5847ec8b9a8298dd020025a578034f54b3"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [0, 0, 0, 0],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T12:05:02.563401+00:00",
+        "system_fingerprint": "fp_02b0d31eca",
+        "request_id": "3888f94ee92f84c97df1f2cfacb95c61a9342d3f475f1fb2b1b9f07810c2a276",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

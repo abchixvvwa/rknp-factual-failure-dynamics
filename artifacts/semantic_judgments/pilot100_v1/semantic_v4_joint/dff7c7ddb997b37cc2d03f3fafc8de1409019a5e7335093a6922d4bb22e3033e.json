@@ -1,0 +1,159 @@
+{
+  "case_id": "dff7c7ddb997b37cc2d03f3fafc8de1409019a5e7335093a6922d4bb22e3033e",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dff7c7ddb997b37cc2d03f3fafc8de1409019a5e7335093a6922d4bb22e3033e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1993 год?",
+        "sample_hashes": [
+          "62d905d838c3f17c9540f81fadc79c4698b419ddfbedec22fc08d92b4cf4d156",
+          "17449ca7583a0d9621f28df8cfb5a7a99d05c930f79819005552508eb58cca7b",
+          "7be102de5040b238565f4bdafc3b5b0bdeeb0f7a25609e08706b05f056067b3b",
+          "40a738f5bddce0528c65fe3e07fef17cfc1e6846499d3a43a0fa996adc683183",
+          "799e9b6f0ca0662c7066ce2865407b497ec04e2ac2d5517880ac07c4becd1115"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:35.242824+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "c94734b6bb3a5bcb5983824e001708eaeaf546b400361268cb4fec2e3d907c0f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dff7c7ddb997b37cc2d03f3fafc8de1409019a5e7335093a6922d4bb22e3033e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1993 год?",
+        "sample_hashes": [
+          "62d905d838c3f17c9540f81fadc79c4698b419ddfbedec22fc08d92b4cf4d156",
+          "17449ca7583a0d9621f28df8cfb5a7a99d05c930f79819005552508eb58cca7b",
+          "7be102de5040b238565f4bdafc3b5b0bdeeb0f7a25609e08706b05f056067b3b",
+          "40a738f5bddce0528c65fe3e07fef17cfc1e6846499d3a43a0fa996adc683183",
+          "799e9b6f0ca0662c7066ce2865407b497ec04e2ac2d5517880ac07c4becd1115"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:35.242824+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "c94734b6bb3a5bcb5983824e001708eaeaf546b400361268cb4fec2e3d907c0f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dff7c7ddb997b37cc2d03f3fafc8de1409019a5e7335093a6922d4bb22e3033e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1993 год?",
+        "sample_hashes": [
+          "62d905d838c3f17c9540f81fadc79c4698b419ddfbedec22fc08d92b4cf4d156",
+          "17449ca7583a0d9621f28df8cfb5a7a99d05c930f79819005552508eb58cca7b",
+          "7be102de5040b238565f4bdafc3b5b0bdeeb0f7a25609e08706b05f056067b3b",
+          "40a738f5bddce0528c65fe3e07fef17cfc1e6846499d3a43a0fa996adc683183",
+          "799e9b6f0ca0662c7066ce2865407b497ec04e2ac2d5517880ac07c4becd1115"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:35.242824+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "c94734b6bb3a5bcb5983824e001708eaeaf546b400361268cb4fec2e3d907c0f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "dff7c7ddb997b37cc2d03f3fafc8de1409019a5e7335093a6922d4bb22e3033e",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто получил Нобелевскую премию по литературе за 1993 год?",
+        "sample_hashes": [
+          "62d905d838c3f17c9540f81fadc79c4698b419ddfbedec22fc08d92b4cf4d156",
+          "17449ca7583a0d9621f28df8cfb5a7a99d05c930f79819005552508eb58cca7b",
+          "7be102de5040b238565f4bdafc3b5b0bdeeb0f7a25609e08706b05f056067b3b",
+          "40a738f5bddce0528c65fe3e07fef17cfc1e6846499d3a43a0fa996adc683183",
+          "799e9b6f0ca0662c7066ce2865407b497ec04e2ac2d5517880ac07c4becd1115"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:13:35.242824+00:00",
+        "system_fingerprint": "fp_a09bde29de",
+        "request_id": "c94734b6bb3a5bcb5983824e001708eaeaf546b400361268cb4fec2e3d907c0f",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

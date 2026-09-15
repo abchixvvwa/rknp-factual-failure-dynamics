@@ -1,0 +1,159 @@
+{
+  "case_id": "7070564c696cdc0614ebd62a235cdf8605b91fa5e2509217f98ad13b41f61c9b",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7070564c696cdc0614ebd62a235cdf8605b91fa5e2509217f98ad13b41f61c9b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой планеты Солнечной системы средняя плотность меньше плотности воды?",
+        "sample_hashes": [
+          "0388c21269a957d7bd8d22b05a9b0e8754adfc4c1b64719f4747d13a96f4eaa2",
+          "185f92d15546389ddbc8c3470802b6109d7d90d7ab68a3e47049c53838b21163",
+          "af63e58a9dc891716a8a94e39f632d304eda16d3ac5eca2648b1ba415a08929b",
+          "5fd178d631808343830d07733cf370b8c4a4df0cfcc63e74e333cd404898ef5d",
+          "131bd021dbbcfe34e43d894238745394473109fe96613aadc009c41bf22769eb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:53.688495+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4fbc84813dcec0f9342883ea248d6f3c602f723c413e0e14a7dc60d0c4d9af75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7070564c696cdc0614ebd62a235cdf8605b91fa5e2509217f98ad13b41f61c9b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой планеты Солнечной системы средняя плотность меньше плотности воды?",
+        "sample_hashes": [
+          "0388c21269a957d7bd8d22b05a9b0e8754adfc4c1b64719f4747d13a96f4eaa2",
+          "185f92d15546389ddbc8c3470802b6109d7d90d7ab68a3e47049c53838b21163",
+          "af63e58a9dc891716a8a94e39f632d304eda16d3ac5eca2648b1ba415a08929b",
+          "5fd178d631808343830d07733cf370b8c4a4df0cfcc63e74e333cd404898ef5d",
+          "131bd021dbbcfe34e43d894238745394473109fe96613aadc009c41bf22769eb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:53.688495+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4fbc84813dcec0f9342883ea248d6f3c602f723c413e0e14a7dc60d0c4d9af75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7070564c696cdc0614ebd62a235cdf8605b91fa5e2509217f98ad13b41f61c9b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой планеты Солнечной системы средняя плотность меньше плотности воды?",
+        "sample_hashes": [
+          "0388c21269a957d7bd8d22b05a9b0e8754adfc4c1b64719f4747d13a96f4eaa2",
+          "185f92d15546389ddbc8c3470802b6109d7d90d7ab68a3e47049c53838b21163",
+          "af63e58a9dc891716a8a94e39f632d304eda16d3ac5eca2648b1ba415a08929b",
+          "5fd178d631808343830d07733cf370b8c4a4df0cfcc63e74e333cd404898ef5d",
+          "131bd021dbbcfe34e43d894238745394473109fe96613aadc009c41bf22769eb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:53.688495+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4fbc84813dcec0f9342883ea248d6f3c602f723c413e0e14a7dc60d0c4d9af75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "7070564c696cdc0614ebd62a235cdf8605b91fa5e2509217f98ad13b41f61c9b",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "У какой планеты Солнечной системы средняя плотность меньше плотности воды?",
+        "sample_hashes": [
+          "0388c21269a957d7bd8d22b05a9b0e8754adfc4c1b64719f4747d13a96f4eaa2",
+          "185f92d15546389ddbc8c3470802b6109d7d90d7ab68a3e47049c53838b21163",
+          "af63e58a9dc891716a8a94e39f632d304eda16d3ac5eca2648b1ba415a08929b",
+          "5fd178d631808343830d07733cf370b8c4a4df0cfcc63e74e333cd404898ef5d",
+          "131bd021dbbcfe34e43d894238745394473109fe96613aadc009c41bf22769eb"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:38:53.688495+00:00",
+        "system_fingerprint": "fp_f640395b96",
+        "request_id": "4fbc84813dcec0f9342883ea248d6f3c602f723c413e0e14a7dc60d0c4d9af75",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

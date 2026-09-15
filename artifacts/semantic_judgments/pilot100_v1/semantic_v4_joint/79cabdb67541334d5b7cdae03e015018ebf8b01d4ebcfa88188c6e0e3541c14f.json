@@ -1,0 +1,161 @@
+{
+  "case_id": "79cabdb67541334d5b7cdae03e015018ebf8b01d4ebcfa88188c6e0e3541c14f",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "79cabdb67541334d5b7cdae03e015018ebf8b01d4ebcfa88188c6e0e3541c14f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ruler ordered the construction of the present Mausoleum of Khoja Ahmed Yasawi in the late fourteenth century?",
+        "sample_hashes": [
+          "8174e12c2c70d0c97b5095878b3b4d910863b03e5f25f6aab3266ac35e32692f",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "c9f5963c197c03936940ef94e90efc931c0b35c4931bc42e1fba969893555909",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "3e300cb715ae2f53217ceed45f017fa876d7a648f3472335245a395ec44671ab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:50:19.209368+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "4b9a3b4fb2eed338946d7c2f33025814761d33a5476a99da5459068e2943efbe",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "79cabdb67541334d5b7cdae03e015018ebf8b01d4ebcfa88188c6e0e3541c14f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ruler ordered the construction of the present Mausoleum of Khoja Ahmed Yasawi in the late fourteenth century?",
+        "sample_hashes": [
+          "8174e12c2c70d0c97b5095878b3b4d910863b03e5f25f6aab3266ac35e32692f",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "c9f5963c197c03936940ef94e90efc931c0b35c4931bc42e1fba969893555909",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "3e300cb715ae2f53217ceed45f017fa876d7a648f3472335245a395ec44671ab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:50:19.209368+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "4b9a3b4fb2eed338946d7c2f33025814761d33a5476a99da5459068e2943efbe",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "79cabdb67541334d5b7cdae03e015018ebf8b01d4ebcfa88188c6e0e3541c14f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ruler ordered the construction of the present Mausoleum of Khoja Ahmed Yasawi in the late fourteenth century?",
+        "sample_hashes": [
+          "8174e12c2c70d0c97b5095878b3b4d910863b03e5f25f6aab3266ac35e32692f",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "c9f5963c197c03936940ef94e90efc931c0b35c4931bc42e1fba969893555909",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "3e300cb715ae2f53217ceed45f017fa876d7a648f3472335245a395ec44671ab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:50:19.209368+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "4b9a3b4fb2eed338946d7c2f33025814761d33a5476a99da5459068e2943efbe",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "79cabdb67541334d5b7cdae03e015018ebf8b01d4ebcfa88188c6e0e3541c14f",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Which ruler ordered the construction of the present Mausoleum of Khoja Ahmed Yasawi in the late fourteenth century?",
+        "sample_hashes": [
+          "8174e12c2c70d0c97b5095878b3b4d910863b03e5f25f6aab3266ac35e32692f",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "c9f5963c197c03936940ef94e90efc931c0b35c4931bc42e1fba969893555909",
+          "d91cd14af0918521b387b54daedce46093f5fafc705f10b0a68710e173f9eece",
+          "3e300cb715ae2f53217ceed45f017fa876d7a648f3472335245a395ec44671ab"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:50:19.209368+00:00",
+        "system_fingerprint": "fp_c652c0ffaa",
+        "request_id": "4b9a3b4fb2eed338946d7c2f33025814761d33a5476a99da5459068e2943efbe",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

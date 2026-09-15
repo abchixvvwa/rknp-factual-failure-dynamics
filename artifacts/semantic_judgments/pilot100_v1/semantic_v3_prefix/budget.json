@@ -1,0 +1,16 @@
+{
+  "utc_date": "2026-09-13",
+  "requests_today": 983,
+  "per_model": [
+    {
+      "model": "openai/gpt-oss-120b",
+      "requests": 983,
+      "estimated_input_tokens": 1365311,
+      "actual_input_tokens": 258019,
+      "output_tokens": 59929,
+      "count_429": 367,
+      "retries": 378,
+      "unknown_usage_requests": 380
+    }
+  ]
+}

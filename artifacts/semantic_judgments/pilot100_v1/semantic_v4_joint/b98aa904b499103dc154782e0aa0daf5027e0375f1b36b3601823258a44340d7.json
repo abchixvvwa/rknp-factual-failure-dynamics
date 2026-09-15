@@ -1,0 +1,159 @@
+{
+  "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df",
+          "00ed9264d7c44b4dca8bed0cc1207685c05b7b3489b89823f8244bd9f6b28d3e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:02.797653+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "66e27c0bf08451a430f30db8f9f5ac15e1c94fc7580b2629521c05976ee33429",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df",
+          "00ed9264d7c44b4dca8bed0cc1207685c05b7b3489b89823f8244bd9f6b28d3e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:02.797653+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "66e27c0bf08451a430f30db8f9f5ac15e1c94fc7580b2629521c05976ee33429",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df",
+          "00ed9264d7c44b4dca8bed0cc1207685c05b7b3489b89823f8244bd9f6b28d3e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:02.797653+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "66e27c0bf08451a430f30db8f9f5ac15e1c94fc7580b2629521c05976ee33429",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "b98aa904b499103dc154782e0aa0daf5027e0375f1b36b3601823258a44340d7",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Who received the 1954 Nobel Prize in Literature?",
+        "sample_hashes": [
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "6dc40149aada5a8c5809a115a3cc1e0b2b169110b632a53a44e186559f4c9dca",
+          "81711554abe73b4abe9496c58612d4bec028ec77f478d7e30741c057e3fe25df",
+          "00ed9264d7c44b4dca8bed0cc1207685c05b7b3489b89823f8244bd9f6b28d3e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:04:02.797653+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "66e27c0bf08451a430f30db8f9f5ac15e1c94fc7580b2629521c05976ee33429",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

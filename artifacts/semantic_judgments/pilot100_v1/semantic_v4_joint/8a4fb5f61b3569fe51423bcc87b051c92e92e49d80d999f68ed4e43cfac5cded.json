@@ -1,0 +1,167 @@
+{
+  "case_id": "8a4fb5f61b3569fe51423bcc87b051c92e92e49d80d999f68ed4e43cfac5cded",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a4fb5f61b3569fe51423bcc87b051c92e92e49d80d999f68ed4e43cfac5cded",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая птица изображена под солнцем на государственном флаге Казахстана?",
+        "sample_hashes": [
+          "ec1329d299496c7c5c455e809b4d5e075e31baaa1f2e207f0cfddd85d5231620",
+          "f6a210e04c071d81f859a3193818442fda31fc6291dba95991c00a86a55a6a0a",
+          "5ff939b25b9cf16a51180bf045d6eabd5aa7c09ba1889ed2a20aea0d76f651b3",
+          "bbeff2158488384c3d843105986b851af45fc7dfd5a1f07d62ea6e920d1d491e",
+          "df6c68a3bcf4b172c6c214ca5ed478a5a06c392756a7be90f1834fddb0b00a44"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:32.178611+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "01dc342dfc4da4930d8a70775ca915ccff03ee7ee64514b9254698e34faeb03e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a4fb5f61b3569fe51423bcc87b051c92e92e49d80d999f68ed4e43cfac5cded",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая птица изображена под солнцем на государственном флаге Казахстана?",
+        "sample_hashes": [
+          "ec1329d299496c7c5c455e809b4d5e075e31baaa1f2e207f0cfddd85d5231620",
+          "f6a210e04c071d81f859a3193818442fda31fc6291dba95991c00a86a55a6a0a",
+          "5ff939b25b9cf16a51180bf045d6eabd5aa7c09ba1889ed2a20aea0d76f651b3",
+          "bbeff2158488384c3d843105986b851af45fc7dfd5a1f07d62ea6e920d1d491e",
+          "df6c68a3bcf4b172c6c214ca5ed478a5a06c392756a7be90f1834fddb0b00a44"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:32.178611+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "01dc342dfc4da4930d8a70775ca915ccff03ee7ee64514b9254698e34faeb03e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a4fb5f61b3569fe51423bcc87b051c92e92e49d80d999f68ed4e43cfac5cded",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая птица изображена под солнцем на государственном флаге Казахстана?",
+        "sample_hashes": [
+          "ec1329d299496c7c5c455e809b4d5e075e31baaa1f2e207f0cfddd85d5231620",
+          "f6a210e04c071d81f859a3193818442fda31fc6291dba95991c00a86a55a6a0a",
+          "5ff939b25b9cf16a51180bf045d6eabd5aa7c09ba1889ed2a20aea0d76f651b3",
+          "bbeff2158488384c3d843105986b851af45fc7dfd5a1f07d62ea6e920d1d491e",
+          "df6c68a3bcf4b172c6c214ca5ed478a5a06c392756a7be90f1834fddb0b00a44"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:32.178611+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "01dc342dfc4da4930d8a70775ca915ccff03ee7ee64514b9254698e34faeb03e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8a4fb5f61b3569fe51423bcc87b051c92e92e49d80d999f68ed4e43cfac5cded",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Какая птица изображена под солнцем на государственном флаге Казахстана?",
+        "sample_hashes": [
+          "ec1329d299496c7c5c455e809b4d5e075e31baaa1f2e207f0cfddd85d5231620",
+          "f6a210e04c071d81f859a3193818442fda31fc6291dba95991c00a86a55a6a0a",
+          "5ff939b25b9cf16a51180bf045d6eabd5aa7c09ba1889ed2a20aea0d76f651b3",
+          "bbeff2158488384c3d843105986b851af45fc7dfd5a1f07d62ea6e920d1d491e",
+          "df6c68a3bcf4b172c6c214ca5ed478a5a06c392756a7be90f1834fddb0b00a44"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 1, 0],\n    [0, 1, 1, 1, 1]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T17:50:32.178611+00:00",
+        "system_fingerprint": "fp_d29d1d1418",
+        "request_id": "01dc342dfc4da4930d8a70775ca915ccff03ee7ee64514b9254698e34faeb03e",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

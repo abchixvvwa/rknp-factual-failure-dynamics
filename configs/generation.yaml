@@ -1,0 +1,25 @@
+prompt_version: factual_v1_kk
+kazakh_prompt_human_verified: true
+model_parameters:
+  openai/gpt-oss-20b:
+    reasoning_effort: low
+  openai/gpt-oss-120b:
+    reasoning_effort: low
+  qwen/qwen3.6-27b:
+    reasoning_effort: none
+  qwen/qwen3.8-27b:
+    reasoning_effort: none
+target:
+  temperature: 0.0
+  seed: 42
+  max_completion_tokens: 512
+sampling:
+  count: 5
+  temperature: 0.7
+  top_p: 0.95
+  max_completion_tokens: 512
+  seeds: [101, 202, 303, 404, 505]
+semantic_judge:
+  temperature: 0.0
+  seed: 777
+  max_completion_tokens: 256

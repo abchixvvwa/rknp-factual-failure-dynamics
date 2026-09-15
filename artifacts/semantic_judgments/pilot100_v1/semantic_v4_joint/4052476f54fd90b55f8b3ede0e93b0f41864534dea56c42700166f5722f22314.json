@@ -1,0 +1,173 @@
+{
+  "case_id": "4052476f54fd90b55f8b3ede0e93b0f41864534dea56c42700166f5722f22314",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4052476f54fd90b55f8b3ede0e93b0f41864534dea56c42700166f5722f22314",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году петроглифы Тамгалы были включены в Список всемирного наследия ЮНЕСКО?",
+        "sample_hashes": [
+          "3f56169c7c06ecae171fa900c416354d6dedc985826318196bcbffe0eab17051",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "98f4be0a3309fd29da1d9739ea7ce51653c742518dc1518b2e96933b63af0f49",
+          "7697ff50d7a972a624cf95484350d628ab28e1aa41c5424473a4caf35c81ab5e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:31.683048+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "cbbe0899b8a0f91cec3adb71e0c22d084456bc8374eb1f18a1973837b258ee95",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0], [1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4052476f54fd90b55f8b3ede0e93b0f41864534dea56c42700166f5722f22314",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году петроглифы Тамгалы были включены в Список всемирного наследия ЮНЕСКО?",
+        "sample_hashes": [
+          "3f56169c7c06ecae171fa900c416354d6dedc985826318196bcbffe0eab17051",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "98f4be0a3309fd29da1d9739ea7ce51653c742518dc1518b2e96933b63af0f49",
+          "7697ff50d7a972a624cf95484350d628ab28e1aa41c5424473a4caf35c81ab5e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:31.683048+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "cbbe0899b8a0f91cec3adb71e0c22d084456bc8374eb1f18a1973837b258ee95",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0], [1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4052476f54fd90b55f8b3ede0e93b0f41864534dea56c42700166f5722f22314",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году петроглифы Тамгалы были включены в Список всемирного наследия ЮНЕСКО?",
+        "sample_hashes": [
+          "3f56169c7c06ecae171fa900c416354d6dedc985826318196bcbffe0eab17051",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "98f4be0a3309fd29da1d9739ea7ce51653c742518dc1518b2e96933b63af0f49",
+          "7697ff50d7a972a624cf95484350d628ab28e1aa41c5424473a4caf35c81ab5e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:31.683048+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "cbbe0899b8a0f91cec3adb71e0c22d084456bc8374eb1f18a1973837b258ee95",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0], [1, 2], [3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "target_group": null,
+      "uncertain": false,
+      "audit": {
+        "case_id": "4052476f54fd90b55f8b3ede0e93b0f41864534dea56c42700166f5722f22314",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "В каком году петроглифы Тамгалы были включены в Список всемирного наследия ЮНЕСКО?",
+        "sample_hashes": [
+          "3f56169c7c06ecae171fa900c416354d6dedc985826318196bcbffe0eab17051",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "0b0f904d3b02d0404951958327040a9d3b740178bccd3f259c9ee84a34b19f0b",
+          "98f4be0a3309fd29da1d9739ea7ce51653c742518dc1518b2e96933b63af0f49",
+          "7697ff50d7a972a624cf95484350d628ab28e1aa41c5424473a4caf35c81ab5e"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 1, 0, 0, 0],\n    [0, 1, 1, 0, 0],\n    [0, 1, 1, 2, 0],\n    [0, 1, 1, 2, 3]\n  ],\n  \"target_labels\": [\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1],\n    [-1, -1, -1, -1, -1]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:56:31.683048+00:00",
+        "system_fingerprint": "fp_5781dfb07c",
+        "request_id": "cbbe0899b8a0f91cec3adb71e0c22d084456bc8374eb1f18a1973837b258ee95",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0], [1, 2], [3], [4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

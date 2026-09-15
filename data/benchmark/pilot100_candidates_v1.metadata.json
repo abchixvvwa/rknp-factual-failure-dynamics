@@ -1,0 +1,42 @@
+{
+  "facts": 100,
+  "language_questions": 300,
+  "human_verified": 24,
+  "pending_human_review": 76,
+  "categories": {
+    "history": 16,
+    "geography": 16,
+    "science": 16,
+    "culture": 16,
+    "kazakhstan": 16,
+    "adversarial_false_premise": 20
+  },
+  "question_types": {
+    "entity": 59,
+    "numeric": 16,
+    "false_premise": 20,
+    "date": 3,
+    "direct_fact": 2
+  },
+  "split_preview": {
+    "train": 70,
+    "validation": 15,
+    "test": 15
+  },
+  "splits_saved": false,
+  "original_verified_sha256": "02aec2f7e377cc928881d46ca171ed0c0b274ef94f4060096e21a85e4cc9d818",
+  "seed_sha256": "af7fd33dae95451dbf346afa87762406f6d70718a66a7c4e66ddba988b903a18",
+  "inference_started": false,
+  "frozen": false,
+  "limitations": [
+    "Convenience sample; difficulty not yet rated.",
+    "Within-category concentrations: visual art, atomic numbers, UNESCO locations, Nobel awards.",
+    "Related topics are not statistically independent merely because fact IDs differ.",
+    "New source evidence includes indexed extracts, not uniformly successful direct fetches.",
+    "All pilot facts are development data and must stay out of a later untouched main test."
+  ],
+  "combined_sha256": "cfa451c2dd51b642d630a5eacf3b9d266870f853e59870e36ddbf43746f6ee0b",
+  "remaining_sha256": "68f4d6aa64b54d7c0a6039a73633e7bc9924120aa7861d1885940e01242b2fc7",
+  "review_sha256": "cf816e8222a264c38b8494a1d65671ee9d5ef79a6b3e70c296d0b8c44ed2a330",
+  "candidate_config_sha256": "8e518ecdee3798a2aa30da6931a4e1dc358def1a3e47627dbf48980144f55a66"
+}

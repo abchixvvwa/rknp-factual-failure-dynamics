@@ -1,0 +1,193 @@
+{
+  "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171",
+          "5d9afcccf76ec4888e319dcdebd3c87a2ed982e724247809c3aee80b0afc4671"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:21.192541+00:00",
+        "system_fingerprint": "fp_f73454f048",
+        "request_id": "4e26d35ad5e7ff14da0ec52ca0a0a89cc017db8f0e0b3f1a13d7705dd2cdf739",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 2
+      },
+      "support_audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:19:23.994073+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "259c6c647bbc4273f59719d4c08b5dc56fc6facdcfd856e6e7591a3872de1fc9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 2
+      }
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171",
+          "5d9afcccf76ec4888e319dcdebd3c87a2ed982e724247809c3aee80b0afc4671",
+          "95512dc25bee339b7bf968db007187725083c56fbbf9a06ff545563c8952785c"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:26.884279+00:00",
+        "system_fingerprint": "fp_19b184c447",
+        "request_id": "017f0967ebaccf696660db67ecf5b422de06271f4bb540b133e958e1b5e33233",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 3
+      },
+      "support_audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171"
+        ],
+        "raw_judge_response": "{\"matching_group\":0,\"uncertain\":false}",
+        "created_at": "2026-09-13T06:19:23.994073+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "259c6c647bbc4273f59719d4c08b5dc56fc6facdcfd856e6e7591a3872de1fc9",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "0",
+        "judge_uncertain": false,
+        "task": "target_support",
+        "prefix_k": 3
+      }
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171",
+          "5d9afcccf76ec4888e319dcdebd3c87a2ed982e724247809c3aee80b0afc4671",
+          "95512dc25bee339b7bf968db007187725083c56fbbf9a06ff545563c8952785c",
+          "1bb2d988680fb51c4a7bdae6968ccd4395d610b6bd088f41b0382a382ede3867"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:31.030939+00:00",
+        "system_fingerprint": "fp_e5b4e54fbb",
+        "request_id": "eca9e15e07e3bcf618f397a671040d051c5433843f5493e066ebf61f203be28f",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 4
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "8497c569f99eed6dcf19f1d0325d78b42ad41bc88900e438d0cfe2426669f30a",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v3_prefix",
+        "question": "Who painted the Birth of Venus held by the Uffizi?",
+        "sample_hashes": [
+          "4a8814ba8f4be4220034e6031fef5de8f965817e58a8c13dd01fdc25a7c78171",
+          "5d9afcccf76ec4888e319dcdebd3c87a2ed982e724247809c3aee80b0afc4671",
+          "95512dc25bee339b7bf968db007187725083c56fbbf9a06ff545563c8952785c",
+          "1bb2d988680fb51c4a7bdae6968ccd4395d610b6bd088f41b0382a382ede3867",
+          "ab258062fe48325c09d4afbe8a34c3b618a5cebec32d4376ba5c1cf1c45d0895"
+        ],
+        "raw_judge_response": "{\n  \"assignments\": {\n    \"A\": 0,\n    \"B\": 0,\n    \"C\": 0,\n    \"D\": 0,\n    \"E\": 0\n  },\n  \"uncertain\": false\n}",
+        "created_at": "2026-09-13T06:19:34.033033+00:00",
+        "system_fingerprint": "fp_e1a78f200e",
+        "request_id": "ab0880eddaae310c8df376276713e542db8468be651f42bb1ee2128c464d933d",
+        "new_request": false,
+        "valid_response": true,
+        "effective_max_completion_tokens": 256,
+        "truncated_request_id": null,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false,
+        "task": "grouping",
+        "prefix_k": 5
+      },
+      "support_audit": null
+    }
+  ]
+}

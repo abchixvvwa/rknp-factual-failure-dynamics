@@ -1,0 +1,159 @@
+{
+  "case_id": "937df234fb2802a1a20c31c4594a6656083ca06353b2ae9484f3efcc8fdad496",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "937df234fb2802a1a20c31c4594a6656083ca06353b2ae9484f3efcc8fdad496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Айқай» туындысын қай суретші жасаған?",
+        "sample_hashes": [
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "da4b06a8758f26d1d2344b770a0b50f77fcecce40f05f4a3524387ad33efc2e5",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "5f358776084630326534981b53953d1fb601526b6bb53c5f5446e0ad9d76b8ee",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:47.009137+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "ec160a2fda3cd5247bf4fb179b11a39d17ad6d50a5a1d33a142a7baf89bee9fd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "937df234fb2802a1a20c31c4594a6656083ca06353b2ae9484f3efcc8fdad496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Айқай» туындысын қай суретші жасаған?",
+        "sample_hashes": [
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "da4b06a8758f26d1d2344b770a0b50f77fcecce40f05f4a3524387ad33efc2e5",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "5f358776084630326534981b53953d1fb601526b6bb53c5f5446e0ad9d76b8ee",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:47.009137+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "ec160a2fda3cd5247bf4fb179b11a39d17ad6d50a5a1d33a142a7baf89bee9fd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "937df234fb2802a1a20c31c4594a6656083ca06353b2ae9484f3efcc8fdad496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Айқай» туындысын қай суретші жасаған?",
+        "sample_hashes": [
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "da4b06a8758f26d1d2344b770a0b50f77fcecce40f05f4a3524387ad33efc2e5",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "5f358776084630326534981b53953d1fb601526b6bb53c5f5446e0ad9d76b8ee",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:47.009137+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "ec160a2fda3cd5247bf4fb179b11a39d17ad6d50a5a1d33a142a7baf89bee9fd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "937df234fb2802a1a20c31c4594a6656083ca06353b2ae9484f3efcc8fdad496",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "«Айқай» туындысын қай суретші жасаған?",
+        "sample_hashes": [
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "da4b06a8758f26d1d2344b770a0b50f77fcecce40f05f4a3524387ad33efc2e5",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5",
+          "5f358776084630326534981b53953d1fb601526b6bb53c5f5446e0ad9d76b8ee",
+          "b62f2761eb418620c22a6300d67a289044f488aae15e875bbe1899c066b904e5"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:08:47.009137+00:00",
+        "system_fingerprint": "fp_c868cf1eaa",
+        "request_id": "ec160a2fda3cd5247bf4fb179b11a39d17ad6d50a5a1d33a142a7baf89bee9fd",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

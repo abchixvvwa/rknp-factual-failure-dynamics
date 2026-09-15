@@ -1,0 +1,14 @@
+{
+  "benchmark_sha256": "163ac1112124bf062de7a3f87ee20fb2c377fb9bbfc1f71eeaf826ade461b6a3",
+  "fact_count": 10,
+  "language_prompts": 30,
+  "categories": {
+    "history": 2,
+    "geography": 2,
+    "science": 2,
+    "culture": 1,
+    "kazakhstan": 1,
+    "adversarial_false_premise": 2
+  },
+  "human_verified": 10
+}

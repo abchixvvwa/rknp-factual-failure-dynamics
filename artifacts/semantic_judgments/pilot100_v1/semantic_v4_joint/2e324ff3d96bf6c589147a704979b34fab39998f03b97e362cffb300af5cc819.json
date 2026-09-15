@@ -1,0 +1,165 @@
+{
+  "case_id": "2e324ff3d96bf6c589147a704979b34fab39998f03b97e362cffb300af5cc819",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2e324ff3d96bf6c589147a704979b34fab39998f03b97e362cffb300af5cc819",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Рождение Венеры», хранящуюся в Уффици?",
+        "sample_hashes": [
+          "eccd77fc4156281dda07894de901f3b7199f4863bc579e490d92a8562184539e",
+          "bf3e3a952247d4ad769e7a4ebfd49afe23f53f81b50923f6b7b6d3346a629035",
+          "cd2008252ff07c7c0ac7dcddbe94cc0627122f29eb44f99234e7c1f13c6ff68d",
+          "f347a38f4974ba31caf1cf9da503b0d26735ea5eee1c4ea064ee5469c0ad0546",
+          "82b9dc88b0f1134c256c31fa6984d6d97245c7421e383f8f421acd24e33ecd06"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 1, 0],\n    [0, 0, 1, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:04.843891+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "bd0fdf6a0fa1d64e71df5037fe15e7897416dd9d23dbb970185e17bb5ccefad2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2e324ff3d96bf6c589147a704979b34fab39998f03b97e362cffb300af5cc819",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Рождение Венеры», хранящуюся в Уффици?",
+        "sample_hashes": [
+          "eccd77fc4156281dda07894de901f3b7199f4863bc579e490d92a8562184539e",
+          "bf3e3a952247d4ad769e7a4ebfd49afe23f53f81b50923f6b7b6d3346a629035",
+          "cd2008252ff07c7c0ac7dcddbe94cc0627122f29eb44f99234e7c1f13c6ff68d",
+          "f347a38f4974ba31caf1cf9da503b0d26735ea5eee1c4ea064ee5469c0ad0546",
+          "82b9dc88b0f1134c256c31fa6984d6d97245c7421e383f8f421acd24e33ecd06"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 1, 0],\n    [0, 0, 1, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:04.843891+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "bd0fdf6a0fa1d64e71df5037fe15e7897416dd9d23dbb970185e17bb5ccefad2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1], [2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2e324ff3d96bf6c589147a704979b34fab39998f03b97e362cffb300af5cc819",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Рождение Венеры», хранящуюся в Уффици?",
+        "sample_hashes": [
+          "eccd77fc4156281dda07894de901f3b7199f4863bc579e490d92a8562184539e",
+          "bf3e3a952247d4ad769e7a4ebfd49afe23f53f81b50923f6b7b6d3346a629035",
+          "cd2008252ff07c7c0ac7dcddbe94cc0627122f29eb44f99234e7c1f13c6ff68d",
+          "f347a38f4974ba31caf1cf9da503b0d26735ea5eee1c4ea064ee5469c0ad0546",
+          "82b9dc88b0f1134c256c31fa6984d6d97245c7421e383f8f421acd24e33ecd06"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 1, 0],\n    [0, 0, 1, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:04.843891+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "bd0fdf6a0fa1d64e71df5037fe15e7897416dd9d23dbb970185e17bb5ccefad2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1], [2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "2e324ff3d96bf6c589147a704979b34fab39998f03b97e362cffb300af5cc819",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Кто написал картину «Рождение Венеры», хранящуюся в Уффици?",
+        "sample_hashes": [
+          "eccd77fc4156281dda07894de901f3b7199f4863bc579e490d92a8562184539e",
+          "bf3e3a952247d4ad769e7a4ebfd49afe23f53f81b50923f6b7b6d3346a629035",
+          "cd2008252ff07c7c0ac7dcddbe94cc0627122f29eb44f99234e7c1f13c6ff68d",
+          "f347a38f4974ba31caf1cf9da503b0d26735ea5eee1c4ea064ee5469c0ad0546",
+          "82b9dc88b0f1134c256c31fa6984d6d97245c7421e383f8f421acd24e33ecd06"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 1, 1, 0],\n    [0, 0, 1, 1, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-15T02:11:04.843891+00:00",
+        "system_fingerprint": "fp_4727af4560",
+        "request_id": "bd0fdf6a0fa1d64e71df5037fe15e7897416dd9d23dbb970185e17bb5ccefad2",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 4], [2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "case_id": "71eee5300e1371b366c558a3b87d6c64cbaec8081600b8f5950d4da06257c8a4",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "71eee5300e1371b366c558a3b87d6c64cbaec8081600b8f5950d4da06257c8a4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of frequency?",
+        "sample_hashes": [
+          "6658c344b6585a28d2a775b41b91baf50e879ca10f0607977029d4e7615bf58f",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:59:28.110853+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "6937feeae9f95c28ba760f19726b762cc0e767e23de8a603d3a6c39f85299c9a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "71eee5300e1371b366c558a3b87d6c64cbaec8081600b8f5950d4da06257c8a4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of frequency?",
+        "sample_hashes": [
+          "6658c344b6585a28d2a775b41b91baf50e879ca10f0607977029d4e7615bf58f",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:59:28.110853+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "6937feeae9f95c28ba760f19726b762cc0e767e23de8a603d3a6c39f85299c9a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "71eee5300e1371b366c558a3b87d6c64cbaec8081600b8f5950d4da06257c8a4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of frequency?",
+        "sample_hashes": [
+          "6658c344b6585a28d2a775b41b91baf50e879ca10f0607977029d4e7615bf58f",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:59:28.110853+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "6937feeae9f95c28ba760f19726b762cc0e767e23de8a603d3a6c39f85299c9a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "71eee5300e1371b366c558a3b87d6c64cbaec8081600b8f5950d4da06257c8a4",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "What is the named SI unit of frequency?",
+        "sample_hashes": [
+          "6658c344b6585a28d2a775b41b91baf50e879ca10f0607977029d4e7615bf58f",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024",
+          "f4398599c844ce52e8fc83d1ef22ce5f6ee0f895ccbe906c40c9c7cced941db4",
+          "d35f96d227d847f8477ab963d3423f2bbf583a5d65f75b7e43701b956f2f6024"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T14:59:28.110853+00:00",
+        "system_fingerprint": "fp_803c0ba83d",
+        "request_id": "6937feeae9f95c28ba760f19726b762cc0e767e23de8a603d3a6c39f85299c9a",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}

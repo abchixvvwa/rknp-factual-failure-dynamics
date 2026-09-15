@@ -1,0 +1,159 @@
+{
+  "case_id": "90fbc126a4c77479dd41c395c6aaf843afe4b945330d79cc8bc195d80293ca07",
+  "prefixes": [
+    {
+      "k": 2,
+      "groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "90fbc126a4c77479dd41c395c6aaf843afe4b945330d79cc8bc195d80293ca07",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица давления в СИ?",
+        "sample_hashes": [
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "9a9e9918119d2e15ba2da373a3d86399e2b1113953787c6a2c75478b9dedb862",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:16.282614+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "80a06cd87fb0c216829249e28fe77aa39b37187b00a6bda95abde42501f67368",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 2,
+        "parsed_groups_json": "[[0, 1]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 3,
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "90fbc126a4c77479dd41c395c6aaf843afe4b945330d79cc8bc195d80293ca07",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица давления в СИ?",
+        "sample_hashes": [
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "9a9e9918119d2e15ba2da373a3d86399e2b1113953787c6a2c75478b9dedb862",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:16.282614+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "80a06cd87fb0c216829249e28fe77aa39b37187b00a6bda95abde42501f67368",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 3,
+        "parsed_groups_json": "[[0, 1, 2]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 4,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "90fbc126a4c77479dd41c395c6aaf843afe4b945330d79cc8bc195d80293ca07",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица давления в СИ?",
+        "sample_hashes": [
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "9a9e9918119d2e15ba2da373a3d86399e2b1113953787c6a2c75478b9dedb862",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:16.282614+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "80a06cd87fb0c216829249e28fe77aa39b37187b00a6bda95abde42501f67368",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 4,
+        "parsed_groups_json": "[[0, 1, 2, 3]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    },
+    {
+      "k": 5,
+      "groups": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "target_group": 0,
+      "uncertain": false,
+      "audit": {
+        "case_id": "90fbc126a4c77479dd41c395c6aaf843afe4b945330d79cc8bc195d80293ca07",
+        "judge_model": "openai/gpt-oss-120b",
+        "judge_prompt_version": "semantic_v4_joint",
+        "question": "Как называется единица давления в СИ?",
+        "sample_hashes": [
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2",
+          "9a9e9918119d2e15ba2da373a3d86399e2b1113953787c6a2c75478b9dedb862",
+          "8cb5b5bfd24cdb4eeafa54460addab477afeb6bdf6a06ea74335a8150c0638f2"
+        ],
+        "raw_judge_response": "{\n  \"labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"target_labels\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ],\n  \"uncertain\": [false, false, false, false]\n}",
+        "created_at": "2026-09-14T18:37:16.282614+00:00",
+        "system_fingerprint": "fp_fe269835c7",
+        "request_id": "80a06cd87fb0c216829249e28fe77aa39b37187b00a6bda95abde42501f67368",
+        "new_request": true,
+        "valid_response": true,
+        "effective_max_completion_tokens": 1024,
+        "truncated_request_id": null,
+        "task": "joint_grouping_and_target_support",
+        "prefix_k": 5,
+        "parsed_groups_json": "[[0, 1, 2, 3, 4]]",
+        "judge_uncertain": false
+      },
+      "support_audit": null
+    }
+  ]
+}
